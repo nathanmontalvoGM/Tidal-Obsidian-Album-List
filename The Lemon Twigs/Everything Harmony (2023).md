@@ -1,0 +1,67 @@
+---
+title: "Everything Harmony"
+artist: "The Lemon Twigs"
+year: 2023
+tidal_id: 274786910
+tags:
+  - Poprock
+  - Softrock
+  - Janglepop
+  - Powerpop
+rating:
+---
+
+# Everything Harmony
+**Artist:** The Lemon Twigs
+**Year:** 2023
+
+![[_covers/The Lemon Twigs - Everything Harmony.jpg]]
+```button
+name ▶ Play on Tidal
+type link
+action tidal://album/274786910
+```
+^button-vxd4
+```button
+name Search on Album of the Year
+type link
+action https://www.albumoftheyear.org/search/?q=The%20Lemon%20Twigs%20Everything%20Harmony
+```
+^button-b6n9
+
+## Tracklist
+
+```dataviewjs
+const page = dv.current();
+const content = await app.vault.read(app.vault.getAbstractFileByPath(page.file.path));
+const rows = content.match(/^\|\s*[\d-]+\s*\|.+\|\s*([0-9.]+)\s*\|$/gm) || [];
+const ratings = rows.map(r => {
+    const cols = r.split('|').map(c => c.trim());
+    return parseFloat(cols[cols.length - 2]);
+}).filter(v => !isNaN(v) && v > 0);
+const el = dv.container.createEl('div');
+el.style.cssText = 'font-size:18px; font-weight:bold; color:#fff; padding:6px 0 12px 0;';
+if (ratings.length > 0) {
+    const avg = (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1);
+    el.textContent = 'Overall Rating: ' + avg + ' / 10 (' + ratings.length + ' tracks rated)';
+} else {
+    el.style.color = '#666';
+    el.textContent = 'Overall Rating: No tracks rated yet';
+}
+```
+
+| # | Title | Duration | Rating /10 |
+|---|-------|----------|------------|
+| 1 | When Winter Comes Around | 4:42 |  |
+| 2 | In My Head | 3:18 |  |
+| 3 | Corner of My Eye | 3:19 |  |
+| 4 | Any Time of Day | 2:51 |  |
+| 5 | What You Were Doing | 4:33 |  |
+| 6 | I Don’t Belong to Me | 2:59 |  |
+| 7 | Every Day Is the Worst Day of My Life | 3:25 |  |
+| 8 | What Happens to a Heart | 3:55 |  |
+| 9 | Still It’s Not Enough | 3:42 |  |
+| 10 | Born to Be Lonely | 4:26 |  |
+| 11 | Ghost Run Free | 3:09 |  |
+| 12 | Everything Harmony | 3:43 |  |
+| 13 | New to Me | 3:58 |  |

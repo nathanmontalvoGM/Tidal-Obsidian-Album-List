@@ -1,0 +1,1 @@
+["PowerMetal", "FunMetalThings","AvantGardeMetal", "BlackMetal", "DeathMetal", "MetalCore","AlternativeMetal", "Blackgaze","MelodicDeathMetal","MelodicBlackMetal","MelodicMetalCore","ProgMetal","ProgMetalCore","MathCore","ProgDeathMetal","TechnicalDeathMetal", "DoomMetal","Gothic Metal","SludgeMetal"]

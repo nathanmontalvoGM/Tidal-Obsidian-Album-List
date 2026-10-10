@@ -1,0 +1,64 @@
+---
+title: "I'm Wide Awake, It's Morning"
+artist: "Bright Eyes"
+year: 2005
+tidal_id: 182262410
+tags:
+  - Indie
+  - FavouriteAlbums
+  - Folk
+  - 00s
+rating:
+---
+
+# I'm Wide Awake, It's Morning
+**Artist:** Bright Eyes
+**Year:** 2005
+
+![[_covers/Bright Eyes - I'm Wide Awake, It's Morning.jpg]]
+```button
+name ▶ Play on Tidal
+type link
+action tidal://album/182262410
+```
+^button-9msf
+```button
+name Search on Album of the Year
+type link
+action https://www.albumoftheyear.org/search/?q=Bright%20Eyes%20I%27m%20Wide%20Awake%2C%20It%27s%20Morning
+```
+^button-w3q1
+
+## Tracklist
+
+```dataviewjs
+const page = dv.current();
+const content = await app.vault.read(app.vault.getAbstractFileByPath(page.file.path));
+const rows = content.match(/^\|\s*[\d-]+\s*\|.+\|\s*([0-9.]+)\s*\|$/gm) || [];
+const ratings = rows.map(r => {
+    const cols = r.split('|').map(c => c.trim());
+    return parseFloat(cols[cols.length - 2]);
+}).filter(v => !isNaN(v) && v > 0);
+const el = dv.container.createEl('div');
+el.style.cssText = 'font-size:18px; font-weight:bold; color:#fff; padding:6px 0 12px 0;';
+if (ratings.length > 0) {
+    const avg = (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1);
+    el.textContent = 'Overall Rating: ' + avg + ' / 10 (' + ratings.length + ' tracks rated)';
+} else {
+    el.style.color = '#666';
+    el.textContent = 'Overall Rating: No tracks rated yet';
+}
+```
+
+| # | Title | Duration | Rating /10 |
+|---|-------|----------|------------|
+| 1 | At the Bottom of Everything | 4:34 |  |
+| 2 | We Are Nowhere and It’s Now | 4:12 |  |
+| 3 | Old Soul Song (for the New World Order) | 4:29 |  |
+| 4 | Lua | 4:31 |  |
+| 5 | Train Under Water | 6:05 |  |
+| 6 | First Day of My Life | 3:08 |  |
+| 7 | Another Travelin’ Song | 4:16 |  |
+| 8 | Land Locked Blues | 5:47 |  |
+| 9 | Poison Oak | 4:39 |  |
+| 10 | Road to Joy | 3:54 |  |

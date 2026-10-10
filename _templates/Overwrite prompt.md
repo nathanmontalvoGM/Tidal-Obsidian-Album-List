@@ -1,0 +1,1 @@
+python sync_tidal.py --overwrite
