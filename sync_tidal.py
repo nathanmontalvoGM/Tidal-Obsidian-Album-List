@@ -87,6 +87,24 @@ def get_existing_tags():
             tags.append(slugify_tag(tag))
     return tags
 
+_last_mb_request = 0.0
+
+def mb_get(url, params):
+    """GET from MusicBrainz at no more than ~1 request/second, retrying when it
+    answers 503 (its "slow down" response) instead of losing the lookup."""
+    global _last_mb_request
+    for attempt in range(5):
+        wait = 1.1 - (time.time() - _last_mb_request)
+        if wait > 0:
+            time.sleep(wait)
+        _last_mb_request = time.time()
+        response = requests.get(url, params=params, headers={"User-Agent": MUSICBRAINZ_APP}, timeout=15)
+        if response.status_code == 503 and attempt < 4:
+            time.sleep(2 ** attempt * 2)  # 2, 4, 8, 16 seconds
+            continue
+        response.raise_for_status()
+        return response
+
 def musicbrainz_get_tags(artist, album):
     try:
         url = "https://musicbrainz.org/ws/2/release/"
@@ -97,8 +115,7 @@ def musicbrainz_get_tags(artist, album):
             "inc": "release-groups"
         }
         headers = {"User-Agent": MUSICBRAINZ_APP}
-        response = requests.get(url, params=params, headers=headers, timeout=15)
-        response.raise_for_status()
+        response = mb_get(url, params)
         data = response.json()
         releases = data.get("releases", [])
         if not releases:
@@ -111,11 +128,9 @@ def musicbrainz_get_tags(artist, album):
         if not rg_id:
             return [], mbid, None
 
-        time.sleep(1)
         rg_url = f"https://musicbrainz.org/ws/2/release-group/{rg_id}"
         rg_params = {"fmt": "json", "inc": "tags+genres"}
-        rg_response = requests.get(rg_url, params=rg_params, headers=headers, timeout=15)
-        rg_response.raise_for_status()
+        rg_response = mb_get(rg_url, rg_params)
         rg_data = rg_response.json()
 
         tags = []
@@ -139,12 +154,10 @@ def musicbrainz_get_tracklist(mbid):
     if not mbid:
         return []
     try:
-        time.sleep(1)
         url = f"https://musicbrainz.org/ws/2/release/{mbid}"
         params = {"fmt": "json", "inc": "recordings"}
         headers = {"User-Agent": MUSICBRAINZ_APP}
-        response = requests.get(url, params=params, headers=headers, timeout=15)
-        response.raise_for_status()
+        response = mb_get(url, params)
         data = response.json()
 
         tracks = []
@@ -410,8 +423,10 @@ def tidal_tracklist(album):
 
 
 def original_year(tidal_year, mb_year):
-    """Tidal often reports the reissue/remaster year; MusicBrainz knows the first release."""
-    if mb_year and tidal_year and mb_year < tidal_year:
+    """Tidal often reports the reissue/remaster year; MusicBrainz knows the first release.
+    Only trust MusicBrainz when it's 2+ years earlier: 1-year gaps are usually a
+    pre-release single or promo, not a reissue."""
+    if mb_year and tidal_year and mb_year <= tidal_year - 2:
         return mb_year
     return tidal_year or mb_year or "Unknown"
 
@@ -501,7 +516,6 @@ for album in all_albums:
 
         if FIX_YEARS:
             _, _, mb_year = musicbrainz_get_tags(album.artist.name, album.name)
-            time.sleep(1)  # MusicBrainz allows about one request per second
             current = get_field(new, "year")
             year = original_year(album.year, mb_year)
             if str(year) != str(current) and year != "Unknown":
@@ -518,7 +532,6 @@ for album in all_albums:
     # ── New album ──
     print(f"\nNew: {album.artist.name} - {album.name}")
     mb_tags_raw, mbid, mb_year = musicbrainz_get_tags(album.artist.name, album.name)
-    time.sleep(1)
     year = original_year(album.year, mb_year)
 
     note_tags = resolve_tags(mb_tags_raw, existing_tags) if mb_tags_raw else []
