@@ -78,6 +78,7 @@ style.textContent = `
 .av-title { font-size: 32px; font-weight: 800; color: #fff; line-height: 1.1; margin: 6px 0 6px; }
 .av-artist { font-size: 17px; font-weight: 600; color: rgba(255,255,255,0.88); }
 .av-meta { font-size: 13px; color: rgba(255,255,255,0.55); margin-top: 4px; }
+.av-removed { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: rgba(248,113,113,0.15); color: #f87171; }
 
 .av-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .av-tag { font-size: 11px; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); cursor: pointer; }
@@ -127,6 +128,7 @@ info.createDiv({ cls: "av-kicker", text: ["Album", year].filter(Boolean).join(" 
 info.createDiv({ cls: "av-title", text: title });
 info.createDiv({ cls: "av-artist", text: artist });
 info.createDiv({ cls: "av-meta", text: [`${tracks.length} tracks`, totalSec ? fmtTime(totalSec) : null].filter(Boolean).join(" · ") });
+if (page.removed_from_tidal) info.createDiv({ cls: "av-removed", text: "Not in your Tidal favorites anymore" });
 
 if (tags.length) {
     const tagRow = info.createDiv({ cls: "av-tags" });

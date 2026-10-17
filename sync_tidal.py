@@ -15,9 +15,20 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SESSION_FILE = os.path.join(SCRIPT_DIR, "tidal_session.json")
 MUSICBRAINZ_APP = "ObsidianTidalSync/1.0 (nathanmontalvo1222@gmail.com)"
 
-OVERWRITE = "--overwrite" in sys.argv
-if OVERWRITE:
-    print("Overwrite mode enabled - existing notes will be replaced!")
+# Usage: python sync_tidal.py [--dry-run] [--refresh-tracklists] [--fix-years]
+#   (default)             add new albums; fill in missing tracklists, "added" dates and cover links;
+#                         flag albums you've removed from your Tidal favorites
+#   --dry-run             print what would change, write nothing
+#   --refresh-tracklists  replace every tracklist with Tidal's, keeping your ratings
+#   --fix-years           set each album's year to its original release year (slow: one MusicBrainz lookup per album)
+DRY_RUN = "--dry-run" in sys.argv
+REFRESH_TRACKLISTS = "--refresh-tracklists" in sys.argv
+FIX_YEARS = "--fix-years" in sys.argv
+if "--overwrite" in sys.argv:
+    print("--overwrite was removed (it could lose ratings). Use --refresh-tracklists and/or --fix-years instead.")
+    sys.exit(1)
+if DRY_RUN:
+    print("DRY RUN: nothing will be written.\n")
 
 VAULT_PATH = SCRIPT_DIR  # this script lives at the vault root
 ALBUMS_FOLDER = VAULT_PATH
@@ -91,14 +102,14 @@ def musicbrainz_get_tags(artist, album):
         data = response.json()
         releases = data.get("releases", [])
         if not releases:
-            return [], None
+            return [], None, None
 
         release = releases[0]
         mbid = release.get("id")
         rg_id = release.get("release-group", {}).get("id")
 
         if not rg_id:
-            return [], mbid
+            return [], mbid, None
 
         time.sleep(1)
         rg_url = f"https://musicbrainz.org/ws/2/release-group/{rg_id}"
@@ -117,11 +128,12 @@ def musicbrainz_get_tags(artist, album):
             tags_sorted = sorted(raw_tags, key=lambda x: x.get("count", 0), reverse=True)
             tags = [t["name"] for t in tags_sorted]
 
-        return tags, mbid
+        first = (rg_data.get("first-release-date") or "")[:4]
+        return tags, mbid, int(first) if first.isdigit() else None
 
     except Exception as e:
         print(f"   MusicBrainz tags error: {e}")
-        return [], None
+        return [], None, None
 
 def musicbrainz_get_tracklist(mbid):
     if not mbid:
@@ -278,221 +290,300 @@ os.makedirs(GENRES_FOLDER, exist_ok=True)
 
 existing_tags = get_existing_tags()
 print(f"Loaded {len(existing_tags)} existing genre tags.\n")
-def fix_spaced_tags_in_vault(existing_tags):
-    print("\nScanning vault for tags with spaces...")
-    fixed_count = 0
+# ── Note helpers ──────────────────────────────────────────
+TABLE_HEADER = ["| # | Title | Duration | Rating /10 |", "|---|-------|----------|------------|"]
+ROW_RE = re.compile(r"^\|\s*([\d]+(?:-\d+)?)\s*\|\s*(.*?)\s*\|\s*([\d:]*)\s*\|\s*([0-9.]*)\s*\|\s*$")
 
-    for root, dirs, files in os.walk(ALBUMS_FOLDER):
-        dirs[:] = [d for d in dirs if d not in IGNORE_FOLDERS]
-        for filename in files:
-            if not filename.endswith(".md"):
-                continue
-            filepath = os.path.join(root, filename)
-            with open(filepath, "r", encoding="utf-8") as f:
-                content = f.read()
 
-            # Only process files with tidal_id (album notes)
-            if "tidal_id:" not in content:
-                continue
+def read_note(path):
+    with open(path, "r", encoding="utf-8") as f:
+        raw = f.read()
+    return raw.replace("\r\n", "\n"), "\r\n" in raw
 
-            # Find YAML list tags
-            yaml_tags = re.findall(r'^\s+-\s+(.+)$', content, re.MULTILINE)
-            if not yaml_tags:
-                continue
 
-            has_spaced = any(' ' in t.strip() for t in yaml_tags)
-            if not has_spaced:
-                continue
+def write_note(path, text, crlf=False):
+    if DRY_RUN:
+        return
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(text.replace("\n", "\r\n") if crlf else text)
 
-            # Slugify all tags
-            new_tags = []
-            for t in yaml_tags:
-                t = t.strip()
-                slugged = slugify_tag(t)
-                if slugged and slugged not in new_tags:
-                    new_tags.append(slugged)
-                    if slugged not in existing_tags:
-                        existing_tags.append(slugged)
-                        create_genre_note(slugged)
 
-            # Replace tags block in frontmatter
-            new_tags_yaml = "\n" + "\n".join(f"  - {tag}" for tag in new_tags)
-            new_content = re.sub(
-                r'^tags:(\s*\n(?:\s+-\s+.+\n?)*)',
-                f'tags:{new_tags_yaml}\n',
-                content,
-                flags=re.MULTILINE
-            )
+def get_field(text, key):
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    if not m:
+        return None
+    f = re.search(rf"^{re.escape(key)}:[ \t]*(.*)$", m.group(1), re.M)
+    return f.group(1).strip() if f else None
 
-            if new_content != content:
-                with open(filepath, "w", encoding="utf-8") as f:
-                    f.write(new_content)
-                print(f"   Fixed tags in: {filename} {yaml_tags} -> {new_tags}")
-                fixed_count += 1
 
-    print(f"Fixed spaced tags in {fixed_count} notes.\n")
+def set_field(text, key, value):
+    """Set (or with value=None remove) one frontmatter property, leaving everything else as is."""
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    if not m:
+        return text
+    fm = m.group(1)
+    line = re.compile(rf"^{re.escape(key)}:[^\n]*\n?", re.M)
+    if value is None:
+        fm = line.sub("", fm).rstrip("\n")
+    elif line.search(fm + "\n"):
+        fm = line.sub(f"{key}: {value}\n", fm + "\n", count=1).rstrip("\n")
+    elif re.search(r"^tags:", fm, re.M):
+        fm = re.sub(r"^tags:", f"{key}: {value}\ntags:", fm, count=1, flags=re.M)
+    else:
+        fm = fm + f"\n{key}: {value}"
+    return "---\n" + fm + "\n---" + text[m.end():]
 
-# Tag cleanup across the vault is done by normalize_tags.py (uses _scripts/tags.json).
+
+def read_ratings(text):
+    """Existing ratings by track title, by track number, and by row position."""
+    by_title, by_num, by_pos = {}, {}, []
+    for line in text.split("\n"):
+        r = ROW_RE.match(line)
+        if r:
+            by_pos.append(r.group(4))
+            if r.group(4):
+                by_title[r.group(2).strip().lower()] = r.group(4)
+                by_num[r.group(1)] = r.group(4)
+    return by_title, by_num, by_pos
+
+
+def build_table(tracks, ratings=({}, {}, [])):
+    """Returns (table, ratings_kept). A rating carries over by title, then track number,
+    then row position (only when both lists have the same number of tracks)."""
+    by_title, by_num, by_pos = ratings
+    same_length = len(by_pos) == len(tracks)
+    lines, kept = list(TABLE_HEADER), 0
+    for i, tr in enumerate(tracks):
+        title = str(tr["title"]).replace("|", "-")
+        rating = (by_title.get(title.lower()) or by_num.get(str(tr["num"]))
+                  or (by_pos[i] if same_length else "") or "")
+        kept += bool(rating)
+        lines.append(f"| {tr['num']} | {title} | {tr['duration']} | {rating} |")
+    return "\n".join(lines), kept
+
+
+def replace_table(text, table):
+    """Swap the tracklist table for a new one, or add one under the album view if there is none."""
+    lines = text.split("\n")
+    start = next((i for i, l in enumerate(lines) if l.startswith("| # |")), None)
+    if start is None:
+        stub = text.find('await dv.view("_scripts/album");')
+        if stub == -1:
+            return text.rstrip("\n") + "\n\n" + table + "\n"
+        end = text.find("```", stub) + 3
+        return text[:end] + "\n\n" + table + "\n" + text[end:].lstrip("\n")
+    end = start
+    while end < len(lines) and lines[end].startswith("|"):
+        end += 1
+    return "\n".join(lines[:start] + table.split("\n") + lines[end:])
+
+
+def has_table(text):
+    return any(l.startswith("| # |") for l in text.split("\n"))
+
+
+def tidal_tracklist(album):
+    """Tracklist straight from Tidal, so it matches the edition you actually stream."""
+    try:
+        items, offset = [], 0
+        while True:
+            batch = album.tracks(limit=100, offset=offset)
+            items.extend(batch)
+            if len(batch) < 100:
+                break
+            offset += 100
+    except Exception as e:
+        print(f"   Tidal tracklist error: {e}")
+        return []
+    discs = {getattr(t, "volume_num", 1) or 1 for t in items}
+    tracks = []
+    for t in items:
+        name = t.name or ""
+        version = getattr(t, "version", None)
+        if version and version.lower() not in name.lower():
+            name = f"{name} ({version})"
+        secs = int(getattr(t, "duration", 0) or 0)
+        m, s = divmod(secs, 60)
+        num = f"{t.volume_num}-{t.track_num}" if len(discs) > 1 else str(t.track_num)
+        tracks.append({"num": num, "title": name, "duration": f"{m}:{s:02d}" if secs else ""})
+    return tracks
+
+
+def original_year(tidal_year, mb_year):
+    """Tidal often reports the reissue/remaster year; MusicBrainz knows the first release."""
+    if mb_year and tidal_year and mb_year < tidal_year:
+        return mb_year
+    return tidal_year or mb_year or "Unknown"
+
+
+def date_added(album):
+    d = getattr(album, "user_date_added", None)
+    return d.strftime("%Y-%m-%d") if d else None
+
 
 def index_notes_by_tidal_id():
-    """Map tidal_id -> existing note path, so a renamed artist or a changed
-    year on Tidal never produces a second note for the same album."""
+    """tidal_id -> note path, so a renamed artist or changed year never makes a second note."""
     index = {}
     for root, dirs, files in os.walk(ALBUMS_FOLDER):
-        dirs[:] = [d for d in dirs if d not in IGNORE_FOLDERS and not d.startswith(".")]
+        dirs[:] = [d for d in dirs if d not in IGNORE_FOLDERS and not d.startswith((".", "_"))]
         for filename in files:
             if not filename.endswith(".md"):
                 continue
             path = os.path.join(root, filename)
             with open(path, "r", encoding="utf-8") as f:
                 head = f.read(2000)
-            m = re.search(r'^tidal_id:\s*(\S+)', head, re.MULTILINE)
+            m = re.search(r"^tidal_id:\s*(\S+)", head, re.MULTILINE)
             if m:
                 index.setdefault(m.group(1), path)
     return index
 
+
 notes_by_id = index_notes_by_tidal_id()
-print(f"Indexed {len(notes_by_id)} existing album notes by tidal_id.\n")
+print(f"Indexed {len(notes_by_id)} existing album notes.\n")
 
-notes_created = 0
-skipped = 0
-overwritten = 0
+stats = {k: 0 for k in ["created", "untouched", "tracklist_filled", "tracklist_refreshed",
+                        "year_fixed", "added_date", "cover_linked", "removed", "restored"]}
+favorite_ids = {str(a.id) for a in all_albums}
 
-# ── Sync Tidal -> Obsidian ────────────────────────────────
 print("=" * 50)
-print("SYNCING: Tidal -> Obsidian")
+print("SYNCING: Tidal -> Obsidian" + ("  (dry run)" if DRY_RUN else ""))
 print("=" * 50)
 
 for album in all_albums:
     artist = sanitize(album.artist.name)
     title = sanitize(album.name)
-    year = album.year or "Unknown"
-    tidal_id = album.id
-
+    tidal_id = str(album.id)
     cover_filename = f"{artist} - {title}.jpg"
     cover_filepath = os.path.join(COVERS_FOLDER, cover_filename)
-    cover_obsidian_path = f"_covers/{cover_filename}"
 
-    if not os.path.exists(cover_filepath):
+    if not os.path.exists(cover_filepath) and not DRY_RUN:
         try:
-            cover_url = album.image(640)
-            response = requests.get(cover_url, timeout=10)
+            response = requests.get(album.image(640), timeout=10)
             if response.status_code == 200:
                 with open(cover_filepath, "wb") as img_file:
                     img_file.write(response.content)
         except Exception as e:
             print(f"   Could not download cover for {title}: {e}")
-            cover_obsidian_path = None
+    cover_value = f'"[[_covers/{cover_filename}]]"' if os.path.exists(cover_filepath) else None
 
-    existing_path = notes_by_id.get(str(tidal_id))
+    existing_path = notes_by_id.get(tidal_id)
+
+    # ── Existing note: only fill in what's missing (plus the opt-in refreshes) ──
     if existing_path:
-        if not OVERWRITE:
-            skipped += 1
-            continue
-        filepath = existing_path  # overwrite the note that already exists, wherever it lives
-    else:
-        artist_folder = os.path.join(ALBUMS_FOLDER, artist)
-        os.makedirs(artist_folder, exist_ok=True)
-        filepath = os.path.join(artist_folder, f"{title} ({year}).md")
-        notes_by_id[str(tidal_id)] = filepath
+        text, crlf = read_note(existing_path)
+        new = text
+        label = os.path.relpath(existing_path, ALBUMS_FOLDER)
 
-    # Preserve existing tags and track ratings if overwriting
-    existing_note_tags = []
-    existing_track_ratings = {}
-    if os.path.exists(filepath):
-        with open(filepath, "r", encoding="utf-8") as f:
-            note_content = f.read()
+        if get_field(new, "removed_from_tidal"):
+            new = set_field(new, "removed_from_tidal", None)
+            stats["restored"] += 1
+            print(f"Back in favorites: {label}")
+        added = date_added(album)
+        if added and not get_field(new, "added"):
+            new = set_field(new, "added", added)
+            stats["added_date"] += 1
+        if cover_value and not get_field(new, "cover"):
+            new = set_field(new, "cover", cover_value)
+            stats["cover_linked"] += 1
 
-        tag_match = re.search(r'^tags:\s*(\[.*?\])', note_content, re.MULTILINE)
-        if tag_match:
-            try:
-                existing_note_tags = json.loads(tag_match.group(1))
-            except Exception:
-                existing_note_tags = []
+        if REFRESH_TRACKLISTS or not has_table(new):
+            tracks = tidal_tracklist(album)
+            if tracks:
+                was = has_table(new)
+                old_ratings = read_ratings(new)
+                table, kept = build_table(tracks, old_ratings)
+                if kept < len(old_ratings[0]):
+                    print(f"SKIPPED tracklist refresh, {len(old_ratings[0]) - kept} rating(s) wouldn't carry over: {label}")
+                else:
+                    new = replace_table(new, table)
+                    stats["tracklist_refreshed" if was else "tracklist_filled"] += 1
+                    print(f"{'Refreshed' if was else 'Added'} tracklist ({len(tracks)} tracks): {label}")
 
-        if not existing_note_tags:
-            yaml_tags = re.findall(r'^\s+-\s+(.+)$', note_content, re.MULTILINE)
-            if yaml_tags:
-                existing_note_tags = normalize_list(t.strip() for t in yaml_tags)
+        if FIX_YEARS:
+            _, _, mb_year = musicbrainz_get_tags(album.artist.name, album.name)
+            time.sleep(1)  # MusicBrainz allows about one request per second
+            current = get_field(new, "year")
+            year = original_year(album.year, mb_year)
+            if str(year) != str(current) and year != "Unknown":
+                new = set_field(new, "year", year)
+                stats["year_fixed"] += 1
+                print(f"Year {current} -> {year}: {label}")
 
-        for row_match in re.finditer(r'^\|\s*[\d-]+\s*\|\s*(.+?)\s*\|\s*[\d:]*\s*\|\s*([0-9.]+)\s*\|', note_content, re.MULTILINE):
-            track_title = row_match.group(1).strip()
-            rating = row_match.group(2).strip()
-            if rating:
-                existing_track_ratings[track_title] = rating
-
-    # ── Fetch from MusicBrainz ────────────────────────────
-    print(f"\nProcessing: {album.artist.name} - {album.name}")
-    mb_tags_raw, mbid = musicbrainz_get_tags(album.artist.name, album.name)
-
-    if not existing_note_tags:
-        if mb_tags_raw:
-            resolved = resolve_tags(mb_tags_raw, existing_tags)
-            if resolved:
-                existing_note_tags = resolved
-                print(f"   Tags: {existing_note_tags}")
-            else:
-                print(f"   No usable tags found on MusicBrainz")
+        if new != text:
+            write_note(existing_path, new, crlf)
         else:
-            print(f"   No tags found on MusicBrainz")
+            stats["untouched"] += 1
+        continue
 
-        for tag in existing_note_tags:
+    # ── New album ──
+    print(f"\nNew: {album.artist.name} - {album.name}")
+    mb_tags_raw, mbid, mb_year = musicbrainz_get_tags(album.artist.name, album.name)
+    time.sleep(1)
+    year = original_year(album.year, mb_year)
+
+    note_tags = resolve_tags(mb_tags_raw, existing_tags) if mb_tags_raw else []
+    print(f"   Tags: {note_tags or 'none found'}")
+    if not DRY_RUN:
+        for tag in note_tags:
             create_genre_note(tag)
 
-    tracks = musicbrainz_get_tracklist(mbid)
+    tracks = tidal_tracklist(album) or musicbrainz_get_tracklist(mbid)
+    print(f"   Tracklist: {len(tracks)} tracks" if tracks else "   No tracklist found")
+
+    fields = [
+        f"title: {json.dumps(album.name, ensure_ascii=False)}",
+        f"artist: {json.dumps(album.artist.name, ensure_ascii=False)}",
+        f"year: {year}",
+        f"tidal_id: {tidal_id}",
+    ]
+    if cover_value:
+        fields.append(f"cover: {cover_value}")
+    if date_added(album):
+        fields.append(f"added: {date_added(album)}")
+    fields.append("tags:" + ("".join(f"\n  - {t}" for t in note_tags) if note_tags else " []"))
+    fields.append("rating:")
+    content = "---\n" + "\n".join(fields) + "\n---\n\n```dataviewjs\nawait dv.view(\"_scripts/album\");\n```\n"
     if tracks:
-        print(f"   Tracklist: {len(tracks)} tracks")
-        for track in tracks:
-            if track["title"] in existing_track_ratings:
-                track["rating"] = existing_track_ratings[track["title"]]
-    else:
-        print(f"   No tracklist found on MusicBrainz")
+        content += "\n" + build_table(tracks)[0] + "\n"
 
-    # Album notes hold only data; _scripts/album.js draws the page (cover, buttons, rating).
-    if existing_note_tags:
-        tags_yaml = "\n" + "\n".join(f"  - {tag}" for tag in existing_note_tags)
-    else:
-        tags_yaml = " []"
+    folder = os.path.join(ALBUMS_FOLDER, artist)
+    filepath = os.path.join(folder, f"{title} ({year}).md")
+    if not DRY_RUN:
+        os.makedirs(folder, exist_ok=True)
+    write_note(filepath, content)
+    notes_by_id[tidal_id] = filepath
+    stats["created"] += 1
+    print(f"   Created: {artist}/{title} ({year}).md")
 
-    cover_yaml = f'\ncover: "[[{cover_obsidian_path}]]"' if cover_obsidian_path and os.path.exists(cover_filepath) else ""
-
-    tracklist_md = ""
-    if tracks:
-        lines = ["| # | Title | Duration | Rating /10 |", "|---|-------|----------|------------|"]
-        for track in tracks:
-            t_title = str(track["title"]).replace("|", "-")
-            lines.append(f"| {track['num']} | {t_title} | {track['duration']} | {track.get('rating', '')} |")
-        tracklist_md = "\n".join(lines) + "\n"
-
-    content = f"""---
-title: {json.dumps(album.name, ensure_ascii=False)}
-artist: {json.dumps(album.artist.name, ensure_ascii=False)}
-year: {year}
-tidal_id: {tidal_id}{cover_yaml}
-tags:{tags_yaml}
-rating:
----
-
-```dataviewjs
-await dv.view("_scripts/album");
-```
-
-{tracklist_md}"""
-
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    if OVERWRITE:
-        overwritten += 1
-        print(f"   Overwritten: {artist} - {title}")
-    else:
-        notes_created += 1
-        print(f"   Created: {artist} - {title}")
+# ── Albums no longer in your Tidal favorites ──────────────
+# They're kept (with your ratings) and flagged; adding them back to favorites clears the flag.
+today = time.strftime("%Y-%m-%d")
+missing = [tid for tid in notes_by_id if tid not in favorite_ids]
+if len(missing) > max(25, len(notes_by_id) // 5):
+    print(f"\nWARNING: {len(missing)} albums aren't in the favorites list Tidal returned. That looks like an")
+    print("incomplete download, not real removals, so nothing was flagged. Run the sync again later.")
+    missing = []
+for tid, path in sorted(((t, notes_by_id[t]) for t in missing), key=lambda x: x[1]):
+    if not os.path.exists(path):
+        continue
+    text, crlf = read_note(path)
+    if get_field(text, "removed_from_tidal"):
+        continue
+    write_note(path, set_field(text, "removed_from_tidal", today), crlf)
+    stats["removed"] += 1
+    print(f"Not in Tidal favorites anymore: {os.path.relpath(path, ALBUMS_FOLDER)}")
 
 # ── Summary ───────────────────────────────────────────────
 print("\n" + "=" * 50)
-print("SYNC COMPLETE")
+print("SYNC COMPLETE" + ("  (dry run: nothing was written)" if DRY_RUN else ""))
 print("=" * 50)
-print(f"  New notes created:          {notes_created}")
-print(f"  Existing notes overwritten: {overwritten}")
-print(f"  Notes skipped (untouched):  {skipped}")
+print(f"  New albums:                         {stats['created']}")
+print(f"  Tracklists added (were missing):    {stats['tracklist_filled']}")
+print(f"  Tracklists refreshed from Tidal:    {stats['tracklist_refreshed']}")
+print(f"  Years corrected:                    {stats['year_fixed']}")
+print(f"  'added' dates filled in:            {stats['added_date']}")
+print(f"  Cover links filled in:              {stats['cover_linked']}")
+print(f"  Flagged as removed from favorites:  {stats['removed']}")
+print(f"  Back in favorites (flag cleared):   {stats['restored']}")
+print(f"  Unchanged:                          {stats['untouched']}")
+print("\nNext: run  python normalize_tags.py --apply  if any new tags were added.")
