@@ -3,6 +3,7 @@ title: "The Scholars"
 artist: "Car Seat Headrest"
 year: 2025
 tidal_id: 429237324
+cover: "[[_covers/Car Seat Headrest - The Scholars.jpg]]"
 tags:
   - RockOpera
   - ProgressivePop

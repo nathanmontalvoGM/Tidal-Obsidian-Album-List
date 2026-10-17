@@ -3,6 +3,7 @@ title: "RYUJIN"
 artist: "RYUJIN"
 year: 2024
 tidal_id: 314612550
+cover: "[[_covers/RYUJIN - RYUJIN.jpg]]"
 tags:
   - MelodicDeathMetal
 rating:

@@ -3,6 +3,7 @@ title: "Axis Mundi"
 artist: "Imminence"
 year: 2026
 tidal_id: 566033940
+cover: "[[_covers/Imminence - Axis Mundi.jpg]]"
 tags: []
 rating:
 ---

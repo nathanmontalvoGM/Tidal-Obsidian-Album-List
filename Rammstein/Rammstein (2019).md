@@ -3,6 +3,7 @@ title: "Rammstein"
 artist: "Rammstein"
 year: 2019
 tidal_id: 109100968
+cover: "[[_covers/Rammstein - Rammstein.jpg]]"
 tags:
   - IndustrialMetal
   - NeueDeutscheHarte

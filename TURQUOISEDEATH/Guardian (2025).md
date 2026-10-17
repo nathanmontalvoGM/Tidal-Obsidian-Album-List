@@ -3,6 +3,7 @@ title: "Guardian"
 artist: "TURQUOISEDEATH"
 year: 2025
 tidal_id: 444820962
+cover: "[[_covers/TURQUOISEDEATH - Guardian.jpg]]"
 tags:
   - ProgressiveBreaks
   - AtmosphericDrumAndBass

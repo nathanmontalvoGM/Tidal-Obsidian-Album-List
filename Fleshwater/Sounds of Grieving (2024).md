@@ -3,6 +3,7 @@ title: "Sounds of Grieving"
 artist: "Fleshwater"
 year: 2024
 tidal_id: 335452484
+cover: "[[_covers/Fleshwater - Sounds of Grieving.jpg]]"
 tags:
   - Shoegaze
   - DreamPop

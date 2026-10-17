@@ -3,6 +3,7 @@ title: "Quest For Fire"
 artist: "Skrillex"
 year: 2023
 tidal_id: 276778735
+cover: "[[_covers/Skrillex - Quest For Fire.jpg]]"
 tags:
   - Dubstep
   - Electronicore

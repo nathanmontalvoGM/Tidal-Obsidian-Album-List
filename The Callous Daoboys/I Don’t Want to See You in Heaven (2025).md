@@ -3,6 +3,7 @@ title: "I Don’t Want to See You in Heaven"
 artist: "The Callous Daoboys"
 year: 2025
 tidal_id: 435753045
+cover: "[[_covers/The Callous Daoboys - I Don’t Want to See You in Heaven.jpg]]"
 tags:
   - Mathcore
   - AlternativeMetal

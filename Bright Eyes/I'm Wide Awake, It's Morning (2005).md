@@ -3,6 +3,7 @@ title: "I'm Wide Awake, It's Morning"
 artist: "Bright Eyes"
 year: 2005
 tidal_id: 182262410
+cover: "[[_covers/Bright Eyes - I'm Wide Awake, It's Morning.jpg]]"
 tags:
   - Indie
   - Folk

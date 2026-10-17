@@ -3,6 +3,7 @@ title: "I Hope We Make It Out of This Alive"
 artist: "Sold Soul"
 year: 2022
 tidal_id: 263339277
+cover: "[[_covers/Sold Soul - I Hope We Make It Out of This Alive.jpg]]"
 tags:
   - Deathcore
   - NuMetal

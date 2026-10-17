@@ -3,6 +3,7 @@ title: "The Saberlight Chronicles"
 artist: "Fellowship"
 year: 2022
 tidal_id: 332852788
+cover: "[[_covers/Fellowship - The Saberlight Chronicles.jpg]]"
 tags:
   - PowerMetal
   - SymphonicMetal

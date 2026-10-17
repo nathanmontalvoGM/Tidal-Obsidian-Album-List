@@ -3,6 +3,7 @@ title: "Berserker"
 artist: "Beast In Black"
 year: 2017
 tidal_id: 107035370
+cover: "[[_covers/Beast In Black - Berserker.jpg]]"
 tags:
   - PowerMetal
   - HeavyMetal

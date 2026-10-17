@@ -3,6 +3,7 @@ title: "The War to End All Wars"
 artist: "Sabaton"
 year: 2022
 tidal_id: 197973453
+cover: "[[_covers/Sabaton - The War to End All Wars.jpg]]"
 tags:
   - PowerMetal
   - HeavyMetal

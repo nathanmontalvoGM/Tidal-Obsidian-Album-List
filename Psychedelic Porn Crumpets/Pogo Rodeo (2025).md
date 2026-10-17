@@ -3,6 +3,7 @@ title: "Pogo Rodeo"
 artist: "Psychedelic Porn Crumpets"
 year: 2025
 tidal_id: 464145390
+cover: "[[_covers/Psychedelic Porn Crumpets - Pogo Rodeo.jpg]]"
 tags:
   - Rock
   - StonerRock

@@ -3,6 +3,7 @@ title: "Picnic at the Cemetery"
 artist: "Bella Poarch"
 year: 2026
 tidal_id: 559463211
+cover: "[[_covers/Bella Poarch - Picnic at the Cemetery.jpg]]"
 tags: []
 rating:
 ---

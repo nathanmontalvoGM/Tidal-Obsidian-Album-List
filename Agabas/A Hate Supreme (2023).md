@@ -3,6 +3,7 @@ title: A Hate Supreme
 artist: Agabas
 year: 2023
 tidal_id: 326089608
+cover: "[[_covers/Agabas - A Hate Supreme.jpg]]"
 tags:
   - Deathcore
   - AvantGardeMetal

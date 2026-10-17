@@ -3,6 +3,7 @@ title: "Golden Hour"
 artist: "Kacey Musgraves"
 year: 2018
 tidal_id: 86330313
+cover: "[[_covers/Kacey Musgraves - Golden Hour.jpg]]"
 tags:
   - Country
   - SoftRock

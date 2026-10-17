@@ -3,6 +3,7 @@ title: "Stare Into Death And Be Still"
 artist: "Ulcerate"
 year: 2020
 tidal_id: 133259394
+cover: "[[_covers/Ulcerate - Stare Into Death And Be Still.jpg]]"
 tags:
   - TechnicalDeathMetal
   - ProgressiveMetal

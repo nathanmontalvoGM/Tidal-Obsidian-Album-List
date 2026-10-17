@@ -3,6 +3,7 @@ title: "A Book About Itself"
 artist: "Karmanjakah"
 year: 2021
 tidal_id: 164870595
+cover: "[[_covers/Karmanjakah - A Book About Itself.jpg]]"
 tags:
   - NuMetal
   - ProgressiveMetal

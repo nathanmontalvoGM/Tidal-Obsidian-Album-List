@@ -3,6 +3,7 @@ title: "This is the Second Album of a band called Adebisi Shank"
 artist: "Adebisi Shank"
 year: 2011
 tidal_id: 430139090
+cover: "[[_covers/Adebisi Shank - This is the Second Album of a band called Adebisi Shank.jpg]]"
 tags:
   - MathRock
   - ExperimentalRock

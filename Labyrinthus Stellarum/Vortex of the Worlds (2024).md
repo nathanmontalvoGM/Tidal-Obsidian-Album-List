@@ -3,6 +3,7 @@ title: "Vortex of the Worlds"
 artist: "Labyrinthus Stellarum"
 year: 2024
 tidal_id: 348113874
+cover: "[[_covers/Labyrinthus Stellarum - Vortex of the Worlds.jpg]]"
 tags:
   - AtmosphericMetal
   - SpaceAmbient

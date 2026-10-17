@@ -3,6 +3,7 @@ title: Shiver
 artist: Krooked Kings
 year: 2024
 tidal_id: 314870321
+cover: "[[_covers/Krooked Kings - Shiver.jpg]]"
 tags:
   - IndieRock
 rating:

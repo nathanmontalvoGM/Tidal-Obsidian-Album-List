@@ -3,6 +3,7 @@ title: "The Clearing"
 artist: "Wolf Alice"
 year: 2025
 tidal_id: 452964378
+cover: "[[_covers/Wolf Alice - The Clearing.jpg]]"
 tags:
   - IndieRock
   - SoftRock

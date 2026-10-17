@@ -3,6 +3,7 @@ title: Blue Rev
 artist: Alvvays
 year: 2022
 tidal_id: 256079079
+cover: "[[_covers/Alvvays - Blue Rev.jpg]]"
 tags:
   - Favorite
   - NoisePop

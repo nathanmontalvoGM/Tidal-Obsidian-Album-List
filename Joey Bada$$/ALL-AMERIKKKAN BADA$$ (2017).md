@@ -3,6 +3,7 @@ title: "ALL-AMERIKKKAN BADA$$"
 artist: "Joey Bada$$"
 year: 2017
 tidal_id: 134832236
+cover: "[[_covers/Joey Bada$$ - ALL-AMERIKKKAN BADA$$.jpg]]"
 tags:
   - HipHop
   - ConsciousHipHop

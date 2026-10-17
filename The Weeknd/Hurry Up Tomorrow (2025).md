@@ -3,6 +3,7 @@ title: "Hurry Up Tomorrow"
 artist: "The Weeknd"
 year: 2025
 tidal_id: 414851656
+cover: "[[_covers/The Weeknd - Hurry Up Tomorrow.jpg]]"
 tags:
   - Synthwave
   - Synthpop

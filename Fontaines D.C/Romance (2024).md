@@ -3,6 +3,7 @@ title: "Romance"
 artist: "Fontaines D.C."
 year: 2024
 tidal_id: 378695864
+cover: "[[_covers/Fontaines D.C - Romance.jpg]]"
 tags:
   - IndieRock
   - AlternativeRock

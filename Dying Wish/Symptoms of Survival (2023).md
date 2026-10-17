@@ -3,6 +3,7 @@ title: "Symptoms of Survival"
 artist: "Dying Wish"
 year: 2023
 tidal_id: 304355715
+cover: "[[_covers/Dying Wish - Symptoms of Survival.jpg]]"
 tags:
   - MelodicMetalcore
   - MelodicHardcore

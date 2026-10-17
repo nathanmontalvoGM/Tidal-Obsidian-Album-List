@@ -3,6 +3,7 @@ title: "I Love My Computer"
 artist: "Ninajirachi"
 year: 2025
 tidal_id: 446039372
+cover: "[[_covers/Ninajirachi - I Love My Computer.jpg]]"
 tags:
   - ElectroHouse
   - Electropop

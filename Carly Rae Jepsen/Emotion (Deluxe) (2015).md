@@ -3,6 +3,7 @@ title: Emotion (Deluxe)
 artist: Carly Rae Jepsen
 year: 2015
 tidal_id: 77705176
+cover: "[[_covers/Carly Rae Jepsen - Emotion (Deluxe).jpg]]"
 tags:
   - Favorite
   - Pop

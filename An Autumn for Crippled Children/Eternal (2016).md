@@ -3,6 +3,7 @@ title: "Eternal"
 artist: "An Autumn for Crippled Children"
 year: 2016
 tidal_id: 257981657
+cover: "[[_covers/An Autumn for Crippled Children - Eternal.jpg]]"
 tags:
   - Blackgaze
   - BlackMetal

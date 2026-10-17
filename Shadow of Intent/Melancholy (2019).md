@@ -3,6 +3,7 @@ title: "Melancholy"
 artist: "Shadow of Intent"
 year: 2019
 tidal_id: 110518484
+cover: "[[_covers/Shadow of Intent - Melancholy.jpg]]"
 tags:
   - SymphonicDeathcore
   - Deathcore

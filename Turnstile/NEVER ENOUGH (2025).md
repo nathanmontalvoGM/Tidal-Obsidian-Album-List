@@ -3,6 +3,7 @@ title: "NEVER ENOUGH"
 artist: "Turnstile"
 year: 2025
 tidal_id: 440155726
+cover: "[[_covers/Turnstile - NEVER ENOUGH.jpg]]"
 tags:
   - Shoegaze
   - AlternativeRock

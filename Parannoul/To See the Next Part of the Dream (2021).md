@@ -3,6 +3,7 @@ title: "To See the Next Part of the Dream"
 artist: "Parannoul"
 year: 2021
 tidal_id: 180892435
+cover: "[[_covers/Parannoul - To See the Next Part of the Dream.jpg]]"
 tags:
   - Shoegaze
   - Emo

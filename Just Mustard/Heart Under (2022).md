@@ -3,6 +3,7 @@ title: "Heart Under"
 artist: "Just Mustard"
 year: 2022
 tidal_id: 403501716
+cover: "[[_covers/Just Mustard - Heart Under.jpg]]"
 tags:
   - Shoegaze
   - PostPunk

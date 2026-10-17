@@ -3,6 +3,7 @@ title: "Agony"
 artist: "Fleshgod Apocalypse"
 year: 2011
 tidal_id: 106183274
+cover: "[[_covers/Fleshgod Apocalypse - Agony.jpg]]"
 tags:
   - TechnicalDeathMetal
   - ProgDeathMetal

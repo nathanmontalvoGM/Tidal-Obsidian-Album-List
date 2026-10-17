@@ -3,6 +3,7 @@ title: "A Mighty Disposition"
 artist: "OLiM"
 year: 2021
 tidal_id: 202748659
+cover: "[[_covers/OLiM - A Mighty Disposition.jpg]]"
 tags: []
 rating:
 ---

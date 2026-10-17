@@ -3,6 +3,7 @@ title: "For the first time"
 artist: "Black Country, New Road"
 year: 2021
 tidal_id: 160225315
+cover: "[[_covers/Black Country, New Road - For the first time.jpg]]"
 tags:
   - PostPunk
   - ExperimentalRock

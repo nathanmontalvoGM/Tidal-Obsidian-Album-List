@@ -3,6 +3,7 @@ title: "That! Feels Good!"
 artist: "Jessie Ware"
 year: 2023
 tidal_id: 290581948
+cover: "[[_covers/Jessie Ware - That! Feels Good!.jpg]]"
 tags:
   - Disco
   - Pop

@@ -3,6 +3,7 @@ title: "Get To Heaven"
 artist: "Everything Everything"
 year: 2015
 tidal_id: 63101777
+cover: "[[_covers/Everything Everything - Get To Heaven.jpg]]"
 tags:
   - ArtPop
   - ProgressivePop

@@ -3,6 +3,7 @@ title: "Infections of a Different Kind (Step I)"
 artist: "AURORA"
 year: 2018
 tidal_id: 243783626
+cover: "[[_covers/AURORA - Infections of a Different Kind (Step I).jpg]]"
 tags:
   - Indie
   - Pop

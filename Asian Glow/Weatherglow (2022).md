@@ -3,6 +3,7 @@ title: "Weatherglow"
 artist: "Asian Glow"
 year: 2022
 tidal_id: 221725190
+cover: "[[_covers/Asian Glow - Weatherglow.jpg]]"
 tags:
   - Emo
   - Indietronica

@@ -3,6 +3,7 @@ title: "DECIDE"
 artist: "Djo"
 year: 2022
 tidal_id: 246282414
+cover: "[[_covers/Djo - DECIDE.jpg]]"
 tags:
   - Synthpop
   - IndiePop

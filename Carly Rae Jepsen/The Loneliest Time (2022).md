@@ -3,6 +3,7 @@ title: The Loneliest Time
 artist: Carly Rae Jepsen
 year: 2022
 tidal_id: 255225490
+cover: "[[_covers/Carly Rae Jepsen - The Loneliest Time.jpg]]"
 tags:
   - Favorite
   - Pop

@@ -3,6 +3,7 @@ title: "everything is alive"
 artist: "Slowdive"
 year: 2023
 tidal_id: 295476130
+cover: "[[_covers/Slowdive - everything is alive.jpg]]"
 tags:
   - DreamPop
   - Shoegaze

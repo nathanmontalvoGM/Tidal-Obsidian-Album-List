@@ -3,6 +3,7 @@ title: "Flesh Stays Together"
 artist: "Dying Wish"
 year: 2025
 tidal_id: 460069364
+cover: "[[_covers/Dying Wish - Flesh Stays Together.jpg]]"
 tags:
   - Metalcore
   - Hardcore

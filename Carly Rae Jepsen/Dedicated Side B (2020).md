@@ -3,6 +3,7 @@ title: "Dedicated Side B"
 artist: "Carly Rae Jepsen"
 year: 2020
 tidal_id: 141509574
+cover: "[[_covers/Carly Rae Jepsen - Dedicated Side B.jpg]]"
 tags:
   - Pop
   - Synthpop

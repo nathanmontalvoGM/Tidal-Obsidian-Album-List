@@ -3,6 +3,7 @@ title: "Images and Words"
 artist: "Dream Theater"
 year: 1992
 tidal_id: 1845519
+cover: "[[_covers/Dream Theater - Images and Words.jpg]]"
 tags:
   - ProgressiveMetal
   - ProgressivePop

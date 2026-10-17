@@ -3,6 +3,7 @@ title: "Coup de Grâce"
 artist: "SeeYouSpaceCowboy..."
 year: 2024
 tidal_id: 345706296
+cover: "[[_covers/SeeYouSpaceCowboy - Coup de Grâce.jpg]]"
 tags:
   - Metalcore
   - Mathcore

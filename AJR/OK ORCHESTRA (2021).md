@@ -3,6 +3,7 @@ title: "OK ORCHESTRA"
 artist: "AJR"
 year: 2021
 tidal_id: 490905700
+cover: "[[_covers/AJR - OK ORCHESTRA.jpg]]"
 tags:
   - Pop
   - IndiePop

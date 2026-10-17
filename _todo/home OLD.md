@@ -3,6 +3,13 @@
 const allPages = dv.pages().where(p => p.tidal_id);
 
 function findCover(page) {
+    // 1. The album's own cover property (set by the importer), e.g. cover: "[[_covers/Artist - Album.jpg]]"
+    if (page.cover) {
+        const link = page.cover.path || String(page.cover).replace(/^\[\[|\]\]$/g, "").split("|")[0];
+        const f = app.metadataCache.getFirstLinkpathDest(link, page.file.path) || app.vault.getAbstractFileByPath(link);
+        if (f) return f;
+    }
+    // 2. Fallback for notes without one: rebuild the filename the importer would have used
     const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
     const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
     const folder = page.file.folder.split("/").pop();
@@ -101,6 +108,13 @@ btn.onclick = (e) => {
 \`\`\`dataviewjs
 const TAGS = ${tagsJson};
 function findCover(page) {
+    // 1. The album's own cover property (set by the importer), e.g. cover: "[[_covers/Artist - Album.jpg]]"
+    if (page.cover) {
+        const link = page.cover.path || String(page.cover).replace(/^\[\[|\]\]$/g, "").split("|")[0];
+        const f = app.metadataCache.getFirstLinkpathDest(link, page.file.path) || app.vault.getAbstractFileByPath(link);
+        if (f) return f;
+    }
+    // 2. Fallback for notes without one: rebuild the filename the importer would have used
     const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
     const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
     const folder = page.file.folder.split("/").pop();
@@ -247,6 +261,13 @@ btn.onclick = (e) => {
 \`\`\`dataviewjs
 const ALBUM_IDS = ${tidalIds};
 function findCover(page) {
+    // 1. The album's own cover property (set by the importer), e.g. cover: "[[_covers/Artist - Album.jpg]]"
+    if (page.cover) {
+        const link = page.cover.path || String(page.cover).replace(/^\[\[|\]\]$/g, "").split("|")[0];
+        const f = app.metadataCache.getFirstLinkpathDest(link, page.file.path) || app.vault.getAbstractFileByPath(link);
+        if (f) return f;
+    }
+    // 2. Fallback for notes without one: rebuild the filename the importer would have used
     const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
     const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
     const folder = page.file.folder.split("/").pop();

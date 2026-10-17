@@ -3,6 +3,7 @@ title: "Selected Ambient Works 85-92"
 artist: "Aphex Twin"
 year: 1992
 tidal_id: 59962969
+cover: "[[_covers/Aphex Twin - Selected Ambient Works 85-92.jpg]]"
 tags:
   - Ambient
   - Electronicore

@@ -3,6 +3,7 @@ title: "the record"
 artist: "boygenius"
 year: 2023
 tidal_id: 286103660
+cover: "[[_covers/boygenius - the record.jpg]]"
 tags:
   - IndieRock
   - IndieFolk

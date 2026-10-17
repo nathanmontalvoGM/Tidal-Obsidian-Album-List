@@ -3,6 +3,7 @@ title: "Affinity"
 artist: "Haken"
 year: 2016
 tidal_id: 57770227
+cover: "[[_covers/Haken - Affinity.jpg]]"
 tags:
   - ProgressiveMetal
   - ProgressivePop

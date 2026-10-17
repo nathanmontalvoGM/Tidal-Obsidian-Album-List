@@ -3,6 +3,7 @@ title: "Hotel Usona"
 artist: "Protomartyr"
 year: 2026
 tidal_id: 535969913
+cover: "[[_covers/Protomartyr - Hotel Usona.jpg]]"
 tags: []
 rating:
 ---

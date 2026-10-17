@@ -3,6 +3,7 @@ title: "Cool It Down"
 artist: "Yeah Yeah Yeahs"
 year: 2022
 tidal_id: 228045954
+cover: "[[_covers/Yeah Yeah Yeahs - Cool It Down.jpg]]"
 tags:
   - ArtRock
   - Punk

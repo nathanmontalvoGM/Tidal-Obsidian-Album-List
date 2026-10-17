@@ -3,6 +3,7 @@ title: "you seem pretty sad for a girl so in love"
 artist: "Olivia Rodrigo"
 year: 2026
 tidal_id: 532396298
+cover: "[[_covers/Olivia Rodrigo - you seem pretty sad for a girl so in love.jpg]]"
 tags: []
 rating:
 ---

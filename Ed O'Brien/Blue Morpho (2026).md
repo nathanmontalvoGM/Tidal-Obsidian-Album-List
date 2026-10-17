@@ -3,6 +3,7 @@ title: "Blue Morpho"
 artist: "Ed O'Brien"
 year: 2026
 tidal_id: 495187955
+cover: "[[_covers/Ed O'Brien - Blue Morpho.jpg]]"
 tags: []
 rating:
 ---

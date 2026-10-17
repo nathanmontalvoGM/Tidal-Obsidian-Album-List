@@ -3,6 +3,7 @@ title: "WORRY."
 artist: "Jeff Rosenstock"
 year: 2016
 tidal_id: 234254578
+cover: "[[_covers/Jeff Rosenstock - WORRY.jpg]]"
 tags:
   - IndieRock
   - PowerPop

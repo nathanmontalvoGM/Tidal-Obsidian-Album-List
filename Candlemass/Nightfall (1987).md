@@ -3,6 +3,7 @@ title: "Nightfall"
 artist: "Candlemass"
 year: 1987
 tidal_id: 2596368
+cover: "[[_covers/Candlemass - Nightfall.jpg]]"
 tags:
   - DoomMetal
   - TraditionalDoomMetal

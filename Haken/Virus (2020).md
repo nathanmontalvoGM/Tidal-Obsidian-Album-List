@@ -3,6 +3,7 @@ title: "Virus"
 artist: "Haken"
 year: 2020
 tidal_id: 135143049
+cover: "[[_covers/Haken - Virus.jpg]]"
 tags:
   - ProgressiveMetal
   - ProgressivePop

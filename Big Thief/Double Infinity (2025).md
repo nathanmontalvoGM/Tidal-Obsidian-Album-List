@@ -3,6 +3,7 @@ title: "Double Infinity"
 artist: "Big Thief"
 year: 2025
 tidal_id: 454086302
+cover: "[[_covers/Big Thief - Double Infinity.jpg]]"
 tags:
   - IndieRock
   - Rock

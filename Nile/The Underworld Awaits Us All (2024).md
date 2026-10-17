@@ -3,6 +3,7 @@ title: "The Underworld Awaits Us All"
 artist: "Nile"
 year: 2024
 tidal_id: 360871049
+cover: "[[_covers/Nile - The Underworld Awaits Us All.jpg]]"
 tags:
   - TechnicalDeathMetal
   - MathMetal

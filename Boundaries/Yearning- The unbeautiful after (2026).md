@@ -3,6 +3,7 @@ title: "Yearning: The unbeautiful after"
 artist: "Boundaries"
 year: 2026
 tidal_id: 543652451
+cover: "[[_covers/Boundaries - Yearning- The unbeautiful after.jpg]]"
 tags: []
 rating:
 ---

@@ -3,6 +3,7 @@ title: Trench
 artist: twenty one pilots
 year: 2018
 tidal_id: 96027021
+cover: "[[_covers/twenty one pilots - Trench.jpg]]"
 tags:
   - Favorite
   - IndiePop

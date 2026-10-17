@@ -3,6 +3,7 @@ title: "Prelude to Ecstasy"
 artist: "The Last Dinner Party"
 year: 2024
 tidal_id: 342043044
+cover: "[[_covers/The Last Dinner Party - Prelude to Ecstasy.jpg]]"
 tags:
   - IndieRock
   - GlamRock

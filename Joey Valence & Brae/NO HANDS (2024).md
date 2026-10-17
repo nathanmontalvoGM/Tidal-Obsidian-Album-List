@@ -3,6 +3,7 @@ title: "NO HANDS"
 artist: "Joey Valence & Brae"
 year: 2024
 tidal_id: 362603601
+cover: "[[_covers/Joey Valence & Brae - NO HANDS.jpg]]"
 tags:
   - HipHop
   - HardcoreHipHop

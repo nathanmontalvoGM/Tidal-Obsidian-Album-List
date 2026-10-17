@@ -3,6 +3,7 @@ title: "Rivers of Nihil"
 artist: "Rivers of Nihil"
 year: 2025
 tidal_id: 405710169
+cover: "[[_covers/Rivers of Nihil - Rivers of Nihil.jpg]]"
 tags:
   - ProgressiveMetal
   - MathMetal

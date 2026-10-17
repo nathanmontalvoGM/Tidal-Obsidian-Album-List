@@ -3,6 +3,7 @@ title: "The Poetic Edda"
 artist: "Synestia"
 year: 2024
 tidal_id: 360034668
+cover: "[[_covers/Synestia - The Poetic Edda.jpg]]"
 tags:
   - Deathcore
   - NeoclassicalDjent

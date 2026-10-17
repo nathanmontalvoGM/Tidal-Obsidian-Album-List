@@ -3,6 +3,7 @@ title: "Wake Up & It's Over"
 artist: "Lovejoy"
 year: 2023
 tidal_id: 286975796
+cover: "[[_covers/Lovejoy - Wake Up & It's Over.jpg]]"
 tags:
   - AlternativeRock
   - IndieRock

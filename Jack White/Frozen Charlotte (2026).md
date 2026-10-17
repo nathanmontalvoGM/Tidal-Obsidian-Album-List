@@ -3,6 +3,7 @@ title: "Frozen Charlotte"
 artist: "Jack White"
 year: 2026
 tidal_id: 521508233
+cover: "[[_covers/Jack White - Frozen Charlotte.jpg]]"
 tags: []
 rating:
 ---

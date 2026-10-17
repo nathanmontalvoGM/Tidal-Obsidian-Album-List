@@ -3,6 +3,7 @@ title: "Willoughby Tucker, I'll Always Love You"
 artist: "Ethel Cain"
 year: 2025
 tidal_id: 439908063
+cover: "[[_covers/Ethel Cain - Willoughby Tucker, I'll Always Love You.jpg]]"
 tags:
   - Slowcore
   - Ambient

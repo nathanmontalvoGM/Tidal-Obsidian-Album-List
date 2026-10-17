@@ -3,6 +3,7 @@ title: Breach
 artist: twenty one pilots
 year: 2025
 tidal_id: 459844445
+cover: "[[_covers/twenty one pilots - Breach.jpg]]"
 tags:
   - Favorite
   - AlternativeRock

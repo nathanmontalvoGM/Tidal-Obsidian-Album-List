@@ -3,6 +3,7 @@ title: "The Romance of Affliction"
 artist: "SeeYouSpaceCowboy..."
 year: 2021
 tidal_id: 423179615
+cover: "[[_covers/SeeYouSpaceCowboy - The Romance of Affliction.jpg]]"
 tags:
   - Metalcore
   - Mathcore

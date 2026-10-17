@@ -3,6 +3,7 @@ title: "Celebrity Therapist"
 artist: "The Callous Daoboys"
 year: 2022
 tidal_id: 333894014
+cover: "[[_covers/The Callous Daoboys - Celebrity Therapist.jpg]]"
 tags:
   - Mathcore
   - ChaoticHardcore

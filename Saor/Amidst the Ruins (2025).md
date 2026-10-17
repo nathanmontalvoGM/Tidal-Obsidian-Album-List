@@ -3,6 +3,7 @@ title: "Amidst the Ruins"
 artist: "Saor"
 year: 2025
 tidal_id: 393763788
+cover: "[[_covers/Saor - Amidst the Ruins.jpg]]"
 tags:
   - AtmosphericMetal
   - PaganBlackMetal

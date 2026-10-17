@@ -3,6 +3,7 @@ title: "Good Faith"
 artist: "Madeon"
 year: 2019
 tidal_id: 122276416
+cover: "[[_covers/Madeon - Good Faith.jpg]]"
 tags:
   - Electronicore
   - Electropop

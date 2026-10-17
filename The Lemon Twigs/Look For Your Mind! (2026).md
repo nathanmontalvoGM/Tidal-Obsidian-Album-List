@@ -3,6 +3,7 @@ title: "Look For Your Mind!"
 artist: "The Lemon Twigs"
 year: 2026
 tidal_id: 498548519
+cover: "[[_covers/The Lemon Twigs - Look For Your Mind!.jpg]]"
 tags: []
 rating:
 ---

@@ -3,6 +3,7 @@ title: "+ där skogen sjunger under evighetens granar +"
 artist: "vildhjarta"
 year: 2025
 tidal_id: 419257960
+cover: "[[_covers/vildhjarta - + där skogen sjunger under evighetens granar +.jpg]]"
 tags:
   - ProgressiveMetal
 rating:

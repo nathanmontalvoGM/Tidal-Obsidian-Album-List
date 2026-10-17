@@ -3,6 +3,7 @@ title: "Appaloosa"
 artist: "Orville Peck"
 year: 2025
 tidal_id: 468760969
+cover: "[[_covers/Orville Peck - Appaloosa.jpg]]"
 tags:
   - AltCountry
   - Country

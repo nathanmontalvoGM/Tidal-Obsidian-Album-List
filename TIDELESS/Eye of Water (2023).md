@@ -3,6 +3,7 @@ title: "Eye of Water"
 artist: "TIDELESS"
 year: 2023
 tidal_id: 303637097
+cover: "[[_covers/TIDELESS - Eye of Water.jpg]]"
 tags: []
 rating:
 ---

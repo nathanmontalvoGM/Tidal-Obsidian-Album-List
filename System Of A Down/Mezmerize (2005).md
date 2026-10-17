@@ -3,6 +3,7 @@ title: "Mezmerize"
 artist: "System Of A Down"
 year: 2005
 tidal_id: 560262
+cover: "[[_covers/System Of A Down - Mezmerize.jpg]]"
 tags:
   - AlternativeMetal
   - NuMetal

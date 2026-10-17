@@ -3,6 +3,7 @@ title: I Feel The Everblack Festering Within Me
 artist: Lorna Shore
 year: 2025
 tidal_id: 431469018
+cover: "[[_covers/Lorna Shore - I Feel The Everblack Festering Within Me.jpg]]"
 tags:
   - Deathcore
   - SymphonicDeathcore

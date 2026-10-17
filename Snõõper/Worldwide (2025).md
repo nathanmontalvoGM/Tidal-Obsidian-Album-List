@@ -3,6 +3,7 @@ title: "Worldwide"
 artist: "Snõõper"
 year: 2025
 tidal_id: 445421386
+cover: "[[_covers/Snõõper - Worldwide.jpg]]"
 tags:
   - Rock
   - GarageRock

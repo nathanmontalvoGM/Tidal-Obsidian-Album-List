@@ -3,6 +3,7 @@ title: "Hymns in Dissonance"
 artist: "Whitechapel"
 year: 2025
 tidal_id: 403182985
+cover: "[[_covers/Whitechapel - Hymns in Dissonance.jpg]]"
 tags:
   - Deathcore
   - BrutalDeathcore

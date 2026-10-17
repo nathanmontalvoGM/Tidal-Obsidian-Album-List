@@ -3,6 +3,7 @@ title: "Inhuman Rampage"
 artist: "DragonForce"
 year: 2006
 tidal_id: 34368466
+cover: "[[_covers/DragonForce - Inhuman Rampage.jpg]]"
 tags:
   - PowerMetal
   - SpeedMetal

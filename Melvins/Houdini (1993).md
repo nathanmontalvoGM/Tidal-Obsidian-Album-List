@@ -3,6 +3,7 @@ title: "Houdini"
 artist: "Melvins"
 year: 1993
 tidal_id: 4073695
+cover: "[[_covers/Melvins - Houdini.jpg]]"
 tags:
   - SludgeMetal
   - AlternativeRock

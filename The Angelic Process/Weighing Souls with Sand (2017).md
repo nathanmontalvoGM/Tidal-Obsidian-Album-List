@@ -3,6 +3,7 @@ title: "Weighing Souls with Sand"
 artist: "The Angelic Process"
 year: 2017
 tidal_id: 93690297
+cover: "[[_covers/The Angelic Process - Weighing Souls with Sand.jpg]]"
 tags:
   - DoomMetal
   - Ambient

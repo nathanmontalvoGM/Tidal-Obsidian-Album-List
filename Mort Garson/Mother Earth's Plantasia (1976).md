@@ -3,6 +3,7 @@ title: "Mother Earth's Plantasia"
 artist: "Mort Garson"
 year: 1976
 tidal_id: 105233879
+cover: "[[_covers/Mort Garson - Mother Earth's Plantasia.jpg]]"
 tags:
   - SpaceAgePop
   - Electronicore

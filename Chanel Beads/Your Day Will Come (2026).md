@@ -3,6 +3,7 @@ title: "Your Day Will Come"
 artist: "Chanel Beads"
 year: 2026
 tidal_id: 513894999
+cover: "[[_covers/Chanel Beads - Your Day Will Come.jpg]]"
 tags: []
 rating:
 ---

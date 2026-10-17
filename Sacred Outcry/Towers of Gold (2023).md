@@ -3,6 +3,7 @@ title: "Towers of Gold"
 artist: "Sacred Outcry"
 year: 2023
 tidal_id: 294380741
+cover: "[[_covers/Sacred Outcry - Towers of Gold.jpg]]"
 tags:
   - PowerMetal
   - HeavyMetal

@@ -3,6 +3,7 @@ title: "CUCKOO"
 artist: "Darko US"
 year: 2026
 tidal_id: 549695215
+cover: "[[_covers/Darko US - CUCKOO.jpg]]"
 tags: []
 rating:
 ---

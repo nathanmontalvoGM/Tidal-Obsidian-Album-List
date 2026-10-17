@@ -3,6 +3,7 @@ title: "New Demons"
 artist: "I See Stars"
 year: 2013
 tidal_id: 255152956
+cover: "[[_covers/I See Stars - New Demons.jpg]]"
 tags:
   - PostHardcore
   - Electronicore

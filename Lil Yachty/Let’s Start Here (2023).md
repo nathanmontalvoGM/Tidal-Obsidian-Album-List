@@ -3,6 +3,7 @@ title: "Let’s Start Here."
 artist: "Lil Yachty"
 year: 2023
 tidal_id: 273619903
+cover: "[[_covers/Lil Yachty - Let’s Start Here.jpg]]"
 tags:
   - PsychedelicRock
   - NeoPsychedelia

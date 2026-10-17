@@ -3,6 +3,7 @@ title: "Zerfall"
 artist: "Ellende"
 year: 2026
 tidal_id: 470233168
+cover: "[[_covers/Ellende - Zerfall.jpg]]"
 tags:
   - BlackMetal
   - AtmosphericMetal

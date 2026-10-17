@@ -3,6 +3,7 @@ title: "Tír na nÓg"
 artist: "Maruja"
 year: 2025
 tidal_id: 417899826
+cover: "[[_covers/Maruja - Tír na nÓg.jpg]]"
 tags:
   - PostRock
   - JazzRock

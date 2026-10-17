@@ -3,6 +3,7 @@ title: "With Heaven On Top"
 artist: "Zach Bryan"
 year: 2026
 tidal_id: 487981161
+cover: "[[_covers/Zach Bryan - With Heaven On Top.jpg]]"
 tags:
   - Country
   - Americana

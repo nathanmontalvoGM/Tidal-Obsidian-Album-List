@@ -3,6 +3,7 @@ title: "You Won't Get What You Want"
 artist: "Daughters"
 year: 2018
 tidal_id: 92428847
+cover: "[[_covers/Daughters - You Won't Get What You Want.jpg]]"
 tags:
   - NoiseRock
   - IndustrialRock

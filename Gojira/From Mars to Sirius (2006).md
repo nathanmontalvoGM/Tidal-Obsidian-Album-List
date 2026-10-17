@@ -3,6 +3,7 @@ title: "From Mars to Sirius"
 artist: "Gojira"
 year: 2006
 tidal_id: 13929179
+cover: "[[_covers/Gojira - From Mars to Sirius.jpg]]"
 tags:
   - ProgressiveMetal
   - MathMetal

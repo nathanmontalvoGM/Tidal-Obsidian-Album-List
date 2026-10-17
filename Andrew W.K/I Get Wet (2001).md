@@ -3,6 +3,7 @@ title: "I Get Wet"
 artist: "Andrew W.K."
 year: 2001
 tidal_id: 578167
+cover: "[[_covers/Andrew W.K - I Get Wet.jpg]]"
 tags:
   - Rock
   - HardRock

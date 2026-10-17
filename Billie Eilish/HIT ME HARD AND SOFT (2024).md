@@ -3,6 +3,7 @@ title: "HIT ME HARD AND SOFT"
 artist: "Billie Eilish"
 year: 2024
 tidal_id: 363236461
+cover: "[[_covers/Billie Eilish - HIT ME HARD AND SOFT.jpg]]"
 tags:
   - Pop
   - ArtPop

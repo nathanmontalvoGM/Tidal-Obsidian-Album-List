@@ -3,6 +3,7 @@ title: "HELLMODE"
 artist: "Jeff Rosenstock"
 year: 2023
 tidal_id: 297910418
+cover: "[[_covers/Jeff Rosenstock - HELLMODE.jpg]]"
 tags:
   - PowerPop
   - PopPunk

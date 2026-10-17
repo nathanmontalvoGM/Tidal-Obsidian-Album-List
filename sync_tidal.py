@@ -454,6 +454,8 @@ for album in all_albums:
     else:
         tags_yaml = " []"
 
+    cover_yaml = f'\ncover: "[[{cover_obsidian_path}]]"' if cover_obsidian_path and os.path.exists(cover_filepath) else ""
+
     tracklist_md = ""
     if tracks:
         lines = ["| # | Title | Duration | Rating /10 |", "|---|-------|----------|------------|"]
@@ -466,7 +468,7 @@ for album in all_albums:
 title: {json.dumps(album.name, ensure_ascii=False)}
 artist: {json.dumps(album.artist.name, ensure_ascii=False)}
 year: {year}
-tidal_id: {tidal_id}
+tidal_id: {tidal_id}{cover_yaml}
 tags:{tags_yaml}
 rating:
 ---

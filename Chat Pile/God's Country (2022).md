@@ -3,6 +3,7 @@ title: "God's Country"
 artist: "Chat Pile"
 year: 2022
 tidal_id: 225188684
+cover: "[[_covers/Chat Pile - God's Country.jpg]]"
 tags:
   - NoiseRock
   - SludgeMetal

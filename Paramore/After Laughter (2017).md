@@ -3,6 +3,7 @@ title: "After Laughter"
 artist: "Paramore"
 year: 2017
 tidal_id: 73856849
+cover: "[[_covers/Paramore - After Laughter.jpg]]"
 tags:
   - NewWave
   - PopRock

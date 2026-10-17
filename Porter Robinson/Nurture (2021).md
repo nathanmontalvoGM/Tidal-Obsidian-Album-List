@@ -3,6 +3,7 @@ title: Nurture
 artist: Porter Robinson
 year: 2021
 tidal_id: 181171322
+cover: "[[_covers/Porter Robinson - Nurture.jpg]]"
 tags:
   - Favorite
   - Electropop

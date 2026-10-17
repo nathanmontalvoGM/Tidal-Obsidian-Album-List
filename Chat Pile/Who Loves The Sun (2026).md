@@ -3,6 +3,7 @@ title: "Who Loves The Sun"
 artist: "Chat Pile"
 year: 2026
 tidal_id: 527100233
+cover: "[[_covers/Chat Pile - Who Loves The Sun.jpg]]"
 tags: []
 rating:
 ---

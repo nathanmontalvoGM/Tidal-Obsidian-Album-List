@@ -3,6 +3,7 @@ title: "the first glass beach album"
 artist: "Glass Beach"
 year: 2019
 tidal_id: 119898760
+cover: "[[_covers/Glass Beach - the first glass beach album.jpg]]"
 tags:
   - IndieRock
   - ArtRock

@@ -3,6 +3,7 @@ title: "Director's Cuts"
 artist: "To The Grave"
 year: 2023
 tidal_id: 253985929
+cover: "[[_covers/To The Grave - Director's Cuts.jpg]]"
 tags:
   - Deathcore
 rating:

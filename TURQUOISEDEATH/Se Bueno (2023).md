@@ -3,6 +3,7 @@ title: Se Bueno
 artist: TURQUOISEDEATH
 year: 2023
 tidal_id: 305246383
+cover: "[[_covers/TURQUOISEDEATH - Se Bueno.jpg]]"
 tags:
   - AtmosphericDrumAndBass
   - DreamPop

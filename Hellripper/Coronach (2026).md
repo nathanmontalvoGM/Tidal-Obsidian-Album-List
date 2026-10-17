@@ -3,6 +3,7 @@ title: "Coronach"
 artist: "Hellripper"
 year: 2026
 tidal_id: 483031715
+cover: "[[_covers/Hellripper - Coronach.jpg]]"
 tags:
   - BlackMetal
   - MelodicBlackMetal

@@ -3,6 +3,7 @@ title: "THE SKULL BURNED WEARING HELL LIKE A LIFE VEST AS THE NIGHT WEPT"
 artist: "Frontierer"
 year: 2024
 tidal_id: 395959999
+cover: "[[_covers/Frontierer - THE SKULL BURNED WEARING HELL LIKE A LIFE VEST AS THE NIGHT WEPT.jpg]]"
 tags:
   - Hardcore
   - Noise

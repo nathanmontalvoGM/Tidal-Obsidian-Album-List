@@ -3,6 +3,7 @@ title: "Fangdriller: Scars Beneath Memory's Wrist"
 artist: "Saidan"
 year: 2026
 tidal_id: 516755804
+cover: "[[_covers/Saidan - Fangdriller- Scars Beneath Memory's Wrist.jpg]]"
 tags: []
 rating:
 ---

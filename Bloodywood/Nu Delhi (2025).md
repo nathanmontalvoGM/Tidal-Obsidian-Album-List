@@ -3,6 +3,7 @@ title: "Nu Delhi"
 artist: "Bloodywood"
 year: 2025
 tidal_id: 423887661
+cover: "[[_covers/Bloodywood - Nu Delhi.jpg]]"
 tags:
   - FolkMetal
   - NuMetal

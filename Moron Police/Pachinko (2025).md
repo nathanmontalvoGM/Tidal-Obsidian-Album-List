@@ -3,6 +3,7 @@ title: Pachinko
 artist: Moron Police
 year: 2025
 tidal_id: 455086241
+cover: "[[_covers/Moron Police - Pachinko.jpg]]"
 tags:
   - ProgressiveRock
   - PopRock

@@ -3,6 +3,7 @@ title: "Hypersonic Missiles"
 artist: "Sam Fender"
 year: 2019
 tidal_id: 117191602
+cover: "[[_covers/Sam Fender - Hypersonic Missiles.jpg]]"
 tags:
   - IndieRock
 rating:

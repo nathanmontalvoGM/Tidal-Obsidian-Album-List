@@ -3,6 +3,7 @@ title: "The Singer in My Band"
 artist: "This Is Lorelei"
 year: 2026
 tidal_id: 554024739
+cover: "[[_covers/This Is Lorelei - The Singer in My Band.jpg]]"
 tags: []
 rating:
 ---

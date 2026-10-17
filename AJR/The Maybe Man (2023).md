@@ -3,6 +3,7 @@ title: The Maybe Man
 artist: AJR
 year: 2023
 tidal_id: 326417453
+cover: "[[_covers/AJR - The Maybe Man.jpg]]"
 tags:
   - Pop
   - AlternativeRock

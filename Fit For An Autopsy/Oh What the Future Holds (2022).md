@@ -3,6 +3,7 @@ title: "Oh What the Future Holds"
 artist: "Fit For An Autopsy"
 year: 2022
 tidal_id: 196204890
+cover: "[[_covers/Fit For An Autopsy - Oh What the Future Holds.jpg]]"
 tags:
   - Deathcore
   - ProgressiveDeathcore

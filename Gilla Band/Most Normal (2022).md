@@ -3,6 +3,7 @@ title: "Most Normal"
 artist: "Gilla Band"
 year: 2022
 tidal_id: 248539820
+cover: "[[_covers/Gilla Band - Most Normal.jpg]]"
 tags:
   - NoWave
   - NoiseRock

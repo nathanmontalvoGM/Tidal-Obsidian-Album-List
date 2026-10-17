@@ -3,6 +3,7 @@ title: "My 21st Century Blues"
 artist: "RAYE"
 year: 2023
 tidal_id: 270052032
+cover: "[[_covers/RAYE - My 21st Century Blues.jpg]]"
 tags:
   - Pop
   - PopRap

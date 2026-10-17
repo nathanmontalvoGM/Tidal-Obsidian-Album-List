@@ -3,6 +3,7 @@ title: "FENIAN"
 artist: "KNEECAP"
 year: 2026
 tidal_id: 519187418
+cover: "[[_covers/KNEECAP - FENIAN.jpg]]"
 tags:
   - HipHop
   - HardcoreHipHop

@@ -3,6 +3,7 @@ title: "GOLLIWOG"
 artist: "Billy Woods"
 year: 2025
 tidal_id: 414584891
+cover: "[[_covers/Billy Woods - GOLLIWOG.jpg]]"
 tags:
   - AbstractHipHop
   - ExperimentalHipHop

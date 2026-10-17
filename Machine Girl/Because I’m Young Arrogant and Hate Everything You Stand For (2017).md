@@ -3,6 +3,7 @@ title: "…Because I’m Young Arrogant and Hate Everything You Stand For"
 artist: "Machine Girl"
 year: 2017
 tidal_id: 310965702
+cover: "[[_covers/Machine Girl - Because I’m Young Arrogant and Hate Everything You Stand For.jpg]]"
 tags:
   - DigitalHardcore
   - Breakcore

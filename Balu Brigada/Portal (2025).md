@@ -3,6 +3,7 @@ title: "Portal"
 artist: "Balu Brigada"
 year: 2025
 tidal_id: 439745413
+cover: "[[_covers/Balu Brigada - Portal.jpg]]"
 tags:
   - IndiePop
   - IndieRock

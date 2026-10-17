@@ -3,6 +3,7 @@ title: "Moonlover"
 artist: "Ghost Bath"
 year: 2016
 tidal_id: 107100531
+cover: "[[_covers/Ghost Bath - Moonlover.jpg]]"
 tags:
   - Blackgaze
   - BlackMetal

@@ -3,6 +3,7 @@ title: "Blackbraid II"
 artist: "Blackbraid"
 year: 2023
 tidal_id: 290666834
+cover: "[[_covers/Blackbraid - Blackbraid II.jpg]]"
 tags:
   - BlackMetal
   - MelodicBlackMetal

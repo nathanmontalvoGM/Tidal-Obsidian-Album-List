@@ -3,6 +3,7 @@ title: "Too Fast to Die"
 artist: "Archspire"
 year: 2026
 tidal_id: 475956275
+cover: "[[_covers/Archspire - Too Fast to Die.jpg]]"
 tags:
   - TechnicalDeathMetal
 rating:

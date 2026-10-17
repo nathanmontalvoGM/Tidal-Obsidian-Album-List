@@ -3,6 +3,7 @@ title: "Coloring Book"
 artist: "Chance the Rapper"
 year: 2016
 tidal_id: 60920015
+cover: "[[_covers/Chance the Rapper - Coloring Book.jpg]]"
 tags:
   - HipHop
   - Gospel

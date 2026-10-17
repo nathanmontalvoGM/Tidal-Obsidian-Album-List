@@ -3,6 +3,7 @@ title: "The World We Knew"
 artist: "Frank Sinatra"
 year: 1967
 tidal_id: 22629352
+cover: "[[_covers/Frank Sinatra - The World We Knew.jpg]]"
 tags:
   - Swing
   - Jazz

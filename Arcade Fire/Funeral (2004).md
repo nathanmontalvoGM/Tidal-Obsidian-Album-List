@@ -3,6 +3,7 @@ title: "Funeral"
 artist: "Arcade Fire"
 year: 2004
 tidal_id: 75194842
+cover: "[[_covers/Arcade Fire - Funeral.jpg]]"
 tags:
   - IndieRock
   - Indie

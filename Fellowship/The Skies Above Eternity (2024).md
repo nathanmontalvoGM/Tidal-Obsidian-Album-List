@@ -3,6 +3,7 @@ title: The Skies Above Eternity
 artist: Fellowship
 year: 2024
 tidal_id: 387780013
+cover: "[[_covers/Fellowship - The Skies Above Eternity.jpg]]"
 tags:
   - PowerMetal
   - SymphonicMetal

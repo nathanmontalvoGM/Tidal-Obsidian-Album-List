@@ -3,6 +3,7 @@ title: "A Christmas Carol (Extended Version)"
 artist: "Majestica"
 year: 2020
 tidal_id: 198708812
+cover: "[[_covers/Majestica - A Christmas Carol (Extended Version).jpg]]"
 tags:
   - Christmas
   - PowerMetal

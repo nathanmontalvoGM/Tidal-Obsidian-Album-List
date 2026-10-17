@@ -3,6 +3,7 @@ title: "Did you know that there's a tunnel under Ocean Blvd"
 artist: "Lana Del Rey"
 year: 2023
 tidal_id: 283735625
+cover: "[[_covers/Lana Del Rey - Did you know that there's a tunnel under Ocean Blvd.jpg]]"
 tags:
   - SingerSongwriter
   - NeoPsychedelia

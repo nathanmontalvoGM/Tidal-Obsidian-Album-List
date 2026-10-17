@@ -3,6 +3,7 @@ title: "Ocean Machine"
 artist: "Devin Townsend"
 year: 2003
 tidal_id: 51978105
+cover: "[[_covers/Devin Townsend - Ocean Machine.jpg]]"
 tags:
   - ProgressiveMetal
   - ProgressivePop
