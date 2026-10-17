@@ -5,7 +5,7 @@ import json
 from difflib import SequenceMatcher
 import aoty
 
-VAULT_PATH = r"I:\My Drive\DriveSyncFiles\Tidal Album Folders\Tidal Albums"
+VAULT_PATH = os.path.dirname(os.path.abspath(__file__))  # vault root
 ALBUMS_FOLDER = VAULT_PATH
 GENRES_FOLDER = os.path.join(VAULT_PATH, "00 Dashboard", "Genres")
 IGNORE_FOLDERS = {"_covers", "_templates", ".obsidian", "00 Dashboard"}

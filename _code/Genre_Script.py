@@ -1,6 +1,6 @@
 import os
 
-GENRES_FOLDER = r"I:\My Drive\DriveSyncFiles\Tidal Album Folders\Tidal Albums\00 Dashboard\Playlists"
+GENRES_FOLDER = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "00 Dashboard", "Playlists")
 
 genres = []
 for filename in os.listdir(GENRES_FOLDER):

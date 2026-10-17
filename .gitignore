@@ -1,0 +1,9 @@
+tidal_session.json
+__pycache__/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.trash/
+.DS_Store
+Thumbs.db
+desktop.ini

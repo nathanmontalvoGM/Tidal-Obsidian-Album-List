@@ -1,6 +1,6 @@
 import os
 
-VAULT_PATH = r"I:\My Drive\DriveSyncFiles\Tidal Album Folders\Tidal Albums"
+VAULT_PATH = os.path.dirname(os.path.abspath(__file__))  # vault root
 GENRES_FOLDER = os.path.join(VAULT_PATH, "00 Dashboard", "Genres")
 
 DELETED_TAGS = [

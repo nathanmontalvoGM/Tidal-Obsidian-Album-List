@@ -17,7 +17,7 @@ OVERWRITE = "--overwrite" in sys.argv
 if OVERWRITE:
     print("Overwrite mode enabled - existing notes will be replaced!")
 
-VAULT_PATH = r"I:\My Drive\DriveSyncFiles\Tidal Album Folders\Tidal Albums"
+VAULT_PATH = SCRIPT_DIR  # this script lives at the vault root
 ALBUMS_FOLDER = VAULT_PATH
 COVERS_FOLDER = os.path.join(VAULT_PATH, "_covers")
 GENRES_FOLDER = os.path.join(VAULT_PATH, "00 Dashboard", "Genres")
@@ -402,6 +402,26 @@ def fix_spaced_tags_in_vault(existing_tags):
 
 fix_spaced_tags_in_vault(existing_tags)
 
+def index_notes_by_tidal_id():
+    """Map tidal_id -> existing note path, so a renamed artist or a changed
+    year on Tidal never produces a second note for the same album."""
+    index = {}
+    for root, dirs, files in os.walk(ALBUMS_FOLDER):
+        dirs[:] = [d for d in dirs if d not in IGNORE_FOLDERS and not d.startswith(".")]
+        for filename in files:
+            if not filename.endswith(".md"):
+                continue
+            path = os.path.join(root, filename)
+            with open(path, "r", encoding="utf-8") as f:
+                head = f.read(2000)
+            m = re.search(r'^tidal_id:\s*(\S+)', head, re.MULTILINE)
+            if m:
+                index.setdefault(m.group(1), path)
+    return index
+
+notes_by_id = index_notes_by_tidal_id()
+print(f"Indexed {len(notes_by_id)} existing album notes by tidal_id.\n")
+
 notes_created = 0
 skipped = 0
 overwritten = 0
@@ -432,15 +452,17 @@ for album in all_albums:
             print(f"   Could not download cover for {title}: {e}")
             cover_obsidian_path = None
 
-    artist_folder = os.path.join(ALBUMS_FOLDER, artist)
-    os.makedirs(artist_folder, exist_ok=True)
-
-    filename = f"{title} ({year}).md"
-    filepath = os.path.join(artist_folder, filename)
-
-    if os.path.exists(filepath) and not OVERWRITE:
-        skipped += 1
-        continue
+    existing_path = notes_by_id.get(str(tidal_id))
+    if existing_path:
+        if not OVERWRITE:
+            skipped += 1
+            continue
+        filepath = existing_path  # overwrite the note that already exists, wherever it lives
+    else:
+        artist_folder = os.path.join(ALBUMS_FOLDER, artist)
+        os.makedirs(artist_folder, exist_ok=True)
+        filepath = os.path.join(artist_folder, f"{title} ({year}).md")
+        notes_by_id[str(tidal_id)] = filepath
 
     # Preserve existing tags and track ratings if overwriting
     existing_note_tags = []
