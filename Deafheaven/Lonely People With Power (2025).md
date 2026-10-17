@@ -5,9 +5,8 @@ year: 2025
 tidal_id: 415466666
 tags:
   - Blackgaze
-  - Blackmetal
-  - Postmetal
-  - Bestof2022
+  - BlackMetal
+  - PostMetal
 rating:
 ---
 

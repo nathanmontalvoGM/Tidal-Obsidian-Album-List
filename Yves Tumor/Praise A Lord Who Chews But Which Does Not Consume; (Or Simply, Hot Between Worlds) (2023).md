@@ -4,10 +4,10 @@ artist: "Yves Tumor"
 year: 2023
 tidal_id: 271240948
 tags:
-  - Postpunk
+  - PostPunk
   - Rock
   - DancePunk
-  - Neopsychedelia
+  - NeoPsychedelia
 rating:
 ---
 

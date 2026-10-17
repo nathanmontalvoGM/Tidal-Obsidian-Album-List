@@ -6,7 +6,7 @@ tidal_id: 407147757
 tags:
   - Emo
   - NoisePop
-  - Slackerrock
+  - SlackerRock
   - Rock
 rating:
 ---

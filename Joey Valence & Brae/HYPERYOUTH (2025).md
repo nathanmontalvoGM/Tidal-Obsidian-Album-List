@@ -4,10 +4,9 @@ artist: "Joey Valence & Brae"
 year: 2025
 tidal_id: 453448229
 tags:
-  - Hiphop
-  - Hardcorehiphop
-  - Eastcoasthiphop
-  - Aoty
+  - HipHop
+  - HardcoreHipHop
+  - EastCoastHipHop
 rating:
 ---
 

@@ -4,8 +4,8 @@ artist: "Fellowship"
 year: 2022
 tidal_id: 332852788
 tags:
-  - Powermetal
-  - Symphonicmetal
+  - PowerMetal
+  - SymphonicMetal
 rating:
 ---
 

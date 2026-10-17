@@ -7,7 +7,7 @@ tags:
   - Grindcore
   - Powerviolence
   - CrustPunk
-  - Mathmetal
+  - MathMetal
 rating:
 ---
 

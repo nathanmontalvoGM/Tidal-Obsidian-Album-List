@@ -5,8 +5,7 @@ year: 2020
 tidal_id: 146940121
 tags:
   - Metalcore
-  - Numetal
-  - Eargasm
+  - NuMetal
   - MelodicMetalcore
 rating:
 ---

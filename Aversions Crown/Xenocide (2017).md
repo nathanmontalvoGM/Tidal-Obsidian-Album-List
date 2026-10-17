@@ -5,9 +5,9 @@ year: 2017
 tidal_id: 107059615
 tags:
   - Deathcore
-  - Brutaldeathcore
-  - Technicaldeathcore
-  - Technicaldeathmetal
+  - BrutalDeathcore
+  - TechnicalDeathcore
+  - TechnicalDeathMetal
 rating:
 ---
 

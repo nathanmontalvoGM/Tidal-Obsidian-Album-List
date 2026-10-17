@@ -4,10 +4,10 @@ artist: "DragonForce"
 year: 2006
 tidal_id: 34368466
 tags:
-  - Powermetal
-  - Speedmetal
-  - Extrememetal
-  - Numetal
+  - PowerMetal
+  - SpeedMetal
+  - ExtremeMetal
+  - NuMetal
 rating:
 ---
 

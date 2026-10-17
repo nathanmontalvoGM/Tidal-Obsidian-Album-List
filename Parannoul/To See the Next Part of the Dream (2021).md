@@ -6,8 +6,8 @@ tidal_id: 180892435
 tags:
   - Shoegaze
   - Emo
-  - Postrock
-  - Posthardcore
+  - PostRock
+  - PostHardcore
 rating:
 ---
 

@@ -4,10 +4,9 @@ artist: "Vitriol"
 year: 2024
 tidal_id: 320099050
 tags:
-  - Technicaldeathmetal
-  - Bestalbums2025
+  - TechnicalDeathMetal
   - BlackenedDeathMetal
-  - Mathmetal
+  - MathMetal
 rating:
 ---
 

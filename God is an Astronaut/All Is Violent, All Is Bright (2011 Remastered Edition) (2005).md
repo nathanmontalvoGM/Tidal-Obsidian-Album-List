@@ -4,7 +4,7 @@ artist: "God is an Astronaut"
 year: 2005
 tidal_id: 21078300
 tags:
-  - Postrock
+  - PostRock
   - Instrumental
   - Ambient
   - Atmospheric

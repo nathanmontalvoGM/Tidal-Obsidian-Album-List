@@ -5,9 +5,9 @@ year: 2025
 tidal_id: 411499794
 tags:
   - DancePunk
-  - Posthardcore
-  - Noiserock
-  - Synthpunk
+  - PostHardcore
+  - NoiseRock
+  - SynthPunk
 rating:
 ---
 

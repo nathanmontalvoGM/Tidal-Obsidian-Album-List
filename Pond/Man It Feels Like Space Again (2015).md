@@ -4,10 +4,10 @@ artist: "Pond"
 year: 2015
 tidal_id: 475743082
 tags:
-  - Psychedelicrock
+  - PsychedelicRock
   - Poptron
-  - Neopsychedelia
-  - Psychedelicpop
+  - NeoPsychedelia
+  - PsychedelicPop
 rating:
 ---
 

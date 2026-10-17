@@ -4,9 +4,9 @@ artist: "Saidan"
 year: 2024
 tidal_id: 360403483
 tags:
-  - Blackmetal
-  - Melodicblackmetal
-  - Numetal
+  - BlackMetal
+  - MelodicBlackMetal
+  - NuMetal
   - VisualKei
 rating:
 ---

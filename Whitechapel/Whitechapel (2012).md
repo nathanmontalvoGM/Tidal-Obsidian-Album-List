@@ -4,7 +4,7 @@ artist: "Whitechapel"
 year: 2012
 tidal_id: 23908493
 tags:
-  - Mathmetal
+  - MathMetal
   - Deathcore
 rating:
 ---

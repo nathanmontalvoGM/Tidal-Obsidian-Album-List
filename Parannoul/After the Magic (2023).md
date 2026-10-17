@@ -5,8 +5,8 @@ year: 2023
 tidal_id: 273688157
 tags:
   - Shoegaze
-  - Indierock
-  - Postrock
+  - IndieRock
+  - PostRock
   - Indietronica
 rating:
 ---

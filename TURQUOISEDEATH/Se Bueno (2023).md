@@ -4,7 +4,7 @@ artist: TURQUOISEDEATH
 year: 2023
 tidal_id: 305246383
 tags:
-  - Atmosphericdrumandbass
+  - AtmosphericDrumAndBass
   - DreamPop
   - Shoegaze
 rating:

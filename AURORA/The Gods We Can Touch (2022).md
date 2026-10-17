@@ -6,8 +6,8 @@ tidal_id: 243648384
 tags:
   - Electropop
   - Synthpop
-  - Alternativerock
-  - Folkpop
+  - AlternativeRock
+  - FolkPop
 rating:
 ---
 

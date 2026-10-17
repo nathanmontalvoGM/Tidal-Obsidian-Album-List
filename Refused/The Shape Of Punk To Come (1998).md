@@ -4,7 +4,7 @@ artist: "Refused"
 year: 1998
 tidal_id: 121119895
 tags:
-  - Posthardcore
+  - PostHardcore
   - Hardcore
   - HardcorePunk
   - Punk

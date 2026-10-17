@@ -6,8 +6,8 @@ tidal_id: 497934606
 tags:
   - Synthpop
   - ArtPop
-  - Classicalcrossover
-  - Neoclassicaldarkwave
+  - ClassicalCrossover
+  - NeoclassicalDarkwave
 rating:
 ---
 

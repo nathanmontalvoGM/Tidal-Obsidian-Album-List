@@ -4,9 +4,9 @@ artist: "Deafheaven"
 year: 2018
 tidal_id: 121048638
 tags:
-  - Postmetal
+  - PostMetal
   - Blackgaze
-  - Postrock
+  - PostRock
   - Shoegaze
 rating:
 ---

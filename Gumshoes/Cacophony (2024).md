@@ -4,10 +4,10 @@ artist: "Gumshoes"
 year: 2024
 tidal_id: 336975269
 tags:
-  - Indiepop
-  - Chamberpop
-  - Pianorock
-  - Bedroompop
+  - IndiePop
+  - ChamberPop
+  - PianoRock
+  - BedroomPop
 rating:
 ---
 

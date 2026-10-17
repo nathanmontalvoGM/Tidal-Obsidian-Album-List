@@ -4,10 +4,9 @@ artist: "Ellende"
 year: 2026
 tidal_id: 470233168
 tags:
-  - Impossibleforliberalstodealwith
-  - Blackmetal
-  - Atmosphericmetal
-  - Numetal
+  - BlackMetal
+  - AtmosphericMetal
+  - NuMetal
 rating:
 ---
 

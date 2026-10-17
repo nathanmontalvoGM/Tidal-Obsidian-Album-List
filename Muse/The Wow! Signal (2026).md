@@ -4,8 +4,8 @@ artist: "Muse"
 year: 2026
 tidal_id: 534934336
 tags:
-  - Alternativerock
-  - Poprock
+  - AlternativeRock
+  - PopRock
   - Rock
 rating:
 ---

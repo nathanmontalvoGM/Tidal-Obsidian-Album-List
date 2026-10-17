@@ -4,9 +4,8 @@ artist: "Devin Townsend"
 year: 2007
 tidal_id: 51971817
 tags:
-  - Progressivemetal
-  - Coffeemetal
-  - Numetal
+  - ProgressiveMetal
+  - NuMetal
   - Rock
 rating:
 ---

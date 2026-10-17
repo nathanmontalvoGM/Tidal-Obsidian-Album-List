@@ -4,7 +4,7 @@ artist: "Freedom Call"
 year: 2024
 tidal_id: 344172738
 tags:
-  - Numetal
+  - NuMetal
 rating:
 ---
 

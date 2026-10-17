@@ -4,9 +4,8 @@ artist: "Pond"
 year: 2024
 tidal_id: 346509423
 tags:
-  - Neopsych
-  - 2024releases
-  - Psychedelicrock
+  - NeoPsychedelia
+  - PsychedelicRock
 rating:
 ---
 

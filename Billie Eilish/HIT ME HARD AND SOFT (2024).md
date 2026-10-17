@@ -4,10 +4,9 @@ artist: "Billie Eilish"
 year: 2024
 tidal_id: 363236461
 tags:
-  - Aoty
   - Pop
   - ArtPop
-  - Poprock
+  - PopRock
 rating:
 ---
 

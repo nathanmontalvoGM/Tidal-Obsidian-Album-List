@@ -4,7 +4,7 @@ artist: "Protomartyr"
 year: 2015
 tidal_id: 51799226
 tags:
-  - Postpunk
+  - PostPunk
 rating:
 ---
 

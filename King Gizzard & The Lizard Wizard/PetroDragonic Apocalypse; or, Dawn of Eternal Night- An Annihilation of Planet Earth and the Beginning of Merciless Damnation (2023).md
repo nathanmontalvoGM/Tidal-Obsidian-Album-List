@@ -4,10 +4,10 @@ artist: "King Gizzard & The Lizard Wizard"
 year: 2023
 tidal_id: 299065996
 tags:
-  - Thrashmetal
-  - Progressivemetal
+  - ThrashMetal
+  - ProgressiveMetal
   - StonerMetal
-  - Speedmetal
+  - SpeedMetal
 rating:
 ---
 

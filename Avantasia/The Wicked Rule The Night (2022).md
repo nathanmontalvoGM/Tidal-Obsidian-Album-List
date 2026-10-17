@@ -4,9 +4,9 @@ artist: Avantasia
 year: 2022
 tidal_id: 227167252
 tags:
-  - Powermetal
+  - PowerMetal
   - RockOpera
-  - Symphonicdeathcore
+  - SymphonicDeathcore
 rating:
 ---
 

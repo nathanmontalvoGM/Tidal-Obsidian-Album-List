@@ -4,10 +4,10 @@ artist: "Dispirited Spirits"
 year: 2025
 tidal_id: 454236304
 tags:
-  - Artrock
+  - ArtRock
   - Emo
-  - Jazzrock
-  - Mathrock
+  - JazzRock
+  - MathRock
 rating:
 ---
 

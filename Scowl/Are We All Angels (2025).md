@@ -5,8 +5,8 @@ year: 2025
 tidal_id: 406144346
 tags:
   - Grunge
-  - Punkrock
-  - Postpunk
+  - Punk
+  - PostPunk
   - HardcorePunk
 rating:
 ---

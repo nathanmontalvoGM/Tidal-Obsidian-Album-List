@@ -5,9 +5,8 @@ year: 2021
 tidal_id: 490905700
 tags:
   - Pop
-  - 2020s
-  - Indiepop
-  - Alternativerock
+  - IndiePop
+  - AlternativeRock
 rating:
 ---
 

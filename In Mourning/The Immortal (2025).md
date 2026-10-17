@@ -4,10 +4,10 @@ artist: "In Mourning"
 year: 2025
 tidal_id: 431695685
 tags:
-  - Melodicdeathmetal
-  - Progressivemetal
-  - Numetal
-  - Progressivepop
+  - MelodicDeathMetal
+  - ProgressiveMetal
+  - NuMetal
+  - ProgressivePop
 rating:
 ---
 

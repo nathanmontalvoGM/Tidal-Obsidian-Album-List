@@ -5,9 +5,9 @@ year: 2023
 tidal_id: 333675455
 tags:
   - Mathcore
-  - Numetal
+  - NuMetal
   - Metalcore
-  - Posthardcore
+  - PostHardcore
 rating:
 ---
 

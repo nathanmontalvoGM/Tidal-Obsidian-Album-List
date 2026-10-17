@@ -6,7 +6,7 @@ tidal_id: 414851656
 tags:
   - Synthwave
   - Synthpop
-  - Alternativerandb
+  - AlternativeRnB
   - Pop
 rating:
 ---

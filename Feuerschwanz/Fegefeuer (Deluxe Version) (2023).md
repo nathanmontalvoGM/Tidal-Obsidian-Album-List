@@ -5,7 +5,7 @@ year: 2023
 tidal_id: 281152844
 tags:
   - FolkMetal
-  - Powermetal
+  - PowerMetal
 rating:
 ---
 

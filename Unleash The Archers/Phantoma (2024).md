@@ -4,9 +4,8 @@ artist: Unleash The Archers
 year: 2024
 tidal_id: 335473443
 tags:
-  - Powermetal
-  - Conceptalbum
-  - Mdm
+  - PowerMetal
+  - ConceptAlbum
 rating:
 ---
 

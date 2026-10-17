@@ -4,10 +4,10 @@ artist: "Poppy"
 year: 2024
 tidal_id: 383686884
 tags:
-  - Alternativemetal
+  - AlternativeMetal
   - Metalcore
-  - Numetal
-  - Alternativerock
+  - NuMetal
+  - AlternativeRock
 rating:
 ---
 

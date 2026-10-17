@@ -202,6 +202,11 @@
   },
   "active": "d3811725f7422261",
   "lastOpenFiles": [
+    "__pycache__/tag_rules.cpython-314.pyc",
+    "__pycache__",
+    "tag_rules.py",
+    "normalize_tags.py",
+    "_scripts/tags.json",
     "Andrew W.K/I Get Wet (2001).md",
     "fix_covers.py",
     "00 Dashboard/Playlists/A Bunch of Rocks.md",
@@ -242,10 +247,6 @@
     "_scripts",
     "In Mourning",
     "_covers/In Mourning - The Immortal.jpg",
-    "Cholera",
-    "_covers/Cholera - The Answer to Infection (Redux).jpg",
-    "Suicide Silence",
-    "Netherwalker",
-    "Der Weg einer Freiheit"
+    "_covers/Cholera - The Answer to Infection (Redux).jpg"
   ]
 }

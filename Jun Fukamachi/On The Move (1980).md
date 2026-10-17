@@ -5,9 +5,8 @@ year: 1980
 tidal_id: 164097659
 tags:
   - Jazz
-  - Fusion
+  - JazzFusion
   - Instrumental
-  - Japan
 rating:
 ---
 

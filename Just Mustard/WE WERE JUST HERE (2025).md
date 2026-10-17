@@ -5,9 +5,9 @@ year: 2025
 tidal_id: 442370656
 tags:
   - Noise
-  - Alternativerock
-  - Postrock
-  - Postpunk
+  - AlternativeRock
+  - PostRock
+  - PostPunk
 rating:
 ---
 

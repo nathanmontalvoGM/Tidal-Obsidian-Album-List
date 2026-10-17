@@ -4,7 +4,7 @@ artist: "Blind Equation"
 year: 2025
 tidal_id: 421066136
 tags:
-  - Blackmetal
+  - BlackMetal
   - Metalcore
   - Cybergrind
   - Electronicore

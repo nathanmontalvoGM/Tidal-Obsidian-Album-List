@@ -4,10 +4,10 @@ artist: "Wage War"
 year: 2026
 tidal_id: 566410214
 tags:
-  - Alternativemetal
-  - Melodicmetalcore
+  - AlternativeMetal
+  - MelodicMetalcore
   - Metalcore
-  - Numetal
+  - NuMetal
 rating:
 ---
 

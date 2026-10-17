@@ -4,10 +4,8 @@ artist: "Chance the Rapper"
 year: 2013
 tidal_id: 397474752
 tags:
-  - Rap
-  - Poprap
-  - Hiphop
-  - Chancetherapper
+  - HipHop
+  - PopRap
 rating:
 ---
 

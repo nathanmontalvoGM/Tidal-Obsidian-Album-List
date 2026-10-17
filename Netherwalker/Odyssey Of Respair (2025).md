@@ -5,7 +5,7 @@ year: 2025
 tidal_id: 515551845
 tags:
   - Deathcore
-  - Symphonicmetal
+  - SymphonicMetal
 rating:
 ---
 

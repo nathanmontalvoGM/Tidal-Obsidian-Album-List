@@ -5,7 +5,7 @@ year: 2025
 tidal_id: 445421386
 tags:
   - Rock
-  - Garagerock
+  - GarageRock
   - GaragePunk
   - Punk
 rating:

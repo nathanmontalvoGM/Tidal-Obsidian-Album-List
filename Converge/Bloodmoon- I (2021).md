@@ -6,8 +6,8 @@ tidal_id: 196017208
 tags:
   - GothicMetal
   - SludgeMetal
-  - Doommetal
-  - Postmetal
+  - DoomMetal
+  - PostMetal
 rating:
 ---
 

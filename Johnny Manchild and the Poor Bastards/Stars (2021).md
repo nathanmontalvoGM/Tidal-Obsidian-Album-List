@@ -5,9 +5,9 @@ year: 2021
 tidal_id: 198706942
 tags:
   - Indie
-  - Alternativerock
-  - Indierock
-  - Indieska
+  - AlternativeRock
+  - IndieRock
+  - IndieSka
 rating:
 ---
 

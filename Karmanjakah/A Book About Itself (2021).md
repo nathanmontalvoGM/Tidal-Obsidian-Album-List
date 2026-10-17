@@ -4,9 +4,9 @@ artist: "Karmanjakah"
 year: 2021
 tidal_id: 164870595
 tags:
-  - Numetal
-  - Progressivemetal
-  - Progressivepop
+  - NuMetal
+  - ProgressiveMetal
+  - ProgressivePop
   - Thall
 rating:
 ---

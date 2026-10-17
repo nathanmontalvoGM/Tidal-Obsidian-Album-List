@@ -4,10 +4,10 @@ artist: "System Of A Down"
 year: 2005
 tidal_id: 560262
 tags:
-  - Alternativemetal
-  - Numetal
+  - AlternativeMetal
+  - NuMetal
   - Rock
-  - Alternativerock
+  - AlternativeRock
 rating:
 ---
 

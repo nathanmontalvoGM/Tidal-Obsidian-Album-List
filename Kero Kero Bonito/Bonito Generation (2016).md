@@ -7,7 +7,7 @@ tags:
   - Electropop
   - Synthpop
   - Pop
-  - Bitpop
+  - BitPop
 rating:
 ---
 

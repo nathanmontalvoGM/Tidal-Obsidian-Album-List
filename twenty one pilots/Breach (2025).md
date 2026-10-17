@@ -5,7 +5,7 @@ year: 2025
 tidal_id: 459844445
 tags:
   - Favorite
-  - Alternativerock
+  - AlternativeRock
   - Rock
   - Pop
   - Breakbeat

@@ -5,9 +5,8 @@ year: 2023
 tidal_id: 270325285
 tags:
   - Electropop
-  - Vinyl
   - Pop
-  - Alternativerock
+  - AlternativeRock
 rating:
 ---
 

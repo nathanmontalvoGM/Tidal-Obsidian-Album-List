@@ -4,10 +4,9 @@ artist: "Haken"
 year: 2016
 tidal_id: 57770227
 tags:
-  - Progressivemetal
-  - Progressivepop
-  - Numetal
-  - Intro
+  - ProgressiveMetal
+  - ProgressivePop
+  - NuMetal
 rating:
 ---
 

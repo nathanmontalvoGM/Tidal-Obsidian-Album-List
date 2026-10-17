@@ -4,10 +4,9 @@ artist: "Beast In Black"
 year: 2017
 tidal_id: 107035370
 tags:
-  - Powermetal
-  - Heavymetal
-  - Numetal
-  - Epicbutnotcheesy
+  - PowerMetal
+  - HeavyMetal
+  - NuMetal
 rating:
 ---
 

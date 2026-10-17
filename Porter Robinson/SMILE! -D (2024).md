@@ -6,9 +6,9 @@ tidal_id: 376814627
 tags:
   - Favorite
   - Electropop
-  - Poprock
+  - PopRock
   - Indietronica
-  - Indierock
+  - IndieRock
 rating:
 ---
 

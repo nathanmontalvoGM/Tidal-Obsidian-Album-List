@@ -5,9 +5,9 @@ year: 2019
 tidal_id: 112688193
 tags:
   - Punk
-  - Heavymetal
-  - Alternativemetal
-  - Progressivepop
+  - HeavyMetal
+  - AlternativeMetal
+  - ProgressivePop
 rating:
 ---
 

@@ -7,7 +7,6 @@ tags:
   - Punk
   - Electronicore
   - DigitalHardcore
-  - Femalevocalists
 rating:
 ---
 

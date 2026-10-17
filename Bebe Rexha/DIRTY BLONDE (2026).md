@@ -4,7 +4,7 @@ artist: "Bebe Rexha"
 year: 2026
 tidal_id: 530753897
 tags:
-  - Dancepop
+  - DancePop
   - Electropop
 rating:
 ---

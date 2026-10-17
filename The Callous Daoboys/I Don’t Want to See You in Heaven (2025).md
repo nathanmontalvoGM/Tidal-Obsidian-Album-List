@@ -5,7 +5,7 @@ year: 2025
 tidal_id: 435753045
 tags:
   - Mathcore
-  - Alternativemetal
+  - AlternativeMetal
   - Metalcore
   - Hardcore
 rating:

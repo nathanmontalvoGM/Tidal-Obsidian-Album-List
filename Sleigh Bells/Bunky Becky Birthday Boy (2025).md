@@ -6,8 +6,7 @@ tidal_id: 427884063
 tags:
   - Indie
   - Electronicore
-  - Experimentalrock
-  - Loveatfirstlisten
+  - ExperimentalRock
 rating:
 ---
 

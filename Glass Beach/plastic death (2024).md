@@ -4,8 +4,8 @@ artist: "Glass Beach"
 year: 2024
 tidal_id: 322288699
 tags:
-  - Progressivepop
-  - Indierock
+  - ProgressivePop
+  - IndieRock
   - ArtRock
   - Emo
 rating:

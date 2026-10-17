@@ -6,7 +6,7 @@ tidal_id: 256079079
 tags:
   - Favorite
   - NoisePop
-  - Indiepop
+  - IndiePop
   - Shoegaze
   - DreamPop
 rating:

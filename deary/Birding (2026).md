@@ -4,7 +4,7 @@ artist: "deary"
 year: 2026
 tidal_id: 480062390
 tags:
-  - Dreampop
+  - DreamPop
   - Rock
   - Shoegaze
 rating:

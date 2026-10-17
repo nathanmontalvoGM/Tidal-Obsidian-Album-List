@@ -4,10 +4,9 @@ artist: "Quadeca"
 year: 2025
 tidal_id: 450198559
 tags:
-  - Vinyl
   - ArtPop
   - Folktronica
-  - Neopsychedelia
+  - NeoPsychedelia
 rating:
 ---
 

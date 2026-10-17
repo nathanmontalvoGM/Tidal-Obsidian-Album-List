@@ -6,7 +6,7 @@ tidal_id: 431021959
 tags:
   - Breakcore
   - Cybergrind
-  - Numetal
+  - NuMetal
   - Grindcore
 rating:
 ---

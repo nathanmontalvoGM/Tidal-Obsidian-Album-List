@@ -5,9 +5,8 @@ year: 2013
 tidal_id: 20134593
 tags:
   - Indie
-  - Indierock
-  - Indiepop
-  - 10s
+  - IndieRock
+  - IndiePop
 rating:
 ---
 

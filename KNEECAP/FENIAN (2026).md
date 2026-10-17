@@ -4,8 +4,8 @@ artist: "KNEECAP"
 year: 2026
 tidal_id: 519187418
 tags:
-  - Hiphop
-  - Hardcorehiphop
+  - HipHop
+  - HardcoreHipHop
 rating:
 ---
 

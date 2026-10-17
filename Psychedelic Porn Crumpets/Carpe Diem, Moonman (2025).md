@@ -4,10 +4,10 @@ artist: "Psychedelic Porn Crumpets"
 year: 2025
 tidal_id: 428635124
 tags:
-  - Stonerrock
-  - Psychedelicrock
-  - Neopsychedelia
-  - Heavypsych
+  - StonerRock
+  - PsychedelicRock
+  - NeoPsychedelia
+  - HeavyPsych
 rating:
 ---
 

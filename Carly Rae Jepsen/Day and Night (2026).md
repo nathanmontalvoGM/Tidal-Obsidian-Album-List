@@ -4,7 +4,7 @@ artist: "Carly Rae Jepsen"
 year: 2026
 tidal_id: 560221929
 tags:
-  - Dancepop
+  - DancePop
   - Funk
   - NewJackSwing
   - Pop

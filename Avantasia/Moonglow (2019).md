@@ -4,9 +4,9 @@ artist: "Avantasia"
 year: 2019
 tidal_id: 99893966
 tags:
-  - Powermetal
-  - Symphonicmetal
-  - Metalopera
+  - PowerMetal
+  - SymphonicMetal
+  - MetalOpera
   - MelodicMetalcore
 rating:
 ---

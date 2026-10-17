@@ -5,8 +5,8 @@ year: 2017
 tidal_id: 71823180
 tags:
   - MelodicDeathGroove
-  - Technicaldeathcore
-  - Symphonicdeathcore
+  - TechnicalDeathcore
+  - SymphonicDeathcore
   - Deathcore
 rating:
 ---

@@ -4,10 +4,10 @@ artist: "Fleshgod Apocalypse"
 year: 2011
 tidal_id: 106183274
 tags:
-  - Technicaldeathmetal
-  - Progdeathmetal
-  - Symphonicmetal
-  - Brutaldeathmetal
+  - TechnicalDeathMetal
+  - ProgDeathMetal
+  - SymphonicMetal
+  - BrutalDeathMetal
 rating:
 ---
 

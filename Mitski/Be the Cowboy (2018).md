@@ -5,8 +5,8 @@ year: 2018
 tidal_id: 91826107
 tags:
   - ArtPop
-  - Indierock
-  - Indiepop
+  - IndieRock
+  - IndiePop
   - ArtRock
 rating:
 ---

@@ -4,10 +4,10 @@ artist: "The Last Dinner Party"
 year: 2025
 tidal_id: 466009252
 tags:
-  - Poprock
-  - Glamrock
-  - Indierock
-  - Progressivepop
+  - PopRock
+  - GlamRock
+  - IndieRock
+  - ProgressivePop
 rating:
 ---
 

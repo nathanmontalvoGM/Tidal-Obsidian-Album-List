@@ -4,10 +4,8 @@ artist: "Adebisi Shank"
 year: 2011
 tidal_id: 430139090
 tags:
-  - Mathrock
-  - Experimentalrock
-  - Bestof2019
-  - Titleisafullsentence
+  - MathRock
+  - ExperimentalRock
 rating:
 ---
 

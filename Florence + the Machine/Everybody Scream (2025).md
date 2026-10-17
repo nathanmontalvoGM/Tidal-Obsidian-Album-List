@@ -4,10 +4,10 @@ artist: "Florence + the Machine"
 year: 2025
 tidal_id: 469785152
 tags:
-  - Folkrock
+  - FolkRock
   - ArtRock
   - ArtPop
-  - Alternativerock
+  - AlternativeRock
 rating:
 ---
 

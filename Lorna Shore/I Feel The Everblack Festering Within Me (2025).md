@@ -5,9 +5,9 @@ year: 2025
 tidal_id: 431469018
 tags:
   - Deathcore
-  - Symphonicdeathcore
-  - Symphonicmetal
-  - Blackeneddeathcore
+  - SymphonicDeathcore
+  - SymphonicMetal
+  - BlackenedDeathcore
 rating: "7.7"
 ---
 

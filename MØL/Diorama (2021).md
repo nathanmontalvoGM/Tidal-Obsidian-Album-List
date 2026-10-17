@@ -4,10 +4,8 @@ artist: "MØL"
 year: 2021
 tidal_id: 188752811
 tags:
-  - Bestof2022
   - Blackgaze
-  - Topmetalalbumsofthedecade20202029
-  - Blackmetal
+  - BlackMetal
 rating:
 ---
 

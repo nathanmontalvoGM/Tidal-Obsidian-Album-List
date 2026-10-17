@@ -5,9 +5,9 @@ year: 2023
 tidal_id: 280631979
 tags:
   - ExperimentalHipHop
-  - Hardcorehiphop
-  - Glitchpop
-  - Jazzrap
+  - HardcoreHipHop
+  - GlitchPop
+  - JazzRap
 rating:
 ---
 

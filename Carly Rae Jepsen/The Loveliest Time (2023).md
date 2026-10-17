@@ -4,9 +4,8 @@ artist: "Carly Rae Jepsen"
 year: 2023
 tidal_id: 306420760
 tags:
-  - Aoty
   - Pop
-  - ContemporaryRnb
+  - RnB
   - Electropop
 rating:
 ---

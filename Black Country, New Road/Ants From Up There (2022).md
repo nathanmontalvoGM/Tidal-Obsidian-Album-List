@@ -6,9 +6,9 @@ tidal_id: 201105433
 tags:
   - Favorite
   - ArtRock
-  - Indierock
-  - Postrock
-  - Chamberpop
+  - IndieRock
+  - PostRock
+  - ChamberPop
 rating: "9.1"
 ---
 

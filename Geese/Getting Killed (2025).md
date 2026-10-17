@@ -4,9 +4,9 @@ artist: "Geese"
 year: 2025
 tidal_id: 440082667
 tags:
-  - Indierock
+  - IndieRock
   - ArtRock
-  - Psychedelicrock
+  - PsychedelicRock
   - Krautrock
 rating:
 ---

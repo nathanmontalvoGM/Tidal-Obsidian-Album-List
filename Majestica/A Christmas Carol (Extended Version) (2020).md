@@ -5,9 +5,7 @@ year: 2020
 tidal_id: 198708812
 tags:
   - Christmas
-  - Oholynight
-  - Joytotheworld
-  - Powermetal
+  - PowerMetal
 rating:
 ---
 

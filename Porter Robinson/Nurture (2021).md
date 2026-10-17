@@ -7,8 +7,6 @@ tags:
   - Favorite
   - Electropop
   - Electronicore
-  - Wsum917fmmadison
-  - TheMethod
 rating:
 ---
 

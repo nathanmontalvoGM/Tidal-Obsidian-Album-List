@@ -4,10 +4,10 @@ artist: Saint Motel
 year: 2025
 tidal_id: 460006293
 tags:
-  - Poprock
-  - Chamberpop
-  - Indiepop
-  - Indierock
+  - PopRock
+  - ChamberPop
+  - IndiePop
+  - IndieRock
 rating:
 ---
 

@@ -6,7 +6,7 @@ tidal_id: 316804338
 tags:
   - Indietronica
   - Electropop
-  - Indierock
+  - IndieRock
   - Rock
 rating:
 ---

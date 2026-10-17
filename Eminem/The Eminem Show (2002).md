@@ -4,10 +4,7 @@ artist: "Eminem"
 year: 2002
 tidal_id: 573283
 tags:
-  - Rap
-  - Hiphop
-  - Eminem
-  - 00s
+  - HipHop
 rating:
 ---
 

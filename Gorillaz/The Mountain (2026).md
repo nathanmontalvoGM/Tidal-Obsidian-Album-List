@@ -6,8 +6,8 @@ tidal_id: 500753046
 tags:
   - Synthpop
   - ArtPop
-  - Psychedelicpop
-  - Hiphop
+  - PsychedelicPop
+  - HipHop
 rating:
 ---
 

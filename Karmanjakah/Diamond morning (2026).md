@@ -4,8 +4,8 @@ artist: Karmanjakah
 year: 2026
 tidal_id: 501890559
 tags:
-  - Postmetal
-  - Progressivemetal
+  - PostMetal
+  - ProgressiveMetal
 rating:
 ---
 

@@ -4,8 +4,8 @@ artist: "Phoebe Bridgers"
 year: 2020
 tidal_id: 135629244
 tags:
-  - Indierock
-  - Singersongwriter
+  - IndieRock
+  - SingerSongwriter
   - Indie
   - Rock
 rating:

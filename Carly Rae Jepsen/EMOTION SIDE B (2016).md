@@ -8,7 +8,7 @@ tags:
   - Pop
   - Synthpop
   - Electropop
-  - Dancepop
+  - DancePop
 rating:
 ---
 

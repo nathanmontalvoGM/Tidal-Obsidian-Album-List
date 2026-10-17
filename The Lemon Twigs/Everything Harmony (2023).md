@@ -4,10 +4,10 @@ artist: "The Lemon Twigs"
 year: 2023
 tidal_id: 274786910
 tags:
-  - Poprock
-  - Softrock
-  - Janglepop
-  - Powerpop
+  - PopRock
+  - SoftRock
+  - JanglePop
+  - PowerPop
 rating:
 ---
 

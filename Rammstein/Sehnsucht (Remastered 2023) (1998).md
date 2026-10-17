@@ -4,7 +4,7 @@ artist: Rammstein
 year: 1998
 tidal_id: 297942080
 tags:
-  - Industrialmetal
+  - IndustrialMetal
 rating:
 ---
 

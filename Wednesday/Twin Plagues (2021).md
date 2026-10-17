@@ -4,10 +4,8 @@ artist: "Wednesday"
 year: 2021
 tidal_id: 233502396
 tags:
-  - Indierock
-  - Indiepop
-  - Wsum917fmmadison
-  - Neckofthewoods
+  - IndieRock
+  - IndiePop
 rating:
 ---
 

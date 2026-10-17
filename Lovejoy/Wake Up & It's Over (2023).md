@@ -4,9 +4,9 @@ artist: "Lovejoy"
 year: 2023
 tidal_id: 286975796
 tags:
-  - Alternativerock
-  - Indierock
-  - Postbritpop
+  - AlternativeRock
+  - IndieRock
+  - PostBritpop
 rating:
 ---
 

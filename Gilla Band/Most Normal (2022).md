@@ -4,10 +4,10 @@ artist: "Gilla Band"
 year: 2022
 tidal_id: 248539820
 tags:
-  - Nowave
-  - Noiserock
-  - Industrialrock
-  - Experimentalrock
+  - NoWave
+  - NoiseRock
+  - IndustrialRock
+  - ExperimentalRock
 rating:
 ---
 

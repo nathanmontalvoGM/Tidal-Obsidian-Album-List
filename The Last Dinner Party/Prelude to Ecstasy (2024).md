@@ -4,10 +4,10 @@ artist: "The Last Dinner Party"
 year: 2024
 tidal_id: 342043044
 tags:
-  - Indierock
-  - Glamrock
-  - Poprock
-  - Chamberpop
+  - IndieRock
+  - GlamRock
+  - PopRock
+  - ChamberPop
 rating:
 ---
 

@@ -5,7 +5,7 @@ year: 1996
 tidal_id: 163901486
 tags:
   - GothicMetal
-  - Industrialmetal
+  - IndustrialMetal
 rating:
 ---
 

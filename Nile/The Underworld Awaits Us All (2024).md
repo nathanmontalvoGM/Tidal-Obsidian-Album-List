@@ -4,10 +4,10 @@ artist: "Nile"
 year: 2024
 tidal_id: 360871049
 tags:
-  - Technicaldeathmetal
-  - Mathmetal
-  - Brutaldeathmetal
-  - Numetal
+  - TechnicalDeathMetal
+  - MathMetal
+  - BrutalDeathMetal
+  - NuMetal
 rating:
 ---
 

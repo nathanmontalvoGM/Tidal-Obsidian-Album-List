@@ -5,9 +5,8 @@ year: 1977
 tidal_id: 61126687
 tags:
   - Rock
-  - Classicrock
-  - 70s
-  - Hardrock
+  - ClassicRock
+  - HardRock
 rating:
 ---
 

@@ -5,9 +5,9 @@ year: 2025
 tidal_id: 412355330
 tags:
   - Rock
-  - Softrock
+  - SoftRock
   - Indie
-  - Indiepop
+  - IndiePop
 rating:
 ---
 

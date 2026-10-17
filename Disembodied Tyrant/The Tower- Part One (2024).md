@@ -5,9 +5,9 @@ year: 2024
 tidal_id: 385181218
 tags:
   - Deathcore
-  - Technicaldeathcore
+  - TechnicalDeathcore
   - ProgressiveDeathcore
-  - Blackeneddeathcore
+  - BlackenedDeathcore
 rating:
 ---
 

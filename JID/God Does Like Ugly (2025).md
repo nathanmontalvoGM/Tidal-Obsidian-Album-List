@@ -4,10 +4,9 @@ artist: "JID"
 year: 2025
 tidal_id: 452463071
 tags:
-  - 2020s
-  - Hiphop
-  - Southernhiphop
-  - Conscioushiphop
+  - HipHop
+  - SouthernHipHop
+  - ConsciousHipHop
 rating:
 ---
 

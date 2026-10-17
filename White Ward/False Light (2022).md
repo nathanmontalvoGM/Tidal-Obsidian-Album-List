@@ -4,10 +4,9 @@ artist: "White Ward"
 year: 2022
 tidal_id: 216462544
 tags:
-  - Bestof2022
   - Jazz
-  - Progressivemetal
-  - Blackmetal
+  - ProgressiveMetal
+  - BlackMetal
 rating:
 ---
 

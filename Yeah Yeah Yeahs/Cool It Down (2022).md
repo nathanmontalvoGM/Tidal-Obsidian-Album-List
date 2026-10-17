@@ -7,7 +7,7 @@ tags:
   - ArtRock
   - Punk
   - Synthpop
-  - Alternativerock
+  - AlternativeRock
 rating:
 ---
 

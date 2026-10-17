@@ -4,7 +4,7 @@ artist: "Animals as Leaders"
 year: 2014
 tidal_id: 441858813
 tags:
-  - Progressivemetal
+  - ProgressiveMetal
   - Djent
   - Instrumental
   - JazzFusion

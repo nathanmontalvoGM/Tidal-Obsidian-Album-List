@@ -4,10 +4,10 @@ artist: "Black Country, New Road"
 year: 2021
 tidal_id: 160225315
 tags:
-  - Postpunk
-  - Experimentalrock
-  - Postrock
-  - Crankwave
+  - PostPunk
+  - ExperimentalRock
+  - PostRock
+  - CrankWave
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "Squarepusher"
 year: 2020
 tidal_id: 128786247
 tags:
-  - Idm
+  - IDM
   - Instrumental
   - Electronicore
-  - DrillandBass
+  - DrillAndBass
 rating:
 ---
 

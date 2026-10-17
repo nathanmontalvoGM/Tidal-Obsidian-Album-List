@@ -5,9 +5,9 @@ year: 2022
 tidal_id: 197837547
 tags:
   - Deathcore
-  - Symphonicmetal
-  - Symphonicmelodicdeath
-  - Numetal
+  - SymphonicMetal
+  - SymphonicMelodicDeathMetal
+  - NuMetal
 rating:
 ---
 

@@ -5,9 +5,7 @@ year: 2005
 tidal_id: 36302804
 tags:
   - Oldies
-  - 60s
   - EasyListening
-  - Romantic
 rating:
 ---
 

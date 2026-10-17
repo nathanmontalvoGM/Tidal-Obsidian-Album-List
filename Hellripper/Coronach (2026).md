@@ -4,9 +4,9 @@ artist: "Hellripper"
 year: 2026
 tidal_id: 483031715
 tags:
-  - Blackmetal
-  - Melodicblackmetal
-  - Speedmetal
+  - BlackMetal
+  - MelodicBlackMetal
+  - SpeedMetal
 rating:
 ---
 

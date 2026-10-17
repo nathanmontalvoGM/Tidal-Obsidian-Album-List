@@ -6,8 +6,8 @@ tidal_id: 290581948
 tags:
   - Disco
   - Pop
-  - Dancepop
-  - Alternativedance
+  - DancePop
+  - AlternativeDance
 rating:
 ---
 

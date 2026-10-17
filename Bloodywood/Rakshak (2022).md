@@ -5,8 +5,8 @@ year: 2022
 tidal_id: 240085301
 tags:
   - FolkMetal
-  - Numetal
-  - Groovemetal
+  - NuMetal
+  - GrooveMetal
   - Bhangra
 rating:
 ---

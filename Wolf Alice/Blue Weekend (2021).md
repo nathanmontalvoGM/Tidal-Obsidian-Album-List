@@ -4,10 +4,9 @@ artist: "Wolf Alice"
 year: 2021
 tidal_id: 186197715
 tags:
-  - Indierock
+  - IndieRock
   - DreamPop
   - Rock
-  - Chronicallyonairwithdjamesanddjdoubleyou
 rating:
 ---
 

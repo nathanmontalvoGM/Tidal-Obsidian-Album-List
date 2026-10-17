@@ -4,10 +4,10 @@ artist: "Daughters"
 year: 2018
 tidal_id: 92428847
 tags:
-  - Noiserock
-  - Industrialrock
-  - Experimentalrock
-  - Posthardcore
+  - NoiseRock
+  - IndustrialRock
+  - ExperimentalRock
+  - PostHardcore
 rating:
 ---
 

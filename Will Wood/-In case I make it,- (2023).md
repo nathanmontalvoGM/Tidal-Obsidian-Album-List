@@ -4,10 +4,10 @@ artist: "Will Wood"
 year: 2023
 tidal_id: 373476701
 tags:
-  - Folkpop
+  - FolkPop
   - Folk
   - Pop
-  - Singer-Songwriter
+  - SingerSongwriter
 rating:
 ---
 

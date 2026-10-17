@@ -6,8 +6,8 @@ tidal_id: 202237410
 tags:
   - Indietronica
   - NoisePop
-  - Emopop
-  - Glitchpop
+  - EmoPop
+  - GlitchPop
 rating:
 ---
 

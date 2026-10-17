@@ -5,9 +5,6 @@ year: 2023
 tidal_id: 287696659
 tags:
   - GaragePunk
-  - Playful
-  - Witty
-  - Energetic
 rating:
 ---
 

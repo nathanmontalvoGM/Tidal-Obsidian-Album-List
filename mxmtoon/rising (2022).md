@@ -5,7 +5,7 @@ year: 2022
 tidal_id: 246281740
 tags:
   - Pop
-  - Indiepop
+  - IndiePop
 rating:
 ---
 

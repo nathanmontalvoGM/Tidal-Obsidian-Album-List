@@ -4,10 +4,10 @@ artist: "Panchiko"
 year: 2025
 tidal_id: 392563567
 tags:
-  - Indierock
+  - IndieRock
   - Rock
   - Indie
-  - Poprock
+  - PopRock
 rating:
 ---
 

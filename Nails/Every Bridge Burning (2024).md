@@ -7,7 +7,7 @@ tags:
   - Grindcore
   - Metalcore
   - Hardcore
-  - Thrashmetal
+  - ThrashMetal
 rating:
 ---
 

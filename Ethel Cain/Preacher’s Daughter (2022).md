@@ -7,7 +7,7 @@ tags:
   - Slowcore
   - DreamPop
   - Americana
-  - Singersongwriter
+  - SingerSongwriter
 rating:
 ---
 

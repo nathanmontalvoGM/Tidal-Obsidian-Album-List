@@ -4,8 +4,8 @@ artist: Fellowship
 year: 2024
 tidal_id: 387780013
 tags:
-  - Powermetal
-  - Symphonicmetal
+  - PowerMetal
+  - SymphonicMetal
 rating:
 ---
 

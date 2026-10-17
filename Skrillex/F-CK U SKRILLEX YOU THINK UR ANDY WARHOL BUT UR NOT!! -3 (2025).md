@@ -7,7 +7,7 @@ tags:
   - Dubstep
   - HybridTrap
   - Electronicore
-  - Edm
+  - EDM
 rating:
 ---
 

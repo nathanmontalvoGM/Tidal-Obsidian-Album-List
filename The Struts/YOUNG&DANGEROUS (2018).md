@@ -5,9 +5,6 @@ year: 2018
 tidal_id: 96966811
 tags:
   - Rock
-  - MyTopSongs
-  - MyScribbled
-  - Nhl19
 rating:
 ---
 

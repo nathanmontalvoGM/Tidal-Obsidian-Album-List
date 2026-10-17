@@ -5,7 +5,6 @@ year: 2024
 tidal_id: 359828113
 tags:
   - Metalcore
-  - Album2023
 rating:
 ---
 

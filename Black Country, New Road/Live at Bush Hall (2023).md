@@ -4,8 +4,8 @@ artist: "Black Country, New Road"
 year: 2023
 tidal_id: 274738150
 tags:
-  - Progressivepop
-  - Chamberpop
+  - ProgressivePop
+  - ChamberPop
   - ArtRock
   - BaroquePop
 rating:

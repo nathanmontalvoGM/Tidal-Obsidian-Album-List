@@ -4,7 +4,7 @@ artist: "what is your name?"
 year: 2022
 tidal_id: 238851423
 tags:
-  - Postrock
+  - PostRock
   - Shoegaze
   - Rock
   - Indietronica

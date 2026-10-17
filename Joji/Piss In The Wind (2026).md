@@ -4,9 +4,9 @@ artist: "Joji"
 year: 2026
 tidal_id: 496062524
 tags:
-  - Altpop
-  - Alternativerandb
-  - Rnb
+  - AltPop
+  - AlternativeRnB
+  - RnB
   - Wave
 rating:
 ---

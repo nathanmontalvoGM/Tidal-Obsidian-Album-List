@@ -4,9 +4,9 @@ artist: "Wet Leg"
 year: 2025
 tidal_id: 438505853
 tags:
-  - Indierock
-  - Indiepop
-  - Garagerockrevival
+  - IndieRock
+  - IndiePop
+  - GarageRockRevival
   - Rock
 rating:
 ---

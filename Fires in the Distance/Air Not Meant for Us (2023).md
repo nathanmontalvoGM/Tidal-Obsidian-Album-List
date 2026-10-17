@@ -4,10 +4,10 @@ artist: "Fires in the Distance"
 year: 2023
 tidal_id: 249625968
 tags:
-  - Numetal
-  - Progdeathmetal
-  - Melodicdeathmetal
-  - Deathdoommetal
+  - NuMetal
+  - ProgDeathMetal
+  - MelodicDeathMetal
+  - DeathDoomMetal
 rating:
 ---
 

@@ -5,8 +5,8 @@ year: 2018
 tidal_id: 96027021
 tags:
   - Favorite
-  - Indiepop
-  - Alternativerock
+  - IndiePop
+  - AlternativeRock
   - Rock
   - Indietronica
 rating: "8.4"

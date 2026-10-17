@@ -4,10 +4,10 @@ artist: "Cryptopsy"
 year: 1996
 tidal_id: 18517462
 tags:
-  - Mathmetal
-  - Technicaldeathmetal
-  - Brutaldeathmetal
-  - Numetal
+  - MathMetal
+  - TechnicalDeathMetal
+  - BrutalDeathMetal
+  - NuMetal
 rating:
 ---
 

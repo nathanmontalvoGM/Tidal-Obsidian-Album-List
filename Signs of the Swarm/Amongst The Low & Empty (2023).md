@@ -4,7 +4,7 @@ artist: "Signs of the Swarm"
 year: 2023
 tidal_id: 293059599
 tags:
-  - Brutaldeathcore
+  - BrutalDeathcore
   - Deathcore
 rating:
 ---

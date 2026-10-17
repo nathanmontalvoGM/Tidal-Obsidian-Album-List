@@ -4,10 +4,10 @@ artist: "Jason Isbell and the 400 Unit"
 year: 2023
 tidal_id: 297862726
 tags:
-  - Southernrock
+  - SouthernRock
   - AltCountry
   - Americana
-  - Rootsrock
+  - RootsRock
 rating:
 ---
 

@@ -6,7 +6,7 @@ tidal_id: 350119011
 tags:
   - ArtRock
   - SymphonicProg
-  - Jazzrock
+  - JazzRock
   - AvantProg
 rating:
 ---

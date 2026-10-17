@@ -6,7 +6,7 @@ tidal_id: 421850005
 tags:
   - Electropop
   - Pop
-  - Dancepop
+  - DancePop
   - Synthpop
 rating:
 ---

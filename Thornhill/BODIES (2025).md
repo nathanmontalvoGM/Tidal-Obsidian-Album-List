@@ -4,9 +4,8 @@ artist: "Thornhill"
 year: 2025
 tidal_id: 427210544
 tags:
-  - Numetal
-  - Alternativemetal
-  - Cummetal
+  - NuMetal
+  - AlternativeMetal
   - Shoegaze
 rating:
 ---

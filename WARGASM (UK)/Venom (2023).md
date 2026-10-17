@@ -4,10 +4,10 @@ artist: "WARGASM (UK)"
 year: 2023
 tidal_id: 322891205
 tags:
-  - Numetal
-  - Industrialmetal
+  - NuMetal
+  - IndustrialMetal
   - DigitalHardcore
-  - Industrialrock
+  - IndustrialRock
 rating:
 ---
 

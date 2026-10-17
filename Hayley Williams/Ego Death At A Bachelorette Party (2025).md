@@ -4,10 +4,10 @@ artist: "Hayley Williams"
 year: 2025
 tidal_id: 470829563
 tags:
-  - Indierock
-  - Poprock
-  - Bedroompop
-  - Singersongwriter
+  - IndieRock
+  - PopRock
+  - BedroomPop
+  - SingerSongwriter
 rating:
 ---
 

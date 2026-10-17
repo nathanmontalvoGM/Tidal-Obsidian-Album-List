@@ -3,10 +3,7 @@ title: "Descent"
 artist: "Immolation"
 year: 2026
 tidal_id: 514122912
-tags:
-  - 14Wochen
-  - OffizielleCharts
-  - Plattentestsde
+tags: []
 rating:
 ---
 

@@ -7,7 +7,7 @@ tags:
   - Rock
   - Punk
   - Indie
-  - Alternativerock
+  - AlternativeRock
 rating:
 ---
 

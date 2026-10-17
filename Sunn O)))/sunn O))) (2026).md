@@ -5,7 +5,7 @@ year: 2026
 tidal_id: 487713580
 tags:
   - DroneMetal
-  - Numetal
+  - NuMetal
 rating:
 ---
 

@@ -4,10 +4,9 @@ artist: "Artificial Brain"
 year: 2022
 tidal_id: 221024063
 tags:
-  - Dissonantdeathmetal
-  - Technicaldeathmetal
-  - Profoundlore
-  - Blackmetal
+  - DissonantDeathMetal
+  - TechnicalDeathMetal
+  - BlackMetal
 rating:
 ---
 

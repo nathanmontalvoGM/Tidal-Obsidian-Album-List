@@ -5,9 +5,8 @@ year: 2022
 tidal_id: 223676616
 tags:
   - Country
-  - Guitar
   - Americana
-  - Contemporarycountry
+  - ContemporaryCountry
 rating:
 ---
 

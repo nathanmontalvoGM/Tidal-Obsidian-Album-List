@@ -1,4 +1,4 @@
 ```dataviewjs
-const TAGS = ["AvantProg","ElectronicProg","PostRock","ProgMetal","ProgRock","SymphonicProg","RockOpera","ModernClassical","ExperimentalRock","Brutalprog","Prog","Progdeathmetal","ProgressiveDeathcore","ProgressiveElectronic","Progressiveblackeneddeathmetal","Progressivebreaks","Progressivemetal","Progressivepop","progressiverock"];
+const TAGS = ["AvantProg", "BrutalProg", "ElectronicProg", "ExperimentalRock", "ModernClassical", "PostRock", "ProgDeathMetal", "ProgressiveBlackenedDeathMetal", "ProgressiveBreaks", "ProgressiveDeathcore", "ProgressiveElectronic", "ProgressiveMetal", "ProgressivePop", "ProgressiveRock", "RockOpera", "SymphonicProg"];
 await dv.view("_scripts/playlist", { tags: TAGS });
 ```

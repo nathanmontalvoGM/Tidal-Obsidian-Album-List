@@ -4,10 +4,10 @@ artist: "Psychedelic Porn Crumpets"
 year: 2016
 tidal_id: 57727310
 tags:
-  - Psychedelicrock
-  - Progressivepop
-  - Psychedelicpop
-  - Heavypsych
+  - PsychedelicRock
+  - ProgressivePop
+  - PsychedelicPop
+  - HeavyPsych
 rating:
 ---
 

@@ -5,9 +5,9 @@ year: 2019
 tidal_id: 117136772
 tags:
   - Blackgaze
-  - Postmetal
-  - Atmosphericmetal
-  - Depressiveblackmetal
+  - PostMetal
+  - AtmosphericMetal
+  - DepressiveBlackMetal
 rating:
 ---
 

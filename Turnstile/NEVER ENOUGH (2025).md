@@ -5,8 +5,8 @@ year: 2025
 tidal_id: 440155726
 tags:
   - Shoegaze
-  - Alternativerock
-  - Posthardcore
+  - AlternativeRock
+  - PostHardcore
   - Rock
 rating:
 ---

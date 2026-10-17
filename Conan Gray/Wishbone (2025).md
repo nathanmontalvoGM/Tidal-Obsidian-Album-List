@@ -4,10 +4,10 @@ artist: "Conan Gray"
 year: 2025
 tidal_id: 452880357
 tags:
-  - Singersongwriter
-  - Indiepop
-  - Poprock
-  - Chamberpop
+  - SingerSongwriter
+  - IndiePop
+  - PopRock
+  - ChamberPop
 rating:
 ---
 

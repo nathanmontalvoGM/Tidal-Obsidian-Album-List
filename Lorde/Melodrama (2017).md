@@ -4,7 +4,7 @@ artist: "Lorde"
 year: 2017
 tidal_id: 74904916
 tags:
-  - Indiepop
+  - IndiePop
   - Synthpop
   - Electronicore
   - Pop

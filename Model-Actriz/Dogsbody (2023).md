@@ -4,9 +4,9 @@ artist: "Model/Actriz"
 year: 2023
 tidal_id: 452396523
 tags:
-  - Noiserock
+  - NoiseRock
   - DancePunk
-  - Industrialrock
+  - IndustrialRock
   - Rock
 rating:
 ---

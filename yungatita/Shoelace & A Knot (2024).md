@@ -4,9 +4,8 @@ artist: "yungatita"
 year: 2024
 tidal_id: 327845874
 tags:
-  - Nmf240105
-  - Indierock
-  - Poprock
+  - IndieRock
+  - PopRock
   - Rock
 rating:
 ---

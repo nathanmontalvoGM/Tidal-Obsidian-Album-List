@@ -5,9 +5,8 @@ year: 2025
 tidal_id: 423887661
 tags:
   - FolkMetal
-  - Numetal
-  - Groovemetal
-  - Indian
+  - NuMetal
+  - GrooveMetal
 rating:
 ---
 

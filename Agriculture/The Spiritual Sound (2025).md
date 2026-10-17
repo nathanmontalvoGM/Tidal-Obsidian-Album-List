@@ -4,9 +4,9 @@ artist: "Agriculture"
 year: 2025
 tidal_id: 443831341
 tags:
-  - Blackmetal
-  - Postmetal
-  - Depressiveblackmetal
+  - BlackMetal
+  - PostMetal
+  - DepressiveBlackMetal
   - Blackgaze
 rating:
 ---

@@ -4,7 +4,7 @@ artist: "Blu"
 year: 2026
 tidal_id: 505811027
 tags:
-  - Hiphop
+  - HipHop
 rating:
 ---
 

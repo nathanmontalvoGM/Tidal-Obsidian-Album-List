@@ -5,9 +5,9 @@ year: 2010
 tidal_id: 175547820
 tags:
   - Shoegaze
-  - Postrock
-  - Atmosphericmetal
-  - Blackmetal
+  - PostRock
+  - AtmosphericMetal
+  - BlackMetal
 rating:
 ---
 

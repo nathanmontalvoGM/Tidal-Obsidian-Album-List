@@ -4,9 +4,9 @@ artist: Djo
 year: 2025
 tidal_id: 458259952
 tags:
-  - Indiepop
-  - Poprock
-  - Indierock
+  - IndiePop
+  - PopRock
+  - IndieRock
 rating:
 ---
 

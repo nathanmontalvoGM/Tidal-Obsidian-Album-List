@@ -4,10 +4,9 @@ artist: "Rammstein"
 year: 2009
 tidal_id: 226546526
 tags:
-  - Industrialmetal
-  - Numetal
-  - German
-  - Industrialrock
+  - IndustrialMetal
+  - NuMetal
+  - IndustrialRock
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "Between The Buried And Me"
 year: 2005
 tidal_id: 75669905
 tags:
-  - Progressivemetal
+  - ProgressiveMetal
   - Metalcore
-  - Mathmetal
-  - Alternativemetal
+  - MathMetal
+  - AlternativeMetal
 rating:
 ---
 

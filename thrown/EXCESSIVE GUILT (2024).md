@@ -4,7 +4,7 @@ artist: "thrown"
 year: 2024
 tidal_id: 363349693
 tags:
-  - Numetal
+  - NuMetal
 rating:
 ---
 

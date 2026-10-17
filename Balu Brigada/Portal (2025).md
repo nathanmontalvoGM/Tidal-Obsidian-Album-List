@@ -4,10 +4,10 @@ artist: "Balu Brigada"
 year: 2025
 tidal_id: 439745413
 tags:
-  - Indiepop
-  - Indierock
-  - Alternativedance
-  - Altpop
+  - IndiePop
+  - IndieRock
+  - AlternativeDance
+  - AltPop
 rating:
 ---
 

@@ -5,7 +5,7 @@ year: 2023
 tidal_id: 270052032
 tags:
   - Pop
-  - Poprap
+  - PopRap
   - Blues
   - House
 rating:

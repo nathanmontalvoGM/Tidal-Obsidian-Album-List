@@ -5,7 +5,6 @@ year: 2026
 tidal_id: 490065965
 tags:
   - Shoegaze
-  - Bestof2022
   - Blackgaze
 rating:
 ---

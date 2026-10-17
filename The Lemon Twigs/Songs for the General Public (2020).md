@@ -4,10 +4,10 @@ artist: "The Lemon Twigs"
 year: 2020
 tidal_id: 151915946
 tags:
-  - Glamrock
-  - Poprock
-  - Powerpop
-  - Newwave
+  - GlamRock
+  - PopRock
+  - PowerPop
+  - NewWave
 rating:
 ---
 

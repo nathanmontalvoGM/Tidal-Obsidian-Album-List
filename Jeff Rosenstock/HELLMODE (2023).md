@@ -4,10 +4,10 @@ artist: "Jeff Rosenstock"
 year: 2023
 tidal_id: 297910418
 tags:
-  - Powerpop
+  - PowerPop
   - PopPunk
-  - Indierock
-  - Singersongwriter
+  - IndieRock
+  - SingerSongwriter
 rating:
 ---
 

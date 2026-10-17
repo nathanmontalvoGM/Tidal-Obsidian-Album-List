@@ -5,8 +5,8 @@ year: 2023
 tidal_id: 252238521
 tags:
   - Metalcore
-  - Alternativemetal
-  - Numetal
+  - AlternativeMetal
+  - NuMetal
 rating:
 ---
 

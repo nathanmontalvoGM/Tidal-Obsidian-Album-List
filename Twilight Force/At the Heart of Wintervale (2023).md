@@ -4,9 +4,9 @@ artist: "Twilight Force"
 year: 2023
 tidal_id: 253922982
 tags:
-  - Powermetal
-  - Symphonicmetal
-  - Fantasymetal
+  - PowerMetal
+  - SymphonicMetal
+  - FantasyMetal
 rating:
 ---
 

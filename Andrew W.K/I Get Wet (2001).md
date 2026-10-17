@@ -5,9 +5,9 @@ year: 2001
 tidal_id: 578167
 tags:
   - Rock
-  - Hardrock
-  - Partymetal
-  - Heavymetal
+  - HardRock
+  - PartyMetal
+  - HeavyMetal
 rating:
 ---
 

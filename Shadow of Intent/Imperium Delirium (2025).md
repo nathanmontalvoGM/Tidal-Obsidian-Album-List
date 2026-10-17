@@ -4,9 +4,7 @@ artist: "Shadow of Intent"
 year: 2025
 tidal_id: 429326462
 tags:
-  - Bestalbums2025
-  - Symphonicdeathcore
-  - Vocalsbybenduerr
+  - SymphonicDeathcore
   - Deathcore
 rating:
 ---

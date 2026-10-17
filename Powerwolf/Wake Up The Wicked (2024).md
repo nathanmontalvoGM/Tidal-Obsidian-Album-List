@@ -4,10 +4,9 @@ artist: "Powerwolf"
 year: 2024
 tidal_id: 376214735
 tags:
-  - Powermetal
-  - Heavymetal
-  - Lautrezension
-  - Numetal
+  - PowerMetal
+  - HeavyMetal
+  - NuMetal
 rating:
 ---
 

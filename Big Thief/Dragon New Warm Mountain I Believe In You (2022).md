@@ -4,8 +4,8 @@ artist: "Big Thief"
 year: 2022
 tidal_id: 213383167
 tags:
-  - Indiefolk
-  - Folkrock
+  - IndieFolk
+  - FolkRock
   - AltCountry
   - Americana
 rating:

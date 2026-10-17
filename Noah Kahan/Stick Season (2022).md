@@ -6,8 +6,8 @@ tidal_id: 252766666
 tags:
   - Folk
   - Pop
-  - Singer-Songwriter
-  - Chill
+  - SingerSongwriter
+  - Chillout
 rating:
 ---
 

@@ -7,7 +7,7 @@ tags:
   - Metalcore
   - Electronicore
   - Trancecore
-  - Edm
+  - EDM
 rating:
 ---
 

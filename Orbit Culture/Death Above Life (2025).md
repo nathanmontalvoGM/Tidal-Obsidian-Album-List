@@ -4,10 +4,9 @@ artist: "Orbit Culture"
 year: 2025
 tidal_id: 436143039
 tags:
-  - Mathmetal
-  - Groovemetal
+  - MathMetal
+  - GrooveMetal
   - MelodicDeathGroove
-  - Bestalbums2025
 rating:
 ---
 

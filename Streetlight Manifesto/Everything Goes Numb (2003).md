@@ -4,9 +4,9 @@ artist: "Streetlight Manifesto"
 year: 2003
 tidal_id: 73530248
 tags:
-  - Skapunk
+  - SkaPunk
   - Ska
-  - Thirdwaveska
+  - ThirdWaveSka
   - Punk
 rating:
 ---

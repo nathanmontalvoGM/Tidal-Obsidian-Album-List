@@ -4,9 +4,9 @@ artist: "Vampire Weekend"
 year: 2024
 tidal_id: 354739038
 tags:
-  - Indierock
-  - Chamberpop
-  - Neopsychedelia
+  - IndieRock
+  - ChamberPop
+  - NeoPsychedelia
   - BaroquePop
 rating:
 ---

@@ -5,9 +5,9 @@ year: 2021
 tidal_id: 161511706
 tags:
   - Deathcore
-  - Numetal
-  - Technicaldeathcore
-  - Brutaldeathcore
+  - NuMetal
+  - TechnicalDeathcore
+  - BrutalDeathcore
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Have A Nice Life"
 year: 2008
 tidal_id: 65229357
 tags:
-  - Postpunk
+  - PostPunk
   - Shoegaze
-  - Gothicrock
+  - GothicRock
   - Drone
 rating:
 ---

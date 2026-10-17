@@ -5,9 +5,8 @@ year: 2025
 tidal_id: 429237324
 tags:
   - RockOpera
-  - Furry
-  - Progressivepop
-  - Indierock
+  - ProgressivePop
+  - IndieRock
 rating:
 ---
 

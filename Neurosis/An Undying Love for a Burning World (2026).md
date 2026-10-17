@@ -4,7 +4,7 @@ artist: "Neurosis"
 year: 2026
 tidal_id: 504855403
 tags:
-  - Numetal
+  - NuMetal
 rating:
 ---
 

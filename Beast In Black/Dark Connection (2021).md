@@ -4,9 +4,8 @@ artist: "Beast In Black"
 year: 2021
 tidal_id: 196296303
 tags:
-  - Powermetal
-  - Heavymetal
-  - Cover
+  - PowerMetal
+  - HeavyMetal
   - Crossover
 rating:
 ---

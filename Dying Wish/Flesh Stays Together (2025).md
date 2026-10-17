@@ -6,7 +6,7 @@ tidal_id: 460069364
 tags:
   - Metalcore
   - Hardcore
-  - Alternativemetal
+  - AlternativeMetal
   - HardcorePunk
 rating:
 ---

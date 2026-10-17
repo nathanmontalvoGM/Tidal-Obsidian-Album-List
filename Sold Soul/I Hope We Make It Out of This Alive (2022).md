@@ -5,7 +5,7 @@ year: 2022
 tidal_id: 263339277
 tags:
   - Deathcore
-  - Numetal
+  - NuMetal
 rating:
 ---
 

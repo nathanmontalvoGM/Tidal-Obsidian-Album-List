@@ -4,10 +4,7 @@ artist: "Creeper"
 year: 2023
 tidal_id: 320529126
 tags:
-  - Conceptalbum
-  - Steinmanesque
-  - 35
-  - Bestof2022
+  - ConceptAlbum
 rating:
 ---
 

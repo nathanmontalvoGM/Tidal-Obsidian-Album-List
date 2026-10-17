@@ -4,9 +4,7 @@ artist: "We Butter The Bread With Butter"
 year: 2021
 tidal_id: 187437362
 tags:
-  - German
   - Metalcore
-  - Album
   - Deathcore
 rating:
 ---

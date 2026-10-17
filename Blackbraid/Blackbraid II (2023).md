@@ -4,10 +4,9 @@ artist: "Blackbraid"
 year: 2023
 tidal_id: 290666834
 tags:
-  - Blackmetal
-  - Melodicblackmetal
-  - Atmosphericmetal
-  - 2020s
+  - BlackMetal
+  - MelodicBlackMetal
+  - AtmosphericMetal
 rating:
 ---
 

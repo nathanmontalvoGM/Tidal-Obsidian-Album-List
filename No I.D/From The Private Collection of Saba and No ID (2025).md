@@ -4,10 +4,10 @@ artist: "No I.D."
 year: 2025
 tidal_id: 414160357
 tags:
-  - Boombap
-  - Conscioushiphop
-  - Jazzrap
-  - Neosoul
+  - BoomBap
+  - ConsciousHipHop
+  - JazzRap
+  - NeoSoul
 rating:
 ---
 

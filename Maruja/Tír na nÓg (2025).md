@@ -4,9 +4,9 @@ artist: "Maruja"
 year: 2025
 tidal_id: 417899826
 tags:
-  - Postrock
-  - Jazzrock
-  - Jamband
+  - PostRock
+  - JazzRock
+  - JamBand
   - Rock
 rating:
 ---

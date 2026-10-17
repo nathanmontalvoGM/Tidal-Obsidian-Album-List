@@ -4,10 +4,9 @@ artist: "Frank Ocean"
 year: 2012
 tidal_id: 35181031
 tags:
-  - Rnb
+  - RnB
   - Soul
-  - Neosoul
-  - Rb
+  - NeoSoul
 rating:
 ---
 

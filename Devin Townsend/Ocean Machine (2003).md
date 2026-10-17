@@ -4,10 +4,10 @@ artist: "Devin Townsend"
 year: 2003
 tidal_id: 51978105
 tags:
-  - Progressivemetal
-  - Progressivepop
+  - ProgressiveMetal
+  - ProgressivePop
   - Ambient
-  - Atmosphericmetal
+  - AtmosphericMetal
 rating:
 ---
 

@@ -4,8 +4,8 @@ artist: "Racing Mount Pleasant"
 year: 2025
 tidal_id: 447151886
 tags:
-  - Chamberpop
-  - Postrock
+  - ChamberPop
+  - PostRock
   - ArtRock
   - Rock
 rating:

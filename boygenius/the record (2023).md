@@ -4,10 +4,10 @@ artist: "boygenius"
 year: 2023
 tidal_id: 286103660
 tags:
-  - Indierock
-  - Indiefolk
+  - IndieRock
+  - IndieFolk
   - Rock
-  - Singersongwriter
+  - SingerSongwriter
 rating:
 ---
 

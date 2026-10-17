@@ -4,10 +4,10 @@ artist: "Strapping Young Lad"
 year: 2005
 tidal_id: 52000194
 tags:
-  - Industrialmetal
-  - Progressivemetal
-  - Progdeathmetal
-  - Thrashmetal
+  - IndustrialMetal
+  - ProgressiveMetal
+  - ProgDeathMetal
+  - ThrashMetal
 rating:
 ---
 

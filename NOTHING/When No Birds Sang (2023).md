@@ -4,7 +4,7 @@ artist: "NOTHING"
 year: 2023
 tidal_id: 316979894
 tags:
-  - Sludge
+  - SludgeMetal
   - Metalcore
   - Grindcore
   - Shoegaze

@@ -5,9 +5,9 @@ year: 2024
 tidal_id: 360034668
 tags:
   - Deathcore
-  - Neoclassicaldjent
-  - Symphonicdeathcore
-  - Mathmetal
+  - NeoclassicalDjent
+  - SymphonicDeathcore
+  - MathMetal
 rating:
 ---
 

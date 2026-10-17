@@ -4,10 +4,9 @@ artist: "The Mars Volta"
 year: 2003
 tidal_id: 585112
 tags:
-  - Progressivepop
-  - Posthardcore
+  - ProgressivePop
+  - PostHardcore
   - Rock
-  - 1001albumsyoumusthearbeforeyoudie
 rating:
 ---
 

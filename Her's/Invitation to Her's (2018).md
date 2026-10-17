@@ -5,9 +5,8 @@ year: 2018
 tidal_id: 89171500
 tags:
   - Indie
-  - Indiepop
-  - Postpunk
-  - Spinnyssillies
+  - IndiePop
+  - PostPunk
 rating:
 ---
 

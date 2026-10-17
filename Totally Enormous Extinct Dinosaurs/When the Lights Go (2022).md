@@ -5,9 +5,9 @@ year: 2022
 tidal_id: 220344190
 tags:
   - Downtempo
-  - Ebm
+  - EBM
   - Electronicore
-  - Experimentalrock
+  - ExperimentalRock
 rating:
 ---
 

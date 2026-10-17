@@ -5,8 +5,8 @@ year: 2025
 tidal_id: 414848562
 tags:
   - DancePunk
-  - Industrialrock
-  - Ebm
+  - IndustrialRock
+  - EBM
   - Rock
 rating:
 ---

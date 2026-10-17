@@ -4,7 +4,7 @@ artist: "Saor"
 year: 2025
 tidal_id: 393763788
 tags:
-  - Atmosphericmetal
+  - AtmosphericMetal
   - PaganBlackMetal
 rating:
 ---

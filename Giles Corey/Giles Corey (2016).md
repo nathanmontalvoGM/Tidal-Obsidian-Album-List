@@ -4,10 +4,10 @@ artist: "Giles Corey"
 year: 2016
 tidal_id: 65229453
 tags:
-  - Singersongwriter
+  - SingerSongwriter
   - Slowcore
-  - Contemporaryfolk
-  - Indiefolk
+  - ContemporaryFolk
+  - IndieFolk
 rating:
 ---
 

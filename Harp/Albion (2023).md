@@ -4,10 +4,10 @@ artist: "Harp"
 year: 2023
 tidal_id: 331225974
 tags:
-  - Singersongwriter
-  - Darkfolk
-  - Folkrock
-  - Indiefolk
+  - SingerSongwriter
+  - DarkFolk
+  - FolkRock
+  - IndieFolk
 rating:
 ---
 

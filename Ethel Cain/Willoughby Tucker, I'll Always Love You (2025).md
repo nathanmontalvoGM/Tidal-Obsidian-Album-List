@@ -7,7 +7,7 @@ tags:
   - Slowcore
   - Ambient
   - Americana
-  - Singer-Songwriter
+  - SingerSongwriter
 rating:
 ---
 

@@ -5,8 +5,8 @@ year: 2025
 tidal_id: 451341791
 tags:
   - Rock
-  - Indierock
-  - Experimentalrock
+  - IndieRock
+  - ExperimentalRock
   - Punk
 rating:
 ---

@@ -4,8 +4,8 @@ artist: "Holy Fawn"
 year: 2018
 tidal_id: 105498173
 tags:
-  - Postrock
-  - Doommetal
+  - PostRock
+  - DoomMetal
   - Doomgaze
   - Noise
 rating:

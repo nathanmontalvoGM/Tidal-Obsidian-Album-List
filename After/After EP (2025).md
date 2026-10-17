@@ -4,9 +4,9 @@ artist: "After"
 year: 2025
 tidal_id: 423194693
 tags:
-  - Triphop
-  - Poprock
-  - Altpop
+  - TripHop
+  - PopRock
+  - AltPop
   - Baggy
 rating:
 ---

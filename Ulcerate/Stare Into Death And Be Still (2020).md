@@ -4,10 +4,10 @@ artist: "Ulcerate"
 year: 2020
 tidal_id: 133259394
 tags:
-  - Technicaldeathmetal
-  - Progressivemetal
-  - Mathmetal
-  - Dissonantdeathmetal
+  - TechnicalDeathMetal
+  - ProgressiveMetal
+  - MathMetal
+  - DissonantDeathMetal
 rating:
 ---
 

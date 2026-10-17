@@ -4,9 +4,9 @@ artist: "Poppy"
 year: 2026
 tidal_id: 492022483
 tags:
-  - Alternativemetal
+  - AlternativeMetal
   - Emo
-  - Alternativerock
+  - AlternativeRock
   - Metalcore
 rating:
 ---

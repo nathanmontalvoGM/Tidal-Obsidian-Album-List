@@ -6,8 +6,8 @@ tidal_id: 1317014
 tags:
   - Indie
   - Electronicore
-  - Alternativerock
-  - Psychedelicpop
+  - AlternativeRock
+  - PsychedelicPop
 rating:
 ---
 

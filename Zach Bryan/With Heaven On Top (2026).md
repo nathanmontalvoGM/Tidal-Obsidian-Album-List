@@ -6,8 +6,8 @@ tidal_id: 487981161
 tags:
   - Country
   - Americana
-  - Countryfolk
-  - Countryrock
+  - CountryFolk
+  - CountryRock
 rating:
 ---
 

@@ -4,10 +4,8 @@ artist: "Kanye West"
 year: 2007
 tidal_id: 103805723
 tags:
-  - Hiphop
-  - Rap
-  - Kanyewest
-  - Rnb
+  - HipHop
+  - RnB
 rating:
 ---
 

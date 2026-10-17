@@ -4,8 +4,8 @@ artist: Moron Police
 year: 2025
 tidal_id: 455086241
 tags:
-  - progressiverock
-  - Poprock
+  - ProgressiveRock
+  - PopRock
 rating:
 ---
 

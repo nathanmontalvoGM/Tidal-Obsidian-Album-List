@@ -4,9 +4,9 @@ artist: "Sprain"
 year: 2023
 tidal_id: 298402972
 tags:
-  - Experimentalrock
-  - Noiserock
-  - Postrock
+  - ExperimentalRock
+  - NoiseRock
+  - PostRock
   - Drone
 rating:
 ---

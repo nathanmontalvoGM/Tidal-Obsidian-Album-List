@@ -4,10 +4,10 @@ artist: "Megadeth"
 year: 1986
 tidal_id: 77622277
 tags:
-  - Thrashmetal
-  - Heavymetal
-  - Numetal
-  - Speedmetal
+  - ThrashMetal
+  - HeavyMetal
+  - NuMetal
+  - SpeedMetal
 rating:
 ---
 

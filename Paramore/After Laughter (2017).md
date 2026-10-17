@@ -4,8 +4,8 @@ artist: "Paramore"
 year: 2017
 tidal_id: 73856849
 tags:
-  - Newwave
-  - Poprock
+  - NewWave
+  - PopRock
   - Synthpop
   - Pop
 rating:

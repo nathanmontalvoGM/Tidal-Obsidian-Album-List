@@ -5,9 +5,9 @@ year: 2025
 tidal_id: 406476717
 tags:
   - Deathgaze
-  - Progressivemetal
-  - Atmosphericmetal
-  - Progdeathmetal
+  - ProgressiveMetal
+  - AtmosphericMetal
+  - ProgDeathMetal
 rating:
 ---
 

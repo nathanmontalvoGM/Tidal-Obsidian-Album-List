@@ -7,7 +7,7 @@ tags:
   - Favorite
   - Pop
   - Synthpop
-  - Dancepop
+  - DancePop
   - Electropop
 rating:
 ---

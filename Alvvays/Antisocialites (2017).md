@@ -5,9 +5,9 @@ year: 2017
 tidal_id: 256098397
 tags:
   - Favorite
-  - Indiepop
-  - Janglepop
-  - Indierock
+  - IndiePop
+  - JanglePop
+  - IndieRock
   - DreamPop
 rating:
 ---

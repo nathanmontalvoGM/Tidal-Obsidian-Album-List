@@ -4,9 +4,9 @@ artist: "Civerous"
 year: 2024
 tidal_id: 342231800
 tags:
-  - Doommetal
-  - Mathmetal
-  - Deathdoommetal
+  - DoomMetal
+  - MathMetal
+  - DeathDoomMetal
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "Asunojokei"
 year: 2022
 tidal_id: 246452123
 tags:
-  - Posthardcore
+  - PostHardcore
   - Blackgaze
   - Rock
-  - Atmosphericmetal
+  - AtmosphericMetal
 rating:
 ---
 

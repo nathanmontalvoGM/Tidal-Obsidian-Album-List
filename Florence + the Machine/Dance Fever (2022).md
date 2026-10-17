@@ -4,9 +4,9 @@ artist: "Florence + the Machine"
 year: 2022
 tidal_id: 228279663
 tags:
-  - Indiepop
+  - IndiePop
   - BaroquePop
-  - Alternativerock
+  - AlternativeRock
   - ArtPop
 rating:
 ---

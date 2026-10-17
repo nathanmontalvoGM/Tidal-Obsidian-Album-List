@@ -4,8 +4,8 @@ artist: In Flames
 year: 2008
 tidal_id: 130186831
 tags:
-  - Alternativemetal
-  - Melodicdeathmetal
+  - AlternativeMetal
+  - MelodicDeathMetal
   - MelodicMetalcore
 rating:
 ---

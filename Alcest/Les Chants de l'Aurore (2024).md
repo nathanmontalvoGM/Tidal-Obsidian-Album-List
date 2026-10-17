@@ -6,8 +6,8 @@ tidal_id: 353075789
 tags:
   - Blackgaze
   - Shoegaze
-  - Postmetal
-  - Atmosphericmetal
+  - PostMetal
+  - AtmosphericMetal
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Horrendous"
 year: 2023
 tidal_id: 289050800
 tags:
-  - Progressivemetal
-  - Mathmetal
-  - Prog
+  - ProgressiveMetal
+  - MathMetal
+  - ProgressiveRock
 rating:
 ---
 

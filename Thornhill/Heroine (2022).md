@@ -4,9 +4,9 @@ artist: "Thornhill"
 year: 2022
 tidal_id: 379540602
 tags:
-  - Alternativemetal
+  - AlternativeMetal
   - Shoegaze
-  - Alternativerock
+  - AlternativeRock
   - Metalcore
 rating:
 ---

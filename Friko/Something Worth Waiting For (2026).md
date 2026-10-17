@@ -4,7 +4,7 @@ artist: "Friko"
 year: 2026
 tidal_id: 487209030
 tags:
-  - Indierock
+  - IndieRock
 rating:
 ---
 

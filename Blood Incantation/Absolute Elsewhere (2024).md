@@ -4,9 +4,9 @@ artist: "Blood Incantation"
 year: 2024
 tidal_id: 373991284
 tags:
-  - Mathmetal
-  - Progressivemetal
-  - Numetal
+  - MathMetal
+  - ProgressiveMetal
+  - NuMetal
   - Ambient
 rating:
 ---

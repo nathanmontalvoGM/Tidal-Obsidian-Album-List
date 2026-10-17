@@ -4,10 +4,8 @@ artist: "Viagra Boys"
 year: 2025
 tidal_id: 428837316
 tags:
-  - Satire
-  - Postpunk
-  - Album
-  - Artpunk
+  - PostPunk
+  - ArtPunk
 rating:
 ---
 

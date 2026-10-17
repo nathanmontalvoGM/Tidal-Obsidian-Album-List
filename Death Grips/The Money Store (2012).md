@@ -4,10 +4,10 @@ artist: "Death Grips"
 year: 2012
 tidal_id: 14558039
 tags:
-  - Hiphop
+  - HipHop
   - ExperimentalHipHop
   - IndustrialHipHop
-  - Experimentalrock
+  - ExperimentalRock
 rating:
 ---
 

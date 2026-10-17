@@ -7,7 +7,7 @@ tags:
   - Synthpop
   - NoisePop
   - Zolo
-  - Synthpunk
+  - SynthPunk
 rating:
 ---
 

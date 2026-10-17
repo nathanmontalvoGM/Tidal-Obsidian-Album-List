@@ -4,10 +4,8 @@ artist: "Run The Jewels"
 year: 2014
 tidal_id: 185863813
 tags:
-  - Hiphop
-  - Loud
-  - Spoken
-  - Upbeat
+  - HipHop
+  - SpokenWord
 rating:
 ---
 

@@ -4,9 +4,8 @@ artist: "O."
 year: 2023
 tidal_id: 329837716
 tags:
-  - Nmf231124
-  - Experimentalrock
-  - Jazzrock
+  - ExperimentalRock
+  - JazzRock
 rating:
 ---
 

@@ -4,7 +4,7 @@ artist: "The Angelic Process"
 year: 2017
 tidal_id: 93690297
 tags:
-  - Doommetal
+  - DoomMetal
   - Ambient
   - Drone
   - Shoegaze

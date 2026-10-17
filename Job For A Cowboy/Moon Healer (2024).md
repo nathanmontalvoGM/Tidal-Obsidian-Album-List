@@ -4,8 +4,8 @@ artist: "Job For A Cowboy"
 year: 2024
 tidal_id: 313871734
 tags:
-  - Progressivemetal
-  - Technicaldeathmetal
+  - ProgressiveMetal
+  - TechnicalDeathMetal
 rating:
 ---
 

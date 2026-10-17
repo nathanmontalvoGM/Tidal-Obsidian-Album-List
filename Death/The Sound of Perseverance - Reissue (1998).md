@@ -4,10 +4,10 @@ artist: "Death"
 year: 1998
 tidal_id: 6743662
 tags:
-  - Mathmetal
-  - Progressivemetal
-  - Technicaldeathmetal
-  - Numetal
+  - MathMetal
+  - ProgressiveMetal
+  - TechnicalDeathMetal
+  - NuMetal
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "twikipedia"
 year: 2024
 tidal_id: 359606800
 tags:
-  - Indierock
+  - IndieRock
   - Shoegaze
   - NoisePop
-  - Powerpop
+  - PowerPop
 rating:
 ---
 

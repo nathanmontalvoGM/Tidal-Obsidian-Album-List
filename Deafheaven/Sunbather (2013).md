@@ -4,8 +4,8 @@ artist: "Deafheaven"
 year: 2013
 tidal_id: 20749616
 tags:
-  - Blackmetal
-  - Postrock
+  - BlackMetal
+  - PostRock
   - Shoegaze
   - Blackgaze
 rating:

@@ -4,8 +4,8 @@ artist: "Thundercat"
 year: 2026
 tidal_id: 494487953
 tags:
-  - Neosoul
-  - Psychedelicpop
+  - NeoSoul
+  - PsychedelicPop
 rating:
 ---
 

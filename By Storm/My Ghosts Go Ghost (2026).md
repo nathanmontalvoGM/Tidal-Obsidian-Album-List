@@ -4,7 +4,7 @@ artist: "By Storm"
 year: 2026
 tidal_id: 490209783
 tags:
-  - Glitchpop
+  - GlitchPop
   - Electronicore
   - Folktronica
   - Illbient

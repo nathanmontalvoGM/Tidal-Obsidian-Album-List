@@ -4,10 +4,9 @@ artist: "DragonForce"
 year: 2019
 tidal_id: 113025554
 tags:
-  - Powermetal
-  - Speedmetal
-  - Kerrang
-  - Heavymetal
+  - PowerMetal
+  - SpeedMetal
+  - HeavyMetal
 rating:
 ---
 

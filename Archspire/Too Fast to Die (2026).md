@@ -4,7 +4,7 @@ artist: "Archspire"
 year: 2026
 tidal_id: 475956275
 tags:
-  - Technicaldeathmetal
+  - TechnicalDeathMetal
 rating:
 ---
 

@@ -5,7 +5,7 @@ year: 2010
 tidal_id: 71109496
 tags:
   - Electronicore
-  - Alternativerock
+  - AlternativeRock
   - Rock
   - Pop
 rating:

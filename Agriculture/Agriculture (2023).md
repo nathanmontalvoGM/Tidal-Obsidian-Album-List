@@ -5,9 +5,9 @@ year: 2023
 tidal_id: 286990986
 tags:
   - Blackgaze
-  - Blackmetal
-  - Postmetal
-  - Avantgardemetal
+  - BlackMetal
+  - PostMetal
+  - AvantGardeMetal
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "Fontaines D.C."
 year: 2024
 tidal_id: 378695864
 tags:
-  - Indierock
-  - Alternativerock
-  - Postbritpop
-  - Postpunkrevival
+  - IndieRock
+  - AlternativeRock
+  - PostBritpop
+  - PostPunkRevival
 rating:
 ---
 

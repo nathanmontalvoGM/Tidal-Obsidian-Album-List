@@ -4,9 +4,9 @@ artist: half·alive
 year: 2024
 tidal_id: 387255275
 tags:
-  - Indiepop
-  - Indierock
-  - Poprock
+  - IndiePop
+  - IndieRock
+  - PopRock
   - Synthpop
 rating:
 ---

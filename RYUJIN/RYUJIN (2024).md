@@ -4,7 +4,7 @@ artist: "RYUJIN"
 year: 2024
 tidal_id: 314612550
 tags:
-  - Melodicdeathmetal
+  - MelodicDeathMetal
 rating:
 ---
 

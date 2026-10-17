@@ -5,8 +5,8 @@ year: 2021
 tidal_id: 438800048
 tags:
   - Deathcore
-  - Numetal
-  - Mathmetal
+  - NuMetal
+  - MathMetal
 rating:
 ---
 

@@ -5,7 +5,7 @@ year: 2025
 tidal_id: 467460858
 tags:
   - Folk
-  - Folkrock
+  - FolkRock
 rating:
 ---
 

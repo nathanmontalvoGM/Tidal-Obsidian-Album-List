@@ -4,10 +4,8 @@ artist: "J. Cole"
 year: 2026
 tidal_id: 496439179
 tags:
-  - Rap
-  - Hiphop
-  - Jcole
-  - Boombap
+  - HipHop
+  - BoomBap
 rating:
 ---
 

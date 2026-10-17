@@ -4,9 +4,9 @@ artist: "Enterprise Earth"
 year: 2022
 tidal_id: 333882773
 tags:
-  - Mathmetal
+  - MathMetal
   - Deathcore
-  - Numetal
+  - NuMetal
   - Metalcore
 rating:
 ---

@@ -5,9 +5,9 @@ year: 2025
 tidal_id: 403182985
 tags:
   - Deathcore
-  - Brutaldeathcore
-  - Mathmetal
-  - Brutaldeathmetal
+  - BrutalDeathcore
+  - MathMetal
+  - BrutalDeathMetal
 rating:
 ---
 

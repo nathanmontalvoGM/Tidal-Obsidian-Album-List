@@ -4,10 +4,9 @@ artist: "Jeff Rosenstock"
 year: 2016
 tidal_id: 234254578
 tags:
-  - Indierock
-  - Powerpop
+  - IndieRock
+  - PowerPop
   - PopPunk
-  - Wsum917fmmadison
 rating:
 ---
 

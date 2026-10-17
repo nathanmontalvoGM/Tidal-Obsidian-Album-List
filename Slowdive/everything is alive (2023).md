@@ -7,7 +7,7 @@ tags:
   - DreamPop
   - Shoegaze
   - Ambient
-  - Indierock
+  - IndieRock
 rating:
 ---
 

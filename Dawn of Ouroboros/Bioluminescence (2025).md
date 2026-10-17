@@ -4,9 +4,9 @@ artist: "Dawn of Ouroboros"
 year: 2025
 tidal_id: 389002094
 tags:
-  - Blackmetal
-  - Melodicdeathmetal
-  - Progressivemetal
+  - BlackMetal
+  - MelodicDeathMetal
+  - ProgressiveMetal
 rating:
 ---
 

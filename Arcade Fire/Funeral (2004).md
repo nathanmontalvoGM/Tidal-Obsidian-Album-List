@@ -4,9 +4,9 @@ artist: "Arcade Fire"
 year: 2004
 tidal_id: 75194842
 tags:
-  - Indierock
+  - IndieRock
   - Indie
-  - Alternativerock
+  - AlternativeRock
   - Rock
 rating:
 ---

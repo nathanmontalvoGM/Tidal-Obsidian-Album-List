@@ -5,9 +5,8 @@ year: 2021
 tidal_id: 423179615
 tags:
   - Metalcore
-  - Femalevocalists
   - Mathcore
-  - Numetal
+  - NuMetal
 rating:
 ---
 

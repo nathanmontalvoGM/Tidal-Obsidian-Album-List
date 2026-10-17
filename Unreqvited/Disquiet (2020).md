@@ -6,7 +6,7 @@ tidal_id: 175551878
 tags:
   - Blackgaze
   - Ambient
-  - Blackmetal
+  - BlackMetal
   - Shoegaze
 rating:
 ---

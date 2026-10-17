@@ -5,9 +5,8 @@ year: 1998
 tidal_id: 37265686
 tags:
   - Indie
-  - Indierock
+  - IndieRock
   - Folk
-  - Mmmnmn
 rating:
 ---
 

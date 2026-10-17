@@ -1,4 +1,4 @@
 ```dataviewjs
-const TAGS = ["AmbientTechno","Bitpop","Breakcore","Cybergrind","DancePop","DigitalHardcore","DrillandBass","DrumandBass","Dubstep","EDM","ElectroHouse","Electropop","ElectronicProg","Folktronica","HyperPop","Synthpop"];
+const TAGS = ["AmbientTechno", "BitPop", "Breakcore", "Cybergrind", "DancePop", "DigitalHardcore", "DrillAndBass", "DrumAndBass", "Dubstep", "EDM", "ElectroHouse", "ElectronicProg", "Electropop", "Folktronica", "HyperPop", "Synthpop"];
 await dv.view("_scripts/playlist", { tags: TAGS });
 ```

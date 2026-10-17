@@ -4,9 +4,9 @@ artist: "CMAT"
 year: 2025
 tidal_id: 424533343
 tags:
-  - Softrock
+  - SoftRock
   - Country
-  - Poprock
+  - PopRock
   - AltCountry
 rating:
 ---

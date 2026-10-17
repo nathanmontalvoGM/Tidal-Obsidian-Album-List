@@ -4,10 +4,10 @@ artist: PARTYOF2
 year: 2023
 tidal_id: 299319703
 tags:
-  - Poprap
-  - westcoasthiphop
+  - PopRap
+  - WestCoastHipHop
   - ExperimentalHipHop
-  - Alternativerandb
+  - AlternativeRnB
 rating:
 ---
 

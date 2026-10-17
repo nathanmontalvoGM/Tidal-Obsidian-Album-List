@@ -4,10 +4,9 @@ artist: "Deftones"
 year: 2025
 tidal_id: 455128514
 tags:
-  - Alternativemetal
-  - Bestof2022
+  - AlternativeMetal
   - Shoegaze
-  - Posthardcore
+  - PostHardcore
 rating:
 ---
 

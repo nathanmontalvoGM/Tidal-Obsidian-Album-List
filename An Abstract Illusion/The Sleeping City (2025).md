@@ -4,10 +4,10 @@ artist: "An Abstract Illusion"
 year: 2025
 tidal_id: 466008447
 tags:
-  - Progressivemetal
-  - Mathmetal
-  - Melodicdeathmetal
-  - Atmosphericmetal
+  - ProgressiveMetal
+  - MathMetal
+  - MelodicDeathMetal
+  - AtmosphericMetal
 rating:
 ---
 

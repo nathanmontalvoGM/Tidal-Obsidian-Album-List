@@ -4,10 +4,9 @@ artist: "Marc Hudson"
 year: 2023
 tidal_id: 298431613
 tags:
-  - Numetal
-  - Powermetal
-  - Heavymetal
-  - Uk
+  - NuMetal
+  - PowerMetal
+  - HeavyMetal
 rating:
 ---
 

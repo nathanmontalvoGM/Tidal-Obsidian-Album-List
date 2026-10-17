@@ -5,9 +5,9 @@ year: 2013
 tidal_id: 52105466
 tags:
   - Djent
-  - Progressivemetal
-  - Mathmetal
-  - Numetal
+  - ProgressiveMetal
+  - MathMetal
+  - NuMetal
 rating:
 ---
 

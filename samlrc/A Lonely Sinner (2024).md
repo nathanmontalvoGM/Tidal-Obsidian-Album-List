@@ -4,10 +4,10 @@ artist: "samlrc"
 year: 2024
 tidal_id: 349750093
 tags:
-  - Postrock
+  - PostRock
   - Shoegaze
   - Ambient
-  - Postmetal
+  - PostMetal
 rating:
 ---
 

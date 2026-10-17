@@ -4,10 +4,10 @@ artist: "Der Weg einer Freiheit"
 year: 2025
 tidal_id: 440182521
 tags:
-  - Atmosphericmetal
-  - Melodicblackmetal
-  - Numetal
-  - Postmetal
+  - AtmosphericMetal
+  - MelodicBlackMetal
+  - NuMetal
+  - PostMetal
 rating:
 ---
 

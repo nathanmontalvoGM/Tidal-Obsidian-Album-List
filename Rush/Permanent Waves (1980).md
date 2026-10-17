@@ -4,9 +4,9 @@ artist: "Rush"
 year: 1980
 tidal_id: 77598513
 tags:
-  - Progressivepop
-  - Hardrock
-  - Classicrock
+  - ProgressivePop
+  - HardRock
+  - ClassicRock
   - Rock
 rating:
 ---

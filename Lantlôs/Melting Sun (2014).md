@@ -4,10 +4,10 @@ artist: "Lantlôs"
 year: 2014
 tidal_id: 175548943
 tags:
-  - Postrock
-  - Postmetal
+  - PostRock
+  - PostMetal
   - Shoegaze
-  - Atmosphericmetal
+  - AtmosphericMetal
 rating:
 ---
 

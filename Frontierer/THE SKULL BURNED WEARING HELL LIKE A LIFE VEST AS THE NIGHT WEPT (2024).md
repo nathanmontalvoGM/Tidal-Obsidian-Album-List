@@ -7,7 +7,7 @@ tags:
   - Hardcore
   - Noise
   - Mathcore
-  - Chaotichardcore
+  - ChaoticHardcore
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Dispirited Spirits"
 year: 2023
 tidal_id: 266331961
 tags:
-  - Progressivepop
+  - ProgressivePop
   - Emo
-  - Postrock
+  - PostRock
   - ArtRock
 rating:
 ---

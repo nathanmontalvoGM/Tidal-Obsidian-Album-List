@@ -4,7 +4,7 @@ artist: ASCENSION
 year: 2023
 tidal_id: 271324328
 tags:
-  - Powermetal
+  - PowerMetal
 rating:
 ---
 

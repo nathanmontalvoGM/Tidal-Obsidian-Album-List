@@ -5,9 +5,9 @@ year: 2016
 tidal_id: 257981657
 tags:
   - Blackgaze
-  - Blackmetal
-  - Postmetal
-  - Atmosphericmetal
+  - BlackMetal
+  - PostMetal
+  - AtmosphericMetal
 rating:
 ---
 

@@ -4,8 +4,8 @@ artist: "Tame Impala"
 year: 2015
 tidal_id: 47696788
 tags:
-  - Psychedelicpop
-  - Psychedelicrock
+  - PsychedelicPop
+  - PsychedelicRock
   - Indie
   - Synthpop
 rating:

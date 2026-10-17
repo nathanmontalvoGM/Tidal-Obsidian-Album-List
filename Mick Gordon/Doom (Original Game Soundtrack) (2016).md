@@ -4,9 +4,9 @@ artist: "Mick Gordon"
 year: 2016
 tidal_id: 65498512
 tags:
-  - Industrialmetal
-  - Videogamemusic
-  - Spokenword
+  - IndustrialMetal
+  - VideoGameMusic
+  - SpokenWord
   - Djent
 rating:
 ---

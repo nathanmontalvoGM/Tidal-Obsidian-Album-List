@@ -4,10 +4,9 @@ artist: "Dream Theater"
 year: 1992
 tidal_id: 1845519
 tags:
-  - Progressivemetal
-  - Progressivepop
-  - Numetal
-  - Dreamtheater
+  - ProgressiveMetal
+  - ProgressivePop
+  - NuMetal
 rating:
 ---
 

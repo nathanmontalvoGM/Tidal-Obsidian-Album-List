@@ -4,9 +4,9 @@ artist: Twilight Force
 year: 2016
 tidal_id: 107100715
 tags:
-  - Symphonicmetal
-  - Powermetal
-  - Disneymetal
+  - SymphonicMetal
+  - PowerMetal
+  - DisneyMetal
 rating:
 ---
 

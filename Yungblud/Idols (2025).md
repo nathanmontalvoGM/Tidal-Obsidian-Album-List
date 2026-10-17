@@ -5,9 +5,9 @@ year: 2025
 tidal_id: 441807306
 tags:
   - Rock
-  - Alternativerock
-  - Bitpop
-  - Hardrock
+  - AlternativeRock
+  - BitPop
+  - HardRock
 rating:
 ---
 

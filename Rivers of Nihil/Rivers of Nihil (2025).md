@@ -4,10 +4,10 @@ artist: "Rivers of Nihil"
 year: 2025
 tidal_id: 405710169
 tags:
-  - Progressivemetal
-  - Mathmetal
+  - ProgressiveMetal
+  - MathMetal
   - Deathcore
-  - Numetal
+  - NuMetal
 rating:
 ---
 

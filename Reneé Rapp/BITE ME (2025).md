@@ -4,9 +4,8 @@ artist: "Reneé Rapp"
 year: 2025
 tidal_id: 450174478
 tags:
-  - Poprock
-  - Altpop
-  - Juliamofada
+  - PopRock
+  - AltPop
   - Pop
 rating:
 ---

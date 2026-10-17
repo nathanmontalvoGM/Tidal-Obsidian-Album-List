@@ -6,7 +6,7 @@ tidal_id: 310965702
 tags:
   - DigitalHardcore
   - Breakcore
-  - Synthpunk
+  - SynthPunk
   - Gabber
 rating:
 ---

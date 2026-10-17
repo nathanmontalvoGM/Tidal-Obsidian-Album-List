@@ -5,9 +5,9 @@ year: 2018
 tidal_id: 84192578
 tags:
   - Synthpop
-  - Neopsychedelia
+  - NeoPsychedelia
   - Darkwave
-  - Psychedelicpop
+  - PsychedelicPop
 rating:
 ---
 

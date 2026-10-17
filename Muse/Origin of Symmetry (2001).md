@@ -4,10 +4,9 @@ artist: "Muse"
 year: 2001
 tidal_id: 68728981
 tags:
-  - Alternativerock
+  - AlternativeRock
   - Rock
-  - Muse
-  - Progressivepop
+  - ProgressivePop
 rating:
 ---
 

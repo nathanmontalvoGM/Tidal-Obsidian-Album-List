@@ -5,8 +5,8 @@ year: 2020
 tidal_id: 142789457
 tags:
   - Metalcore
-  - Numetal
-  - Industrialmetal
+  - NuMetal
+  - IndustrialMetal
   - Rock
 rating:
 ---

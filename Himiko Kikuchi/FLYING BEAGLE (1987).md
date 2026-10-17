@@ -7,7 +7,6 @@ tags:
   - Jazz
   - JazzFusion
   - Funk
-  - Fusion
 rating:
 ---
 

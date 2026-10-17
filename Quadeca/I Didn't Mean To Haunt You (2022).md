@@ -7,7 +7,7 @@ tags:
   - Folktronica
   - ArtPop
   - ExperimentalHipHop
-  - Glitchpop
+  - GlitchPop
 rating:
 ---
 

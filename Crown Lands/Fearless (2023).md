@@ -4,7 +4,7 @@ artist: "Crown Lands"
 year: 2023
 tidal_id: 284673445
 tags:
-  - Progressivepop
+  - ProgressivePop
   - Rock
 rating:
 ---

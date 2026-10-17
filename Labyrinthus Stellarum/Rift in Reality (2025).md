@@ -4,8 +4,8 @@ artist: "Labyrinthus Stellarum"
 year: 2025
 tidal_id: 422525287
 tags:
-  - Atmosphericmetal
-  - Cybermetal
+  - AtmosphericMetal
+  - CyberMetal
 rating:
 ---
 

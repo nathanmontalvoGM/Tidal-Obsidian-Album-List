@@ -4,9 +4,9 @@ artist: "Signs of the Swarm"
 year: 2017
 tidal_id: 80275873
 tags:
-  - Mathmetal
+  - MathMetal
   - Deathcore
-  - Technicaldeathmetal
+  - TechnicalDeathMetal
 rating:
 ---
 

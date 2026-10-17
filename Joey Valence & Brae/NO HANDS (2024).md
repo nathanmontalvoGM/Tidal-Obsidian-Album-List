@@ -4,10 +4,9 @@ artist: "Joey Valence & Brae"
 year: 2024
 tidal_id: 362603601
 tags:
-  - Hiphop
-  - Hardcorehiphop
-  - Eastcoasthiphop
-  - 2020s
+  - HipHop
+  - HardcoreHipHop
+  - EastCoastHipHop
 rating:
 ---
 

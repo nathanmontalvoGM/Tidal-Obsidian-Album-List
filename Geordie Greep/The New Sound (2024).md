@@ -4,9 +4,9 @@ artist: "Geordie Greep"
 year: 2024
 tidal_id: 386875537
 tags:
-  - Progressivepop
+  - ProgressivePop
   - ArtRock
-  - Jazzrock
+  - JazzRock
   - Rock
 rating:
 ---

@@ -4,10 +4,9 @@ artist: "JID"
 year: 2022
 tidal_id: 244862978
 tags:
-  - Hiphop
-  - Neosoul
-  - Southernhiphop
-  - Rap
+  - HipHop
+  - NeoSoul
+  - SouthernHipHop
 rating:
 ---
 

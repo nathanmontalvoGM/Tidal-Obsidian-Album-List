@@ -4,10 +4,10 @@ artist: "Mitski"
 year: 2023
 tidal_id: 304555200
 tags:
-  - Indiefolk
+  - IndieFolk
   - Americana
-  - Chamberpop
-  - Singersongwriter
+  - ChamberPop
+  - SingerSongwriter
 rating:
 ---
 

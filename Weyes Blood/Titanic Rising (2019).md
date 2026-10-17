@@ -4,10 +4,9 @@ artist: "Weyes Blood"
 year: 2019
 tidal_id: 105356343
 tags:
-  - Wsum917fmmadison
   - BaroquePop
   - ArtPop
-  - Softrock
+  - SoftRock
 rating:
 ---
 

@@ -5,9 +5,9 @@ year: 2018
 tidal_id: 86330313
 tags:
   - Country
-  - Softrock
-  - Contemporarycountry
-  - Singersongwriter
+  - SoftRock
+  - ContemporaryCountry
+  - SingerSongwriter
 rating:
 ---
 

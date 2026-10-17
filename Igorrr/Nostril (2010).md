@@ -5,9 +5,9 @@ year: 2010
 tidal_id: 142885907
 tags:
   - Breakcore
-  - Idm
+  - IDM
   - Electronicore
-  - Experimentalrock
+  - ExperimentalRock
 rating:
 ---
 

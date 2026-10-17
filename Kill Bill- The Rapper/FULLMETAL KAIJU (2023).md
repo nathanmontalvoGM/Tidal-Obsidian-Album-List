@@ -5,8 +5,8 @@ year: 2023
 tidal_id: 288827824
 tags:
   - AbstractHipHop
-  - Jazzrap
-  - Cloudrap
+  - JazzRap
+  - CloudRap
 rating:
 ---
 

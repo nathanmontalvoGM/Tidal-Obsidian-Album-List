@@ -4,9 +4,9 @@ artist: "Joey Valence & Brae"
 year: 2022
 tidal_id: 247276311
 tags:
-  - Boombap
-  - Eastcoasthiphop
-  - Hiphop
+  - BoomBap
+  - EastCoastHipHop
+  - HipHop
 rating:
 ---
 

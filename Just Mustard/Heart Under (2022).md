@@ -5,9 +5,9 @@ year: 2022
 tidal_id: 403501716
 tags:
   - Shoegaze
-  - Postpunk
-  - Indierock
-  - Gothicrock
+  - PostPunk
+  - IndieRock
+  - GothicRock
 rating:
 ---
 

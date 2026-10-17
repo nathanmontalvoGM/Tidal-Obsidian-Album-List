@@ -5,8 +5,8 @@ year: 2023
 tidal_id: 326417453
 tags:
   - Pop
-  - Alternativerock
-  - Indiepop
+  - AlternativeRock
+  - IndiePop
   - Orchestral
 rating:
 ---

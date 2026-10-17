@@ -4,10 +4,8 @@ artist: "Valve Studio Orchestra"
 year: 2017
 tidal_id: 263210772
 tags:
-  - Epic
   - Orchestral
-  - Tf2
-  - Videogamemusic
+  - VideoGameMusic
 rating:
 ---
 

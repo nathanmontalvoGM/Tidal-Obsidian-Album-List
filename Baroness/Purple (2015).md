@@ -4,10 +4,8 @@ artist: "Baroness"
 year: 2015
 tidal_id: 68739189
 tags:
-  - Progressivemetal
+  - ProgressiveMetal
   - SludgeMetal
-  - Purple
-  - Baroness
 rating:
 ---
 

@@ -6,8 +6,7 @@ tidal_id: 56546642
 tags:
   - Shoegaze
   - DreamPop
-  - 4stars
-  - Psychedelicpop
+  - PsychedelicPop
 rating:
 ---
 

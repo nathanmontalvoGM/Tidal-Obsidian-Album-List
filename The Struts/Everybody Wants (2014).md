@@ -5,9 +5,7 @@ year: 2014
 tidal_id: 77705468
 tags:
   - Rock
-  - British
-  - Czhit
-  - Hardrock
+  - HardRock
 rating:
 ---
 

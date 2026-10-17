@@ -4,10 +4,10 @@ artist: "Friko"
 year: 2024
 tidal_id: 322984947
 tags:
-  - Indierock
-  - Chamberpop
+  - IndieRock
+  - ChamberPop
   - NoisePop
-  - Midwestemo
+  - MidwestEmo
 rating:
 ---
 

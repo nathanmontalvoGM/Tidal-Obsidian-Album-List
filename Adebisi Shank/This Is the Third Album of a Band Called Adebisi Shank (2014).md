@@ -4,10 +4,7 @@ artist: "Adebisi Shank"
 year: 2014
 tidal_id: 430140479
 tags:
-  - Bestof2019
-  - Myrainynightsintokyo
-  - Personalfavourites
-  - Mathrock
+  - MathRock
 rating:
 ---
 

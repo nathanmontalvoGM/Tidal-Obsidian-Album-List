@@ -5,9 +5,8 @@ year: 1996
 tidal_id: 5120094
 tags:
   - Rock
-  - Alternativerock
+  - AlternativeRock
   - Rapcore
-  - Political
 rating:
 ---
 

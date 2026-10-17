@@ -4,9 +4,9 @@ artist: Pool Kids
 year: 2025
 tidal_id: 434857405
 tags:
-  - Emopop
+  - EmoPop
   - DreamPop
-  - Midwestemo
+  - MidwestEmo
 rating:
 ---
 

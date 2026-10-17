@@ -4,10 +4,10 @@ artist: "Miley Cyrus"
 year: 2025
 tidal_id: 438732164
 tags:
-  - Poprock
+  - PopRock
   - Pop
-  - Softrock
-  - Neopsychedelia
+  - SoftRock
+  - NeoPsychedelia
 rating:
 ---
 

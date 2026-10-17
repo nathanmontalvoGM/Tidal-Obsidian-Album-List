@@ -4,10 +4,10 @@ artist: "Will Wood"
 year: 2023
 tidal_id: 199347397
 tags:
-  - Pianorock
-  - Darkcabaret
-  - Progressivepop
-  - Indiepop
+  - PianoRock
+  - DarkCabaret
+  - ProgressivePop
+  - IndiePop
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "Fleshgod Apocalypse"
 year: 2024
 tidal_id: 364925432
 tags:
-  - Mathmetal
-  - Symphonicmetal
-  - Extrememetal
-  - Numetal
+  - MathMetal
+  - SymphonicMetal
+  - ExtremeMetal
+  - NuMetal
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Paysage D'hiver"
 year: 2008
 tidal_id: 174935863
 tags:
-  - Atmosphericmetal
+  - AtmosphericMetal
   - Ambient
-  - Blackmetal
+  - BlackMetal
 rating:
 ---
 

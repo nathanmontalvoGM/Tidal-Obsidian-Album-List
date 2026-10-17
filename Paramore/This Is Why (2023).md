@@ -4,10 +4,10 @@ artist: "Paramore"
 year: 2023
 tidal_id: 274816576
 tags:
-  - Postpunkrevival
+  - PostPunkRevival
   - DancePunk
-  - Newwave
-  - Indierock
+  - NewWave
+  - IndieRock
 rating:
 ---
 

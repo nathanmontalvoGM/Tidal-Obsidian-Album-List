@@ -4,10 +4,10 @@ artist: "Jakey"
 year: 2022
 tidal_id: 261177665
 tags:
-  - Cloudrap
-  - Altpop
-  - Poprap
-  - Rap
+  - CloudRap
+  - AltPop
+  - PopRap
+  - HipHop
 rating:
 ---
 

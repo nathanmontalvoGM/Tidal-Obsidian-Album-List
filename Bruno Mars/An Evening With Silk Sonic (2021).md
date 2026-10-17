@@ -7,7 +7,7 @@ tags:
   - Funk
   - SmoothSoul
   - Soul
-  - Rnb
+  - RnB
 rating:
 ---
 

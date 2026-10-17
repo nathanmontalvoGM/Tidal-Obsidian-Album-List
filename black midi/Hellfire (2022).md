@@ -5,8 +5,8 @@ year: 2022
 tidal_id: 234935928
 tags:
   - AvantProg
-  - Brutalprog
-  - Progressivepop
+  - BrutalProg
+  - ProgressivePop
   - ArtRock
 rating:
 ---

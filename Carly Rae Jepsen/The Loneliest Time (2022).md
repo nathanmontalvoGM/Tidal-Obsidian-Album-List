@@ -6,7 +6,7 @@ tidal_id: 255225490
 tags:
   - Favorite
   - Pop
-  - Dancepop
+  - DancePop
   - Disco
   - Electropop
 rating:

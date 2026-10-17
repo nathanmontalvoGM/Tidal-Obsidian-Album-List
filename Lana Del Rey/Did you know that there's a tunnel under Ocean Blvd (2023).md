@@ -4,8 +4,8 @@ artist: "Lana Del Rey"
 year: 2023
 tidal_id: 283735625
 tags:
-  - Singersongwriter
-  - Neopsychedelia
+  - SingerSongwriter
+  - NeoPsychedelia
   - Pop
   - ArtPop
 rating:

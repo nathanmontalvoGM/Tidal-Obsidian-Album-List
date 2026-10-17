@@ -4,7 +4,7 @@ artist: "vildhjarta"
 year: 2025
 tidal_id: 419257960
 tags:
-  - Progressivemetal
+  - ProgressiveMetal
 rating:
 ---
 

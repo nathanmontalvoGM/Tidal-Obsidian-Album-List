@@ -6,8 +6,8 @@ tidal_id: 196204890
 tags:
   - Deathcore
   - ProgressiveDeathcore
-  - Mathmetal
-  - Progressivemetal
+  - MathMetal
+  - ProgressiveMetal
 rating:
 ---
 

@@ -4,10 +4,7 @@ artist: "Sam Fender"
 year: 2019
 tidal_id: 117191602
 tags:
-  - British
-  - Indierock
-  - Album
-  - Lp
+  - IndieRock
 rating:
 ---
 

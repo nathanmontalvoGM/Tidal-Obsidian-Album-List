@@ -4,10 +4,10 @@ artist: "Helloween"
 year: 2021
 tidal_id: 396320093
 tags:
-  - Powermetal
-  - Speedmetal
-  - Heavymetal
-  - Numetal
+  - PowerMetal
+  - SpeedMetal
+  - HeavyMetal
+  - NuMetal
 rating:
 ---
 

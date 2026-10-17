@@ -4,8 +4,8 @@ artist: "TURQUOISEDEATH"
 year: 2025
 tidal_id: 444820962
 tags:
-  - Progressivebreaks
-  - Atmosphericdrumandbass
+  - ProgressiveBreaks
+  - AtmosphericDrumAndBass
   - DrumAndBass
   - Breakbeat
 rating:

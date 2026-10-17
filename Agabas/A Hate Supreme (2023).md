@@ -5,7 +5,7 @@ year: 2023
 tidal_id: 326089608
 tags:
   - Deathcore
-  - Avantgardemetal
+  - AvantGardeMetal
 rating:
 ---
 

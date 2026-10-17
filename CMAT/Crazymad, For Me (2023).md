@@ -5,9 +5,9 @@ year: 2023
 tidal_id: 295886015
 tags:
   - AltCountry
-  - Singersongwriter
-  - Indiepop
-  - Poprock
+  - SingerSongwriter
+  - IndiePop
+  - PopRock
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "Orville Peck"
 year: 2025
 tidal_id: 468760969
 tags:
-  - Alternativecountry
+  - AltCountry
   - Country
-  - Countryfolk
-  - Singersongwriter
+  - CountryFolk
+  - SingerSongwriter
 rating:
 ---
 

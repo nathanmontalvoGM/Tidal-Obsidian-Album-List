@@ -5,9 +5,8 @@ year: 2019
 tidal_id: 104818954
 tags:
   - PopPunk
-  - Vinyl
-  - Powerpop
-  - Indierock
+  - PowerPop
+  - IndieRock
 rating:
 ---
 

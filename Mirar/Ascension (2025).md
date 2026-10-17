@@ -4,9 +4,9 @@ artist: "Mirar"
 year: 2025
 tidal_id: 409492040
 tags:
-  - Mathmetal
-  - Neoclassicaldjent
-  - Experimentalmetal
+  - MathMetal
+  - NeoclassicalDjent
+  - ExperimentalMetal
   - Thall
 rating:
 ---

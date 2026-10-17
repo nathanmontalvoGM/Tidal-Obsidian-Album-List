@@ -4,10 +4,9 @@ artist: "Little Simz"
 year: 2025
 tidal_id: 439599724
 tags:
-  - Jazzrap
-  - Rap
-  - Neosoul
-  - Hiphop
+  - JazzRap
+  - HipHop
+  - NeoSoul
 rating:
 ---
 

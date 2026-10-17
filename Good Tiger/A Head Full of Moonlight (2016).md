@@ -4,10 +4,10 @@ artist: "Good Tiger"
 year: 2016
 tidal_id: 52651192
 tags:
-  - Progressivemetal
-  - Progressivepop
-  - Posthardcore
-  - Mathrock
+  - ProgressiveMetal
+  - ProgressivePop
+  - PostHardcore
+  - MathRock
 rating:
 ---
 

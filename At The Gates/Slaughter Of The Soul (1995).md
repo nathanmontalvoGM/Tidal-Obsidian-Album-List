@@ -4,8 +4,8 @@ artist: "At The Gates"
 year: 1995
 tidal_id: 13917157
 tags:
-  - Melodicdeathmetal
-  - Mathmetal
+  - MelodicDeathMetal
+  - MathMetal
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Kardashev"
 year: 2022
 tidal_id: 222375701
 tags:
-  - Progressivemetal
+  - ProgressiveMetal
   - Deathgaze
-  - Numetal
+  - NuMetal
   - Deathcore
 rating:
 ---

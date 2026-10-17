@@ -4,10 +4,9 @@ artist: "Spiritualized"
 year: 1997
 tidal_id: 134049292
 tags:
-  - Spacerock
+  - SpaceRock
   - Shoegaze
-  - 90s
-  - Psychedelicpop
+  - PsychedelicPop
 rating:
 ---
 

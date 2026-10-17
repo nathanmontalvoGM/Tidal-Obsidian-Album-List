@@ -4,10 +4,10 @@ artist: "Haken"
 year: 2020
 tidal_id: 135143049
 tags:
-  - Progressivemetal
-  - Progressivepop
-  - Prog
-  - Conceptalbum
+  - ProgressiveMetal
+  - ProgressivePop
+  - ProgressiveRock
+  - ConceptAlbum
 rating:
 ---
 

@@ -4,10 +4,9 @@ artist: "The Hives"
 year: 2025
 tidal_id: 456037754
 tags:
-  - Garagerock
-  - Indierock
-  - Sweden
-  - Garagerockrevival
+  - GarageRock
+  - IndieRock
+  - GarageRockRevival
 rating:
 ---
 

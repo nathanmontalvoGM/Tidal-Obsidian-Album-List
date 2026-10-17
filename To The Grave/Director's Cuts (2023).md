@@ -5,7 +5,6 @@ year: 2023
 tidal_id: 253985929
 tags:
   - Deathcore
-  - Album2023
 rating:
 ---
 

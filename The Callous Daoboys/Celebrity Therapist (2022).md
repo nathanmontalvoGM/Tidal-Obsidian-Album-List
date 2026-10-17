@@ -5,9 +5,7 @@ year: 2022
 tidal_id: 333894014
 tags:
   - Mathcore
-  - Chaotichardcore
-  - Bestof2022
-  - Ohiamsoquirkyahahah
+  - ChaoticHardcore
 rating:
 ---
 

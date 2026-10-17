@@ -4,9 +4,9 @@ artist: "Bell Witch"
 year: 2017
 tidal_id: 312433627
 tags:
-  - Doommetal
+  - DoomMetal
   - FuneralDoomMetal
-  - Sludge
+  - SludgeMetal
   - Slowcore
 rating:
 ---

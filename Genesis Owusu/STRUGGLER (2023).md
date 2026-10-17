@@ -5,9 +5,9 @@ year: 2023
 tidal_id: 294399339
 tags:
   - Funk
-  - Postpunk
-  - Neosoul
-  - Synthpunk
+  - PostPunk
+  - NeoSoul
+  - SynthPunk
 rating:
 ---
 

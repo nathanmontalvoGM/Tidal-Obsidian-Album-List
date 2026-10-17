@@ -4,10 +4,10 @@ artist: "Joey Bada$$"
 year: 2017
 tidal_id: 134832236
 tags:
-  - Hiphop
-  - Conscioushiphop
-  - Poprap
-  - Boombap
+  - HipHop
+  - ConsciousHipHop
+  - PopRap
+  - BoomBap
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Unleash The Archers"
 year: 2020
 tidal_id: 141536149
 tags:
-  - Powermetal
-  - Numetal
-  - Heavymetal
+  - PowerMetal
+  - NuMetal
+  - HeavyMetal
   - Rock
 rating:
 ---

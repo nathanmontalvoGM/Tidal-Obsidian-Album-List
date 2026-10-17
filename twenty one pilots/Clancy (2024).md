@@ -6,9 +6,9 @@ tidal_id: 364834730
 tags:
   - Favorite
   - Rock
-  - Triphop
-  - Altpop
-  - Alternativerock
+  - TripHop
+  - AltPop
+  - AlternativeRock
 rating: "7.2"
 ---
 

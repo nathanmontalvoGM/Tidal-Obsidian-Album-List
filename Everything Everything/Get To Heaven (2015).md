@@ -5,9 +5,9 @@ year: 2015
 tidal_id: 63101777
 tags:
   - ArtPop
-  - Progressivepop
+  - ProgressivePop
   - Indietronica
-  - Indiepop
+  - IndiePop
 rating:
 ---
 

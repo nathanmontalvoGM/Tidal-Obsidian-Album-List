@@ -4,7 +4,7 @@ artist: "Warning"
 year: 2008
 tidal_id: 449897084
 tags:
-  - Doommetal
+  - DoomMetal
   - Rock
 rating:
 ---

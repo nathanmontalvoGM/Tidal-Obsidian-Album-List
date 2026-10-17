@@ -6,7 +6,7 @@ tidal_id: 159047204
 tags:
   - Grindcore
   - Powerviolence
-  - Numetal
+  - NuMetal
   - Hardcore
 rating:
 ---

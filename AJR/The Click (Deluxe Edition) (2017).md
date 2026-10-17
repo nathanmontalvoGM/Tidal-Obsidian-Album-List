@@ -4,10 +4,7 @@ artist: "AJR"
 year: 2017
 tidal_id: 492949321
 tags:
-  - SuperExperimental
   - Pop
-  - HeardLive
-  - DigitalTendencies
 rating:
 ---
 

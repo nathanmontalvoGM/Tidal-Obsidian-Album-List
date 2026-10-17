@@ -7,7 +7,7 @@ tags:
   - Emo
   - Indietronica
   - Shoegaze
-  - Lofi
+  - LoFi
 rating:
 ---
 

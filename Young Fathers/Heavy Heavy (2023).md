@@ -5,8 +5,6 @@ year: 2023
 tidal_id: 272941544
 tags:
   - ArtPop
-  - Ninjatune
-  - 2023albums
   - Rock
 rating:
 ---

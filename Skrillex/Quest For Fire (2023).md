@@ -6,8 +6,8 @@ tidal_id: 276778735
 tags:
   - Dubstep
   - Electronicore
-  - UkGarage
-  - Edm
+  - UKGarage
+  - EDM
 rating:
 ---
 

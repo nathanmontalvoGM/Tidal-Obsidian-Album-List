@@ -4,8 +4,8 @@ artist: "Melvins"
 year: 1993
 tidal_id: 4073695
 tags:
-  - Sludgemetal
-  - Alternativerock
+  - SludgeMetal
+  - AlternativeRock
   - Grunge
 rating:
 ---

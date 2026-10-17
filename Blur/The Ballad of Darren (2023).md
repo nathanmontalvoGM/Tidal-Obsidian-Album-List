@@ -5,8 +5,8 @@ year: 2023
 tidal_id: 304357042
 tags:
   - ArtRock
-  - Indiepop
-  - Indierock
+  - IndiePop
+  - IndieRock
   - BaroquePop
 rating:
 ---

@@ -3,11 +3,7 @@ title: "Pandora's Pinata"
 artist: "Diablo Swing Orchestra"
 year: 2012
 tidal_id: 97413250
-tags:
-  - ExitStrategyOfAWreckingBall
-  - Aurora
-  - VoodooMonAmour
-  - MassRapture
+tags: []
 rating:
 ---
 

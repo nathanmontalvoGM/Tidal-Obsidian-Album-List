@@ -4,7 +4,7 @@ artist: "The Pains Of Being Pure At Heart"
 year: 2009
 tidal_id: 111403686
 tags:
-  - Indierock
+  - IndieRock
   - Pop
   - Rock
 rating:

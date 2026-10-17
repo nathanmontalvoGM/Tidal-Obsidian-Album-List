@@ -6,8 +6,8 @@ tidal_id: 440456313
 tags:
   - BluesRock
   - SymphonicProg
-  - Psychedelicrock
-  - Poprock
+  - PsychedelicRock
+  - PopRock
 rating:
 ---
 

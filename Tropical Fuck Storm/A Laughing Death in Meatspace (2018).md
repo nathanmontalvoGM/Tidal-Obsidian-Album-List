@@ -4,10 +4,10 @@ artist: "Tropical Fuck Storm"
 year: 2018
 tidal_id: 92329373
 tags:
-  - Punkblues
-  - Artpunk
-  - Psychedelicrock
-  - Noiserock
+  - PunkBlues
+  - ArtPunk
+  - PsychedelicRock
+  - NoiseRock
 rating:
 ---
 

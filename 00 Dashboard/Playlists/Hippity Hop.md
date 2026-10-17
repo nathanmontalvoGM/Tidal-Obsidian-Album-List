@@ -1,4 +1,4 @@
 ```dataviewjs
-const TAGS = ["AbstractHipHop","BoomBap","ConsciousHipHop","EastCoastHipHop","ExperimentalHipHop","HardcoreHipHop","HipHop","IndustrialHipHop","JazzRap","LoFiHipHop","PopRap","RapMetal","Conscioushiphop","Eastcoasthiphop","Hardcorehiphop","Hiphop","Southernhiphop","Triphop","westcoasthiphop"];
+const TAGS = ["AbstractHipHop", "BoomBap", "ConsciousHipHop", "EastCoastHipHop", "ExperimentalHipHop", "HardcoreHipHop", "HipHop", "IndustrialHipHop", "JazzRap", "LoFiHipHop", "PopRap", "RapMetal", "SouthernHipHop", "TripHop", "WestCoastHipHop"];
 await dv.view("_scripts/playlist", { tags: TAGS });
 ```

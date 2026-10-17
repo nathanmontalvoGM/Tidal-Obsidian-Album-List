@@ -4,10 +4,10 @@ artist: "Mastodon"
 year: 2004
 tidal_id: 2826055
 tags:
-  - Progressivemetal
+  - ProgressiveMetal
   - Whalecore
   - SludgeMetal
-  - Numetal
+  - NuMetal
 rating:
 ---
 

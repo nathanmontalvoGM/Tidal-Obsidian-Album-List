@@ -7,7 +7,7 @@ tags:
   - AbstractHipHop
   - ExperimentalHipHop
   - Horrorcore
-  - Jazzrap
+  - JazzRap
 rating:
 ---
 

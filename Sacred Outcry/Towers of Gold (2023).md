@@ -4,10 +4,9 @@ artist: "Sacred Outcry"
 year: 2023
 tidal_id: 294380741
 tags:
-  - Powermetal
-  - Heavymetal
-  - Conceptalbum
-  - Bestof2022
+  - PowerMetal
+  - HeavyMetal
+  - ConceptAlbum
 rating:
 ---
 

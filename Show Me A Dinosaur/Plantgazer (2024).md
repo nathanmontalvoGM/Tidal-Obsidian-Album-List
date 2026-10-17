@@ -5,7 +5,7 @@ year: 2024
 tidal_id: 160326205
 tags:
   - Blackgaze
-  - Postrock
+  - PostRock
   - Rock
 rating:
 ---

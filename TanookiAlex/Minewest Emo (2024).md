@@ -4,9 +4,9 @@ artist: "TanookiAlex"
 year: 2024
 tidal_id: 346901379
 tags:
-  - Midwestemo
-  - Alternativerock
-  - Postrock
+  - MidwestEmo
+  - AlternativeRock
+  - PostRock
   - Shoegaze
 rating:
 ---

@@ -5,9 +5,8 @@ year: 2022
 tidal_id: 236075892
 tags:
   - Favorite
-  - Blackeneddeathcore
+  - BlackenedDeathcore
   - Deathcore
-  - Bestof2022
   - Hardcore
 rating:
 ---

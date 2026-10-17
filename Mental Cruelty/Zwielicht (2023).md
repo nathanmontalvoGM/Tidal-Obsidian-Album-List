@@ -4,10 +4,10 @@ artist: "Mental Cruelty"
 year: 2023
 tidal_id: 284264964
 tags:
-  - Symphonicmetal
+  - SymphonicMetal
   - Deathcore
-  - Blackeneddeathcore
-  - Blackmetal
+  - BlackenedDeathcore
+  - BlackMetal
 rating:
 ---
 

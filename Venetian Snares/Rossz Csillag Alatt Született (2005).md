@@ -7,7 +7,7 @@ tags:
   - Breakcore
   - ModernClassical
   - Electronicore
-  - Idm
+  - IDM
 rating:
 ---
 

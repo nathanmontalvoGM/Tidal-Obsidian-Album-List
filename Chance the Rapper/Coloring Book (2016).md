@@ -4,10 +4,9 @@ artist: "Chance the Rapper"
 year: 2016
 tidal_id: 60920015
 tags:
-  - Rap
-  - Hiphop
+  - HipHop
   - Gospel
-  - Conscioushiphop
+  - ConsciousHipHop
 rating:
 ---
 

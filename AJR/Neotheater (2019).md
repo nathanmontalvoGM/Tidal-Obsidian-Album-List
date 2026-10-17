@@ -4,10 +4,9 @@ artist: "AJR"
 year: 2019
 tidal_id: 481866853
 tags:
-  - Fire
   - Pop
   - Indie
-  - Indiepop
+  - IndiePop
 rating:
 ---
 

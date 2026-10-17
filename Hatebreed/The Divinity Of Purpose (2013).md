@@ -6,8 +6,7 @@ tidal_id: 61149892
 tags:
   - Hardcore
   - Metalcore
-  - Hardrock
-  - Musicchoicemetal
+  - HardRock
 rating:
 ---
 

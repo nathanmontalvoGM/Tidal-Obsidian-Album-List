@@ -4,10 +4,10 @@ artist: "Big Thief"
 year: 2025
 tidal_id: 454086302
 tags:
-  - Indierock
+  - IndieRock
   - Rock
-  - Psychedelicrock
-  - Folkrock
+  - PsychedelicRock
+  - FolkRock
 rating:
 ---
 

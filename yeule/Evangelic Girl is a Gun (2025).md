@@ -4,9 +4,9 @@ artist: "yeule"
 year: 2025
 tidal_id: 421590283
 tags:
-  - Alternativerock
+  - AlternativeRock
   - Electronicore
-  - Indierock
+  - IndieRock
   - Indietronica
 rating:
 ---

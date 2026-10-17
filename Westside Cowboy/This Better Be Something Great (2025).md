@@ -6,8 +6,8 @@ tidal_id: 442598539
 tags:
   - Americana
   - Folk
-  - Indierock
-  - Powerpop
+  - IndieRock
+  - PowerPop
 rating:
 ---
 

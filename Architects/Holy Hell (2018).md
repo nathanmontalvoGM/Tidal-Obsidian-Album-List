@@ -5,9 +5,9 @@ year: 2018
 tidal_id: 121049468
 tags:
   - Metalcore
-  - Progressivemetal
-  - Technicaldeathmetal
-  - Posthardcore
+  - ProgressiveMetal
+  - TechnicalDeathMetal
+  - PostHardcore
 rating:
 ---
 

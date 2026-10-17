@@ -4,10 +4,9 @@ artist: "Archspire"
 year: 2021
 tidal_id: 189677757
 tags:
-  - Technicaldeathmetal
-  - Mathmetal
-  - Topmetalalbumsofthedecade20202029
-  - Numetal
+  - TechnicalDeathMetal
+  - MathMetal
+  - NuMetal
 rating:
 ---
 

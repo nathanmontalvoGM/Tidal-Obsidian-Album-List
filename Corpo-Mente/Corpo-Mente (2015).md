@@ -4,8 +4,8 @@ artist: "Corpo-Mente"
 year: 2015
 tidal_id: 41875776
 tags:
-  - Experimentalrock
-  - Avantgarde
+  - ExperimentalRock
+  - AvantGarde
   - Downtempo
   - Electronicore
 rating:

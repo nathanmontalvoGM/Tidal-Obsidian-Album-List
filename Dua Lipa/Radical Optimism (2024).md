@@ -5,7 +5,7 @@ year: 2024
 tidal_id: 360212374
 tags:
   - Pop
-  - Dancepop
+  - DancePop
   - Disco
   - House
 rating:

@@ -4,10 +4,9 @@ artist: "Chat Pile"
 year: 2022
 tidal_id: 225188684
 tags:
-  - Noiserock
+  - NoiseRock
   - SludgeMetal
-  - Posthardcore
-  - Sludge
+  - PostHardcore
 rating:
 ---
 

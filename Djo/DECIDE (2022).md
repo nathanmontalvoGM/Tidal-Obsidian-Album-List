@@ -5,9 +5,9 @@ year: 2022
 tidal_id: 246282414
 tags:
   - Synthpop
-  - Indiepop
-  - Neopsychedelia
-  - Psychedelicpop
+  - IndiePop
+  - NeoPsychedelia
+  - PsychedelicPop
 rating:
 ---
 

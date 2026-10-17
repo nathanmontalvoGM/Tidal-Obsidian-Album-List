@@ -4,10 +4,10 @@ artist: "Joey Bada$$"
 year: 2025
 tidal_id: 456515507
 tags:
-  - Boombap
-  - Hardcorehiphop
-  - Hiphop
-  - Jazzrap
+  - BoomBap
+  - HardcoreHipHop
+  - HipHop
+  - JazzRap
 rating:
 ---
 

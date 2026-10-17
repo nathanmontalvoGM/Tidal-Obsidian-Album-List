@@ -5,9 +5,8 @@ year: 2023
 tidal_id: 297839093
 tags:
   - VocalJazz
-  - Bossanova
-  - Traditionalpop
-  - Warm
+  - BossaNova
+  - TraditionalPop
 rating:
 ---
 

@@ -5,9 +5,7 @@ year: 2019
 tidal_id: 379465533
 tags:
   - Metalcore
-  - Alternativemetal
-  - Interlude
-  - Perfection
+  - AlternativeMetal
 rating:
 ---
 

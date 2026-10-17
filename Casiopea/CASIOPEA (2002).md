@@ -6,7 +6,6 @@ tidal_id: 157658550
 tags:
   - JazzFusion
   - Jazz
-  - Japanese
   - Instrumental
 rating:
 ---

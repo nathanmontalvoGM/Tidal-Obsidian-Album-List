@@ -4,10 +4,10 @@ artist: "Maruja"
 year: 2023
 tidal_id: 276932576
 tags:
-  - Postrock
+  - PostRock
   - ArtRock
-  - Artpunk
-  - Jazzrock
+  - ArtPunk
+  - JazzRock
 rating:
 ---
 

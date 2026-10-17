@@ -4,9 +4,8 @@ artist: "Andrew W.K."
 year: 2018
 tidal_id: 82475046
 tags:
-  - Hardrock
+  - HardRock
   - Rock
-  - 2010s
 rating:
 ---
 

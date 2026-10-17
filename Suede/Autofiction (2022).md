@@ -4,9 +4,9 @@ artist: "Suede"
 year: 2022
 tidal_id: 489904997
 tags:
-  - Alternativerock
-  - Postpunkrevival
-  - Glamrock
+  - AlternativeRock
+  - PostPunkRevival
+  - GlamRock
   - Rock
 rating:
 ---

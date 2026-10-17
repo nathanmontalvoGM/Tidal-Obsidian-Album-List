@@ -4,7 +4,7 @@ artist: "Adrianne Lenker"
 year: 2024
 tidal_id: 348182611
 tags:
-  - Singer-Songwriter
+  - SingerSongwriter
   - ContemporaryFolk
   - Americana
   - Folk

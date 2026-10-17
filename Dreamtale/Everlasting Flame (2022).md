@@ -4,7 +4,7 @@ artist: "Dreamtale"
 year: 2022
 tidal_id: 221641560
 tags:
-  - Numetal
+  - NuMetal
 rating:
 ---
 

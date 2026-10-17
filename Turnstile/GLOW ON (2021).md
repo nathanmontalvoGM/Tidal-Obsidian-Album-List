@@ -5,8 +5,8 @@ year: 2021
 tidal_id: 193913258
 tags:
   - HardcorePunk
-  - Alternativerock
-  - Posthardcore
+  - AlternativeRock
+  - PostHardcore
   - Hardcore
 rating:
 ---

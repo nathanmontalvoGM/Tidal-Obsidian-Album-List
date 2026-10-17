@@ -7,7 +7,7 @@ tags:
   - Vocaloid
   - Electronicore
   - Chillout
-  - Edm
+  - EDM
 rating:
 ---
 

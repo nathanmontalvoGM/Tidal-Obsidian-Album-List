@@ -4,10 +4,10 @@ artist: "Trivium"
 year: 2008
 tidal_id: 1969292
 tags:
-  - Heavymetal
-  - Melodicmetalcore
+  - HeavyMetal
+  - MelodicMetalcore
   - Metalcore
-  - Thrashmetal
+  - ThrashMetal
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Glass Beach"
 year: 2019
 tidal_id: 119898760
 tags:
-  - Indierock
+  - IndieRock
   - ArtRock
-  - Powerpop
+  - PowerPop
   - Indietronica
 rating:
 ---

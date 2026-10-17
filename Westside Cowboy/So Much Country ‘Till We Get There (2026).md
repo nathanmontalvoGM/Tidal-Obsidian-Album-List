@@ -6,8 +6,8 @@ tidal_id: 488297983
 tags:
   - Rock
   - Indie
-  - Alternativerock
-  - Indierock
+  - AlternativeRock
+  - IndieRock
 rating:
 ---
 

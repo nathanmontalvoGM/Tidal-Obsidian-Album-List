@@ -4,7 +4,7 @@ artist: "Aether Realm"
 year: 2017
 tidal_id: 139517568
 tags:
-  - Melodicdeathmetal
+  - MelodicDeathMetal
   - Rock
 rating:
 ---

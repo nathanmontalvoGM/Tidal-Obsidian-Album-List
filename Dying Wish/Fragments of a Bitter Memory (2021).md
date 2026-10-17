@@ -7,7 +7,6 @@ tags:
   - MelodicMetalcore
   - Metalcore
   - MelodicHardcore
-  - Bestof2022
 rating:
 ---
 

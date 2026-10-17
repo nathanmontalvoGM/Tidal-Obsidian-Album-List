@@ -5,8 +5,8 @@ year: 2013
 tidal_id: 68614320
 tags:
   - Rock
-  - Alternativerock
-  - Poprock
+  - AlternativeRock
+  - PopRock
   - Pop
 rating:
 ---

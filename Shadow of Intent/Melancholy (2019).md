@@ -4,10 +4,9 @@ artist: "Shadow of Intent"
 year: 2019
 tidal_id: 110518484
 tags:
-  - Symphonicdeathcore
+  - SymphonicDeathcore
   - Deathcore
-  - Technicaldeathcore
-  - Bestof2019
+  - TechnicalDeathcore
 rating:
 ---
 

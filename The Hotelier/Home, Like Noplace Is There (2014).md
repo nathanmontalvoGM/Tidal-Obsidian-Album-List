@@ -5,7 +5,7 @@ year: 2014
 tidal_id: 177371156
 tags:
   - Emo
-  - Midwestemo
+  - MidwestEmo
   - Punk
   - PopPunk
 rating:

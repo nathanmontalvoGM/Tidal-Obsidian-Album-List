@@ -7,7 +7,7 @@ tags:
   - AltCountry
   - Country
   - Americana
-  - Singersongwriter
+  - SingerSongwriter
 rating:
 ---
 

@@ -4,9 +4,9 @@ artist: "Gojira"
 year: 2006
 tidal_id: 13929179
 tags:
-  - Progressivemetal
-  - Mathmetal
-  - Numetal
+  - ProgressiveMetal
+  - MathMetal
+  - NuMetal
   - Whalecore
 rating:
 ---

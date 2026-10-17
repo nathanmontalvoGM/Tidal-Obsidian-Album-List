@@ -4,10 +4,9 @@ artist: "Snõõper"
 year: 2023
 tidal_id: 475814696
 tags:
-  - Postpunk
+  - PostPunk
   - GaragePunk
   - Punk
-  - Punkrock
 rating:
 ---
 

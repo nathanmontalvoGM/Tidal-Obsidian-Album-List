@@ -5,8 +5,8 @@ year: 2008
 tidal_id: 53868188
 tags:
   - Electronicore
-  - Experimentalrock
-  - Postrock
+  - ExperimentalRock
+  - PostRock
   - Rock
 rating:
 ---

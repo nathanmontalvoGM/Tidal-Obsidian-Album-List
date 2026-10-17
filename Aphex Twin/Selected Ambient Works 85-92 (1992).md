@@ -6,7 +6,7 @@ tidal_id: 59962969
 tags:
   - Ambient
   - Electronicore
-  - Idm
+  - IDM
   - Chillout
 rating:
 ---

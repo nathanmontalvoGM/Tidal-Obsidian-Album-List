@@ -4,10 +4,8 @@ artist: "Sabaton"
 year: 2022
 tidal_id: 197973453
 tags:
-  - Powermetal
-  - Wwi
-  - Heavymetal
-  - Worldwari
+  - PowerMetal
+  - HeavyMetal
 rating:
 ---
 

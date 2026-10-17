@@ -4,10 +4,10 @@ artist: "Lil Yachty"
 year: 2023
 tidal_id: 273619903
 tags:
-  - Psychedelicrock
-  - Neopsychedelia
-  - Psychedelicpop
-  - Spacerock
+  - PsychedelicRock
+  - NeoPsychedelia
+  - PsychedelicPop
+  - SpaceRock
 rating:
 ---
 

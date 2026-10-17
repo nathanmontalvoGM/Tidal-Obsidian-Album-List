@@ -4,10 +4,10 @@ artist: "Rammstein"
 year: 2019
 tidal_id: 109100968
 tags:
-  - Industrialmetal
-  - Neuedeutscheharte
-  - Numetal
-  - Industrialrock
+  - IndustrialMetal
+  - NeueDeutscheHarte
+  - NuMetal
+  - IndustrialRock
 rating:
 ---
 

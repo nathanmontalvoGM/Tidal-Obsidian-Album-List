@@ -5,9 +5,9 @@ year: 2023
 tidal_id: 463590265
 tags:
   - Pop
-  - Singersongwriter
-  - Alternativerock
-  - Indiepop
+  - SingerSongwriter
+  - AlternativeRock
+  - IndiePop
 rating:
 ---
 

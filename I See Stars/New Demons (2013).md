@@ -4,7 +4,7 @@ artist: "I See Stars"
 year: 2013
 tidal_id: 255152956
 tags:
-  - Posthardcore
+  - PostHardcore
   - Electronicore
   - Trancecore
   - Metalcore

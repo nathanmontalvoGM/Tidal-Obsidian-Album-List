@@ -7,7 +7,7 @@ tags:
   - Metalcore
   - Hardcore
   - HardcorePunk
-  - Numetal
+  - NuMetal
 rating:
 ---
 

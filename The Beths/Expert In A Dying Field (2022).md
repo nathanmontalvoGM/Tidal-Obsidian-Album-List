@@ -4,10 +4,10 @@ artist: "The Beths"
 year: 2022
 tidal_id: 248506900
 tags:
-  - Powerpop
+  - PowerPop
   - Rock
   - Indie
-  - Indiepop
+  - IndiePop
 rating:
 ---
 

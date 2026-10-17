@@ -4,10 +4,9 @@ artist: "Foxy Shazam"
 year: 2010
 tidal_id: 3663964
 tags:
-  - Alternativerock
-  - 9of10stars
+  - AlternativeRock
   - Rock
-  - Glamrock
+  - GlamRock
 rating:
 ---
 

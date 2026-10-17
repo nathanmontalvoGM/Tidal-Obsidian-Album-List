@@ -4,10 +4,9 @@ artist: "Beast In Black"
 year: 2019
 tidal_id: 99855943
 tags:
-  - Powermetal
-  - Heavymetal
-  - Numetal
-  - Motorheadcover
+  - PowerMetal
+  - HeavyMetal
+  - NuMetal
 rating:
 ---
 

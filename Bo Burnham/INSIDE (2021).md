@@ -5,8 +5,6 @@ year: 2021
 tidal_id: 189591372
 tags:
   - Comedy
-  - Netflix
-  - Nota10
   - Pop
 rating:
 ---

@@ -5,9 +5,7 @@ year: 2005
 tidal_id: 182262410
 tags:
   - Indie
-  - FavouriteAlbums
   - Folk
-  - 00s
 rating:
 ---
 

@@ -4,10 +4,10 @@ artist: "Candlemass"
 year: 1986
 tidal_id: 68660554
 tags:
-  - Doommetal
+  - DoomMetal
   - TraditionalDoomMetal
   - EpicDoomMetal
-  - Heavymetal
+  - HeavyMetal
 rating:
 ---
 

@@ -4,10 +4,9 @@ artist: "Post Malone"
 year: 2023
 tidal_id: 307068779
 tags:
-  - Poprock
+  - PopRock
   - Pop
-  - Singersongwriter
-  - Cool
+  - SingerSongwriter
 rating:
 ---
 

@@ -5,8 +5,8 @@ year: 2019
 tidal_id: 118097242
 tags:
   - Blackgaze
-  - Atmosphericmetal
-  - Depressiveblackmetal
+  - AtmosphericMetal
+  - DepressiveBlackMetal
   - Rock
 rating:
 ---

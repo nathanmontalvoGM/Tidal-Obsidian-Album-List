@@ -5,8 +5,8 @@ year: 2025
 tidal_id: 464145390
 tags:
   - Rock
-  - Stonerrock
-  - Psychedelicrock
+  - StonerRock
+  - PsychedelicRock
   - GaragePunk
 rating:
 ---

@@ -5,9 +5,9 @@ year: 2016
 tidal_id: 107100531
 tags:
   - Blackgaze
-  - Blackmetal
-  - Atmosphericmetal
-  - Depressiveblackmetal
+  - BlackMetal
+  - AtmosphericMetal
+  - DepressiveBlackMetal
 rating:
 ---
 

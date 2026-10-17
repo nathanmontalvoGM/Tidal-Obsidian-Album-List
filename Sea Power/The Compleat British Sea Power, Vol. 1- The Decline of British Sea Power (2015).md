@@ -4,9 +4,9 @@ artist: "Sea Power"
 year: 2015
 tidal_id: 108040785
 tags:
-  - Indierock
-  - Alternativerock
-  - Postpunk
+  - IndieRock
+  - AlternativeRock
+  - PostPunk
   - Rock
 rating:
 ---

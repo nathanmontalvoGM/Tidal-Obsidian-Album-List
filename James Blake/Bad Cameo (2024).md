@@ -5,7 +5,7 @@ year: 2024
 tidal_id: 370627605
 tags:
   - Ambient
-  - Neopsychedelia
+  - NeoPsychedelia
   - ArtPop
   - ExperimentalHipHop
 rating:

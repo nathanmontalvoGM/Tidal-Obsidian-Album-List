@@ -7,7 +7,7 @@ tags:
   - ArtPop
   - Electronicore
   - Pop
-  - Altpop
+  - AltPop
 rating:
 ---
 

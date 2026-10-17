@@ -4,10 +4,10 @@ artist: "Manowar"
 year: 1988
 tidal_id: 3467185
 tags:
-  - Heavymetal
-  - Powermetal
-  - Truemetal
-  - Numetal
+  - HeavyMetal
+  - PowerMetal
+  - TrueMetal
+  - NuMetal
 rating:
 ---
 

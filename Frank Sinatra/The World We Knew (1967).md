@@ -7,7 +7,6 @@ tags:
   - Swing
   - Jazz
   - EasyListening
-  - FrankSinatra
 rating:
 ---
 
