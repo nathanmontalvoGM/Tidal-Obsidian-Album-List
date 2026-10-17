@@ -124,9 +124,16 @@ style.textContent = `
 .av-sheet-kicker { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #777; }
 .av-sheet-title { font-size: 18px; font-weight: 800; color: #fff; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .av-sheet-x { width: 36px; height: 36px; border-radius: 10px; background: #333; color: #aaa; display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0; }
-.av-scale { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
-.av-pick { padding: 14px 0; border-radius: 12px; text-align: center; font-size: 20px; font-weight: 800; background: #262626; cursor: pointer; border: 2px solid transparent; }
-.av-pick.on { border-color: #fff; }
+.av-readout { text-align: center; font-size: 48px; font-weight: 800; line-height: 1; margin: 2px 0 14px; font-variant-numeric: tabular-nums; }
+.av-slider { padding: 0 14px; }
+.av-bar { position: relative; height: 48px; touch-action: none; cursor: pointer; user-select: none; }
+.av-bar-track, .av-bar-fill { position: absolute; left: 0; top: 50%; height: 8px; margin-top: -4px; border-radius: 999px; }
+.av-bar-track { right: 0; background: #333; }
+.av-bar-mark { position: absolute; top: 50%; width: 2px; height: 14px; margin: -7px 0 0 -1px; background: #4a4a4a; border-radius: 1px; }
+.av-bar-thumb { position: absolute; top: 50%; width: 28px; height: 28px; margin: -14px 0 0 -14px; border-radius: 50%; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.6); }
+.av-ticks { position: relative; height: 16px; }
+.av-tick { position: absolute; transform: translateX(-50%); font-size: 11px; color: #666; font-variant-numeric: tabular-nums; }
+.av-hint { text-align: center; font-size: 12px; color: #555; margin-top: 10px; }
 .av-sheet-row { display: flex; gap: 8px; margin-top: 12px; }
 .av-sheet-btn { flex: 1; padding: 12px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 700; color: #aaa; background: #262626; cursor: pointer; }
 
@@ -246,7 +253,16 @@ async function saveAlbumScore(value) {
 function openSheet(target) {
     const bgEl = document.body.createDiv({ cls: "av-sheet-bg" });
     const sheet = bgEl.createDiv({ cls: "av-sheet" });
-    const onKey = e => { if (e.key === "Escape") close(); };
+    // Bar from 0.5 to 10 in half points: tap or drag, the readout follows, letting go saves. Arrow keys + Enter on desktop.
+    const MIN = 0.5, MAX = 10, STEP = 0.5;
+    const snap = v => Math.min(MAX, Math.max(MIN, Math.round(v / STEP) * STEP));
+    let value = null, show = () => {};
+    const onKey = e => {
+        if (e.key === "Escape") return close();
+        if (e.key === "ArrowRight" || e.key === "ArrowUp") { value = snap((value ?? 0) + STEP); show(value); e.preventDefault?.(); }
+        if (e.key === "ArrowLeft" || e.key === "ArrowDown") { value = snap((value ?? MIN + STEP) - STEP); show(value); e.preventDefault?.(); }
+        if (e.key === "Enter" && value !== null) pick(value);
+    };
     const close = () => { bgEl.remove(); document.removeEventListener("keydown", onKey); };
     bgEl.onclick = e => { if (e.target === bgEl) close(); };
     document.addEventListener("keydown", onKey);
@@ -261,12 +277,40 @@ function openSheet(target) {
         head.createDiv({ cls: "av-sheet-title", text: isAlbum ? title : tracks[target.index].title });
         top.createDiv({ cls: "av-sheet-x", text: "✕" }).onclick = close;
 
-        const scale = sheet.createDiv({ cls: "av-scale" });
-        for (let v = 1; v <= 10; v++) {
-            const b = scale.createDiv({ cls: "av-pick" + (current === v ? " on" : ""), text: String(v) });
-            b.style.color = scoreColor(v);
-            b.onclick = () => pick(v);
-        }
+        const readout = sheet.createDiv({ cls: "av-readout" });
+        const slider = sheet.createDiv({ cls: "av-slider" });
+        const bar = slider.createDiv({ cls: "av-bar" });
+        bar.createDiv({ cls: "av-bar-track" });
+        for (let v = 1; v < MAX; v++) bar.createDiv({ cls: "av-bar-mark" }).style.left = `${v / MAX * 100}%`;
+        const fill = bar.createDiv({ cls: "av-bar-fill" });
+        const thumb = bar.createDiv({ cls: "av-bar-thumb" });
+        const ticks = slider.createDiv({ cls: "av-ticks" });
+        for (let v = 1; v <= MAX; v++) ticks.createDiv({ cls: "av-tick", text: String(v) }).style.left = `${v / MAX * 100}%`;
+        sheet.createDiv({ cls: "av-hint", text: "Tap or drag, let go to save" });
+
+        show = v => {
+            const has = v !== null && !isNaN(v);
+            readout.setText(has ? fmtRating(v) : "—");
+            readout.style.color = has ? scoreColor(v) : "#555";
+            fill.style.width = has ? `${v / MAX * 100}%` : "0";
+            fill.style.background = has ? scoreColor(v) : "transparent";
+            thumb.style.display = has ? "" : "none";
+            if (has) thumb.style.left = `${v / MAX * 100}%`;
+        };
+        value = current === null || isNaN(current) ? null : current;
+        show(value);
+
+        const valueAt = x => { const r = bar.getBoundingClientRect(); return snap((x - r.left) / r.width * MAX); };
+        let dragging = false;
+        bar.addEventListener("pointerdown", e => {
+            dragging = true;
+            bar.setPointerCapture?.(e.pointerId);
+            value = valueAt(e.clientX); show(value);
+            e.preventDefault?.();
+        });
+        bar.addEventListener("pointermove", e => { if (dragging) { value = valueAt(e.clientX); show(value); } });
+        bar.addEventListener("pointerup", e => { if (!dragging) return; dragging = false; pick(valueAt(e.clientX)); });
+        bar.addEventListener("pointercancel", () => { dragging = false; value = current === null || isNaN(current) ? null : current; show(value); });
         const row = sheet.createDiv({ cls: "av-sheet-row" });
         row.createDiv({ cls: "av-sheet-btn", text: "Clear" }).onclick = () => pick(null);
         if (!isAlbum && target.index < tracks.length - 1)
