@@ -1,0 +1,11 @@
+{
+  "autoPullOnBoot": true,
+  "autoPullInterval": 10,
+  "autoSaveInterval": 10,
+  "autoBackupAfterFileChange": true,
+  "pullBeforePush": true,
+  "syncMethod": "merge",
+  "autoCommitMessage": "vault backup: {{date}}",
+  "disablePopupsForNoChanges": true,
+  "showedMobileNotice": true
+}
