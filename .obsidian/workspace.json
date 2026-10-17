@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Andrew W.K/I Get Wet (2001).md",
+                "file": "00 Dashboard/Library.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "I Get Wet (2001)"
+              "title": "Library"
             }
           },
           {
@@ -202,6 +202,7 @@
   },
   "active": "d3811725f7422261",
   "lastOpenFiles": [
+    "Andrew W.K/I Get Wet (2001).md",
     "fix_covers.py",
     "00 Dashboard/Playlists/A Bunch of Rocks.md",
     "00 Dashboard/Library.md",
@@ -212,7 +213,6 @@
     "Muse/Origin of Symmetry (2001).md",
     "twenty one pilots/Trench (2018).md",
     "AJR/The Maybe Man (2023).md",
-    "Andrew W.K/I Get Wet (2001).md",
     "Andrew W...K/I Get Wet (2001).md",
     "_tools/Home.md",
     "00 Dashboard/Playlists/All Things Metal.md",
@@ -246,7 +246,6 @@
     "_covers/Cholera - The Answer to Infection (Redux).jpg",
     "Suicide Silence",
     "Netherwalker",
-    "Der Weg einer Freiheit",
-    "Giles Corey"
+    "Der Weg einer Freiheit"
   ]
 }
