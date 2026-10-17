@@ -357,7 +357,9 @@ function openAddToFavorites() {
 
 function openRecentlyAdded() {
     const { body } = createModal("🕐 Recently Added");
-    const pages = allPages.array().sort((a,b) => (b.file.ctime||0)-(a.file.ctime||0)).slice(0,50);
+    // 'added' = the day you favorited it on Tidal (set by sync_tidal.py); file dates reset whenever git checks files out
+    const addedTime = p => { const v = p.added; if (v && v.toMillis) return v.toMillis(); const t = v ? Date.parse(String(v)) : NaN; return isNaN(t) ? (+p.file.ctime || 0) : t; };
+    const pages = allPages.array().sort((a,b) => addedTime(b) - addedTime(a)).slice(0,50);
     const grid = body.createEl("div"); grid.style.cssText = "display:flex; flex-wrap:wrap; gap:12px;";
     for (let page of pages) {
         const card = grid.createEl("div"); card.style.cssText = "width:110px; background:#111; border-radius:10px; overflow:hidden; cursor:pointer;";
@@ -368,7 +370,7 @@ function openRecentlyAdded() {
         const info = card.createEl("div"); info.style.cssText = "padding:7px 8px;";
         const t = info.createEl("div"); t.style.cssText = "color:#fff; font-size:11px; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"; t.textContent = page.title || page.file.name;
         const a = info.createEl("div"); a.style.cssText = "color:#aaa; font-size:10px; margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"; a.textContent = page.artist || "";
-        const d = info.createEl("div"); d.style.cssText = "color:#555; font-size:9px; margin-top:2px;"; d.textContent = page.file.ctime ? new Date(page.file.ctime).toLocaleDateString() : "";
+        const d = info.createEl("div"); d.style.cssText = "color:#555; font-size:9px; margin-top:2px;"; d.textContent = addedTime(page) ? new Date(addedTime(page)).toLocaleDateString() : "";
     }
 }
 
