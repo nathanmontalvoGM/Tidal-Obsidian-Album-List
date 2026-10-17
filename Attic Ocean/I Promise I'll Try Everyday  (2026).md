@@ -3,6 +3,7 @@ title: "I Promise I'll Try Everyday "
 artist: "Attic Ocean"
 year: 2026
 tidal_id: 533799063
+cover: "[[_covers/Attic Ocean - I Promise I'll Try Everyday .jpg]]"
 tags: []
 rating:
 ---

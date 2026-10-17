@@ -3,6 +3,7 @@ title: "The Lamb as Effigy"
 artist: "Sprain"
 year: 2023
 tidal_id: 298402972
+cover: "[[_covers/Sprain - The Lamb as Effigy.jpg]]"
 tags:
   - ExperimentalRock
   - NoiseRock

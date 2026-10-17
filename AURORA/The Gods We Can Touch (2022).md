@@ -3,6 +3,7 @@ title: "The Gods We Can Touch"
 artist: "AURORA"
 year: 2022
 tidal_id: 243648384
+cover: "[[_covers/AURORA - The Gods We Can Touch.jpg]]"
 tags:
   - Electropop
   - Synthpop

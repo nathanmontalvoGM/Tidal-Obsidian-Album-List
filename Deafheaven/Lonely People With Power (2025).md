@@ -3,6 +3,7 @@ title: "Lonely People With Power"
 artist: "Deafheaven"
 year: 2025
 tidal_id: 415466666
+cover: "[[_covers/Deafheaven - Lonely People With Power.jpg]]"
 tags:
   - Blackgaze
   - BlackMetal

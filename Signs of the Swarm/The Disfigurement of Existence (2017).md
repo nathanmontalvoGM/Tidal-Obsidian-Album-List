@@ -3,6 +3,7 @@ title: "The Disfigurement of Existence"
 artist: "Signs of the Swarm"
 year: 2017
 tidal_id: 80275873
+cover: "[[_covers/Signs of the Swarm - The Disfigurement of Existence.jpg]]"
 tags:
   - MathMetal
   - Deathcore

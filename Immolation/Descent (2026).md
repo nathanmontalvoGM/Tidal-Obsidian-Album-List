@@ -3,6 +3,7 @@ title: "Descent"
 artist: "Immolation"
 year: 2026
 tidal_id: 514122912
+cover: "[[_covers/Immolation - Descent.jpg]]"
 tags: []
 rating:
 ---

@@ -3,6 +3,7 @@ title: "Epicus Doomicus Metallicus"
 artist: "Candlemass"
 year: 1986
 tidal_id: 68660554
+cover: "[[_covers/Candlemass - Epicus Doomicus Metallicus.jpg]]"
 tags:
   - DoomMetal
   - TraditionalDoomMetal

@@ -3,6 +3,7 @@ title: "Shogun"
 artist: "Trivium"
 year: 2008
 tidal_id: 1969292
+cover: "[[_covers/Trivium - Shogun.jpg]]"
 tags:
   - HeavyMetal
   - MelodicMetalcore

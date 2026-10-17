@@ -3,6 +3,7 @@ title: "Human Overboard"
 artist: "James and the Shame"
 year: 2022
 tidal_id: 243642530
+cover: "[[_covers/James and the Shame - Human Overboard.jpg]]"
 tags:
   - Country
   - Folk

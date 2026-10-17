@@ -3,6 +3,7 @@ title: "Heavy Is The Head"
 artist: "Salem Trials"
 year: 2026
 tidal_id: 513908509
+cover: "[[_covers/Salem Trials - Heavy Is The Head.jpg]]"
 tags: []
 rating:
 ---

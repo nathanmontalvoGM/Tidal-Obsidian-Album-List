@@ -3,6 +3,7 @@ title: "Island"
 artist: "Asunojokei"
 year: 2022
 tidal_id: 246452123
+cover: "[[_covers/Asunojokei - Island.jpg]]"
 tags:
   - PostHardcore
   - Blackgaze

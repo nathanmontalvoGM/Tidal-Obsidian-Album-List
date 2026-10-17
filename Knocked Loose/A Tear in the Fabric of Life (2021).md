@@ -3,6 +3,7 @@ title: "A Tear in the Fabric of Life"
 artist: "Knocked Loose"
 year: 2021
 tidal_id: 198547249
+cover: "[[_covers/Knocked Loose - A Tear in the Fabric of Life.jpg]]"
 tags:
   - Metalcore
   - Hardcore

@@ -3,6 +3,7 @@ title: "Punisher"
 artist: "Phoebe Bridgers"
 year: 2020
 tidal_id: 135629244
+cover: "[[_covers/Phoebe Bridgers - Punisher.jpg]]"
 tags:
   - IndieRock
   - SingerSongwriter

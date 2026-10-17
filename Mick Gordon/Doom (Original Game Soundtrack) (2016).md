@@ -3,6 +3,7 @@ title: "Doom (Original Game Soundtrack)"
 artist: "Mick Gordon"
 year: 2016
 tidal_id: 65498512
+cover: "[[_covers/Mick Gordon - Doom (Original Game Soundtrack).jpg]]"
 tags:
   - IndustrialMetal
   - VideoGameMusic

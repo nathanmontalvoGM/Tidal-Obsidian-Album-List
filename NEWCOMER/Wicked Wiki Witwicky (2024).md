@@ -3,6 +3,7 @@ title: Wicked Wiki Witwicky
 artist: NEWCOMER
 year: 2024
 tidal_id: 344218372
+cover: "[[_covers/NEWCOMER - Wicked Wiki Witwicky.jpg]]"
 tags:
   - Metalcore
   - Shoegaze

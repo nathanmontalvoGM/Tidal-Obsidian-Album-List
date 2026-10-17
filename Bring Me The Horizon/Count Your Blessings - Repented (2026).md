@@ -3,6 +3,7 @@ title: "Count Your Blessings | Repented"
 artist: "Bring Me The Horizon"
 year: 2026
 tidal_id: 514582384
+cover: "[[_covers/Bring Me The Horizon - Count Your Blessings - Repented.jpg]]"
 tags:
   - Deathcore
 rating:

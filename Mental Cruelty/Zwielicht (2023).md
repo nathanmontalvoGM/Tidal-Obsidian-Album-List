@@ -3,6 +3,7 @@ title: "Zwielicht"
 artist: "Mental Cruelty"
 year: 2023
 tidal_id: 284264964
+cover: "[[_covers/Mental Cruelty - Zwielicht.jpg]]"
 tags:
   - SymphonicMetal
   - Deathcore

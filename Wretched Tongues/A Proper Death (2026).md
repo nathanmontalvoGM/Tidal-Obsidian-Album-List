@@ -3,6 +3,7 @@ title: "A Proper Death"
 artist: "Wretched Tongues"
 year: 2026
 tidal_id: 521933931
+cover: "[[_covers/Wretched Tongues - A Proper Death.jpg]]"
 tags: []
 rating:
 ---

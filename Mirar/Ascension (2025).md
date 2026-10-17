@@ -3,6 +3,7 @@ title: "Ascension"
 artist: "Mirar"
 year: 2025
 tidal_id: 409492040
+cover: "[[_covers/Mirar - Ascension.jpg]]"
 tags:
   - MathMetal
   - NeoclassicalDjent

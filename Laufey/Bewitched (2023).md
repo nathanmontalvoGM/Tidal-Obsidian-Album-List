@@ -3,6 +3,7 @@ title: "Bewitched"
 artist: "Laufey"
 year: 2023
 tidal_id: 297839093
+cover: "[[_covers/Laufey - Bewitched.jpg]]"
 tags:
   - VocalJazz
   - BossaNova

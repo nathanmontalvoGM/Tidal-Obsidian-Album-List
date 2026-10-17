@@ -3,6 +3,7 @@ title: "Corpo-Mente"
 artist: "Corpo-Mente"
 year: 2015
 tidal_id: 41875776
+cover: "[[_covers/Corpo-Mente - Corpo-Mente.jpg]]"
 tags:
   - ExperimentalRock
   - AvantGarde

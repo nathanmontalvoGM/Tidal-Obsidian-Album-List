@@ -3,6 +3,7 @@ title: "The Money Store"
 artist: "Death Grips"
 year: 2012
 tidal_id: 14558039
+cover: "[[_covers/Death Grips - The Money Store.jpg]]"
 tags:
   - HipHop
   - ExperimentalHipHop

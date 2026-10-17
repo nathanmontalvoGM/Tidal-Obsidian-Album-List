@@ -3,6 +3,7 @@ title: "Parasocial"
 artist: "Arythmia"
 year: 2025
 tidal_id: 424879354
+cover: "[[_covers/Arythmia - Parasocial.jpg]]"
 tags: []
 rating:
 ---

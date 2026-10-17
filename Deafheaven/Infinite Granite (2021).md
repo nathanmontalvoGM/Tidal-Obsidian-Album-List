@@ -3,6 +3,7 @@ title: "Infinite Granite"
 artist: "Deafheaven"
 year: 2021
 tidal_id: 430132752
+cover: "[[_covers/Deafheaven - Infinite Granite.jpg]]"
 tags:
   - Shoegaze
   - DreamPop

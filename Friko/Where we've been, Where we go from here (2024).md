@@ -3,6 +3,7 @@ title: "Where we've been, Where we go from here"
 artist: "Friko"
 year: 2024
 tidal_id: 322984947
+cover: "[[_covers/Friko - Where we've been, Where we go from here.jpg]]"
 tags:
   - IndieRock
   - ChamberPop

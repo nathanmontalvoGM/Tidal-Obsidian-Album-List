@@ -3,6 +3,7 @@ title: "Autofiction"
 artist: "Suede"
 year: 2022
 tidal_id: 489904997
+cover: "[[_covers/Suede - Autofiction.jpg]]"
 tags:
   - AlternativeRock
   - PostPunkRevival

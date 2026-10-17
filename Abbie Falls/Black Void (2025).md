@@ -3,6 +3,7 @@ title: Black Void
 artist: Abbie Falls
 year: 2025
 tidal_id: 447350846
+cover: "[[_covers/Abbie Falls - Black Void.jpg]]"
 tags:
   - Metalcore
   - Deathcore

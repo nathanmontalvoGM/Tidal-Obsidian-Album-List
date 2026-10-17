@@ -3,6 +3,7 @@ title: "Matriphagy"
 artist: "Tallah"
 year: 2020
 tidal_id: 142789457
+cover: "[[_covers/Tallah - Matriphagy.jpg]]"
 tags:
   - Metalcore
   - NuMetal

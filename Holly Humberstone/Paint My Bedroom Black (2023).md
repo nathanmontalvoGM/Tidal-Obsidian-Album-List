@@ -3,6 +3,7 @@ title: "Paint My Bedroom Black"
 artist: "Holly Humberstone"
 year: 2023
 tidal_id: 463590265
+cover: "[[_covers/Holly Humberstone - Paint My Bedroom Black.jpg]]"
 tags:
   - Pop
   - SingerSongwriter

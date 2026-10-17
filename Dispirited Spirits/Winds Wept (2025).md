@@ -3,6 +3,7 @@ title: "Winds Wept"
 artist: "Dispirited Spirits"
 year: 2025
 tidal_id: 454236304
+cover: "[[_covers/Dispirited Spirits - Winds Wept.jpg]]"
 tags:
   - ArtRock
   - Emo

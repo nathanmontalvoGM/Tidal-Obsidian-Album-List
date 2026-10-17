@@ -3,6 +3,7 @@ title: "Visual Kill: The Blossoming of Psychotic Depravity"
 artist: "Saidan"
 year: 2024
 tidal_id: 360403483
+cover: "[[_covers/Saidan - Visual Kill- The Blossoming of Psychotic Depravity.jpg]]"
 tags:
   - BlackMetal
   - MelodicBlackMetal

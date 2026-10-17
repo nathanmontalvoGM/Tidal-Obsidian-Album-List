@@ -3,6 +3,7 @@ title: "The Shape Of Punk To Come"
 artist: "Refused"
 year: 1998
 tidal_id: 121119895
+cover: "[[_covers/Refused - The Shape Of Punk To Come.jpg]]"
 tags:
   - PostHardcore
   - Hardcore

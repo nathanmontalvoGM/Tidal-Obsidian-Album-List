@@ -3,6 +3,7 @@ title: "Rossz Csillag Alatt Született"
 artist: "Venetian Snares"
 year: 2005
 tidal_id: 111947317
+cover: "[[_covers/Venetian Snares - Rossz Csillag Alatt Született.jpg]]"
 tags:
   - Breakcore
   - ModernClassical

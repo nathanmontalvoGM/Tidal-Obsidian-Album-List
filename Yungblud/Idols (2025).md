@@ -3,6 +3,7 @@ title: "Idols"
 artist: "Yungblud"
 year: 2025
 tidal_id: 441807306
+cover: "[[_covers/Yungblud - Idols.jpg]]"
 tags:
   - Rock
   - AlternativeRock

@@ -3,6 +3,7 @@ title: "Who Will Look After The Dogs?"
 artist: "PUP"
 year: 2025
 tidal_id: 414879455
+cover: "[[_covers/PUP - Who Will Look After The Dogs-.jpg]]"
 tags:
   - Rock
   - Punk

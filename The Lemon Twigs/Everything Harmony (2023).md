@@ -3,6 +3,7 @@ title: "Everything Harmony"
 artist: "The Lemon Twigs"
 year: 2023
 tidal_id: 274786910
+cover: "[[_covers/The Lemon Twigs - Everything Harmony.jpg]]"
 tags:
   - PopRock
   - SoftRock

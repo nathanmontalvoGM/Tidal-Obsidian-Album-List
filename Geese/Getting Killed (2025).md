@@ -3,6 +3,7 @@ title: "Getting Killed"
 artist: "Geese"
 year: 2025
 tidal_id: 440082667
+cover: "[[_covers/Geese - Getting Killed.jpg]]"
 tags:
   - IndieRock
   - ArtRock

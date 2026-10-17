@@ -3,6 +3,7 @@ title: "Be the Cowboy"
 artist: "Mitski"
 year: 2018
 tidal_id: 91826107
+cover: "[[_covers/Mitski - Be the Cowboy.jpg]]"
 tags:
   - ArtPop
   - IndieRock

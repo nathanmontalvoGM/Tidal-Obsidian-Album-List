@@ -3,6 +3,7 @@ title: "Weathervanes"
 artist: "Jason Isbell and the 400 Unit"
 year: 2023
 tidal_id: 297862726
+cover: "[[_covers/Jason Isbell and the 400 Unit - Weathervanes.jpg]]"
 tags:
   - SouthernRock
   - AltCountry

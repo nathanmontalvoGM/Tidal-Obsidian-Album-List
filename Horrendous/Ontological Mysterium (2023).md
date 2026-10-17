@@ -3,6 +3,7 @@ title: "Ontological Mysterium"
 artist: "Horrendous"
 year: 2023
 tidal_id: 289050800
+cover: "[[_covers/Horrendous - Ontological Mysterium.jpg]]"
 tags:
   - ProgressiveMetal
   - MathMetal

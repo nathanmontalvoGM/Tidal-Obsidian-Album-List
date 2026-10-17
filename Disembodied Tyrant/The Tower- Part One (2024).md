@@ -3,6 +3,7 @@ title: "The Tower: Part One"
 artist: "Disembodied Tyrant"
 year: 2024
 tidal_id: 385181218
+cover: "[[_covers/Disembodied Tyrant - The Tower- Part One.jpg]]"
 tags:
   - Deathcore
   - TechnicalDeathcore

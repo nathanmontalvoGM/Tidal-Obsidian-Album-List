@@ -3,6 +3,7 @@ title: SMILE! :D
 artist: Porter Robinson
 year: 2024
 tidal_id: 376814627
+cover: "[[_covers/Porter Robinson - SMILE! -D.jpg]]"
 tags:
   - Favorite
   - Electropop

@@ -3,6 +3,7 @@ title: "Moonglow"
 artist: "Avantasia"
 year: 2019
 tidal_id: 99893966
+cover: "[[_covers/Avantasia - Moonglow.jpg]]"
 tags:
   - PowerMetal
   - SymphonicMetal

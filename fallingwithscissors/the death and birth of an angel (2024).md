@@ -3,6 +3,7 @@ title: "the death and birth of an angel"
 artist: "fallingwithscissors"
 year: 2024
 tidal_id: 336232628
+cover: "[[_covers/fallingwithscissors - the death and birth of an angel.jpg]]"
 tags:
   - Metalcore
   - Breakcore

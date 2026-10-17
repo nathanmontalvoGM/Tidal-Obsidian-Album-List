@@ -3,6 +3,7 @@ title: "LSD and the Search for God"
 artist: "LSD and the Search for God"
 year: 2007
 tidal_id: 56546642
+cover: "[[_covers/LSD and the Search for God - LSD and the Search for God.jpg]]"
 tags:
   - Shoegaze
   - DreamPop

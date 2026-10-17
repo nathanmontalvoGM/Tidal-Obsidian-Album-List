@@ -3,6 +3,7 @@ title: "Radical Optimism"
 artist: "Dua Lipa"
 year: 2024
 tidal_id: 360212374
+cover: "[[_covers/Dua Lipa - Radical Optimism.jpg]]"
 tags:
   - Pop
   - DancePop

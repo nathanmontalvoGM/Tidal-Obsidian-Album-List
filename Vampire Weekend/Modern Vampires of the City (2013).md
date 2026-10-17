@@ -3,6 +3,7 @@ title: "Modern Vampires of the City"
 artist: "Vampire Weekend"
 year: 2013
 tidal_id: 20134593
+cover: "[[_covers/Vampire Weekend - Modern Vampires of the City.jpg]]"
 tags:
   - Indie
   - IndieRock

@@ -3,6 +3,7 @@ title: "Imperium Delirium"
 artist: "Shadow of Intent"
 year: 2025
 tidal_id: 429326462
+cover: "[[_covers/Shadow of Intent - Imperium Delirium.jpg]]"
 tags:
   - SymphonicDeathcore
   - Deathcore

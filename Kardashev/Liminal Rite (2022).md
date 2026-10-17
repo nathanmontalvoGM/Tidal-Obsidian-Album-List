@@ -3,6 +3,7 @@ title: "Liminal Rite"
 artist: "Kardashev"
 year: 2022
 tidal_id: 222375701
+cover: "[[_covers/Kardashev - Liminal Rite.jpg]]"
 tags:
   - ProgressiveMetal
   - Deathgaze

@@ -3,6 +3,7 @@ title: "Sanguivore"
 artist: "Creeper"
 year: 2023
 tidal_id: 320529126
+cover: "[[_covers/Creeper - Sanguivore.jpg]]"
 tags:
   - ConceptAlbum
 rating:

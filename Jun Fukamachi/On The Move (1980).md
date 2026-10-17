@@ -3,6 +3,7 @@ title: "On The Move"
 artist: "Jun Fukamachi"
 year: 1980
 tidal_id: 164097659
+cover: "[[_covers/Jun Fukamachi - On The Move.jpg]]"
 tags:
   - Jazz
   - JazzFusion

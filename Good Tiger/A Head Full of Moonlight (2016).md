@@ -3,6 +3,7 @@ title: "A Head Full of Moonlight"
 artist: "Good Tiger"
 year: 2016
 tidal_id: 52651192
+cover: "[[_covers/Good Tiger - A Head Full of Moonlight.jpg]]"
 tags:
   - ProgressiveMetal
   - ProgressivePop

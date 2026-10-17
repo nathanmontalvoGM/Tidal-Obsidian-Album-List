@@ -3,6 +3,7 @@ title: "INSIDE"
 artist: "Bo Burnham"
 year: 2021
 tidal_id: 189591372
+cover: "[[_covers/Bo Burnham - INSIDE.jpg]]"
 tags:
   - Comedy
   - Pop

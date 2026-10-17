@@ -3,6 +3,7 @@ title: "Det hjemsøkte hjertet"
 artist: "Panopticon"
 year: 2026
 tidal_id: 501418812
+cover: "[[_covers/Panopticon - Det hjemsøkte hjertet.jpg]]"
 tags: []
 rating:
 ---

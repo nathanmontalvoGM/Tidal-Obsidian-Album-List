@@ -3,6 +3,7 @@ title: "Hellfire"
 artist: "black midi"
 year: 2022
 tidal_id: 234935928
+cover: "[[_covers/black midi - Hellfire.jpg]]"
 tags:
   - AvantProg
   - BrutalProg

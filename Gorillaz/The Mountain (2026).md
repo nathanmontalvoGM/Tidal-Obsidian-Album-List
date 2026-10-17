@@ -3,6 +3,7 @@ title: "The Mountain"
 artist: "Gorillaz"
 year: 2026
 tidal_id: 500753046
+cover: "[[_covers/Gorillaz - The Mountain.jpg]]"
 tags:
   - Synthpop
   - ArtPop

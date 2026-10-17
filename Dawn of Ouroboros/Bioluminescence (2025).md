@@ -3,6 +3,7 @@ title: "Bioluminescence"
 artist: "Dawn of Ouroboros"
 year: 2025
 tidal_id: 389002094
+cover: "[[_covers/Dawn of Ouroboros - Bioluminescence.jpg]]"
 tags:
   - BlackMetal
   - MelodicDeathMetal

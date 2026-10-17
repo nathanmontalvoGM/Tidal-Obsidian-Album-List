@@ -3,6 +3,7 @@ title: "Fight Songs: The Music of Team Fortress 2"
 artist: "Valve Studio Orchestra"
 year: 2017
 tidal_id: 263210772
+cover: "[[_covers/Valve Studio Orchestra - Fight Songs- The Music of Team Fortress 2.jpg]]"
 tags:
   - Orchestral
   - VideoGameMusic

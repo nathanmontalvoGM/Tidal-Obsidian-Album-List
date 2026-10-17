@@ -3,6 +3,7 @@ title: "Paramore"
 artist: "Paramore"
 year: 2013
 tidal_id: 68614320
+cover: "[[_covers/Paramore - Paramore.jpg]]"
 tags:
   - Rock
   - AlternativeRock

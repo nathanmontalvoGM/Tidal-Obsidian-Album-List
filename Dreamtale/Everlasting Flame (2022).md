@@ -3,6 +3,7 @@ title: "Everlasting Flame"
 artist: "Dreamtale"
 year: 2022
 tidal_id: 221641560
+cover: "[[_covers/Dreamtale - Everlasting Flame.jpg]]"
 tags:
   - NuMetal
 rating:

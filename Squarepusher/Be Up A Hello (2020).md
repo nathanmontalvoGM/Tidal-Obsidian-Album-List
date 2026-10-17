@@ -3,6 +3,7 @@ title: "Be Up A Hello"
 artist: "Squarepusher"
 year: 2020
 tidal_id: 128786247
+cover: "[[_covers/Squarepusher - Be Up A Hello.jpg]]"
 tags:
   - IDM
   - Instrumental

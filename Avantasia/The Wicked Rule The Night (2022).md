@@ -3,6 +3,7 @@ title: The Wicked Rule The Night
 artist: Avantasia
 year: 2022
 tidal_id: 227167252
+cover: "[[_covers/Avantasia - The Wicked Rule The Night.jpg]]"
 tags:
   - PowerMetal
   - RockOpera

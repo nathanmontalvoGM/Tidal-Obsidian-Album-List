@@ -3,6 +3,7 @@ title: "Bonito Generation"
 artist: "Kero Kero Bonito"
 year: 2016
 tidal_id: 245928025
+cover: "[[_covers/Kero Kero Bonito - Bonito Generation.jpg]]"
 tags:
   - Electropop
   - Synthpop

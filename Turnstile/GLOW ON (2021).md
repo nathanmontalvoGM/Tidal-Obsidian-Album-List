@@ -3,6 +3,7 @@ title: "GLOW ON"
 artist: "Turnstile"
 year: 2021
 tidal_id: 193913258
+cover: "[[_covers/Turnstile - GLOW ON.jpg]]"
 tags:
   - HardcorePunk
   - AlternativeRock

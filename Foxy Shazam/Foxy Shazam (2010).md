@@ -3,6 +3,7 @@ title: "Foxy Shazam"
 artist: "Foxy Shazam"
 year: 2010
 tidal_id: 3663964
+cover: "[[_covers/Foxy Shazam - Foxy Shazam.jpg]]"
 tags:
   - AlternativeRock
   - Rock

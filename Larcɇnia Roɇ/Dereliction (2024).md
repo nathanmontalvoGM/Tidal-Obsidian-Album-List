@@ -3,6 +3,7 @@ title: Dereliction
 artist: Larcɇnia Roɇ
 year: 2024
 tidal_id: 359953981
+cover: "[[_covers/Larcɇnia Roɇ - Dereliction.jpg]]"
 tags:
   - Deathcore
 rating:

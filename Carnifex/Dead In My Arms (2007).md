@@ -3,6 +3,7 @@ title: "Dead In My Arms"
 artist: "Carnifex"
 year: 2007
 tidal_id: 9197059
+cover: "[[_covers/Carnifex - Dead In My Arms.jpg]]"
 tags:
   - Deathcore
 rating:

@@ -3,6 +3,7 @@ title: "None So Vile"
 artist: "Cryptopsy"
 year: 1996
 tidal_id: 18517462
+cover: "[[_covers/Cryptopsy - None So Vile.jpg]]"
 tags:
   - MathMetal
   - TechnicalDeathMetal

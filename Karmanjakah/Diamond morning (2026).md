@@ -3,6 +3,7 @@ title: Diamond morning
 artist: Karmanjakah
 year: 2026
 tidal_id: 501890559
+cover: "[[_covers/Karmanjakah - Diamond morning.jpg]]"
 tags:
   - PostMetal
   - ProgressiveMetal

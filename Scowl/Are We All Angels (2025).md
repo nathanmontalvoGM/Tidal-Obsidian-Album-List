@@ -3,6 +3,7 @@ title: "Are We All Angels"
 artist: "Scowl"
 year: 2025
 tidal_id: 406144346
+cover: "[[_covers/Scowl - Are We All Angels.jpg]]"
 tags:
   - Grunge
   - Punk

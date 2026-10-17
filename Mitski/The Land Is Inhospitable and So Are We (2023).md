@@ -3,6 +3,7 @@ title: "The Land Is Inhospitable and So Are We"
 artist: "Mitski"
 year: 2023
 tidal_id: 304555200
+cover: "[[_covers/Mitski - The Land Is Inhospitable and So Are We.jpg]]"
 tags:
   - IndieFolk
   - Americana

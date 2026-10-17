@@ -3,6 +3,7 @@ title: "Écailles de lune"
 artist: "Alcest"
 year: 2010
 tidal_id: 175547820
+cover: "[[_covers/Alcest - Écailles de lune.jpg]]"
 tags:
   - Shoegaze
   - PostRock

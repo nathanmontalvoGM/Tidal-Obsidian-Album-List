@@ -3,6 +3,7 @@ title: "Who Are You When No One Is Watching?"
 artist: "Graphic Nature"
 year: 2024
 tidal_id: 359828113
+cover: "[[_covers/Graphic Nature - Who Are You When No One Is Watching-.jpg]]"
 tags:
   - Metalcore
 rating:

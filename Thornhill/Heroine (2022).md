@@ -3,6 +3,7 @@ title: "Heroine"
 artist: "Thornhill"
 year: 2022
 tidal_id: 379540602
+cover: "[[_covers/Thornhill - Heroine.jpg]]"
 tags:
   - AlternativeMetal
   - Shoegaze

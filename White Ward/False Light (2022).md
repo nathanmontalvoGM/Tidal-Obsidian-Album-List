@@ -3,6 +3,7 @@ title: "False Light"
 artist: "White Ward"
 year: 2022
 tidal_id: 216462544
+cover: "[[_covers/White Ward - False Light.jpg]]"
 tags:
   - Jazz
   - ProgressiveMetal

@@ -3,6 +3,7 @@ title: "Man It Feels Like Space Again"
 artist: "Pond"
 year: 2015
 tidal_id: 475743082
+cover: "[[_covers/Pond - Man It Feels Like Space Again.jpg]]"
 tags:
   - PsychedelicRock
   - Poptron

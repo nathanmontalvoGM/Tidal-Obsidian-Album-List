@@ -3,6 +3,7 @@ title: "The Great American Bar Scene"
 artist: "Zach Bryan"
 year: 2024
 tidal_id: 441352261
+cover: "[[_covers/Zach Bryan - The Great American Bar Scene.jpg]]"
 tags:
   - AltCountry
   - Country

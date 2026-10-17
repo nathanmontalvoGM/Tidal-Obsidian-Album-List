@@ -3,6 +3,7 @@ title: "Lotus"
 artist: "Little Simz"
 year: 2025
 tidal_id: 439599724
+cover: "[[_covers/Little Simz - Lotus.jpg]]"
 tags:
   - JazzRap
   - HipHop

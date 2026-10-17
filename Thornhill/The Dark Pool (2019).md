@@ -3,6 +3,7 @@ title: "The Dark Pool"
 artist: "Thornhill"
 year: 2019
 tidal_id: 379465533
+cover: "[[_covers/Thornhill - The Dark Pool.jpg]]"
 tags:
   - Metalcore
   - AlternativeMetal

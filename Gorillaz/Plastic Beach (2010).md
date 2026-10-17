@@ -3,6 +3,7 @@ title: "Plastic Beach"
 artist: "Gorillaz"
 year: 2010
 tidal_id: 71109496
+cover: "[[_covers/Gorillaz - Plastic Beach.jpg]]"
 tags:
   - Electronicore
   - AlternativeRock

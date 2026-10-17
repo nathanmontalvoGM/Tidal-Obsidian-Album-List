@@ -3,6 +3,7 @@ title: "Age of the Exhibitionist"
 artist: "Rebecca Black"
 year: 2026
 tidal_id: 536088056
+cover: "[[_covers/Rebecca Black - Age of the Exhibitionist.jpg]]"
 tags: []
 rating:
 ---

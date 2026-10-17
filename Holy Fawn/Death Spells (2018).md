@@ -3,6 +3,7 @@ title: "Death Spells"
 artist: "Holy Fawn"
 year: 2018
 tidal_id: 105498173
+cover: "[[_covers/Holy Fawn - Death Spells.jpg]]"
 tags:
   - PostRock
   - DoomMetal

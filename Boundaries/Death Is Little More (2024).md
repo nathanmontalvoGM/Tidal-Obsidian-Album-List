@@ -3,6 +3,7 @@ title: "Death Is Little More"
 artist: "Boundaries"
 year: 2024
 tidal_id: 338772109
+cover: "[[_covers/Boundaries - Death Is Little More.jpg]]"
 tags:
   - Metalcore
 rating:

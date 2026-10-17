@@ -3,6 +3,7 @@ title: "Expert In A Dying Field"
 artist: "The Beths"
 year: 2022
 tidal_id: 248506900
+cover: "[[_covers/The Beths - Expert In A Dying Field.jpg]]"
 tags:
   - PowerPop
   - Rock

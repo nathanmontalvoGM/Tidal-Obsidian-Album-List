@@ -3,6 +3,7 @@ title: Between The Briny Devil & Thee, Conqueror of Eighth Sea City
 artist: NEWCOMER
 year: 2021
 tidal_id: 204787928
+cover: "[[_covers/NEWCOMER - Between The Briny Devil & Thee, Conqueror of Eighth Sea City.jpg]]"
 tags:
   - Metalcore
   - Shoegaze

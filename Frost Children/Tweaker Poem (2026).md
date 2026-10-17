@@ -3,6 +3,7 @@ title: "Tweaker Poem"
 artist: "Frost Children"
 year: 2026
 tidal_id: 540650737
+cover: "[[_covers/Frost Children - Tweaker Poem.jpg]]"
 tags: []
 rating:
 ---

@@ -3,6 +3,7 @@ title: "The Chosen"
 artist: "Enterprise Earth"
 year: 2022
 tidal_id: 333882773
+cover: "[[_covers/Enterprise Earth - The Chosen.jpg]]"
 tags:
   - MathMetal
   - Deathcore

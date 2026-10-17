@@ -3,6 +3,7 @@ title: "Racing Mount Pleasant"
 artist: "Racing Mount Pleasant"
 year: 2025
 tidal_id: 447151886
+cover: "[[_covers/Racing Mount Pleasant - Racing Mount Pleasant.jpg]]"
 tags:
   - ChamberPop
   - PostRock

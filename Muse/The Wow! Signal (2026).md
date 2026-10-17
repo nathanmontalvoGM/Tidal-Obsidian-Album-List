@@ -3,6 +3,7 @@ title: "The Wow! Signal"
 artist: "Muse"
 year: 2026
 tidal_id: 534934336
+cover: "[[_covers/Muse - The Wow! Signal.jpg]]"
 tags:
   - AlternativeRock
   - PopRock

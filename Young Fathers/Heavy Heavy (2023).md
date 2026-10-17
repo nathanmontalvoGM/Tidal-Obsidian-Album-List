@@ -3,6 +3,7 @@ title: "Heavy Heavy"
 artist: "Young Fathers"
 year: 2023
 tidal_id: 272941544
+cover: "[[_covers/Young Fathers - Heavy Heavy.jpg]]"
 tags:
   - ArtPop
   - Rock

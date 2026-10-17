@@ -3,6 +3,7 @@ title: "From Hell With Love"
 artist: "Beast In Black"
 year: 2019
 tidal_id: 99855943
+cover: "[[_covers/Beast In Black - From Hell With Love.jpg]]"
 tags:
   - PowerMetal
   - HeavyMetal

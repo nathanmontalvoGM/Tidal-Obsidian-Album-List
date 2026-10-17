@@ -3,6 +3,7 @@ title: "Wake Up The Wicked"
 artist: "Powerwolf"
 year: 2024
 tidal_id: 376214735
+cover: "[[_covers/Powerwolf - Wake Up The Wicked.jpg]]"
 tags:
   - PowerMetal
   - HeavyMetal

@@ -3,6 +3,7 @@ title: "Worlds"
 artist: "Porter Robinson"
 year: 2014
 tidal_id: 32571279
+cover: "[[_covers/Porter Robinson - Worlds.jpg]]"
 tags:
   - Vocaloid
   - Electronicore

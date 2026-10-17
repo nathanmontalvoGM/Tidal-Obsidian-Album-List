@@ -3,6 +3,7 @@ title: "Nostril"
 artist: "Igorrr"
 year: 2010
 tidal_id: 142885907
+cover: "[[_covers/Igorrr - Nostril.jpg]]"
 tags:
   - Breakcore
   - IDM

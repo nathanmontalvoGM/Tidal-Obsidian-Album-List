@@ -3,6 +3,7 @@ title: "Super Snõõper"
 artist: "Snõõper"
 year: 2023
 tidal_id: 475814696
+cover: "[[_covers/Snõõper - Super Snõõper.jpg]]"
 tags:
   - PostPunk
   - GaragePunk

@@ -3,6 +3,7 @@ title: "The Forever Story"
 artist: "JID"
 year: 2022
 tidal_id: 244862978
+cover: "[[_covers/JID - The Forever Story.jpg]]"
 tags:
   - HipHop
   - NeoSoul

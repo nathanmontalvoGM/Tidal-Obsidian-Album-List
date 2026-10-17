@@ -3,6 +3,7 @@ title: Clancy
 artist: twenty one pilots
 year: 2024
 tidal_id: 364834730
+cover: "[[_covers/twenty one pilots - Clancy.jpg]]"
 tags:
   - Favorite
   - Rock

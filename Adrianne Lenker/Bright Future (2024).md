@@ -3,6 +3,7 @@ title: "Bright Future"
 artist: "Adrianne Lenker"
 year: 2024
 tidal_id: 348182611
+cover: "[[_covers/Adrianne Lenker - Bright Future.jpg]]"
 tags:
   - SingerSongwriter
   - ContemporaryFolk

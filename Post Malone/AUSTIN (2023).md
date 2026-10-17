@@ -3,6 +3,7 @@ title: "AUSTIN"
 artist: "Post Malone"
 year: 2023
 tidal_id: 307068779
+cover: "[[_covers/Post Malone - AUSTIN.jpg]]"
 tags:
   - PopRock
   - Pop

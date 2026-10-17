@@ -3,6 +3,7 @@ title: "rising"
 artist: "mxmtoon"
 year: 2022
 tidal_id: 246281740
+cover: "[[_covers/mxmtoon - rising.jpg]]"
 tags:
   - Pop
   - IndiePop

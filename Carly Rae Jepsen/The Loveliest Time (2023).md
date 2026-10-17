@@ -3,6 +3,7 @@ title: "The Loveliest Time"
 artist: "Carly Rae Jepsen"
 year: 2023
 tidal_id: 306420760
+cover: "[[_covers/Carly Rae Jepsen - The Loveliest Time.jpg]]"
 tags:
   - Pop
   - RnB

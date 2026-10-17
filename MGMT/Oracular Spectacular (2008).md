@@ -3,6 +3,7 @@ title: "Oracular Spectacular"
 artist: "MGMT"
 year: 2008
 tidal_id: 1317014
+cover: "[[_covers/MGMT - Oracular Spectacular.jpg]]"
 tags:
   - Indie
   - Electronicore

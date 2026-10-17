@@ -3,6 +3,7 @@ title: "for the rest of your life"
 artist: "twikipedia"
 year: 2024
 tidal_id: 359606800
+cover: "[[_covers/twikipedia - for the rest of your life.jpg]]"
 tags:
   - IndieRock
   - Shoegaze

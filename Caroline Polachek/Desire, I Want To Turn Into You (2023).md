@@ -3,6 +3,7 @@ title: "Desire, I Want To Turn Into You"
 artist: "Caroline Polachek"
 year: 2023
 tidal_id: 275761405
+cover: "[[_covers/Caroline Polachek - Desire, I Want To Turn Into You.jpg]]"
 tags:
   - ArtPop
   - Electronicore

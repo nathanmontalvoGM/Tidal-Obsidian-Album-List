@@ -3,6 +3,7 @@ title: "YOUNG&DANGEROUS"
 artist: "The Struts"
 year: 2018
 tidal_id: 96966811
+cover: "[[_covers/The Struts - YOUNG&DANGEROUS.jpg]]"
 tags:
   - Rock
 rating:

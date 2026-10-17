@@ -3,6 +3,7 @@ title: "When the Lights Go"
 artist: "Totally Enormous Extinct Dinosaurs"
 year: 2022
 tidal_id: 220344190
+cover: "[[_covers/Totally Enormous Extinct Dinosaurs - When the Lights Go.jpg]]"
 tags:
   - Downtempo
   - EBM

@@ -3,6 +3,7 @@ title: "PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of 
 artist: "King Gizzard & The Lizard Wizard"
 year: 2023
 tidal_id: 299065996
+cover: "[[_covers/King Gizzard & The Lizard Wizard - PetroDragonic Apocalypse; or, Dawn of Eternal Night- An Annihilation of Planet Earth and the Beginning of Merciless Damnation.jpg]]"
 tags:
   - ThrashMetal
   - ProgressiveMetal

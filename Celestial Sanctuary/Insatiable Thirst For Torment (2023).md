@@ -3,6 +3,7 @@ title: Insatiable Thirst For Torment
 artist: Celestial Sanctuary
 year: 2023
 tidal_id: 297487451
+cover: "[[_covers/Celestial Sanctuary - Insatiable Thirst For Torment.jpg]]"
 tags:
   - DeathMetal
 rating:

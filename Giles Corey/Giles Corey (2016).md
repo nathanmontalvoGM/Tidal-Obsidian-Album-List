@@ -3,6 +3,7 @@ title: "Giles Corey"
 artist: "Giles Corey"
 year: 2016
 tidal_id: 65229453
+cover: "[[_covers/Giles Corey - Giles Corey.jpg]]"
 tags:
   - SingerSongwriter
   - Slowcore

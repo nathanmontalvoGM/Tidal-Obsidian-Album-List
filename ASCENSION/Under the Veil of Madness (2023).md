@@ -3,6 +3,7 @@ title: Under the Veil of Madness
 artist: ASCENSION
 year: 2023
 tidal_id: 271324328
+cover: "[[_covers/ASCENSION - Under the Veil of Madness.jpg]]"
 tags:
   - PowerMetal
 rating:

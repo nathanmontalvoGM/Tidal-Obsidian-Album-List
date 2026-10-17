@@ -3,6 +3,7 @@ title: "Single Mind Worst Thought"
 artist: "Parannoul"
 year: 2026
 tidal_id: 561624017
+cover: "[[_covers/Parannoul - Single Mind Worst Thought.jpg]]"
 tags: []
 rating:
 ---

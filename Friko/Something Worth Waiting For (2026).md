@@ -3,6 +3,7 @@ title: "Something Worth Waiting For"
 artist: "Friko"
 year: 2026
 tidal_id: 487209030
+cover: "[[_covers/Friko - Something Worth Waiting For.jpg]]"
 tags:
   - IndieRock
 rating:

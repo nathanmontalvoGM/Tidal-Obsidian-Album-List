@@ -3,6 +3,7 @@ title: "Blue Weekend"
 artist: "Wolf Alice"
 year: 2021
 tidal_id: 186197715
+cover: "[[_covers/Wolf Alice - Blue Weekend.jpg]]"
 tags:
   - IndieRock
   - DreamPop

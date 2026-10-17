@@ -3,6 +3,7 @@ title: "Greetings From Bleak St."
 artist: "Josie Edwards"
 year: 2026
 tidal_id: 534393992
+cover: "[[_covers/Josie Edwards - Greetings From Bleak St.jpg]]"
 tags: []
 rating:
 ---

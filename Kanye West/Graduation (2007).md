@@ -3,6 +3,7 @@ title: "Graduation"
 artist: "Kanye West"
 year: 2007
 tidal_id: 103805723
+cover: "[[_covers/Kanye West - Graduation.jpg]]"
 tags:
   - HipHop
   - RnB

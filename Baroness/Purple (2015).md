@@ -3,6 +3,7 @@ title: "Purple"
 artist: "Baroness"
 year: 2015
 tidal_id: 68739189
+cover: "[[_covers/Baroness - Purple.jpg]]"
 tags:
   - ProgressiveMetal
   - SludgeMetal

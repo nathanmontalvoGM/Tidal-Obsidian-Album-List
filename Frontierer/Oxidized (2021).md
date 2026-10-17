@@ -3,6 +3,7 @@ title: "Oxidized"
 artist: "Frontierer"
 year: 2021
 tidal_id: 193635707
+cover: "[[_covers/Frontierer - Oxidized.jpg]]"
 tags:
   - Noise
   - Glitch

@@ -3,6 +3,7 @@ title: "Phantom Island"
 artist: "King Gizzard & The Lizard Wizard"
 year: 2025
 tidal_id: 440456313
+cover: "[[_covers/King Gizzard & The Lizard Wizard - Phantom Island.jpg]]"
 tags:
   - BluesRock
   - SymphonicProg

@@ -3,6 +3,7 @@ title: "Hornet Disaster"
 artist: "Weatherday"
 year: 2025
 tidal_id: 407147757
+cover: "[[_covers/Weatherday - Hornet Disaster.jpg]]"
 tags:
   - Emo
   - NoisePop

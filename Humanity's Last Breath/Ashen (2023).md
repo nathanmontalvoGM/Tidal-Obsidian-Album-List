@@ -3,6 +3,7 @@ title: "Ashen"
 artist: "Humanity's Last Breath"
 year: 2023
 tidal_id: 283523407
+cover: "[[_covers/Humanity's Last Breath - Ashen.jpg]]"
 tags:
   - MathMetal
   - Deathcore

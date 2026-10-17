@@ -3,6 +3,7 @@ title: "At the Heart of Wintervale"
 artist: "Twilight Force"
 year: 2023
 tidal_id: 253922982
+cover: "[[_covers/Twilight Force - At the Heart of Wintervale.jpg]]"
 tags:
   - PowerMetal
   - SymphonicMetal

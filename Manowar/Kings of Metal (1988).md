@@ -3,6 +3,7 @@ title: "Kings of Metal"
 artist: "Manowar"
 year: 1988
 tidal_id: 3467185
+cover: "[[_covers/Manowar - Kings of Metal.jpg]]"
 tags:
   - HeavyMetal
   - PowerMetal

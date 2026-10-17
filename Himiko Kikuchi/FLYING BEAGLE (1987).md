@@ -3,6 +3,7 @@ title: "FLYING BEAGLE"
 artist: "Himiko Kikuchi"
 year: 1987
 tidal_id: 389704246
+cover: "[[_covers/Himiko Kikuchi - FLYING BEAGLE.jpg]]"
 tags:
   - Jazz
   - JazzFusion

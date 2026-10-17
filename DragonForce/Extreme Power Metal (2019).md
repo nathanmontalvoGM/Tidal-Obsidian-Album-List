@@ -3,6 +3,7 @@ title: "Extreme Power Metal"
 artist: "DragonForce"
 year: 2019
 tidal_id: 113025554
+cover: "[[_covers/DragonForce - Extreme Power Metal.jpg]]"
 tags:
   - PowerMetal
   - SpeedMetal

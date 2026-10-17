@@ -3,6 +3,7 @@ title: "Cutting the Throat of God"
 artist: "Ulcerate"
 year: 2024
 tidal_id: 345351411
+cover: "[[_covers/Ulcerate - Cutting the Throat of God.jpg]]"
 tags:
   - TechnicalDeathMetal
   - DissonantDeathMetal

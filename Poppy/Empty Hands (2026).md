@@ -3,6 +3,7 @@ title: "Empty Hands"
 artist: "Poppy"
 year: 2026
 tidal_id: 492022483
+cover: "[[_covers/Poppy - Empty Hands.jpg]]"
 tags:
   - AlternativeMetal
   - Emo

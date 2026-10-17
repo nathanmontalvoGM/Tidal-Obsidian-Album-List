@@ -3,6 +3,7 @@ title: "I Didn't Mean To Haunt You"
 artist: "Quadeca"
 year: 2022
 tidal_id: 258132984
+cover: "[[_covers/Quadeca - I Didn't Mean To Haunt You.jpg]]"
 tags:
   - Folktronica
   - ArtPop

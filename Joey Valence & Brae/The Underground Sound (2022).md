@@ -3,6 +3,7 @@ title: "The Underground Sound"
 artist: "Joey Valence & Brae"
 year: 2022
 tidal_id: 247276311
+cover: "[[_covers/Joey Valence & Brae - The Underground Sound.jpg]]"
 tags:
   - BoomBap
   - EastCoastHipHop

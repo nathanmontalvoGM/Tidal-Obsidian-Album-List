@@ -3,6 +3,7 @@ title: Life is just a temporary plan
 artist: Abbie Falls
 year: 2025
 tidal_id: 457680711
+cover: "[[_covers/Abbie Falls - Life is just a temporary plan.jpg]]"
 tags:
   - Metalcore
   - Deathcore

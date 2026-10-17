@@ -3,6 +3,7 @@ title: "Bunky Becky Birthday Boy"
 artist: "Sleigh Bells"
 year: 2025
 tidal_id: 427884063
+cover: "[[_covers/Sleigh Bells - Bunky Becky Birthday Boy.jpg]]"
 tags:
   - Indie
   - Electronicore

@@ -3,6 +3,7 @@ title: "Connla's Well"
 artist: "Maruja"
 year: 2024
 tidal_id: 355101345
+cover: "[[_covers/Maruja - Connla's Well.jpg]]"
 tags:
   - PostRock
   - PostPunk
