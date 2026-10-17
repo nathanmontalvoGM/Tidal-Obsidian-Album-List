@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Dashboard/Genres/BlackenedDeathcore.md",
-                "mode": "preview",
+                "file": "_templates/Auto Sync code.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "BlackenedDeathcore"
+              "title": "Auto Sync code"
             }
           },
           {
@@ -202,6 +202,13 @@
   },
   "active": "d3811725f7422261",
   "lastOpenFiles": [
+    "00 Dashboard/Genres/BlackenedDeathcore.md",
+    "_code/sync_tidal.py",
+    "_code/library.py",
+    "_code/common.py",
+    "_code/README.md",
+    "00 Dashboard/Genres/VideoGameMusic.md",
+    "Disembodied Tyrant/The Tower- Part One (2024).md",
     "00 Dashboard/Genres/Postindustrial.md",
     "_covers/TEED - When the Lights Go.jpg",
     "Gloryhammer/Space 1993- Wrath of Kor-Virliath (2026).md",
@@ -226,16 +233,11 @@
     "00 Dashboard/Genres/PopRock.md",
     "00 Dashboard/Genres/HardRock.md",
     "00 Dashboard/Genres/DeathMetal.md",
-    "00 Dashboard/Genres/CountryFolk.md",
-    "00 Dashboard/Genres/AlternativeDance.md",
-    "00 Dashboard/Genres/AltPop.md",
-    "Attic Ocean/Retriever (2024).md",
     "__pycache__/tag_rules.cpython-314.pyc",
     "__pycache__",
     "tag_rules.py",
     "normalize_tags.py",
     "_scripts/tags.json",
-    "Andrew W.K/I Get Wet (2001).md",
     "fix_covers.py",
     "_tools/icons/untagged.gif",
     "_tools/icons/search.gif",
@@ -244,9 +246,6 @@
     "_tools/icons/playlist.gif.jpg",
     "_tools/icons/library.gif",
     "_tools/icons/recent.gif",
-    "_tools/icons/recently-added.gif",
-    "_tools/icons",
-    "_scripts/album.js",
-    "_scripts/playlist.js"
+    "_tools/icons/recently-added.gif"
   ]
 }

@@ -1,1 +1,1 @@
-schtasks /create /tn "Sync Tidal" /tr "\"C:\Users\Nathan\AppData\Local\Programs\Python\Python312\python.exe\" \"I:\My Drive\DriveSyncFiles\Tidal Album Folders\Tidal Albums\_code\sync_tidal.py\"" /sc daily /st 09:00
+schtasks /create /tn "Sync Tidal" /tr "\"C:\Users\Nathan\AppData\Local\Programs\Python\Python312\python.exe\" \"C:\Users\minec\Documents\GitHub\Tidal-Obsidian-Album-List\_code\sync_tidal.py\"" /sc daily /st 23:00
