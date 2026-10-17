@@ -72,7 +72,7 @@ for d, dirs, files in os.walk(VAULT):
         for t in old:
             if not is_known(t):
                 unknown[t] += 1
-        if [t.strip('"\'').lstrip("#") for t in old] == new:
+        if old == new:
             continue
         for t in old:
             clean = t.strip('"\'').lstrip("#")

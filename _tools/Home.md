@@ -111,23 +111,34 @@ function openPlaylistPicker() {
     }
 }
 
-function openPlaylistByTag() {
+async function openPlaylistByTag() {
     const { overlay, body } = createModal("🏷 Create Playlist by Tag");
-    const tagCategories = {
-        "Metal": ["PowerMetal","AlternativeMetal","AvantGardeMetal","BlackMetal","Blackgaze","Deathcore","DoomMetal","FolkMetal","GothicMetal","MathCore","MelodicDeathMetal","MelodicMetalcore","NoiseMetal","NuMetal","ProgMetal","ProgMetalCore","ProgDeathMetal","SludgeMetal","StonerMetal","SymphonicMetal","TechnicalDeathMetal","ThrashMetal","FunMetalThings"],
-        "Rock": ["AlternativeRock","ArtRock","BritPop","DancePunk","ExperimentalRock","FolkRock","GaragePunk","GlamRock","HardRock","IndieRock","IndustrialRock","MathRock","NoiseRock","PopRock","PostPunkRevival","PostRock","PsychedelicRock","Shoegaze","SpaceRock"],
-        "Hip Hop": ["AbstractHipHop","BoomBap","ConsciousHipHop","EastCoastHipHop","ExperimentalHipHop","HardcoreHipHop","HipHop","IndustrialHipHop","JazzRap","LoFiHipHop","PopRap","RapMetal"],
-        "Alternative": ["AltPop","AlternativeDance","ArtPop","ChamberPop","DreamPop","Emo","IndieFolk","Indietronica","MidwestEmo","NeoPsychedelia","NewWave","NoisePop","PostHardcore","ProgressivePop","PsychedelicPop"],
-        "Electronic": ["Ambient","AmbientTechno","Bitpop","Breakcore","Cybergrind","DancePop","DigitalHardcore","DrumandBass","Dubstep","EDM","ElectroHouse","Electropop","Folktronica","HyperPop","Synthpop"],
-        "Jazz & Soul": ["JazzFunk","JazzFusion","JazzPop","Soul","Funk","VocalJazz","BluesRock"],
-        "Folk & Acoustic": ["AltCountry","Folk","FolkRock","IndieFolk","SingerSongwriter"],
-        "Prog & Art": ["AvantProg","PostRock","ProgRock","SymphonicProg","RockOpera","ModernClassical"],
-    };
-    const tagSet = new Set();
-    for (let page of allPages) { if (page.tags) for (let t of page.tags) tagSet.add(String(t).replace(/^#/,"")); }
-    const knownTags = new Set(Object.values(tagCategories).flat());
-    const otherTags = Array.from(tagSet).filter(t => !knownTags.has(t)).sort();
-    if (otherTags.length > 0) tagCategories["Other"] = otherTags;
+    // Categories come from _scripts/tags.json, so they always use the same tag names as the albums.
+    const tagCounts = new Map();
+    for (let page of allPages) {
+        if (!page.tags) continue;
+        for (let t of (Array.isArray(page.tags) ? page.tags : [page.tags])) {
+            const tag = String(t).replace(/^#/, "");
+            tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+        }
+    }
+    const tagSet = new Set(tagCounts.keys());
+    const byLower = new Map(Array.from(tagSet).map(t => [t.toLowerCase(), t]));
+    let ruleCategories = {};
+    try {
+        ruleCategories = JSON.parse(await app.vault.adapter.read("_scripts/tags.json")).categories || {};
+    } catch (e) {
+        console.error("Could not read _scripts/tags.json", e);
+    }
+    const tagCategories = {};
+    const categorized = new Set();
+    for (const [cat, list] of Object.entries(ruleCategories)) {
+        const present = list.map(t => byLower.get(String(t).toLowerCase())).filter(Boolean);
+        present.forEach(t => categorized.add(t));
+        if (present.length) tagCategories[cat] = present.sort((x, y) => x.localeCompare(y));
+    }
+    const otherTags = Array.from(tagSet).filter(t => !categorized.has(t)).sort((x, y) => x.localeCompare(y));
+    if (otherTags.length) tagCategories["Other"] = Array.from(new Set([...(tagCategories["Other"] || []), ...otherTags])).sort((x, y) => x.localeCompare(y));
     let selectedTags = new Set();
     let matchMode = "any";
     let activeCategory = "All";
@@ -157,14 +168,14 @@ function openPlaylistByTag() {
     const tagGrid = body.createEl("div"); tagGrid.style.cssText = "display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; max-height:180px; overflow-y:auto; padding:4px;";
     function getVisibleTags() {
         const search = searchInput.value.toLowerCase();
-        let tags = activeCategory === "All" ? Array.from(tagSet).sort() : (tagCategories[activeCategory] || []);
+        let tags = activeCategory === "All" ? Array.from(tagSet).sort((x, y) => x.localeCompare(y)) : (tagCategories[activeCategory] || []);
         if (search) tags = tags.filter(t => t.toLowerCase().includes(search));
         return tags;
     }
     function renderTagGrid() {
         tagGrid.innerHTML = "";
         for (let tag of getVisibleTags()) {
-            const btn = tagGrid.createEl("button"); btn.textContent = tag;
+            const btn = tagGrid.createEl("button"); btn.textContent = `${tag} · ${tagCounts.get(tag) || 0}`;
             btn.style.cssText = `padding:8px 14px; border-radius:20px; font-size:13px; cursor:pointer; border:1px solid ${selectedTags.has(tag)?"#7c3aed":"#444"}; background:${selectedTags.has(tag)?"#7c3aed":"#222"}; color:${selectedTags.has(tag)?"#fff":"#aaa"};`;
             btn.onclick = () => { selectedTags.has(tag) ? selectedTags.delete(tag) : selectedTags.add(tag); renderTagGrid(); renderPreview(); };
         }
