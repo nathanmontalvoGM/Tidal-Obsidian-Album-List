@@ -11,43 +11,8 @@ tags:
 rating:
 ---
 
-# Fight Songs: The Music of Team Fortress 2
-**Artist:** Valve Studio Orchestra
-**Year:** 2017
-
-![[_covers/Valve Studio Orchestra - Fight Songs- The Music of Team Fortress 2.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/263210772
-```
-^button-zcgk
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Valve%20Studio%20Orchestra%20Fight%20Songs%3A%20The%20Music%20of%20Team%20Fortress%202
-```
-^button-lnj5
-
-## Tracklist
-
 ```dataviewjs
-const page = dv.current();
-const content = await app.vault.read(app.vault.getAbstractFileByPath(page.file.path));
-const rows = content.match(/^\|\s*[\d-]+\s*\|.+\|\s*([0-9.]+)\s*\|$/gm) || [];
-const ratings = rows.map(r => {
-    const cols = r.split('|').map(c => c.trim());
-    return parseFloat(cols[cols.length - 2]);
-}).filter(v => !isNaN(v) && v > 0);
-const el = dv.container.createEl('div');
-el.style.cssText = 'font-size:18px; font-weight:bold; color:#fff; padding:6px 0 12px 0;';
-if (ratings.length > 0) {
-    const avg = (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1);
-    el.textContent = 'Overall Rating: ' + avg + ' / 10 (' + ratings.length + ' tracks rated)';
-} else {
-    el.style.color = '#666';
-    el.textContent = 'Overall Rating: No tracks rated yet';
-}
+await dv.view("_scripts/album");
 ```
 
 | # | Title | Duration | Rating /10 |

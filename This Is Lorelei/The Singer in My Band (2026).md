@@ -7,43 +7,8 @@ tags: []
 rating:
 ---
 
-# The Singer in My Band
-**Artist:** This Is Lorelei
-**Year:** 2026
-
-![[_covers/This Is Lorelei - The Singer in My Band.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/554024739
-```
-^button-16lu
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=This%20Is%20Lorelei%20The%20Singer%20in%20My%20Band
-```
-^button-w3ti
-
-## Tracklist
-
 ```dataviewjs
-const page = dv.current();
-const content = await app.vault.read(app.vault.getAbstractFileByPath(page.file.path));
-const rows = content.match(/^\|\s*[\d-]+\s*\|.+\|\s*([0-9.]+)\s*\|$/gm) || [];
-const ratings = rows.map(r => {
-    const cols = r.split('|').map(c => c.trim());
-    return parseFloat(cols[cols.length - 2]);
-}).filter(v => !isNaN(v) && v > 0);
-const el = dv.container.createEl('div');
-el.style.cssText = 'font-size:18px; font-weight:bold; color:#fff; padding:6px 0 12px 0;';
-if (ratings.length > 0) {
-    const avg = (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1);
-    el.textContent = 'Overall Rating: ' + avg + ' / 10 (' + ratings.length + ' tracks rated)';
-} else {
-    el.style.color = '#666';
-    el.textContent = 'Overall Rating: No tracks rated yet';
-}
+await dv.view("_scripts/album");
 ```
 
 | # | Title | Duration | Rating /10 |

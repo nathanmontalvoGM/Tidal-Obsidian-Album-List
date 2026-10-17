@@ -1,30 +1,29 @@
 ---
-title: "The Saberlight Chronicles"
-artist: "Fellowship"
+title: "At Work In The Fields Of The Bomb"
+artist: "Deafheaven"
 year: 2026
-tidal_id: 332852788
-tags:
-  - Powermetal
+tidal_id: 563888796
+tags: []
 rating:
 ---
 
-# The Saberlight Chronicles
-**Artist:** Fellowship
+# At Work In The Fields Of The Bomb
+**Artist:** Deafheaven
 **Year:** 2026
 
-![[_covers/Fellowship - The Saberlight Chronicles.jpg]]
+![[_covers/Deafheaven - At Work In The Fields Of The Bomb.jpg]]
 ```button
 name ▶ Play on Tidal
 type link
-action tidal://album/332852788
+action tidal://album/563888796
 ```
-^button-ab8s
+^button-mmol
 ```button
 name Search on Album of the Year
 type link
-action https://www.albumoftheyear.org/search/?q=Fellowship%20The%20Saberlight%20Chronicles
+action https://www.albumoftheyear.org/search/?q=Deafheaven%20At%20Work%20In%20The%20Fields%20Of%20The%20Bomb
 ```
-^button-m6r2
+^button-1vj1
 
 ## Tracklist
 
@@ -49,16 +48,6 @@ if (ratings.length > 0) {
 
 | # | Title | Duration | Rating /10 |
 |---|-------|----------|------------|
-| 1 | Until the Fires Die | 5:14 |  |
-| 2 | Atlas | 4:54 |  |
-| 3 | Glory Days | 4:53 |  |
-| 4 | Oak and Ash | 4:52 |  |
-| 5 | Hearts Upon the Hill | 4:25 |  |
-| 6 | Scars and Shrapnel Wounds | 3:55 |  |
-| 7 | The Hours of Wintertime | 5:44 |  |
-| 8 | Glint | 5:10 |  |
-| 9 | The Saint Beyond the River | 4:06 |  |
-| 10 | Silhouette | 4:25 |  |
-| 11 | Still Enough | 5:39 |  |
-| 12 | Avalon | 9:08 |  |
-| 13 | The Frozen Land | 5:07 |  |
+| 1 | Hunter | 7:16 |  |
+| 2 | Three Princes | 2:55 |  |
+| 3 | Sorry Laid the Hearth | 12:47 |  |

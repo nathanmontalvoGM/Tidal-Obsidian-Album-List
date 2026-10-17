@@ -1,3 +1,7 @@
+```dataviewjs
+  await dv.view("_scripts/album");
+```
+
 ---
 title: Shiver
 artist: Krooked Kings

@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f26e0eecf23751e",
+            "id": "d3811725f7422261",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Twilight Force/Heroes of Mighty Magic (2016).md",
-                "mode": "source",
+                "file": "Andrew W.K/I Get Wet (2001).md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Heroes of Mighty Magic (2016)"
+              "title": "I Get Wet (2001)"
+            }
+          },
+          {
+            "id": "fd182cff6f542699",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Dashboard/Library.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Library"
             }
           }
         ]
@@ -182,56 +196,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f26e0eecf23751e",
+  "active": "d3811725f7422261",
   "lastOpenFiles": [
+    "00 Dashboard/Playlists/A Bunch of Rocks.md",
+    "00 Dashboard/Library.md",
+    "00 Dashboard/Playlists/Prog and Art.md",
+    "00 Dashboard/Playlists/Alternative and Indie.md",
+    "00 Dashboard/Playlists/Music to not be embarrassed about.md",
+    "AJR/OK ORCHESTRA (2021).md",
+    "Muse/Origin of Symmetry (2001).md",
+    "twenty one pilots/Trench (2018).md",
+    "AJR/The Maybe Man (2023).md",
+    "Andrew W.K/I Get Wet (2001).md",
+    "Andrew W...K/I Get Wet (2001).md",
+    "_tools/Home.md",
     "00 Dashboard/Playlists/All Things Metal.md",
-    "_templates/Overwrite prompt.md",
-    "Gilla Band/Most Normal (2022).md",
-    "Manowar/Kings of Metal (1988).md",
-    "Unleash The Archers/Phantoma (2024).md",
-    "Nails/Unsilent Death (10th Anniversary Edition) (2010).md",
-    "Powerwolf/Wake Up The Wicked (2024).md",
-    "Sabaton/The War to End All Wars (2022).md",
-    "Frontierer/Oxidized (2021).md",
-    "Slaughter to Prevail/Kostolom (2021).md",
-    "Devin Townsend/Ocean Machine (2003).md",
-    "Candlemass/Epicus Doomicus Metallicus (1986).md",
-    "An Abstract Illusion/Woe (2022).md",
-    "Orbit Culture/Nija (2020).md",
-    "Fires in the Distance/Air Not Meant for Us (2023).md",
-    "Dying Wish/Fragments of a Bitter Memory (2021).md",
-    "Devin Townsend/Ziltoid the Omniscient (2007).md",
-    "RYUJIN/RYUJIN (2024).md",
-    "An Abstract Illusion/The Sleeping City (2025).md",
-    "Aether Realm/Tarot (2017).md",
-    "Fit For An Autopsy/Oh What the Future Holds (2022).md",
-    "TesseracT/Altered State (2013).md",
-    "The Angelic Process/Weighing Souls with Sand (2017).md",
-    "Death/The Sound of Perseverance - Reissue (1998).md",
-    "Frontierer/THE SKULL BURNED WEARING HELL LIKE A LIFE VEST AS THE NIGHT WEPT (2024).md",
-    "Karmanjakah/A Book About Itself (2021).md",
+    "Deftones/private music (2025).md",
+    "twenty one pilots/Breach (2025).md",
+    "twenty one pilots/Clancy (2024).md",
+    "Black Country, New Road/Ants From Up There (2022).md",
+    "Jeff Rosenstock/HELLMODE (2023).md",
+    "Westside Cowboy/So Much Country ‘Till We Get There (2026).md",
+    "Jeff Rosenstock/WORRY (2016).md",
+    "Attic Ocean/Retriever (2024).md",
+    "After/After EP (2025).md",
+    "YHWH Nailgun/45 Pounds (2025).md",
+    "Devin Townsend/Empath (Deluxe Edition) (2019).md",
+    "Balu Brigada/Portal (2025).md",
+    "Harp/Albion (2023).md",
+    "_tools/icons/untagged.gif",
+    "_tools/icons/search.gif",
+    "_tools/icons/favorite.gif",
+    "_tools/icons/playlist.jpg",
+    "_tools/icons/playlist.gif.jpg",
+    "_tools/icons/library.gif",
+    "_tools/icons/recent.gif",
+    "_tools/icons/recently-added.gif",
+    "_tools/icons",
+    "_scripts/album.js",
     "_scripts/playlist.js",
     "_scripts",
     "In Mourning",
     "_covers/In Mourning - The Immortal.jpg",
     "Cholera",
     "_covers/Cholera - The Answer to Infection (Redux).jpg",
-    "_covers/Whitechapel - Whitechapel.jpg",
     "Suicide Silence",
-    "_covers/Suicide Silence - The Cleansing.jpg",
-    "_covers/Synestia - Premonitions.jpg",
     "Netherwalker",
-    "_covers/Netherwalker - Odyssey Of Respair.jpg",
-    "_covers/Job For A Cowboy - Moon Healer.jpg",
-    "_covers/The Lemon Twigs - Look For Your Mind!.jpg",
     "Der Weg einer Freiheit",
-    "_covers/Der Weg einer Freiheit - Innern.jpg",
-    "Giles Corey",
-    "_covers/Giles Corey - Giles Corey.jpg",
-    "Job For A Cowboy",
-    "Larcɇnia Roɇ"
+    "Giles Corey"
   ]
 }

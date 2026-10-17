@@ -442,24 +442,153 @@ function openUntagged() {
 window._toolsOpenUntagged = openUntagged;
 ```
 ```dataviewjs
+const ALBUM_VIEW = "_scripts/album";
+const createModal = window._toolsCreateModal;
+
+function convertAlbumText(text) {
+    text = text.replace(/\r\n/g, "\n");
+    const fm = text.match(/^---\n[\s\S]*?\n---\n?/);
+    if (!fm) return { status: "skip", reason: "no frontmatter" };
+    const rest = text.slice(fm[0].length);
+    if (rest.includes(`dv.view("${ALBUM_VIEW}")`)) return { status: "done" };
+    const lines = rest.split("\n");
+    const start = lines.findIndex(l => /^\|\s*#\s*\|/.test(l));
+    if (start < 0) return { status: "skip", reason: "no tracklist table" };
+    let end = start;
+    while (end < lines.length && lines[end].trim().startsWith("|")) end++;
+    const table = lines.slice(start, end).join("\n");
+    const after = lines.slice(end).join("\n").trim();
+    const body = `${fm[0].trimEnd()}\n\n\`\`\`dataviewjs\nawait dv.view("${ALBUM_VIEW}");\n\`\`\`\n\n${table}\n${after ? `\n${after}\n` : ""}`;
+    return { status: "convert", body };
+}
+
+async function openConvertAlbums() {
+    const { body } = createModal("🔄 Update Album Notes");
+    const status = body.createEl("div");
+    status.style.cssText = "color:#aaa; font-size:14px; margin-bottom:12px;";
+    status.textContent = "Scanning album notes...";
+
+    const pending = [], skipped = [];
+    let total = 0;
+    for (const p of dv.pages().where(p => p.tidal_id).array()) {
+        total++;
+        const file = app.vault.getAbstractFileByPath(p.file.path);
+        if (!file) continue;
+        const res = convertAlbumText(await app.vault.cachedRead(file));
+        if (res.status === "convert") pending.push({ file, body: res.body });
+        else if (res.status === "skip") skipped.push({ file, reason: res.reason });
+    }
+
+    if (pending.length === 0) {
+        status.textContent = `All ${total} album notes are up to date.`;
+    } else {
+        status.textContent = `${pending.length} of ${total} album notes use the old format.`;
+        const warn = body.createEl("div");
+        warn.style.cssText = "color:#f59e0b; font-size:13px; margin-bottom:12px; line-height:1.4;";
+        warn.textContent = "Converting replaces everything above each tracklist with the shared template. Frontmatter, the tracklist table, and anything below it are kept. Back up your album notes before the first run.";
+
+        const list = body.createEl("div");
+        list.style.cssText = "max-height:180px; overflow-y:auto; background:#111; border-radius:8px; padding:8px 12px; margin-bottom:12px; font-size:12px; color:#ccc;";
+        for (const { file } of pending) list.createEl("div").textContent = file.basename;
+
+        const details = body.createEl("details");
+        details.style.cssText = "margin-bottom:16px; color:#aaa; font-size:12px;";
+        details.createEl("summary").textContent = `Preview: ${pending[0].file.basename}`;
+        const pre = details.createEl("pre");
+        pre.style.cssText = "white-space:pre-wrap; background:#111; padding:10px; border-radius:8px; max-height:200px; overflow-y:auto;";
+        pre.textContent = pending[0].body;
+
+        const btn = body.createEl("button");
+        btn.textContent = `Convert ${pending.length} notes`;
+        btn.style.cssText = "padding:14px; background:#7c3aed; border:none; border-radius:12px; color:#fff; font-size:16px; font-weight:bold; cursor:pointer; width:100%;";
+        btn.onclick = async () => {
+            btn.disabled = true;
+            let done = 0;
+            for (const { file } of pending) {
+                await app.vault.process(file, text => {
+                    const res = convertAlbumText(text);
+                    return res.status === "convert" ? res.body : text;
+                });
+                done++;
+                btn.textContent = `Converting... ${done} / ${pending.length}`;
+            }
+            btn.textContent = `Done — converted ${done} notes`;
+            btn.style.background = "#16a34a";
+        };
+    }
+
+    if (skipped.length > 0) {
+        const sk = body.createEl("div");
+        sk.style.cssText = "margin-top:16px; color:#ef4444; font-size:12px;";
+        sk.createEl("div").textContent = `${skipped.length} skipped (fix by hand):`;
+        for (const { file, reason } of skipped) sk.createEl("div").textContent = `• ${file.basename} — ${reason}`;
+    }
+}
+
+window._toolsOpenConvertAlbums = openConvertAlbums;
+```
+
+```dataviewjs
+const ICON_FOLDER = "_tools/icons";
+const MEDIA_HEIGHT = 130;
+const MEDIA_FIT = "cover";
+const ANIMATE_ON_HOVER = false;
+
+const tools = [
+    { gif: "library.gif",   name: "Library", action: () => app.workspace.openLinkText("00 Dashboard/Library", "", false) },
+    { gif: "playlist.jpg",  name: "Create Playlist", action: () => window._toolsOpenPlaylistPicker() },
+    { gif: "favorite.gif", name: "Favorites", action: () => window._toolsOpenFavorites() },
+    { gif: "recent.gif",    name: "Recently Added", action: () => window._toolsOpenRecent() },
+    { gif: "search.gif",    name: "Search Albums", action: () => window._toolsOpenSearch() },
+    { gif: "untagged.gif",  name: "Untagged Albums", action: () => window._toolsOpenUntagged() },
+    { gif: "update.gif",    name: "Update Albums", action: () => window._toolsOpenConvertAlbums() },
+];
+function gifSrc(name) {
+    if (!name) return null;
+    if (/^https?:\/\//.test(name)) return name;
+    const f = app.vault.getAbstractFileByPath(`${ICON_FOLDER}/${name}`);
+    return f ? app.vault.getResourcePath(f) : null;
+}
+
+function renderMedia(card, tool) {
+    const wrap = card.createDiv();
+    wrap.style.cssText = `position:relative; width:100%; height:${MEDIA_HEIGHT}px; background:#111; overflow:hidden;`;
+    const src = gifSrc(tool.gif);
+    if (!src) return;
+
+    const fit = `width:100%; height:100%; object-fit:${MEDIA_FIT}; display:block;`;
+    const img = wrap.createEl("img");
+    img.style.cssText = fit;
+
+    if (ANIMATE_ON_HOVER && /\.(gif|webp)(\?|$)/i.test(tool.gif)) {
+        const canvas = wrap.createEl("canvas");
+        canvas.style.cssText = `position:absolute; inset:0; ${fit}`;
+        img.style.visibility = "hidden";
+        img.onload = () => {
+            canvas.width = img.naturalWidth;
+            canvas.height = img.naturalHeight;
+            canvas.getContext("2d").drawImage(img, 0, 0);
+        };
+        card.addEventListener("mouseenter", () => { canvas.style.visibility = "hidden"; img.style.visibility = "visible"; });
+        card.addEventListener("mouseleave", () => { canvas.style.visibility = "visible"; img.style.visibility = "hidden"; });
+    }
+
+    img.src = src;
+}
+
 const hub = dv.container.createEl("div");
 hub.style.cssText = "display:grid; grid-template-columns: repeat(2, 1fr); gap:14px; padding:10px 0;";
 
-const tools = [
-    { icon: "🎵", name: "Create Playlist", desc: "Build a playlist by tag or album", action: () => window._toolsOpenPlaylistPicker() },
-    { icon: "★",  name: "Favorites",       desc: "Toggle the Favorite tag on albums", action: () => window._toolsOpenFavorites() },
-    { icon: "🕐", name: "Recently Added",  desc: "Your 50 most recently added albums", action: () => window._toolsOpenRecent() },
-    { icon: "🔍", name: "Search Albums",   desc: "Search by title, artist, year or tag", action: () => window._toolsOpenSearch() },
-    { icon: "🏷", name: "Untagged Albums", desc: "Browse albums that have no tags yet", action: () => window._toolsOpenUntagged() },
-    { icon: "📚", name: "Library",         desc: "Browse your full album collection", action: () => app.workspace.openLinkText("00 Dashboard/Library", "", false) },
-];
-
 for (let tool of tools) {
     const card = hub.createEl("div");
-    card.style.cssText = "background:#1a1a1a; border-radius:16px; padding:22px 16px; cursor:pointer; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.4);";
+    card.style.cssText = "background:#1a1a1a; border-radius:16px; overflow:hidden; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.4); transition:transform 0.15s, background 0.15s;";
+    card.addEventListener("mouseenter", () => { card.style.transform = "translateY(-2px)"; card.style.background = "#202020"; });
+    card.addEventListener("mouseleave", () => { card.style.transform = ""; card.style.background = "#1a1a1a"; });
     card.onclick = tool.action;
-    const icon = card.createEl("div"); icon.textContent = tool.icon; icon.style.cssText = "font-size:32px; margin-bottom:10px;";
-    const name = card.createEl("div"); name.textContent = tool.name; name.style.cssText = "color:#fff; font-size:15px; font-weight:bold; margin-bottom:5px;";
-    const desc = card.createEl("div"); desc.textContent = tool.desc; desc.style.cssText = "color:#666; font-size:11px; line-height:1.4;";
+    renderMedia(card, tool);
+    const text = card.createDiv();
+    text.style.cssText = "padding:12px 14px 14px; text-align:center;";
+    const name = text.createEl("div"); name.textContent = tool.name; name.style.cssText = "color:#fff; font-size:15px; font-weight:bold;";
+    if (tool.desc) { const desc = text.createEl("div"); desc.textContent = tool.desc; desc.style.cssText = "color:#666; font-size:11px; line-height:1.4; margin-top:4px;"; }
 }
 ```
