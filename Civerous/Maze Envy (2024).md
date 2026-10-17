@@ -4,6 +4,7 @@ artist: "Civerous"
 year: 2024
 tidal_id: 342231800
 cover: "[[_covers/Civerous - Maze Envy.jpg]]"
+added: 2024-04-05
 tags:
   - DoomMetal
   - MathMetal

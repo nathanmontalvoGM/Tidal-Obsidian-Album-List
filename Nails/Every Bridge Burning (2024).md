@@ -4,6 +4,7 @@ artist: "Nails"
 year: 2024
 tidal_id: 364682188
 cover: "[[_covers/Nails - Every Bridge Burning.jpg]]"
+added: 2024-11-25
 tags:
   - Grindcore
   - Metalcore

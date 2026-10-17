@@ -4,6 +4,7 @@ artist: "This Is Lorelei"
 year: 2026
 tidal_id: 554024739
 cover: "[[_covers/This Is Lorelei - The Singer in My Band.jpg]]"
+added: 2026-09-22
 tags: []
 rating:
 ---

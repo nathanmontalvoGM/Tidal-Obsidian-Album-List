@@ -4,6 +4,7 @@ artist: "Marc Hudson"
 year: 2023
 tidal_id: 298431613
 cover: "[[_covers/Marc Hudson - Starbound Stories.jpg]]"
+added: 2023-10-10
 tags:
   - NuMetal
   - PowerMetal

@@ -4,6 +4,7 @@ artist: "Converge"
 year: 2021
 tidal_id: 196017208
 cover: "[[_covers/Converge - Bloodmoon- I.jpg]]"
+added: 2026-02-13
 tags:
   - GothicMetal
   - SludgeMetal

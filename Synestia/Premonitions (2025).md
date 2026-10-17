@@ -4,6 +4,7 @@ artist: Synestia
 year: 2025
 tidal_id: 455850009
 cover: "[[_covers/Synestia - Premonitions.jpg]]"
+added: 2026-06-02
 tags:
   - Deathcore
   - SymphonicMetal

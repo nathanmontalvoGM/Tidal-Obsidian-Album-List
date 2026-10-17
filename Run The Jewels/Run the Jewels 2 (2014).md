@@ -4,6 +4,7 @@ artist: "Run The Jewels"
 year: 2014
 tidal_id: 185863813
 cover: "[[_covers/Run The Jewels - Run the Jewels 2.jpg]]"
+added: 2024-01-23
 tags:
   - HipHop
   - SpokenWord

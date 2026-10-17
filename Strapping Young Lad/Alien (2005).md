@@ -4,6 +4,7 @@ artist: "Strapping Young Lad"
 year: 2005
 tidal_id: 52000194
 cover: "[[_covers/Strapping Young Lad - Alien.jpg]]"
+added: 2025-03-11
 tags:
   - IndustrialMetal
   - ProgressiveMetal

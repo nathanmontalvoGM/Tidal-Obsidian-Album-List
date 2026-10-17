@@ -4,6 +4,7 @@ artist: "Neurosis"
 year: 2026
 tidal_id: 504855403
 cover: "[[_covers/Neurosis - An Undying Love for a Burning World.jpg]]"
+added: 2026-04-06
 tags:
   - NuMetal
 rating:

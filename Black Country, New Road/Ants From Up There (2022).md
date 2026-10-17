@@ -4,6 +4,7 @@ artist: Black Country, New Road
 year: 2022
 tidal_id: 201105433
 cover: "[[_covers/Black Country, New Road - Ants From Up There.jpg]]"
+added: 2022-12-03
 tags:
   - Favorite
   - ArtRock

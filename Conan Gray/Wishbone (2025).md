@@ -4,6 +4,7 @@ artist: "Conan Gray"
 year: 2025
 tidal_id: 452880357
 cover: "[[_covers/Conan Gray - Wishbone.jpg]]"
+added: 2025-08-15
 tags:
   - SingerSongwriter
   - IndiePop

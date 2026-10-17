@@ -4,6 +4,7 @@ artist: "Protomartyr"
 year: 2015
 tidal_id: 51799226
 cover: "[[_covers/Protomartyr - The Agent Intellect.jpg]]"
+added: 2026-08-12
 tags:
   - PostPunk
 rating:

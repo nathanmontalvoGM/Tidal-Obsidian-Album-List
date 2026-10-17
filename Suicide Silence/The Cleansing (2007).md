@@ -4,6 +4,7 @@ artist: "Suicide Silence"
 year: 2007
 tidal_id: 51982146
 cover: "[[_covers/Suicide Silence - The Cleansing.jpg]]"
+added: 2026-05-14
 tags:
   - Deathcore
   - Rock

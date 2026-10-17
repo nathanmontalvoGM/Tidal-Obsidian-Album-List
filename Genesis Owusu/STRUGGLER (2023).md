@@ -4,6 +4,7 @@ artist: "Genesis Owusu"
 year: 2023
 tidal_id: 294399339
 cover: "[[_covers/Genesis Owusu - STRUGGLER.jpg]]"
+added: 2023-08-18
 tags:
   - Funk
   - PostPunk

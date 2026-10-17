@@ -4,6 +4,7 @@ artist: "Meat Loaf"
 year: 1977
 tidal_id: 61126687
 cover: "[[_covers/Meat Loaf - Bat Out Of Hell.jpg]]"
+added: 2025-07-31
 tags:
   - Rock
   - ClassicRock

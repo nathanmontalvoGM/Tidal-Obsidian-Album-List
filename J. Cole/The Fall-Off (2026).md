@@ -4,6 +4,7 @@ artist: "J. Cole"
 year: 2026
 tidal_id: 496439179
 cover: "[[_covers/J. Cole - The Fall-Off.jpg]]"
+added: 2026-02-06
 tags:
   - HipHop
   - BoomBap

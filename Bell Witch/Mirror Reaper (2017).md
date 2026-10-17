@@ -4,6 +4,7 @@ artist: "Bell Witch"
 year: 2017
 tidal_id: 312433627
 cover: "[[_covers/Bell Witch - Mirror Reaper.jpg]]"
+added: 2025-06-14
 tags:
   - DoomMetal
   - FuneralDoomMetal

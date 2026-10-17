@@ -4,6 +4,7 @@ artist: "The Plot In You"
 year: 2026
 tidal_id: 539685518
 cover: "[[_covers/The Plot In You - The Plot In You.jpg]]"
+removed_from_tidal: 2026-10-17
 tags: []
 rating:
 ---

@@ -4,6 +4,7 @@ artist: "yeule"
 year: 2025
 tidal_id: 421590283
 cover: "[[_covers/yeule - Evangelic Girl is a Gun.jpg]]"
+added: 2025-05-31
 tags:
   - AlternativeRock
   - Electronicore

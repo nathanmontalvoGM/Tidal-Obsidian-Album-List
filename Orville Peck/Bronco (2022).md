@@ -4,6 +4,7 @@ artist: "Orville Peck"
 year: 2022
 tidal_id: 223676616
 cover: "[[_covers/Orville Peck - Bronco.jpg]]"
+added: 2023-05-01
 tags:
   - Country
   - Americana

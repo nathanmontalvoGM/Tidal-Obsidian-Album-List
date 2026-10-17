@@ -4,6 +4,7 @@ artist: "AJR"
 year: 2019
 tidal_id: 481866853
 cover: "[[_covers/AJR - Neotheater.jpg]]"
+added: 2023-02-24
 tags:
   - Pop
   - Indie

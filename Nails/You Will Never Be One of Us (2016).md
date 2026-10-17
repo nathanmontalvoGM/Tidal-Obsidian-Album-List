@@ -4,6 +4,7 @@ artist: "Nails"
 year: 2016
 tidal_id: 106187583
 cover: "[[_covers/Nails - You Will Never Be One of Us.jpg]]"
+added: 2025-02-11
 tags:
   - Grindcore
   - Powerviolence

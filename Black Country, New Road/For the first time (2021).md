@@ -4,6 +4,7 @@ artist: "Black Country, New Road"
 year: 2021
 tidal_id: 160225315
 cover: "[[_covers/Black Country, New Road - For the first time.jpg]]"
+added: 2023-03-31
 tags:
   - PostPunk
   - ExperimentalRock

@@ -4,6 +4,7 @@ artist: Aphasia
 year: 2024
 tidal_id: 359542499
 cover: "[[_covers/Aphasia - Evergreen.jpg]]"
+added: 2025-02-12
 tags:
   - Metalcore
 rating:

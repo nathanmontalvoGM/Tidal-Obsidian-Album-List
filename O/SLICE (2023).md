@@ -4,6 +4,7 @@ artist: "O."
 year: 2023
 tidal_id: 329837716
 cover: "[[_covers/O - SLICE.jpg]]"
+added: 2023-11-27
 tags:
   - ExperimentalRock
   - JazzRock

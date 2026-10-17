@@ -4,6 +4,7 @@ artist: "Fires in the Distance"
 year: 2023
 tidal_id: 249625968
 cover: "[[_covers/Fires in the Distance - Air Not Meant for Us.jpg]]"
+added: 2025-09-03
 tags:
   - NuMetal
   - ProgDeathMetal

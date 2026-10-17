@@ -4,6 +4,7 @@ artist: "AJR"
 year: 2017
 tidal_id: 492949321
 cover: "[[_covers/AJR - The Click (Deluxe Edition).jpg]]"
+added: 2023-03-03
 tags:
   - Pop
 rating:

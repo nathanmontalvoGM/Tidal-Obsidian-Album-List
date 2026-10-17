@@ -4,6 +4,7 @@ artist: "NOTHING"
 year: 2023
 tidal_id: 316979894
 cover: "[[_covers/NOTHING - When No Birds Sang.jpg]]"
+added: 2023-12-06
 tags:
   - SludgeMetal
   - Metalcore

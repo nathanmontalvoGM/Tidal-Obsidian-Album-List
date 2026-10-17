@@ -4,6 +4,7 @@ artist: "An Abstract Illusion"
 year: 2025
 tidal_id: 466008447
 cover: "[[_covers/An Abstract Illusion - The Sleeping City.jpg]]"
+added: 2025-10-17
 tags:
   - ProgressiveMetal
   - MathMetal

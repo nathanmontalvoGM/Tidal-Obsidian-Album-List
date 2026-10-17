@@ -4,6 +4,7 @@ artist: "Andrew W.K."
 year: 2018
 tidal_id: 82475046
 cover: "[[_covers/Andrew W.K - You're Not Alone.jpg]]"
+added: 2026-02-19
 tags:
   - HardRock
   - Rock

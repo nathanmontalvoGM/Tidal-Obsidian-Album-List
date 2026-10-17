@@ -4,6 +4,7 @@ artist: "deary"
 year: 2026
 tidal_id: 480062390
 cover: "[[_covers/deary - Birding.jpg]]"
+added: 2026-04-08
 tags:
   - DreamPop
   - Rock

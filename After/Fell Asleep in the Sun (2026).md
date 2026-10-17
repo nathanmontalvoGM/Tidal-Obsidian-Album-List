@@ -4,6 +4,7 @@ artist: "After"
 year: 2026
 tidal_id: 561288351
 cover: "[[_covers/After - Fell Asleep in the Sun.jpg]]"
+added: 2026-09-18
 tags: []
 rating:
 ---

@@ -4,6 +4,7 @@ artist: "Guerilla Toss"
 year: 2022
 tidal_id: 217835547
 cover: "[[_covers/Guerilla Toss - Famously Alive.jpg]]"
+added: 2022-12-26
 tags:
   - Synthpop
   - NoisePop

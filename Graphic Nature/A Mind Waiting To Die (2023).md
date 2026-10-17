@@ -4,6 +4,7 @@ artist: "Graphic Nature"
 year: 2023
 tidal_id: 252238521
 cover: "[[_covers/Graphic Nature - A Mind Waiting To Die.jpg]]"
+added: 2023-06-09
 tags:
   - Metalcore
   - AlternativeMetal

@@ -4,6 +4,7 @@ artist: "Westside Cowboy"
 year: 2026
 tidal_id: 488297983
 cover: "[[_covers/Westside Cowboy - So Much Country ‘Till We Get There.jpg]]"
+added: 2026-01-16
 tags:
   - Rock
   - Indie

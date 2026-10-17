@@ -4,6 +4,7 @@ artist: "Everything Everything"
 year: 2015
 tidal_id: 63101777
 cover: "[[_covers/Everything Everything - Get To Heaven.jpg]]"
+added: 2023-03-13
 tags:
   - ArtPop
   - ProgressivePop

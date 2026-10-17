@@ -4,6 +4,7 @@ artist: "Signs of the Swarm"
 year: 2023
 tidal_id: 293059599
 cover: "[[_covers/Signs of the Swarm - Amongst The Low & Empty.jpg]]"
+added: 2024-08-17
 tags:
   - BrutalDeathcore
   - Deathcore

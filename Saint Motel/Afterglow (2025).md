@@ -4,6 +4,7 @@ artist: Saint Motel
 year: 2025
 tidal_id: 460006293
 cover: "[[_covers/Saint Motel - Afterglow.jpg]]"
+added: 2025-10-13
 tags:
   - PopRock
   - ChamberPop

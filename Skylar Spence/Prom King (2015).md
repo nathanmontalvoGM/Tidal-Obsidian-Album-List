@@ -4,6 +4,7 @@ artist: "Skylar Spence"
 year: 2015
 tidal_id: 195419786
 cover: "[[_covers/Skylar Spence - Prom King.jpg]]"
+added: 2024-03-19
 tags:
   - Poptron
   - Disco

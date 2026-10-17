@@ -4,6 +4,7 @@ artist: "Psychedelic Porn Crumpets"
 year: 2016
 tidal_id: 57727310
 cover: "[[_covers/Psychedelic Porn Crumpets - High Visceral, Pt. 1.jpg]]"
+added: 2024-02-19
 tags:
   - PsychedelicRock
   - ProgressivePop

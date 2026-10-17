@@ -4,6 +4,7 @@ artist: "In Mourning"
 year: 2025
 tidal_id: 431695685
 cover: "[[_covers/In Mourning - The Immortal.jpg]]"
+added: 2026-08-02
 tags:
   - MelodicDeathMetal
   - ProgressiveMetal

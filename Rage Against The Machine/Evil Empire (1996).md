@@ -4,6 +4,7 @@ artist: "Rage Against The Machine"
 year: 1996
 tidal_id: 5120094
 cover: "[[_covers/Rage Against The Machine - Evil Empire.jpg]]"
+added: 2023-02-14
 tags:
   - Rock
   - AlternativeRock

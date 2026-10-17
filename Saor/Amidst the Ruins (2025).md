@@ -4,6 +4,7 @@ artist: "Saor"
 year: 2025
 tidal_id: 393763788
 cover: "[[_covers/Saor - Amidst the Ruins.jpg]]"
+added: 2026-03-19
 tags:
   - AtmosphericMetal
   - PaganBlackMetal

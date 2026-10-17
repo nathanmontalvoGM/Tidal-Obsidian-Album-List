@@ -4,6 +4,7 @@ artist: "Carly Rae Jepsen"
 year: 2026
 tidal_id: 560221929
 cover: "[[_covers/Carly Rae Jepsen - Day and Night.jpg]]"
+added: 2026-09-18
 tags:
   - DancePop
   - Funk

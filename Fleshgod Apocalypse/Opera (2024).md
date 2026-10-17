@@ -4,6 +4,7 @@ artist: "Fleshgod Apocalypse"
 year: 2024
 tidal_id: 364925432
 cover: "[[_covers/Fleshgod Apocalypse - Opera.jpg]]"
+added: 2024-08-27
 tags:
   - MathMetal
   - SymphonicMetal

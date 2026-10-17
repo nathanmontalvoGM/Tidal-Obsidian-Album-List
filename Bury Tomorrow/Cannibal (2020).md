@@ -4,6 +4,7 @@ artist: "Bury Tomorrow"
 year: 2020
 tidal_id: 146940121
 cover: "[[_covers/Bury Tomorrow - Cannibal.jpg]]"
+added: 2024-07-11
 tags:
   - Metalcore
   - NuMetal

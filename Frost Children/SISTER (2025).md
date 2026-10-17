@@ -4,6 +4,7 @@ artist: "Frost Children"
 year: 2025
 tidal_id: 436477709
 cover: "[[_covers/Frost Children - SISTER.jpg]]"
+added: 2025-11-02
 tags:
   - Pop
   - Electropop

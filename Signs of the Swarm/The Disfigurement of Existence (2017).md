@@ -4,6 +4,7 @@ artist: "Signs of the Swarm"
 year: 2017
 tidal_id: 80275873
 cover: "[[_covers/Signs of the Swarm - The Disfigurement of Existence.jpg]]"
+added: 2026-06-18
 tags:
   - MathMetal
   - Deathcore

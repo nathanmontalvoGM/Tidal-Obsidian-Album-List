@@ -4,6 +4,7 @@ artist: "Model/Actriz"
 year: 2025
 tidal_id: 414848562
 cover: "[[_covers/Model-Actriz - Pirouette.jpg]]"
+added: 2025-05-03
 tags:
   - DancePunk
   - IndustrialRock

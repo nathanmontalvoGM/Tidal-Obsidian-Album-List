@@ -4,6 +4,7 @@ artist: "Bloodywood"
 year: 2022
 tidal_id: 240085301
 cover: "[[_covers/Bloodywood - Rakshak.jpg]]"
+added: 2024-08-11
 tags:
   - FolkMetal
   - NuMetal

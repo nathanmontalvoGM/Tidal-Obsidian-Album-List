@@ -4,6 +4,7 @@ artist: "Jane Remover"
 year: 2021
 tidal_id: 202237410
 cover: "[[_covers/Jane Remover - Frailty.jpg]]"
+added: 2025-05-02
 tags:
   - Indietronica
   - NoisePop

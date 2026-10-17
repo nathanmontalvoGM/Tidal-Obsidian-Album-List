@@ -4,6 +4,7 @@ artist: "Cholera"
 year: 2026
 tidal_id: 540953130
 cover: "[[_covers/Cholera - The Answer to Infection (Redux).jpg]]"
+added: 2026-08-02
 tags: []
 rating:
 ---

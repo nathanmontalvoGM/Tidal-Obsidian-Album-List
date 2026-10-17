@@ -4,6 +4,7 @@ artist: "Vampire Weekend"
 year: 2024
 tidal_id: 354739038
 cover: "[[_covers/Vampire Weekend - Only God Was Above Us.jpg]]"
+added: 2024-04-05
 tags:
   - IndieRock
   - ChamberPop

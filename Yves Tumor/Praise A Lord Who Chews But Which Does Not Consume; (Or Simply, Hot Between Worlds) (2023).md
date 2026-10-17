@@ -4,6 +4,7 @@ artist: "Yves Tumor"
 year: 2023
 tidal_id: 271240948
 cover: "[[_covers/Yves Tumor - Praise A Lord Who Chews But Which Does Not Consume; (Or Simply, Hot Between Worlds).jpg]]"
+added: 2023-03-18
 tags:
   - PostPunk
   - Rock

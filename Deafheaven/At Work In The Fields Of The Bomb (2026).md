@@ -4,6 +4,7 @@ artist: "Deafheaven"
 year: 2026
 tidal_id: 563888796
 cover: "[[_covers/Deafheaven - At Work In The Fields Of The Bomb.jpg]]"
+added: 2026-10-09
 tags: []
 rating:
 ---

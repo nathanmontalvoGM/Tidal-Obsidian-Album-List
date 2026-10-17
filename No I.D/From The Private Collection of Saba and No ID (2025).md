@@ -4,6 +4,7 @@ artist: "No I.D."
 year: 2025
 tidal_id: 414160357
 cover: "[[_covers/No I.D - From The Private Collection of Saba and No ID.jpg]]"
+added: 2025-03-21
 tags:
   - BoomBap
   - ConsciousHipHop

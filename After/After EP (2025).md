@@ -4,6 +4,7 @@ artist: "After"
 year: 2025
 tidal_id: 423194693
 cover: "[[_covers/After - After EP.jpg]]"
+added: 2025-10-15
 tags:
   - TripHop
   - PopRock

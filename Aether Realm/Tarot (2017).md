@@ -4,6 +4,7 @@ artist: "Aether Realm"
 year: 2017
 tidal_id: 139517568
 cover: "[[_covers/Aether Realm - Tarot.jpg]]"
+added: 2023-10-18
 tags:
   - MelodicDeathMetal
   - Rock

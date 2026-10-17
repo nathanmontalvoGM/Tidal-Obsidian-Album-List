@@ -4,6 +4,7 @@ artist: "Tropical Fuck Storm"
 year: 2018
 tidal_id: 92329373
 cover: "[[_covers/Tropical Fuck Storm - A Laughing Death in Meatspace.jpg]]"
+added: 2025-06-20
 tags:
   - PunkBlues
   - ArtPunk

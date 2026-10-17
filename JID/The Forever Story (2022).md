@@ -4,6 +4,7 @@ artist: "JID"
 year: 2022
 tidal_id: 244862978
 cover: "[[_covers/JID - The Forever Story.jpg]]"
+added: 2023-04-07
 tags:
   - HipHop
   - NeoSoul

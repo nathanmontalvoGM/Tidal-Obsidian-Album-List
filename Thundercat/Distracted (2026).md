@@ -4,6 +4,7 @@ artist: "Thundercat"
 year: 2026
 tidal_id: 494487953
 cover: "[[_covers/Thundercat - Distracted.jpg]]"
+added: 2026-04-04
 tags:
   - NeoSoul
   - PsychedelicPop

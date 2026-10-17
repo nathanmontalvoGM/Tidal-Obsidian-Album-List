@@ -202,6 +202,12 @@
   },
   "active": "d3811725f7422261",
   "lastOpenFiles": [
+    "00 Dashboard/Genres/Postindustrial.md",
+    "_covers/TEED - When the Lights Go.jpg",
+    "Gloryhammer/Space 1993- Wrath of Kor-Virliath (2026).md",
+    "Gloryhammer",
+    "_covers/Gloryhammer - Space 1993- Wrath of Kor-Virliath.jpg",
+    "00 Dashboard/Genres/BigBand.md",
     "Lorna Shore/Pain Remains (2022).md",
     "00 Dashboard/Genres/DeathCore.md",
     "00 Dashboard/Genres/Bestof2022.md",
@@ -231,9 +237,6 @@
     "_scripts/tags.json",
     "Andrew W.K/I Get Wet (2001).md",
     "fix_covers.py",
-    "00 Dashboard/Playlists/A Bunch of Rocks.md",
-    "00 Dashboard/Playlists/Alternative and Indie.md",
-    "00 Dashboard/Playlists/Music to not be embarrassed about.md",
     "_tools/icons/untagged.gif",
     "_tools/icons/search.gif",
     "_tools/icons/favorite.gif",
@@ -244,9 +247,6 @@
     "_tools/icons/recently-added.gif",
     "_tools/icons",
     "_scripts/album.js",
-    "_scripts/playlist.js",
-    "_scripts",
-    "_covers/In Mourning - The Immortal.jpg",
-    "_covers/Cholera - The Answer to Infection (Redux).jpg"
+    "_scripts/playlist.js"
   ]
 }

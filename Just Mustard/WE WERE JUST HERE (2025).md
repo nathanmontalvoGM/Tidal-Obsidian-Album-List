@@ -4,6 +4,7 @@ artist: "Just Mustard"
 year: 2025
 tidal_id: 442370656
 cover: "[[_covers/Just Mustard - WE WERE JUST HERE.jpg]]"
+added: 2025-10-24
 tags:
   - Noise
   - AlternativeRock

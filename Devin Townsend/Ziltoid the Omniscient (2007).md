@@ -4,6 +4,7 @@ artist: "Devin Townsend"
 year: 2007
 tidal_id: 51971817
 cover: "[[_covers/Devin Townsend - Ziltoid the Omniscient.jpg]]"
+added: 2025-02-06
 tags:
   - ProgressiveMetal
   - NuMetal

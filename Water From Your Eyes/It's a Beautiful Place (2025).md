@@ -4,6 +4,7 @@ artist: "Water From Your Eyes"
 year: 2025
 tidal_id: 451341791
 cover: "[[_covers/Water From Your Eyes - It's a Beautiful Place.jpg]]"
+added: 2025-08-25
 tags:
   - Rock
   - IndieRock

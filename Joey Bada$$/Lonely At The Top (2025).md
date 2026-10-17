@@ -4,6 +4,7 @@ artist: "Joey Bada$$"
 year: 2025
 tidal_id: 456515507
 cover: "[[_covers/Joey Bada$$ - Lonely At The Top.jpg]]"
+added: 2025-08-29
 tags:
   - BoomBap
   - HardcoreHipHop

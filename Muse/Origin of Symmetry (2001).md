@@ -4,6 +4,7 @@ artist: "Muse"
 year: 2001
 tidal_id: 68728981
 cover: "[[_covers/Muse - Origin of Symmetry.jpg]]"
+added: 2023-02-06
 tags:
   - AlternativeRock
   - Rock

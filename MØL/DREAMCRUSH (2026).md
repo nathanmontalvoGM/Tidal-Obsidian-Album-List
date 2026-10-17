@@ -4,6 +4,7 @@ artist: "MØL"
 year: 2026
 tidal_id: 490065965
 cover: "[[_covers/MØL - DREAMCRUSH.jpg]]"
+added: 2026-01-31
 tags:
   - Shoegaze
   - Blackgaze

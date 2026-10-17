@@ -4,6 +4,7 @@ artist: half·alive
 year: 2024
 tidal_id: 387255275
 cover: "[[_covers/half·alive - Persona.jpg]]"
+added: 2024-11-17
 tags:
   - IndiePop
   - IndieRock

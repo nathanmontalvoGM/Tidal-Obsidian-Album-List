@@ -4,6 +4,7 @@ artist: "MGMT"
 year: 2008
 tidal_id: 1317014
 cover: "[[_covers/MGMT - Oracular Spectacular.jpg]]"
+added: 2023-03-09
 tags:
   - Indie
   - Electronicore

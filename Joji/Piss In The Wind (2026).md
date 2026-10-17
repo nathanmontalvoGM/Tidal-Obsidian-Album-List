@@ -4,6 +4,7 @@ artist: "Joji"
 year: 2026
 tidal_id: 496062524
 cover: "[[_covers/Joji - Piss In The Wind.jpg]]"
+added: 2026-02-10
 tags:
   - AltPop
   - AlternativeRnB

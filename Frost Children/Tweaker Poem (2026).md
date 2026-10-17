@@ -4,6 +4,7 @@ artist: "Frost Children"
 year: 2026
 tidal_id: 540650737
 cover: "[[_covers/Frost Children - Tweaker Poem.jpg]]"
+added: 2026-07-10
 tags: []
 rating:
 ---

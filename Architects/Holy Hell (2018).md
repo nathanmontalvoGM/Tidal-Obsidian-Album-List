@@ -4,6 +4,7 @@ artist: "Architects"
 year: 2018
 tidal_id: 121049468
 cover: "[[_covers/Architects - Holy Hell.jpg]]"
+added: 2025-02-28
 tags:
   - Metalcore
   - ProgressiveMetal

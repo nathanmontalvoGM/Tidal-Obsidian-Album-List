@@ -4,6 +4,7 @@ artist: "Megadeth"
 year: 1986
 tidal_id: 77622277
 cover: "[[_covers/Megadeth - Peace Sells... But Who's Buying-.jpg]]"
+added: 2023-01-29
 tags:
   - ThrashMetal
   - HeavyMetal

@@ -4,6 +4,7 @@ artist: "Blood Incantation"
 year: 2024
 tidal_id: 373991284
 cover: "[[_covers/Blood Incantation - Absolute Elsewhere.jpg]]"
+added: 2026-05-21
 tags:
   - MathMetal
   - ProgressiveMetal

@@ -4,6 +4,7 @@ artist: "sadness"
 year: 2019
 tidal_id: 118097242
 cover: "[[_covers/sadness - Circle of Veins.jpg]]"
+added: 2026-04-13
 tags:
   - Blackgaze
   - AtmosphericMetal

@@ -4,6 +4,7 @@ artist: "Bong-Ra"
 year: 2007
 tidal_id: 431021959
 cover: "[[_covers/Bong-Ra - Full Metal Racket.jpg]]"
+added: 2025-09-26
 tags:
   - Breakcore
   - Cybergrind

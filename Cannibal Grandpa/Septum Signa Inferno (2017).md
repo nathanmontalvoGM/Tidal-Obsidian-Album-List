@@ -4,6 +4,7 @@ artist: "Cannibal Grandpa"
 year: 2017
 tidal_id: 78445008
 cover: "[[_covers/Cannibal Grandpa - Septum Signa Inferno.jpg]]"
+added: 2026-08-20
 tags:
   - Deathcore
   - Rock

@@ -4,6 +4,7 @@ artist: "Blu"
 year: 2026
 tidal_id: 505811027
 cover: "[[_covers/Blu - Time Heals Everything.jpg]]"
+added: 2026-04-25
 tags:
   - HipHop
 rating:

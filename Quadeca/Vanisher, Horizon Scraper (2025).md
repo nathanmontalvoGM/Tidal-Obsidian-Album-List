@@ -4,6 +4,7 @@ artist: "Quadeca"
 year: 2025
 tidal_id: 450198559
 cover: "[[_covers/Quadeca - Vanisher, Horizon Scraper.jpg]]"
+added: 2025-07-25
 tags:
   - ArtPop
   - Folktronica

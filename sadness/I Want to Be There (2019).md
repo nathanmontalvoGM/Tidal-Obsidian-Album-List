@@ -4,6 +4,7 @@ artist: "sadness"
 year: 2019
 tidal_id: 117136772
 cover: "[[_covers/sadness - I Want to Be There.jpg]]"
+added: 2026-04-10
 tags:
   - Blackgaze
   - PostMetal

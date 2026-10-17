@@ -4,6 +4,7 @@ artist: "MØL"
 year: 2021
 tidal_id: 188752811
 cover: "[[_covers/MØL - Diorama.jpg]]"
+added: 2024-07-07
 tags:
   - Blackgaze
   - BlackMetal

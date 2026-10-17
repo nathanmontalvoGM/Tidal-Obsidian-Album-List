@@ -4,6 +4,7 @@ artist: "Hayley Williams"
 year: 2025
 tidal_id: 470829563
 cover: "[[_covers/Hayley Williams - Ego Death At A Bachelorette Party.jpg]]"
+added: 2025-08-29
 tags:
   - IndieRock
   - PopRock

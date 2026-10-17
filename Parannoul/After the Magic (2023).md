@@ -4,6 +4,7 @@ artist: "Parannoul"
 year: 2023
 tidal_id: 273688157
 cover: "[[_covers/Parannoul - After the Magic.jpg]]"
+added: 2023-03-22
 tags:
   - Shoegaze
   - IndieRock

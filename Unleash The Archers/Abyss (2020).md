@@ -4,6 +4,7 @@ artist: "Unleash The Archers"
 year: 2020
 tidal_id: 141536149
 cover: "[[_covers/Unleash The Archers - Abyss.jpg]]"
+added: 2026-03-23
 tags:
   - PowerMetal
   - NuMetal

@@ -4,6 +4,7 @@ artist: "MGMT"
 year: 2018
 tidal_id: 84192578
 cover: "[[_covers/MGMT - Little Dark Age.jpg]]"
+added: 2023-02-10
 tags:
   - Synthpop
   - NeoPsychedelia

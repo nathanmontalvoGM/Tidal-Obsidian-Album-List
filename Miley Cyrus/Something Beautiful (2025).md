@@ -4,6 +4,7 @@ artist: "Miley Cyrus"
 year: 2025
 tidal_id: 438732164
 cover: "[[_covers/Miley Cyrus - Something Beautiful.jpg]]"
+added: 2025-05-31
 tags:
   - PopRock
   - Pop

@@ -4,6 +4,7 @@ artist: "Little Simz"
 year: 2025
 tidal_id: 439599724
 cover: "[[_covers/Little Simz - Lotus.jpg]]"
+added: 2025-06-13
 tags:
   - JazzRap
   - HipHop

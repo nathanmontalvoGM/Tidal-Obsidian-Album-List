@@ -4,6 +4,7 @@ artist: "Artificial Brain"
 year: 2022
 tidal_id: 221024063
 cover: "[[_covers/Artificial Brain - Artificial Brain.jpg]]"
+added: 2024-04-13
 tags:
   - DissonantDeathMetal
   - TechnicalDeathMetal

@@ -4,6 +4,7 @@ artist: "JPEGMAFIA"
 year: 2023
 tidal_id: 280631979
 cover: "[[_covers/JPEGMAFIA - SCARING THE HOES.jpg]]"
+added: 2023-03-24
 tags:
   - ExperimentalHipHop
   - HardcoreHipHop

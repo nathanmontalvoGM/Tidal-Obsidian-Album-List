@@ -4,6 +4,7 @@ artist: "Westside Cowboy"
 year: 2025
 tidal_id: 442598539
 cover: "[[_covers/Westside Cowboy - This Better Be Something Great.jpg]]"
+added: 2025-08-08
 tags:
   - Americana
   - Folk

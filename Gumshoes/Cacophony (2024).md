@@ -4,6 +4,7 @@ artist: "Gumshoes"
 year: 2024
 tidal_id: 336975269
 cover: "[[_covers/Gumshoes - Cacophony.jpg]]"
+added: 2024-01-04
 tags:
   - IndiePop
   - ChamberPop

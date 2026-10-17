@@ -4,6 +4,7 @@ artist: Lorna Shore
 year: 2022
 tidal_id: 236075892
 cover: "[[_covers/Lorna Shore - Pain Remains.jpg]]"
+added: 2022-12-10
 tags:
   - Favorite
   - BlackenedDeathcore

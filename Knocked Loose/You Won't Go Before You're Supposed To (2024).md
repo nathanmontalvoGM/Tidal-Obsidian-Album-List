@@ -4,6 +4,7 @@ artist: "Knocked Loose"
 year: 2024
 tidal_id: 361877821
 cover: "[[_covers/Knocked Loose - You Won't Go Before You're Supposed To.jpg]]"
+added: 2024-05-10
 tags:
   - Metalcore
   - BeatdownHardcore

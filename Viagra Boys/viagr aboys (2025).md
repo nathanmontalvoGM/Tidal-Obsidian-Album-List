@@ -4,6 +4,7 @@ artist: "Viagra Boys"
 year: 2025
 tidal_id: 428837316
 cover: "[[_covers/Viagra Boys - viagr aboys.jpg]]"
+added: 2026-02-17
 tags:
   - PostPunk
   - ArtPunk

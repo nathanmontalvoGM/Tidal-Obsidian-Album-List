@@ -4,6 +4,7 @@ artist: "Gilla Band"
 year: 2022
 tidal_id: 248539820
 cover: "[[_covers/Gilla Band - Most Normal.jpg]]"
+added: 2022-12-06
 tags:
   - NoWave
   - NoiseRock

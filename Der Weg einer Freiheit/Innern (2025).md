@@ -4,6 +4,7 @@ artist: "Der Weg einer Freiheit"
 year: 2025
 tidal_id: 440182521
 cover: "[[_covers/Der Weg einer Freiheit - Innern.jpg]]"
+added: 2026-05-27
 tags:
   - AtmosphericMetal
   - MelodicBlackMetal

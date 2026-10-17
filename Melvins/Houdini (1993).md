@@ -4,6 +4,7 @@ artist: "Melvins"
 year: 1993
 tidal_id: 4073695
 cover: "[[_covers/Melvins - Houdini.jpg]]"
+removed_from_tidal: 2026-10-17
 tags:
   - SludgeMetal
   - AlternativeRock

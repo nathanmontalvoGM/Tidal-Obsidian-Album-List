@@ -4,6 +4,7 @@ artist: "Djo"
 year: 2025
 tidal_id: 412355330
 cover: "[[_covers/Djo - The Crux.jpg]]"
+added: 2025-04-05
 tags:
   - Rock
   - SoftRock

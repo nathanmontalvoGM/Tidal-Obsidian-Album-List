@@ -4,6 +4,7 @@ artist: "The Pains Of Being Pure At Heart"
 year: 2009
 tidal_id: 111403686
 cover: "[[_covers/The Pains Of Being Pure At Heart - The Pains of Being Pure at Heart.jpg]]"
+added: 2026-07-05
 tags:
   - IndieRock
   - Pop

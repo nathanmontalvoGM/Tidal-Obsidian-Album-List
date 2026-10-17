@@ -4,6 +4,7 @@ artist: "Beast In Black"
 year: 2021
 tidal_id: 196296303
 cover: "[[_covers/Beast In Black - Dark Connection.jpg]]"
+added: 2023-02-24
 tags:
   - PowerMetal
   - HeavyMetal

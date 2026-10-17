@@ -4,6 +4,7 @@ artist: "Warning"
 year: 2008
 tidal_id: 449897084
 cover: "[[_covers/Warning - Watching from a Distance.jpg]]"
+added: 2026-06-19
 tags:
   - DoomMetal
   - Rock

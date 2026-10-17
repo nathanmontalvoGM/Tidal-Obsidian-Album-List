@@ -4,6 +4,7 @@ artist: "Rush"
 year: 1980
 tidal_id: 77598513
 cover: "[[_covers/Rush - Permanent Waves.jpg]]"
+added: 2025-12-09
 tags:
   - ProgressivePop
   - HardRock

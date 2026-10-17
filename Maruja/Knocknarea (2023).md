@@ -4,6 +4,7 @@ artist: "Maruja"
 year: 2023
 tidal_id: 276932576
 cover: "[[_covers/Maruja - Knocknarea.jpg]]"
+added: 2024-01-08
 tags:
   - PostRock
   - ArtRock

@@ -4,6 +4,7 @@ artist: "Agriculture"
 year: 2025
 tidal_id: 443831341
 cover: "[[_covers/Agriculture - The Spiritual Sound.jpg]]"
+added: 2025-10-04
 tags:
   - BlackMetal
   - PostMetal

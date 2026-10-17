@@ -4,6 +4,7 @@ artist: "Moron Police"
 year: 2019
 tidal_id: 112688193
 cover: "[[_covers/Moron Police - A Boat on the Sea.jpg]]"
+added: 2026-03-10
 tags:
   - Punk
   - HeavyMetal

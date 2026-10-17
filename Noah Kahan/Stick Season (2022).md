@@ -4,6 +4,7 @@ artist: "Noah Kahan"
 year: 2022
 tidal_id: 252766666
 cover: "[[_covers/Noah Kahan - Stick Season.jpg]]"
+added: 2025-09-08
 tags:
   - Folk
   - Pop

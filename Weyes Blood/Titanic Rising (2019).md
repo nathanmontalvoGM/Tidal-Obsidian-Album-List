@@ -4,6 +4,7 @@ artist: "Weyes Blood"
 year: 2019
 tidal_id: 105356343
 cover: "[[_covers/Weyes Blood - Titanic Rising.jpg]]"
+added: 2023-03-14
 tags:
   - BaroquePop
   - ArtPop

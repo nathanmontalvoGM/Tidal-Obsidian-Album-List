@@ -4,6 +4,7 @@ artist: Lorna Shore
 year: 2025
 tidal_id: 431469018
 cover: "[[_covers/Lorna Shore - I Feel The Everblack Festering Within Me.jpg]]"
+added: 2025-09-12
 tags:
   - Deathcore
   - SymphonicDeathcore
@@ -16,6 +17,18 @@ rating: "7.7"
 await dv.view("_scripts/album");
 ```
 
+| # | Title | Duration | Rating /10 |
+|---|-------|----------|------------|
+| 1 | Prison of Flesh | 7:00 | 8 |
+| 2 | Oblivion | 8:20 | 9 |
+| 3 | In Darkness | 6:43 | 7 |
+| 4 | Unbreakable | 4:49 | 6 |
+| 5 | Glenwood | 6:44 | 8 |
+| 6 | Lionheart | 5:44 | 7.5 |
+| 7 | Death Can Take Me | 7:16 | 7 |
+| 8 | War Machine | 4:54 | 8 |
+| 9 | A Nameless Hymn | 5:14 | 6.5 |
+| 10 | Forevermore | 9:47 | 9.5 |
 | #   | Title             | Duration | Rating /10 |
 | --- | ----------------- | -------- | ---------- |
 | 1   | Prison of Flesh   | 7:00     | 8          |

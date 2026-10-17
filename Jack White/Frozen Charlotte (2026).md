@@ -4,6 +4,7 @@ artist: "Jack White"
 year: 2026
 tidal_id: 521508233
 cover: "[[_covers/Jack White - Frozen Charlotte.jpg]]"
+removed_from_tidal: 2026-10-17
 tags: []
 rating:
 ---

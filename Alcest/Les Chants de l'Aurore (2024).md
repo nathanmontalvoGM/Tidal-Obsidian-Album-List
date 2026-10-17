@@ -4,6 +4,7 @@ artist: "Alcest"
 year: 2024
 tidal_id: 353075789
 cover: "[[_covers/Alcest - Les Chants de l'Aurore.jpg]]"
+added: 2024-06-21
 tags:
   - Blackgaze
   - Shoegaze

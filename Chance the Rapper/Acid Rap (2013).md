@@ -4,6 +4,7 @@ artist: "Chance the Rapper"
 year: 2013
 tidal_id: 397474752
 cover: "[[_covers/Chance the Rapper - Acid Rap.jpg]]"
+added: 2024-08-24
 tags:
   - HipHop
   - PopRap

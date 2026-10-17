@@ -4,6 +4,7 @@ artist: "Have A Nice Life"
 year: 2008
 tidal_id: 65229357
 cover: "[[_covers/Have A Nice Life - Deathconsciousness.jpg]]"
+added: 2026-06-06
 tags:
   - PostPunk
   - Shoegaze

@@ -4,6 +4,7 @@ artist: "Show Me A Dinosaur"
 year: 2024
 tidal_id: 160326205
 cover: "[[_covers/Show Me A Dinosaur - Plantgazer.jpg]]"
+added: 2026-04-14
 tags:
   - Blackgaze
   - PostRock

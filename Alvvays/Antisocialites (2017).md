@@ -4,6 +4,7 @@ artist: Alvvays
 year: 2017
 tidal_id: 256098397
 cover: "[[_covers/Alvvays - Antisocialites.jpg]]"
+added: 2023-03-02
 tags:
   - Favorite
   - IndiePop

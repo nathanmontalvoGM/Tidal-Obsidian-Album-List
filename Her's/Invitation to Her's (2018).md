@@ -4,6 +4,7 @@ artist: "Her's"
 year: 2018
 tidal_id: 89171500
 cover: "[[_covers/Her's - Invitation to Her's.jpg]]"
+added: 2025-09-28
 tags:
   - Indie
   - IndiePop

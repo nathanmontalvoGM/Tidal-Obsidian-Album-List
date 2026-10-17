@@ -4,6 +4,7 @@ artist: "Deafheaven"
 year: 2018
 tidal_id: 121048638
 cover: "[[_covers/Deafheaven - Ordinary Corrupt Human Love.jpg]]"
+added: 2023-06-04
 tags:
   - PostMetal
   - Blackgaze

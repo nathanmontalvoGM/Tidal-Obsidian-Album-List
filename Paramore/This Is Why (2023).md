@@ -4,6 +4,7 @@ artist: "Paramore"
 year: 2023
 tidal_id: 274816576
 cover: "[[_covers/Paramore - This Is Why.jpg]]"
+added: 2023-02-20
 tags:
   - PostPunkRevival
   - DancePunk

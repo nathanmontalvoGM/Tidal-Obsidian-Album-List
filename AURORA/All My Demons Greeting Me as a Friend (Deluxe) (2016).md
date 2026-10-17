@@ -4,6 +4,7 @@ artist: "AURORA"
 year: 2016
 tidal_id: 390686626
 cover: "[[_covers/AURORA - All My Demons Greeting Me as a Friend (Deluxe).jpg]]"
+added: 2024-10-24
 tags:
   - ArtPop
   - Electropop

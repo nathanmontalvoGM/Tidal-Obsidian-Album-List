@@ -4,6 +4,7 @@ artist: "Tallah"
 year: 2020
 tidal_id: 142789457
 cover: "[[_covers/Tallah - Matriphagy.jpg]]"
+added: 2026-07-08
 tags:
   - Metalcore
   - NuMetal

@@ -4,6 +4,7 @@ artist: "Wednesday"
 year: 2021
 tidal_id: 233502396
 cover: "[[_covers/Wednesday - Twin Plagues.jpg]]"
+added: 2025-11-08
 tags:
   - IndieRock
   - IndiePop

@@ -4,6 +4,7 @@ artist: "Cameron Winter"
 year: 2026
 tidal_id: 552484488
 cover: "[[_covers/Cameron Winter - Live at Carnegie Hall.jpg]]"
+added: 2026-10-09
 tags: []
 rating:
 ---

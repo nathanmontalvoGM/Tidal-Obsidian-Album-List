@@ -4,6 +4,7 @@ artist: "The Hives"
 year: 2023
 tidal_id: 287696659
 cover: "[[_covers/The Hives - The Death Of Randy Fitzsimmons.jpg]]"
+added: 2023-08-14
 tags:
   - GaragePunk
 rating:

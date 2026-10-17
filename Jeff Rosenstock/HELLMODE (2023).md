@@ -4,6 +4,7 @@ artist: "Jeff Rosenstock"
 year: 2023
 tidal_id: 297910418
 cover: "[[_covers/Jeff Rosenstock - HELLMODE.jpg]]"
+added: 2023-09-01
 tags:
   - PowerPop
   - PopPunk

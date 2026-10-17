@@ -4,6 +4,7 @@ artist: "Joey Valence & Brae"
 year: 2025
 tidal_id: 501416247
 cover: "[[_covers/Joey Valence & Brae - HYPERYOUTH (afterparty).jpg]]"
+removed_from_tidal: 2026-10-17
 tags:
   - EDM
   - HardcoreHipHop

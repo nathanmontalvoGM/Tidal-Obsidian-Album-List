@@ -4,6 +4,7 @@ artist: "Converge"
 year: 2026
 tidal_id: 468877687
 cover: "[[_covers/Converge - Love Is Not Enough.jpg]]"
+added: 2026-02-13
 tags:
   - Metalcore
   - Mathcore

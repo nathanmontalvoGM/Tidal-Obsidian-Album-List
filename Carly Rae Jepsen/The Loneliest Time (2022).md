@@ -4,6 +4,7 @@ artist: Carly Rae Jepsen
 year: 2022
 tidal_id: 255225490
 cover: "[[_covers/Carly Rae Jepsen - The Loneliest Time.jpg]]"
+added: 2026-03-10
 tags:
   - Favorite
   - Pop

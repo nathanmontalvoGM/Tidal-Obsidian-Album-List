@@ -4,6 +4,7 @@ artist: "The Hotelier"
 year: 2014
 tidal_id: 177371156
 cover: "[[_covers/The Hotelier - Home, Like Noplace Is There.jpg]]"
+added: 2025-04-24
 tags:
   - Emo
   - MidwestEmo

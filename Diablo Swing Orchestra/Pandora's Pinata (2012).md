@@ -4,6 +4,7 @@ artist: "Diablo Swing Orchestra"
 year: 2012
 tidal_id: 97413250
 cover: "[[_covers/Diablo Swing Orchestra - Pandora's Pinata.jpg]]"
+added: 2024-04-17
 tags: []
 rating:
 ---

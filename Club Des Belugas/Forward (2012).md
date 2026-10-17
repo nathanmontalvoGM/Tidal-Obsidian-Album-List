@@ -4,6 +4,7 @@ artist: "Club Des Belugas"
 year: 2012
 tidal_id: 139986856
 cover: "[[_covers/Club Des Belugas - Forward.jpg]]"
+added: 2025-03-25
 tags:
   - NuJazz
   - Lounge

@@ -4,6 +4,7 @@ artist: "underscores"
 year: 2023
 tidal_id: 316804338
 cover: "[[_covers/underscores - Wallsocket.jpg]]"
+added: 2023-09-22
 tags:
   - Indietronica
   - Electropop

@@ -4,6 +4,7 @@ artist: "Bebe Rexha"
 year: 2026
 tidal_id: 530753897
 cover: "[[_covers/Bebe Rexha - DIRTY BLONDE.jpg]]"
+added: 2026-09-23
 tags:
   - DancePop
   - Electropop

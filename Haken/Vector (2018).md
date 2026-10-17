@@ -4,6 +4,7 @@ artist: "Haken"
 year: 2018
 tidal_id: 94071070
 cover: "[[_covers/Haken - Vector.jpg]]"
+added: 2023-03-11
 tags:
   - ProgressiveMetal
   - Djent

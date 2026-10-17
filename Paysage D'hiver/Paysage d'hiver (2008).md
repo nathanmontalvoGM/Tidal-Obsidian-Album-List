@@ -4,6 +4,7 @@ artist: "Paysage D'hiver"
 year: 2008
 tidal_id: 174935863
 cover: "[[_covers/Paysage D'hiver - Paysage d'hiver.jpg]]"
+added: 2026-08-05
 tags:
   - AtmosphericMetal
   - Ambient

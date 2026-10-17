@@ -4,6 +4,7 @@ artist: "Bright Eyes"
 year: 2005
 tidal_id: 182262410
 cover: "[[_covers/Bright Eyes - I'm Wide Awake, It's Morning.jpg]]"
+added: 2024-01-17
 tags:
   - Indie
   - Folk

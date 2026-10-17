@@ -4,6 +4,7 @@ artist: "Mastodon"
 year: 2004
 tidal_id: 2826055
 cover: "[[_covers/Mastodon - Leviathan.jpg]]"
+added: 2025-09-09
 tags:
   - ProgressiveMetal
   - Whalecore

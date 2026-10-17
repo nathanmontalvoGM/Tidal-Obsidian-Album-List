@@ -4,6 +4,7 @@ artist: "Between The Buried And Me"
 year: 2005
 tidal_id: 75669905
 cover: "[[_covers/Between The Buried And Me - Alaska.jpg]]"
+removed_from_tidal: 2026-10-17
 tags:
   - ProgressiveMetal
   - Metalcore

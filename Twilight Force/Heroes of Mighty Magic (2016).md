@@ -4,6 +4,7 @@ artist: Twilight Force
 year: 2016
 tidal_id: 107100715
 cover: "[[_covers/Twilight Force - Heroes of Mighty Magic.jpg]]"
+added: 2023-03-07
 tags:
   - SymphonicMetal
   - PowerMetal

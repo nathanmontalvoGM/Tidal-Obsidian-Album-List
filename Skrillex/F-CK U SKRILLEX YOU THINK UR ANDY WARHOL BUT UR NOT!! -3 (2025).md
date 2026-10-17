@@ -4,6 +4,7 @@ artist: "Skrillex"
 year: 2025
 tidal_id: 427399315
 cover: "[[_covers/Skrillex - F-CK U SKRILLEX YOU THINK UR ANDY WARHOL BUT UR NOT!! -3.jpg]]"
+added: 2025-04-05
 tags:
   - Dubstep
   - HybridTrap

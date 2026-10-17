@@ -4,6 +4,7 @@ artist: "Reneé Rapp"
 year: 2025
 tidal_id: 450174478
 cover: "[[_covers/Reneé Rapp - BITE ME.jpg]]"
+added: 2025-08-03
 tags:
   - PopRock
   - AltPop

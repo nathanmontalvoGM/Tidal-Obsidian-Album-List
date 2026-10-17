@@ -4,6 +4,7 @@ artist: twenty one pilots
 year: 2024
 tidal_id: 364834730
 cover: "[[_covers/twenty one pilots - Clancy.jpg]]"
+added: 2024-05-24
 tags:
   - Favorite
   - Rock
@@ -17,6 +18,21 @@ rating: "7.2"
 await dv.view("_scripts/album");
 ```
 
+| # | Title | Duration | Rating /10 |
+|---|-------|----------|------------|
+| 1 | Overcompensate | 3:56 | 9 |
+| 2 | Next Semester | 3:54 | 8 |
+| 3 | Backslide | 3:00 | 7 |
+| 4 | Midwest Indigo | 3:16 | 7 |
+| 5 | Routines In The Night | 3:23 | 8 |
+| 6 | Vignette | 3:22 | 6.5 |
+| 7 | The Craving (Jenna's version) | 2:54 | 6 |
+| 8 | Lavish | 2:39 | 5 |
+| 9 | Navigating | 3:43 | 9 |
+| 10 | Snap Back | 3:30 | 6.5 |
+| 11 | Oldies Station | 3:48 | 7.5 |
+| 12 | At The Risk Of Feeling Dumb | 3:24 | 7 |
+| 13 | Paladin Strait | 6:29 | 7 |
 | #   | Title                         | Duration | Rating /10 |
 | --- | ----------------------------- | -------- | ---------- |
 | 1   | Overcompensate                | 3:56     | 9          |

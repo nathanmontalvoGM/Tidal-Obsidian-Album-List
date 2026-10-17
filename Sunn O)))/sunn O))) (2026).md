@@ -4,6 +4,7 @@ artist: "Sunn O)))"
 year: 2026
 tidal_id: 487713580
 cover: "[[_covers/Sunn O))) - sunn O))).jpg]]"
+removed_from_tidal: 2026-10-17
 tags:
   - DroneMetal
   - NuMetal

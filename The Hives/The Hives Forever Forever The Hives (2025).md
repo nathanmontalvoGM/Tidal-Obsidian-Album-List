@@ -4,6 +4,7 @@ artist: "The Hives"
 year: 2025
 tidal_id: 456037754
 cover: "[[_covers/The Hives - The Hives Forever Forever The Hives.jpg]]"
+added: 2025-11-02
 tags:
   - GarageRock
   - IndieRock

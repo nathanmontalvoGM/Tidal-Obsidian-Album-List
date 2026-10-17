@@ -4,6 +4,7 @@ artist: "yungatita"
 year: 2024
 tidal_id: 327845874
 cover: "[[_covers/yungatita - Shoelace & A Knot.jpg]]"
+added: 2024-01-05
 tags:
   - IndieRock
   - PopRock

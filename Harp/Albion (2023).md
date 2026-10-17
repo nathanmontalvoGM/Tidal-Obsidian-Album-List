@@ -4,6 +4,7 @@ artist: "Harp"
 year: 2023
 tidal_id: 331225974
 cover: "[[_covers/Harp - Albion.jpg]]"
+added: 2023-12-06
 tags:
   - SingerSongwriter
   - DarkFolk

@@ -4,6 +4,7 @@ artist: "Blind Equation"
 year: 2025
 tidal_id: 421066136
 cover: "[[_covers/Blind Equation - A Funeral In Purgatory.jpg]]"
+added: 2025-10-29
 tags:
   - BlackMetal
   - Metalcore

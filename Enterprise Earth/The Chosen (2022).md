@@ -4,6 +4,7 @@ artist: "Enterprise Earth"
 year: 2022
 tidal_id: 333882773
 cover: "[[_covers/Enterprise Earth - The Chosen.jpg]]"
+added: 2026-09-28
 tags:
   - MathMetal
   - Deathcore

@@ -4,6 +4,7 @@ artist: Mugshot
 year: 2025
 tidal_id: 424725089
 cover: "[[_covers/Mugshot - All The Devils Are Here.jpg]]"
+added: 2026-05-29
 tags:
   - Metalcore
   - BeatdownHardcore

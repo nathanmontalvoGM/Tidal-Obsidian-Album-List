@@ -4,6 +4,7 @@ artist: "Kill Bill: The Rapper"
 year: 2023
 tidal_id: 288827824
 cover: "[[_covers/Kill Bill- The Rapper - FULLMETAL KAIJU.jpg]]"
+added: 2023-04-28
 tags:
   - AbstractHipHop
   - JazzRap

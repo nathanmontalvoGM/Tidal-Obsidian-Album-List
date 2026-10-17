@@ -4,6 +4,7 @@ artist: "Spiritualized"
 year: 1997
 tidal_id: 134049292
 cover: "[[_covers/Spiritualized - Ladies and gentlemen we are floating in space.jpg]]"
+added: 2024-02-21
 tags:
   - SpaceRock
   - Shoegaze

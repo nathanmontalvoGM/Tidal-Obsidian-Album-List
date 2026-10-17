@@ -4,6 +4,7 @@ artist: "Freedom Call"
 year: 2024
 tidal_id: 344172738
 cover: "[[_covers/Freedom Call - Silver Romance.jpg]]"
+added: 2024-05-14
 tags:
   - NuMetal
 rating:

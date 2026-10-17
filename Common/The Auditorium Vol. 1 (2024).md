@@ -4,6 +4,7 @@ artist: "Common"
 year: 2024
 tidal_id: 373515201
 cover: "[[_covers/Common - The Auditorium Vol. 1.jpg]]"
+added: 2024-07-14
 tags:
   - HipHop
 rating:

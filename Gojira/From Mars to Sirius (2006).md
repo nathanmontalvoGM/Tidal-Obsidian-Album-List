@@ -4,6 +4,7 @@ artist: "Gojira"
 year: 2006
 tidal_id: 13929179
 cover: "[[_covers/Gojira - From Mars to Sirius.jpg]]"
+added: 2023-01-14
 tags:
   - ProgressiveMetal
   - MathMetal

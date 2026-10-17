@@ -4,6 +4,7 @@ artist: "Rebecca Black"
 year: 2023
 tidal_id: 270325285
 cover: "[[_covers/Rebecca Black - Let Her Burn.jpg]]"
+added: 2023-02-09
 tags:
   - Electropop
   - Pop

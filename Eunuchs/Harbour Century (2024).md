@@ -4,6 +4,7 @@ artist: "Eunuchs"
 year: 2024
 tidal_id: 350119011
 cover: "[[_covers/Eunuchs - Harbour Century.jpg]]"
+added: 2024-04-12
 tags:
   - ArtRock
   - SymphonicProg

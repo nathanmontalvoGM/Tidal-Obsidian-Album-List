@@ -4,6 +4,7 @@ artist: "Chappell Roan"
 year: 2023
 tidal_id: 316390638
 cover: "[[_covers/Chappell Roan - The Rise and Fall of a Midwest Princess.jpg]]"
+added: 2024-07-17
 tags:
   - Pop
   - Electropop

@@ -4,6 +4,7 @@ artist: "Kirinji"
 year: 2019
 tidal_id: 122414860
 cover: "[[_covers/Kirinji - Cherish.jpg]]"
+added: 2024-03-16
 tags:
   - Pop
 rating:

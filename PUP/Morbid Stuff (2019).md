@@ -4,6 +4,7 @@ artist: "PUP"
 year: 2019
 tidal_id: 104818954
 cover: "[[_covers/PUP - Morbid Stuff.jpg]]"
+added: 2023-09-25
 tags:
   - PopPunk
   - PowerPop

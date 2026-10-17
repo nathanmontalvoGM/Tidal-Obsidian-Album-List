@@ -4,6 +4,7 @@ artist: "Manowar"
 year: 1988
 tidal_id: 3467185
 cover: "[[_covers/Manowar - Kings of Metal.jpg]]"
+added: 2023-02-06
 tags:
   - HeavyMetal
   - PowerMetal

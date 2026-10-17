@@ -4,6 +4,7 @@ artist: "Job For A Cowboy"
 year: 2024
 tidal_id: 313871734
 cover: "[[_covers/Job For A Cowboy - Moon Healer.jpg]]"
+added: 2026-05-14
 tags:
   - ProgressiveMetal
   - TechnicalDeathMetal

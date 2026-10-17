@@ -4,6 +4,7 @@ artist: "Model/Actriz"
 year: 2023
 tidal_id: 452396523
 cover: "[[_covers/Model-Actriz - Dogsbody.jpg]]"
+added: 2023-02-27
 tags:
   - NoiseRock
   - DancePunk

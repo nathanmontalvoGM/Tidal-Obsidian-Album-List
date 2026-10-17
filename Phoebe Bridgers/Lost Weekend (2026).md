@@ -4,6 +4,7 @@ artist: "Phoebe Bridgers"
 year: 2026
 tidal_id: 550858406
 cover: "[[_covers/Phoebe Bridgers - Lost Weekend.jpg]]"
+added: 2026-08-14
 tags: []
 rating:
 ---

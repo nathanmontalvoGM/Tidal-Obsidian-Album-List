@@ -4,6 +4,7 @@ artist: "Sam Fender"
 year: 2019
 tidal_id: 117191602
 cover: "[[_covers/Sam Fender - Hypersonic Missiles.jpg]]"
+added: 2023-05-18
 tags:
   - IndieRock
 rating:

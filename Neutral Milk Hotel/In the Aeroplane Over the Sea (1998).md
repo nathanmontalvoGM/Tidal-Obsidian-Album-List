@@ -4,6 +4,7 @@ artist: "Neutral Milk Hotel"
 year: 1998
 tidal_id: 37265686
 cover: "[[_covers/Neutral Milk Hotel - In the Aeroplane Over the Sea.jpg]]"
+added: 2023-04-26
 tags:
   - Indie
   - IndieRock

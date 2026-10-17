@@ -4,6 +4,7 @@ artist: "Will Wood"
 year: 2023
 tidal_id: 199347397
 cover: "[[_covers/Will Wood - The Normal Album.jpg]]"
+added: 2022-01-13
 tags:
   - PianoRock
   - DarkCabaret

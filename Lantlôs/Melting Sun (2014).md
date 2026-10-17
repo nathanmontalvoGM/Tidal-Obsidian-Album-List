@@ -4,6 +4,7 @@ artist: "Lantlôs"
 year: 2014
 tidal_id: 175548943
 cover: "[[_covers/Lantlôs - Melting Sun.jpg]]"
+added: 2026-04-12
 tags:
   - PostRock
   - PostMetal

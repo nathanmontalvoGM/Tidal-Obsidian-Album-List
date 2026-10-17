@@ -4,6 +4,7 @@ artist: "Helloween"
 year: 2021
 tidal_id: 396320093
 cover: "[[_covers/Helloween - Helloween.jpg]]"
+added: 2024-01-03
 tags:
   - PowerMetal
   - SpeedMetal

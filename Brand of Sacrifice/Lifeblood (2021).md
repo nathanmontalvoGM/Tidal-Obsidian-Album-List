@@ -4,6 +4,7 @@ artist: "Brand of Sacrifice"
 year: 2021
 tidal_id: 161511706
 cover: "[[_covers/Brand of Sacrifice - Lifeblood.jpg]]"
+added: 2023-04-03
 tags:
   - Deathcore
   - NuMetal

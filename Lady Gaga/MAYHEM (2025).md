@@ -4,6 +4,7 @@ artist: "Lady Gaga"
 year: 2025
 tidal_id: 421850005
 cover: "[[_covers/Lady Gaga - MAYHEM.jpg]]"
+added: 2025-03-07
 tags:
   - Electropop
   - Pop

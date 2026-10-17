@@ -4,6 +4,7 @@ artist: "Psychedelic Porn Crumpets"
 year: 2025
 tidal_id: 428635124
 cover: "[[_covers/Psychedelic Porn Crumpets - Carpe Diem, Moonman.jpg]]"
+added: 2025-05-16
 tags:
   - StonerRock
   - PsychedelicRock

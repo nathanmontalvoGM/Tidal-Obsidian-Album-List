@@ -4,6 +4,7 @@ artist: "God is an Astronaut"
 year: 2005
 tidal_id: 21078300
 cover: "[[_covers/God is an Astronaut - All Is Violent, All Is Bright (2011 Remastered Edition).jpg]]"
+added: 2025-05-20
 tags:
   - PostRock
   - Instrumental

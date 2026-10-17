@@ -4,6 +4,7 @@ artist: "Dispirited Spirits"
 year: 2023
 tidal_id: 266331961
 cover: "[[_covers/Dispirited Spirits - The Redshift Blues.jpg]]"
+added: 2023-03-16
 tags:
   - ProgressivePop
   - Emo

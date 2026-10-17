@@ -4,6 +4,7 @@ artist: "Wet Leg"
 year: 2025
 tidal_id: 438505853
 cover: "[[_covers/Wet Leg - moisturizer.jpg]]"
+added: 2025-07-16
 tags:
   - IndieRock
   - IndiePop

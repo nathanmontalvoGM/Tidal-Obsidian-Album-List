@@ -4,6 +4,7 @@ artist: "The Struts"
 year: 2014
 tidal_id: 77705468
 cover: "[[_covers/The Struts - Everybody Wants.jpg]]"
+added: 2023-05-04
 tags:
   - Rock
   - HardRock

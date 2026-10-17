@@ -4,6 +4,7 @@ artist: Attic Ocean
 year: 2024
 tidal_id: 385711862
 cover: "[[_covers/Attic Ocean - Retriever.jpg]]"
+added: 2026-04-20
 tags:
   - DreamPop
   - Shoegaze

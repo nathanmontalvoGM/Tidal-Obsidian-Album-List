@@ -4,6 +4,7 @@ artist: "The Womack Sisters"
 year: 2026
 tidal_id: 515388445
 cover: "[[_covers/The Womack Sisters - The Womack Sisters.jpg]]"
+removed_from_tidal: 2026-10-17
 tags: []
 rating:
 ---

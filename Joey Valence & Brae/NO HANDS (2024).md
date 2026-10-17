@@ -4,6 +4,7 @@ artist: "Joey Valence & Brae"
 year: 2024
 tidal_id: 362603601
 cover: "[[_covers/Joey Valence & Brae - NO HANDS.jpg]]"
+added: 2024-06-09
 tags:
   - HipHop
   - HardcoreHipHop

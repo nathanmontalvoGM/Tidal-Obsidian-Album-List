@@ -4,6 +4,7 @@ artist: "James Blake"
 year: 2024
 tidal_id: 370627605
 cover: "[[_covers/James Blake - Bad Cameo.jpg]]"
+added: 2024-07-01
 tags:
   - Ambient
   - NeoPsychedelia

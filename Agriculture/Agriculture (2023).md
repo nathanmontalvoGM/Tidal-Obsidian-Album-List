@@ -4,6 +4,7 @@ artist: "Agriculture"
 year: 2023
 tidal_id: 286990986
 cover: "[[_covers/Agriculture - Agriculture.jpg]]"
+added: 2023-07-23
 tags:
   - Blackgaze
   - BlackMetal

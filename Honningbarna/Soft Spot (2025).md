@@ -4,6 +4,7 @@ artist: "Honningbarna"
 year: 2025
 tidal_id: 411499794
 cover: "[[_covers/Honningbarna - Soft Spot.jpg]]"
+added: 2025-04-24
 tags:
   - DancePunk
   - PostHardcore

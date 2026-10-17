@@ -4,6 +4,7 @@ artist: "Madeon"
 year: 2026
 tidal_id: 534836233
 cover: "[[_covers/Madeon - Victory.jpg]]"
+added: 2026-06-26
 tags: []
 rating:
 ---

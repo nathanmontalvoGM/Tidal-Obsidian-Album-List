@@ -4,6 +4,7 @@ artist: "Maruja"
 year: 2025
 tidal_id: 457113845
 cover: "[[_covers/Maruja - Pain to Power.jpg]]"
+added: 2025-09-12
 tags:
   - PostRock
   - PostPunk

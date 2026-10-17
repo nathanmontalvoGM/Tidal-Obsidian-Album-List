@@ -4,6 +4,7 @@ artist: "Blur"
 year: 2023
 tidal_id: 304357042
 cover: "[[_covers/Blur - The Ballad of Darren.jpg]]"
+added: 2023-07-23
 tags:
   - ArtRock
   - IndiePop

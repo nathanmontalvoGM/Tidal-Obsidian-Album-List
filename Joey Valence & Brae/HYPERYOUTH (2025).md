@@ -4,6 +4,7 @@ artist: "Joey Valence & Brae"
 year: 2025
 tidal_id: 453448229
 cover: "[[_covers/Joey Valence & Brae - HYPERYOUTH.jpg]]"
+added: 2025-08-15
 tags:
   - HipHop
   - HardcoreHipHop

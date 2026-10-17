@@ -4,6 +4,7 @@ artist: "Sea Power"
 year: 2015
 tidal_id: 108040785
 cover: "[[_covers/Sea Power - The Compleat British Sea Power, Vol. 1- The Decline of British Sea Power.jpg]]"
+added: 2025-02-12
 tags:
   - IndieRock
   - AlternativeRock

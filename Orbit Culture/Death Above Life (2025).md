@@ -4,6 +4,7 @@ artist: "Orbit Culture"
 year: 2025
 tidal_id: 436143039
 cover: "[[_covers/Orbit Culture - Death Above Life.jpg]]"
+added: 2025-10-04
 tags:
   - MathMetal
   - GrooveMetal

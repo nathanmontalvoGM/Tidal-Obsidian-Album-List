@@ -4,6 +4,7 @@ artist: "Archspire"
 year: 2021
 tidal_id: 189677757
 cover: "[[_covers/Archspire - Bleed the Future.jpg]]"
+added: 2024-10-09
 tags:
   - TechnicalDeathMetal
   - MathMetal

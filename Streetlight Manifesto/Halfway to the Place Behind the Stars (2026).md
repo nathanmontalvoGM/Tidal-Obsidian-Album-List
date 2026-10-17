@@ -4,6 +4,7 @@ artist: "Streetlight Manifesto"
 year: 2026
 tidal_id: 535896308
 cover: "[[_covers/Streetlight Manifesto - Halfway to the Place Behind the Stars.jpg]]"
+removed_from_tidal: 2026-10-17
 tags: []
 rating:
 ---

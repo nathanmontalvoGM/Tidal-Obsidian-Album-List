@@ -4,6 +4,7 @@ artist: "Labyrinthus Stellarum"
 year: 2025
 tidal_id: 422525287
 cover: "[[_covers/Labyrinthus Stellarum - Rift in Reality.jpg]]"
+added: 2026-08-04
 tags:
   - AtmosphericMetal
   - CyberMetal

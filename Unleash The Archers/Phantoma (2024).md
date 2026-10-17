@@ -4,6 +4,7 @@ artist: Unleash The Archers
 year: 2024
 tidal_id: 335473443
 cover: "[[_covers/Unleash The Archers - Phantoma.jpg]]"
+added: 2024-05-10
 tags:
   - PowerMetal
   - ConceptAlbum

@@ -4,6 +4,7 @@ artist: "Tame Impala"
 year: 2015
 tidal_id: 47696788
 cover: "[[_covers/Tame Impala - Currents.jpg]]"
+added: 2023-03-03
 tags:
   - PsychedelicPop
   - PsychedelicRock

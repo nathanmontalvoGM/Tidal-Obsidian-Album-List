@@ -4,6 +4,7 @@ artist: "Invent Animate"
 year: 2023
 tidal_id: 379605132
 cover: "[[_covers/Invent Animate - Heavener.jpg]]"
+added: 2026-09-29
 tags:
   - Metalcore
 rating:

@@ -4,6 +4,7 @@ artist: "Paramore"
 year: 2017
 tidal_id: 73856849
 cover: "[[_covers/Paramore - After Laughter.jpg]]"
+added: 2023-06-23
 tags:
   - NewWave
   - PopRock

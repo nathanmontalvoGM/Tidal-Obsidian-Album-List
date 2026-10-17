@@ -4,6 +4,7 @@ artist: "I DONT KNOW HOW BUT THEY FOUND ME"
 year: 2020
 tidal_id: 158720756
 cover: "[[_covers/I DONT KNOW HOW BUT THEY FOUND ME - RAZZMATAZZ.jpg]]"
+added: 2023-10-30
 tags:
   - NewWave
   - Indietronica

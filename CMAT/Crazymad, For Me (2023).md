@@ -4,6 +4,7 @@ artist: "CMAT"
 year: 2023
 tidal_id: 295886015
 cover: "[[_covers/CMAT - Crazymad, For Me.jpg]]"
+added: 2024-01-07
 tags:
   - AltCountry
   - SingerSongwriter

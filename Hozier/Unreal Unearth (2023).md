@@ -4,6 +4,7 @@ artist: "Hozier"
 year: 2023
 tidal_id: 310756333
 cover: "[[_covers/Hozier - Unreal Unearth.jpg]]"
+added: 2023-08-20
 tags:
   - Folk
   - Blues

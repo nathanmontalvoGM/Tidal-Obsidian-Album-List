@@ -4,6 +4,7 @@ artist: "Maybeshewill"
 year: 2008
 tidal_id: 53868188
 cover: "[[_covers/Maybeshewill - Not for Want of Trying.jpg]]"
+added: 2026-04-09
 tags:
   - Electronicore
   - ExperimentalRock

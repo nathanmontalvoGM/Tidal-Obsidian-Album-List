@@ -4,6 +4,7 @@ artist: "Panchiko"
 year: 2025
 tidal_id: 392563567
 cover: "[[_covers/Panchiko - Ginkgo.jpg]]"
+added: 2025-04-05
 tags:
   - IndieRock
   - Rock

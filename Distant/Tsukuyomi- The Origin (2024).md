@@ -4,6 +4,7 @@ artist: Distant
 year: 2024
 tidal_id: 382786826
 cover: "[[_covers/Distant - Tsukuyomi- The Origin.jpg]]"
+added: 2025-02-12
 tags:
   - Deathcore
   - Downtempo

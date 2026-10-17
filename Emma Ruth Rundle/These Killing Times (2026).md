@@ -4,6 +4,7 @@ artist: "Emma Ruth Rundle"
 year: 2026
 tidal_id: 530275562
 cover: "[[_covers/Emma Ruth Rundle - These Killing Times.jpg]]"
+added: 2026-09-23
 tags: []
 rating:
 ---

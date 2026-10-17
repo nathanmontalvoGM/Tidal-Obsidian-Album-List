@@ -4,6 +4,7 @@ artist: "Frank Ocean"
 year: 2012
 tidal_id: 35181031
 cover: "[[_covers/Frank Ocean - channel ORANGE.jpg]]"
+added: 2023-02-03
 tags:
   - RnB
   - Soul

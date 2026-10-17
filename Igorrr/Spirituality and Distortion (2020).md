@@ -4,6 +4,7 @@ artist: Igorrr
 year: 2020
 tidal_id: 125917739
 cover: "[[_covers/Igorrr - Spirituality and Distortion.jpg]]"
+added: 2023-11-16
 tags:
   - Breakcore
   - NuMetal

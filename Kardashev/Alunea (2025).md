@@ -4,6 +4,7 @@ artist: "Kardashev"
 year: 2025
 tidal_id: 406476717
 cover: "[[_covers/Kardashev - Alunea.jpg]]"
+added: 2025-06-11
 tags:
   - Deathgaze
   - ProgressiveMetal

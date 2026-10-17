@@ -4,6 +4,7 @@ artist: "TanookiAlex"
 year: 2024
 tidal_id: 346901379
 cover: "[[_covers/TanookiAlex - Minewest Emo.jpg]]"
+added: 2024-03-01
 tags:
   - MidwestEmo
   - AlternativeRock

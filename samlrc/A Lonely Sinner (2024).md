@@ -4,6 +4,7 @@ artist: "samlrc"
 year: 2024
 tidal_id: 349750093
 cover: "[[_covers/samlrc - A Lonely Sinner.jpg]]"
+added: 2025-07-07
 tags:
   - PostRock
   - Shoegaze

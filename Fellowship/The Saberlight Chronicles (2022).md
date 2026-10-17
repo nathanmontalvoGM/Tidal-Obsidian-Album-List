@@ -4,6 +4,7 @@ artist: "Fellowship"
 year: 2022
 tidal_id: 332852788
 cover: "[[_covers/Fellowship - The Saberlight Chronicles.jpg]]"
+added: 2023-02-03
 tags:
   - PowerMetal
   - SymphonicMetal

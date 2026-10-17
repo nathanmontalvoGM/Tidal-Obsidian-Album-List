@@ -4,6 +4,7 @@ artist: "Ellende"
 year: 2026
 tidal_id: 470233168
 cover: "[[_covers/Ellende - Zerfall.jpg]]"
+added: 2026-01-07
 tags:
   - BlackMetal
   - AtmosphericMetal

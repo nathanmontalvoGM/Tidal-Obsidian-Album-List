@@ -4,6 +4,7 @@ artist: "Adebisi Shank"
 year: 2014
 tidal_id: 430140479
 cover: "[[_covers/Adebisi Shank - This Is the Third Album of a Band Called Adebisi Shank.jpg]]"
+added: 2023-04-27
 tags:
   - MathRock
 rating:

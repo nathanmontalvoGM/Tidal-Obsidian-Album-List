@@ -4,6 +4,7 @@ artist: "The Last Dinner Party"
 year: 2025
 tidal_id: 466009252
 cover: "[[_covers/The Last Dinner Party - From The Pyre.jpg]]"
+added: 2025-10-17
 tags:
   - PopRock
   - GlamRock

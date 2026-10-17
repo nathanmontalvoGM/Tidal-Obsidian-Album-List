@@ -4,6 +4,7 @@ artist: "JID"
 year: 2025
 tidal_id: 452463071
 cover: "[[_covers/JID - God Does Like Ugly.jpg]]"
+added: 2025-08-08
 tags:
   - HipHop
   - SouthernHipHop

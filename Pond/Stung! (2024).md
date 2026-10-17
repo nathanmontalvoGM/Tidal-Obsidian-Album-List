@@ -4,6 +4,7 @@ artist: "Pond"
 year: 2024
 tidal_id: 346509423
 cover: "[[_covers/Pond - Stung!.jpg]]"
+added: 2024-06-22
 tags:
   - NeoPsychedelia
   - PsychedelicRock

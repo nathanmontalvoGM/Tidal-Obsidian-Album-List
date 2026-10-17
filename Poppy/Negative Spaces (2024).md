@@ -4,6 +4,7 @@ artist: "Poppy"
 year: 2024
 tidal_id: 383686884
 cover: "[[_covers/Poppy - Negative Spaces.jpg]]"
+added: 2024-11-15
 tags:
   - AlternativeMetal
   - Metalcore

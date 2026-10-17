@@ -4,6 +4,7 @@ artist: "By Storm"
 year: 2026
 tidal_id: 490209783
 cover: "[[_covers/By Storm - My Ghosts Go Ghost.jpg]]"
+added: 2026-01-31
 tags:
   - GlitchPop
   - Electronicore

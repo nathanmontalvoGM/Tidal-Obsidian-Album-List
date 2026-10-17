@@ -4,6 +4,7 @@ artist: "Vitriol"
 year: 2024
 tidal_id: 320099050
 cover: "[[_covers/Vitriol - Suffer & Become.jpg]]"
+added: 2024-01-30
 tags:
   - TechnicalDeathMetal
   - BlackenedDeathMetal

@@ -4,6 +4,7 @@ artist: "Deafheaven"
 year: 2013
 tidal_id: 20749616
 cover: "[[_covers/Deafheaven - Sunbather.jpg]]"
+added: 2023-03-14
 tags:
   - BlackMetal
   - PostRock

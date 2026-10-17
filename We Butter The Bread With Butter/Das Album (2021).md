@@ -4,6 +4,7 @@ artist: "We Butter The Bread With Butter"
 year: 2021
 tidal_id: 187437362
 cover: "[[_covers/We Butter The Bread With Butter - Das Album.jpg]]"
+added: 2025-08-05
 tags:
   - Metalcore
   - Deathcore

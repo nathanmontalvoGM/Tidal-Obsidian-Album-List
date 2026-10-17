@@ -4,6 +4,7 @@ artist: "Deftones"
 year: 2025
 tidal_id: 455128514
 cover: "[[_covers/Deftones - private music.jpg]]"
+added: 2025-08-22
 tags:
   - AlternativeMetal
   - Shoegaze

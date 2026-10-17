@@ -4,6 +4,7 @@ artist: "TesseracT"
 year: 2013
 tidal_id: 52105466
 cover: "[[_covers/TesseracT - Altered State.jpg]]"
+added: 2025-02-16
 tags:
   - Djent
   - ProgressiveMetal

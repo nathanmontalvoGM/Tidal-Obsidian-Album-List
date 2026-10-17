@@ -4,6 +4,7 @@ artist: "Dove Ellis"
 year: 2025
 tidal_id: 467460858
 cover: "[[_covers/Dove Ellis - Blizzard.jpg]]"
+added: 2026-01-17
 tags:
   - Folk
   - FolkRock

@@ -4,6 +4,7 @@ artist: "Casiopea"
 year: 2002
 tidal_id: 157658550
 cover: "[[_covers/Casiopea - CASIOPEA.jpg]]"
+added: 2024-03-19
 tags:
   - JazzFusion
   - Jazz

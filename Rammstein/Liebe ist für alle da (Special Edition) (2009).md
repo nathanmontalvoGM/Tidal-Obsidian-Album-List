@@ -4,6 +4,7 @@ artist: "Rammstein"
 year: 2009
 tidal_id: 226546526
 cover: "[[_covers/Rammstein - Liebe ist für alle da (Special Edition).jpg]]"
+added: 2023-07-22
 tags:
   - IndustrialMetal
   - NuMetal

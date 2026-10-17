@@ -4,6 +4,7 @@ artist: "Andrew W.K."
 year: 2001
 tidal_id: 578167
 cover: "[[_covers/Andrew W.K - I Get Wet.jpg]]"
+added: 2026-03-10
 tags:
   - Rock
   - HardRock
@@ -16,6 +17,20 @@ rating:
 await dv.view("_scripts/album");
 ```
 
+| # | Title | Duration | Rating /10 |
+|---|-------|----------|------------|
+| 1 | It's Time To Party | 1:30 | 7 |
+| 2 | Party Hard | 3:05 | 9 |
+| 3 | Girls Own Love | 3:13 | 6 |
+| 4 | Ready To Die | 2:55 | 9 |
+| 5 | Take It Off | 3:10 | 8 |
+| 6 | I Love NYC | 3:11 | 7.5 |
+| 7 | She Is Beautiful | 3:34 | 6.5 |
+| 8 | Party Til You Puke | 2:34 | 7 |
+| 9 | Fun Night | 3:23 | 7.5 |
+| 10 | Got To Do It | 3:55 | 7 |
+| 11 | I Get Wet | 3:23 | 8.5 |
+| 12 | Don't Stop Living In The Red | 1:41 | 7 |
 | #   | Title                        | Duration | Rating /10 |
 | --- | ---------------------------- | -------- | ---------- |
 | 1   | It’s Time to Party           | 1:30     | 7          |

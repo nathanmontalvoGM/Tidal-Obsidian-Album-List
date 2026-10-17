@@ -4,6 +4,7 @@ artist: Fellowship
 year: 2024
 tidal_id: 387780013
 cover: "[[_covers/Fellowship - The Skies Above Eternity.jpg]]"
+added: 2024-11-30
 tags:
   - PowerMetal
   - SymphonicMetal

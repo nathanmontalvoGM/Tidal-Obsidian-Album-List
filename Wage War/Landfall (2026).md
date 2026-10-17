@@ -4,6 +4,7 @@ artist: "Wage War"
 year: 2026
 tidal_id: 566410214
 cover: "[[_covers/Wage War - Landfall.jpg]]"
+added: 2026-10-12
 tags:
   - AlternativeMetal
   - MelodicMetalcore

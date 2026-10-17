@@ -4,6 +4,7 @@ artist: "thrown"
 year: 2024
 tidal_id: 363349693
 cover: "[[_covers/thrown - EXCESSIVE GUILT.jpg]]"
+removed_from_tidal: 2026-10-17
 tags:
   - NuMetal
 rating:

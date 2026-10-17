@@ -4,6 +4,7 @@ artist: "Big Thief"
 year: 2022
 tidal_id: 213383167
 cover: "[[_covers/Big Thief - Dragon New Warm Mountain I Believe In You.jpg]]"
+added: 2025-04-28
 tags:
   - IndieFolk
   - FolkRock

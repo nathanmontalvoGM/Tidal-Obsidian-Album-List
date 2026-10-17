@@ -4,6 +4,7 @@ artist: "Florence + the Machine"
 year: 2022
 tidal_id: 228279663
 cover: "[[_covers/Florence + the Machine - Dance Fever.jpg]]"
+added: 2025-09-24
 tags:
   - IndiePop
   - BaroquePop

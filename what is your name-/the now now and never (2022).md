@@ -4,6 +4,7 @@ artist: "what is your name?"
 year: 2022
 tidal_id: 238851423
 cover: "[[_covers/what is your name- - the now now and never.jpg]]"
+added: 2026-01-07
 tags:
   - PostRock
   - Shoegaze

@@ -4,6 +4,7 @@ artist: "The Callous Daoboys"
 year: 2023
 tidal_id: 333675455
 cover: "[[_covers/The Callous Daoboys - God Smiles Upon The Callous Daoboys.jpg]]"
+added: 2023-11-06
 tags:
   - Mathcore
   - NuMetal

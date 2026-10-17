@@ -4,6 +4,7 @@ artist: "Shadow of Intent"
 year: 2017
 tidal_id: 71823180
 cover: "[[_covers/Shadow of Intent - Reclaimer.jpg]]"
+added: 2024-01-17
 tags:
   - MelodicDeathGroove
   - TechnicalDeathcore

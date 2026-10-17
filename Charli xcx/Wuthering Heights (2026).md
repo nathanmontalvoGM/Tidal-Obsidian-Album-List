@@ -4,6 +4,7 @@ artist: "Charli xcx"
 year: 2026
 tidal_id: 497934606
 cover: "[[_covers/Charli xcx - Wuthering Heights.jpg]]"
+added: 2026-02-13
 tags:
   - Synthpop
   - ArtPop

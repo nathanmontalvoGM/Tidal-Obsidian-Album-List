@@ -4,6 +4,7 @@ artist: "Animals as Leaders"
 year: 2014
 tidal_id: 441858813
 cover: "[[_covers/Animals as Leaders - The Joy of Motion.jpg]]"
+added: 2025-02-16
 tags:
   - ProgressiveMetal
   - Djent

@@ -4,6 +4,7 @@ artist: "Streetlight Manifesto"
 year: 2003
 tidal_id: 73530248
 cover: "[[_covers/Streetlight Manifesto - Everything Goes Numb.jpg]]"
+added: 2025-04-14
 tags:
   - SkaPunk
   - Ska

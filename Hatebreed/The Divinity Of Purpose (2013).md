@@ -4,6 +4,7 @@ artist: "Hatebreed"
 year: 2013
 tidal_id: 61149892
 cover: "[[_covers/Hatebreed - The Divinity Of Purpose.jpg]]"
+added: 2024-04-24
 tags:
   - Hardcore
   - Metalcore

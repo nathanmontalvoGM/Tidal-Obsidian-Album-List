@@ -4,6 +4,7 @@ artist: "Glass Beach"
 year: 2024
 tidal_id: 322288699
 cover: "[[_covers/Glass Beach - plastic death.jpg]]"
+added: 2024-01-19
 tags:
   - ProgressivePop
   - IndieRock

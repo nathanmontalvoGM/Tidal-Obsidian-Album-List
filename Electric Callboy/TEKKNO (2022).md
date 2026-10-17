@@ -4,6 +4,7 @@ artist: "Electric Callboy"
 year: 2022
 tidal_id: 224324546
 cover: "[[_covers/Electric Callboy - TEKKNO.jpg]]"
+added: 2023-03-14
 tags:
   - Metalcore
   - Electronicore

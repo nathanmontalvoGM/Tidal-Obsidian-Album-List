@@ -4,6 +4,7 @@ artist: Netherwalker
 year: 2025
 tidal_id: 515551845
 cover: "[[_covers/Netherwalker - Odyssey Of Respair.jpg]]"
+added: 2026-05-25
 tags:
   - Deathcore
   - SymphonicMetal

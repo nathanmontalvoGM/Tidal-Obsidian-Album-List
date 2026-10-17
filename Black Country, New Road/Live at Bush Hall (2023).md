@@ -4,6 +4,7 @@ artist: "Black Country, New Road"
 year: 2023
 tidal_id: 274738150
 cover: "[[_covers/Black Country, New Road - Live at Bush Hall.jpg]]"
+added: 2023-03-28
 tags:
   - ProgressivePop
   - ChamberPop

@@ -4,6 +4,7 @@ artist: "Crown Lands"
 year: 2023
 tidal_id: 284673445
 cover: "[[_covers/Crown Lands - Fearless.jpg]]"
+added: 2024-04-29
 tags:
   - ProgressivePop
   - Rock

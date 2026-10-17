@@ -4,6 +4,7 @@ artist: "Whitechapel"
 year: 2012
 tidal_id: 23908493
 cover: "[[_covers/Whitechapel - Whitechapel.jpg]]"
+added: 2026-05-14
 tags:
   - MathMetal
   - Deathcore

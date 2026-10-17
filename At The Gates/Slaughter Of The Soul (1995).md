@@ -4,6 +4,7 @@ artist: "At The Gates"
 year: 1995
 tidal_id: 13917157
 cover: "[[_covers/At The Gates - Slaughter Of The Soul.jpg]]"
+removed_from_tidal: 2026-10-17
 tags:
   - MelodicDeathMetal
   - MathMetal

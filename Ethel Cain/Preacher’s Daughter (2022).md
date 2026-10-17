@@ -4,6 +4,7 @@ artist: "Ethel Cain"
 year: 2022
 tidal_id: 243731232
 cover: "[[_covers/Ethel Cain - Preacher’s Daughter.jpg]]"
+added: 2023-05-30
 tags:
   - Slowcore
   - DreamPop

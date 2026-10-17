@@ -4,6 +4,7 @@ artist: "Jakey"
 year: 2022
 tidal_id: 261177665
 cover: "[[_covers/Jakey - ROMCOM.jpg]]"
+added: 2023-05-10
 tags:
   - CloudRap
   - AltPop

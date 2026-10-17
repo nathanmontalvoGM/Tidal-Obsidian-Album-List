@@ -4,6 +4,7 @@ artist: "The Lemon Twigs"
 year: 2020
 tidal_id: 151915946
 cover: "[[_covers/The Lemon Twigs - Songs for the General Public.jpg]]"
+added: 2024-01-11
 tags:
   - GlamRock
   - PopRock

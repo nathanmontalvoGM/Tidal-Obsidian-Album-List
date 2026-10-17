@@ -4,6 +4,7 @@ artist: Pool Kids
 year: 2025
 tidal_id: 434857405
 cover: "[[_covers/Pool Kids - Easier Said Than Done.jpg]]"
+added: 2025-10-07
 tags:
   - EmoPop
   - DreamPop

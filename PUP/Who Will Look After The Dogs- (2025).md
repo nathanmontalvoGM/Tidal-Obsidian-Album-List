@@ -4,6 +4,7 @@ artist: "PUP"
 year: 2025
 tidal_id: 414879455
 cover: "[[_covers/PUP - Who Will Look After The Dogs-.jpg]]"
+added: 2025-05-04
 tags:
   - Rock
   - Punk

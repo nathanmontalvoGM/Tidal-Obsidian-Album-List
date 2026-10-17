@@ -4,6 +4,7 @@ artist: "Dream Theater"
 year: 1992
 tidal_id: 1845519
 cover: "[[_covers/Dream Theater - Images and Words.jpg]]"
+added: 2023-01-15
 tags:
   - ProgressiveMetal
   - ProgressivePop

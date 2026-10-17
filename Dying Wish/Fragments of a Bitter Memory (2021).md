@@ -4,6 +4,7 @@ artist: "Dying Wish"
 year: 2021
 tidal_id: 187698242
 cover: "[[_covers/Dying Wish - Fragments of a Bitter Memory.jpg]]"
+added: 2025-09-26
 tags:
   - MelodicMetalcore
   - Metalcore

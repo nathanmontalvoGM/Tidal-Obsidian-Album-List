@@ -4,6 +4,7 @@ artist: "Zach Bryan"
 year: 2023
 tidal_id: 311604336
 cover: "[[_covers/Zach Bryan - Zach Bryan.jpg]]"
+added: 2023-09-27
 tags:
   - Country
   - Americana

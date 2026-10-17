@@ -4,6 +4,7 @@ artist: "Slaughter to Prevail"
 year: 2021
 tidal_id: 438800048
 cover: "[[_covers/Slaughter to Prevail - Kostolom.jpg]]"
+removed_from_tidal: 2026-10-17
 tags:
   - Deathcore
   - NuMetal

@@ -4,6 +4,7 @@ artist: "Shadow of Intent"
 year: 2022
 tidal_id: 197837547
 cover: "[[_covers/Shadow of Intent - Elegy.jpg]]"
+added: 2025-02-12
 tags:
   - Deathcore
   - SymphonicMetal

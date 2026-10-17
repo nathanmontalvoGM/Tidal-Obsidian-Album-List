@@ -4,6 +4,7 @@ artist: "AURORA"
 year: 2018
 tidal_id: 243783626
 cover: "[[_covers/AURORA - Infections of a Different Kind (Step I).jpg]]"
+added: 2024-10-24
 tags:
   - Indie
   - Pop

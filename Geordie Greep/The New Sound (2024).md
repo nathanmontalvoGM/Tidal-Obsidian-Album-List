@@ -4,6 +4,7 @@ artist: "Geordie Greep"
 year: 2024
 tidal_id: 386875537
 cover: "[[_covers/Geordie Greep - The New Sound.jpg]]"
+added: 2025-01-06
 tags:
   - ProgressivePop
   - ArtRock

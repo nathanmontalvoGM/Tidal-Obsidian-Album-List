@@ -4,6 +4,7 @@ artist: "Karmanjakah"
 year: 2021
 tidal_id: 164870595
 cover: "[[_covers/Karmanjakah - A Book About Itself.jpg]]"
+added: 2026-05-27
 tags:
   - NuMetal
   - ProgressiveMetal

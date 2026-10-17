@@ -4,6 +4,7 @@ artist: "Thornhill"
 year: 2025
 tidal_id: 427210544
 cover: "[[_covers/Thornhill - BODIES.jpg]]"
+added: 2025-04-05
 tags:
   - NuMetal
   - AlternativeMetal

@@ -4,6 +4,7 @@ artist: "Durand Jones"
 year: 2023
 tidal_id: 273584760
 cover: "[[_covers/Durand Jones - Wait Til I Get Over.jpg]]"
+added: 2023-05-10
 tags:
   - Soul
   - NeoSoul

@@ -4,6 +4,7 @@ artist: "Eminem"
 year: 2002
 tidal_id: 573283
 cover: "[[_covers/Eminem - The Eminem Show.jpg]]"
+added: 2023-01-29
 tags:
   - HipHop
 rating:

@@ -4,6 +4,7 @@ artist: "Aversions Crown"
 year: 2017
 tidal_id: 107059615
 cover: "[[_covers/Aversions Crown - Xenocide.jpg]]"
+added: 2023-06-21
 tags:
   - Deathcore
   - BrutalDeathcore

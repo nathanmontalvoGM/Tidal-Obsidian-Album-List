@@ -4,6 +4,7 @@ artist: "CMAT"
 year: 2025
 tidal_id: 424533343
 cover: "[[_covers/CMAT - EURO-COUNTRY.jpg]]"
+added: 2025-08-29
 tags:
   - SoftRock
   - Country
