@@ -1,13 +1,18 @@
 
 ```dataviewjs
 const allPages = dv.pages().where(p => p.tidal_id);
-const allCovers = app.vault.getFiles().filter(f => f.path.includes("_covers"));
 
-function getCover(page) {
-    const albumTitle = page.file.name.replace(/\s\(\d{4}\)$/, "");
-    const expectedPath = `_covers/${page.artist} - ${albumTitle}.jpg`;
-    return allCovers.find(f => f.path === expectedPath);
+function findCover(page) {
+    const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
+    const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
+    const folder = page.file.folder.split("/").pop();
+    for (const artist of [clean(page.artist), page.artist, folder]) {
+        const f = app.vault.getAbstractFileByPath(`_covers/${artist} - ${title}.jpg`);
+        if (f) return f;
+    }
+    return null;
 }
+function getCover(page) { return findCover(page); }
 
 // ── Modal System ──────────────────────────────────────────
 function createModal(title) {
@@ -95,12 +100,17 @@ btn.onclick = (e) => {
 
 \`\`\`dataviewjs
 const TAGS = ${tagsJson};
-const allCovers = app.vault.getFiles().filter(f => f.path.includes("_covers"));
-function getCover(page) {
-    const albumTitle = page.file.name.replace(/\\s\\(\\d{4}\\)$/, "");
-    const expectedPath = \`_covers/\${page.artist} - \${albumTitle}.jpg\`;
-    return allCovers.find(f => f.path === expectedPath);
+function findCover(page) {
+    const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
+    const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
+    const folder = page.file.folder.split("/").pop();
+    for (const artist of [clean(page.artist), page.artist, folder]) {
+        const f = app.vault.getAbstractFileByPath(`_covers/${artist} - ${title}.jpg`);
+        if (f) return f;
+    }
+    return null;
 }
+function getCover(page) { return findCover(page); }
 const controls = dv.container.createEl("div");
 controls.style.cssText = "display:flex; flex-wrap:wrap; gap:10px; align-items:center; padding:12px; background:#111; border-radius:10px; margin-bottom:20px;";
 const searchInput = controls.createEl("input");
@@ -236,12 +246,17 @@ btn.onclick = (e) => {
 \`\`\`
 \`\`\`dataviewjs
 const ALBUM_IDS = ${tidalIds};
-const allCovers = app.vault.getFiles().filter(f => f.path.includes("_covers"));
-function getCover(page) {
-    const albumTitle = page.file.name.replace(/\\s\\(\\d{4}\\)$/, "");
-    const expectedPath = \`_covers/\${page.artist} - \${albumTitle}.jpg\`;
-    return allCovers.find(f => f.path === expectedPath);
+function findCover(page) {
+    const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
+    const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
+    const folder = page.file.folder.split("/").pop();
+    for (const artist of [clean(page.artist), page.artist, folder]) {
+        const f = app.vault.getAbstractFileByPath(`_covers/${artist} - ${title}.jpg`);
+        if (f) return f;
+    }
+    return null;
 }
+function getCover(page) { return findCover(page); }
 const controls = dv.container.createEl("div");
 controls.style.cssText = "display:flex; flex-wrap:wrap; gap:10px; align-items:center; padding:12px; background:#111; border-radius:10px; margin-bottom:20px;";
 const searchInput = controls.createEl("input");

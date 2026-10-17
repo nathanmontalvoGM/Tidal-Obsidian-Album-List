@@ -8,7 +8,6 @@ backBtn.textContent = "← Home";
 backBtn.style.cssText = "display:inline-block; padding:10px 20px; background:#7c3aed; color:#fff; border-radius:10px; font-size:15px; font-weight:bold; text-decoration:none; cursor:pointer; margin-bottom:16px;";
 backBtn.onclick = (e) => { e.preventDefault(); app.workspace.openLinkText(HOME_NOTE, "", false); };
 
-const allCovers = app.vault.getFiles().filter(f => f.path.includes("_covers"));
 const allPages = dv.pages().where(p => p.tidal_id).array();
 
 const playlistFiles = app.vault.getFiles().filter(f =>
@@ -29,10 +28,18 @@ function pageHasAnyTag(page, tags) {
     return tags.some(tag => pt.includes(String(tag).toLowerCase()));
 }
 
+function findCover(page) {
+    const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
+    const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
+    const folder = page.file.folder.split("/").pop();
+    for (const artist of [clean(page.artist), page.artist, folder]) {
+        const f = app.vault.getAbstractFileByPath(`_covers/${artist} - ${title}.jpg`);
+        if (f) return f;
+    }
+    return null;
+}
 function coverFor(page) {
-    const albumTitle = page.file.name.replace(/\s\(\d{4}\)$/, "");
-    const expectedPath = `_covers/${page.artist} - ${albumTitle}.jpg`;
-    const f = allCovers.find(c => c.path === expectedPath);
+    const f = findCover(page);
     return f ? app.vault.getResourcePath(f) : null;
 }
 

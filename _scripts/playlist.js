@@ -21,13 +21,18 @@ for (let p of allAlbums) {
 const idSet = ALBUM_IDS ? new Set(ALBUM_IDS.map(String)) : null;
 const idAlbums = idSet ? allAlbums.filter(p => idSet.has(String(p.tidal_id))) : [];
 
-const coverMap = new Map();
-for (let f of app.vault.getFiles()) if (f.path.startsWith("_covers/")) coverMap.set(f.path, f);
 
-function getCover(page) {
-    const albumTitle = page.file.name.replace(/\s\(\d{4}\)$/, "");
-    return coverMap.get(`_covers/${page.artist} - ${albumTitle}.jpg`);
+function findCover(page) {
+    const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
+    const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
+    const folder = page.file.folder.split("/").pop();
+    for (const artist of [clean(page.artist), page.artist, folder]) {
+        const f = app.vault.getAbstractFileByPath(`_covers/${artist} - ${title}.jpg`);
+        if (f) return f;
+    }
+    return null;
 }
+function getCover(page) { return findCover(page); }
 
 // ── Nav row ───────────────────────────────────────────────
 const nav = dv.container.createEl("div");

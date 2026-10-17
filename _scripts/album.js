@@ -10,7 +10,17 @@ const tidalId = page.tidal_id;
 const tags = (Array.isArray(page.tags) ? page.tags : page.tags ? [page.tags] : [])
     .map(t => String(t).replace(/^#/, "")).filter(Boolean);
 
-const cover = app.vault.getAbstractFileByPath(`_covers/${artist} - ${baseName}.jpg`);
+function findCover(page) {
+    const clean = s => String(s || "").replace(/[\\/*?:"<>|]/g, "-").replace(/…/g, "...").replace(/^[. ]+|[. ]+$/g, "");
+    const title = page.file.name.replace(/\s\(\d{4}\)$/, "");
+    const folder = page.file.folder.split("/").pop();
+    for (const artist of [clean(page.artist), page.artist, folder]) {
+        const f = app.vault.getAbstractFileByPath(`_covers/${artist} - ${title}.jpg`);
+        if (f) return f;
+    }
+    return null;
+}
+const cover = findCover(page);
 const coverSrc = cover ? app.vault.getResourcePath(cover) : null;
 
 const trackRows = content.split("\n").filter(l => /^\|\s*\d+(-\d+)?\s*\|/.test(l));
