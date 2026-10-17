@@ -4,7 +4,7 @@ artist: Attic Ocean
 year: 2024
 tidal_id: 385711862
 tags:
-  - "#DreamPop"
+  - DreamPop
   - Shoegaze
 rating:
 ---

@@ -4,6 +4,8 @@ Apply the tag rules in _scripts/tags.json to every album note and tag playlist.
 - Merges spelling variants and synonyms into one tag ("Numetal" -> "NuMetal", "Rap" -> "HipHop")
 - Removes blocklisted non-genre tags ("Clonehero", "Bestof2019", ...)
 - Fixes the TAGS list in playlist notes the same way
+- Keeps 00 Dashboard/Genres in sync: one page per tag in use, generated pages
+  for tags no album has any more are removed (pages you wrote yourself are never touched)
 
 Run from the vault root:
     python normalize_tags.py            # dry run: prints what would change
@@ -22,6 +24,8 @@ VAULT = os.path.dirname(os.path.abspath(__file__))
 APPLY = "--apply" in sys.argv
 SKIP_DIRS = {".git", ".obsidian", "_covers", "_templates", "_scripts", "_code", "_tools", "_todo", "00 Dashboard", ".trash"}
 PLAYLISTS = os.path.join(VAULT, "00 Dashboard", "Playlists")
+GENRES = os.path.join(VAULT, "00 Dashboard", "Genres")
+GENRE_STUB = '```dataviewjs\nawait dv.view("_scripts/playlist", { tags: [dv.current().file.name], genre: true });\n```\n'
 
 FM_RE = re.compile(r"^---\n(.*?)\n---", re.S)
 TAG_BLOCK_RE = re.compile(r"^tags:[ \t]*(\[[^\]\n]*\])?[ \t]*\n((?:[ \t]+-[^\n]*\n)*)", re.M)
@@ -50,6 +54,7 @@ def render_tags(tags):
 
 
 removed, renamed, unknown = Counter(), Counter(), Counter()
+tags_in_use = Counter()
 notes_changed = 0
 
 for d, dirs, files in os.walk(VAULT):
@@ -69,6 +74,7 @@ for d, dirs, files in os.walk(VAULT):
             continue
         old = parse_tags(block)
         new = normalize_list(old)
+        tags_in_use.update(new)
         for t in old:
             if not is_known(t):
                 unknown[t] += 1
@@ -108,8 +114,49 @@ if os.path.isdir(PLAYLISTS):
         if APPLY:
             write(path, text, crlf)
 
+# ── Genre pages ───────────────────────────────────────────
+def is_generated_genre_page(text):
+    """The one-line stub, or the old generated page that carried its own copy of the code."""
+    return text.strip() == GENRE_STUB.strip() or (
+        "```dataviewjs" in text and re.search(r'^const TAG = "[^"]*";', text, re.M) is not None)
+
+genre_created, genre_converted, genre_deleted = [], [], []
+if os.path.isdir(GENRES):
+    wanted = {t.lower(): t for t in tags_in_use}
+    have = {}
+    for name in sorted(os.listdir(GENRES)):
+        if not name.endswith(".md"):
+            continue
+        path = os.path.join(GENRES, name)
+        raw, crlf = read(path)
+        text = raw.replace("\r\n", "\n")
+        stem = name[:-3]
+        if not is_generated_genre_page(text):
+            have[stem.lower()] = stem  # hand-written page: leave it alone
+            continue
+        if stem.lower() in wanted and stem.lower() not in have:
+            have[stem.lower()] = stem
+            if text != GENRE_STUB:
+                genre_converted.append(stem)
+                if APPLY:
+                    write(path, GENRE_STUB, False)
+        else:
+            genre_deleted.append(stem)
+            if APPLY:
+                os.remove(path)
+    for low, tag in sorted(wanted.items()):
+        if low not in have:
+            genre_created.append(tag)
+            if APPLY:
+                write(os.path.join(GENRES, f"{tag}.md"), GENRE_STUB, False)
+
 print(f"\nAlbum notes {'changed' if APPLY else 'to change'}: {notes_changed}")
 print(f"Playlists {'changed' if APPLY else 'to change'}: {playlists_changed}")
+print(f"Genre pages: {len(genre_converted)} converted to the shared page, {len(genre_created)} created, {len(genre_deleted)} removed")
+if genre_created:
+    print("  created: " + ", ".join(genre_created))
+if genre_deleted:
+    print("  removed (no album uses these tags): " + ", ".join(genre_deleted))
 print(f"\nMerged/renamed ({sum(renamed.values())}):")
 for k, v in renamed.most_common(25):
     print(f"  {k}  x{v}")

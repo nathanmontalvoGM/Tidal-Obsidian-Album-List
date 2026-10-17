@@ -1,5 +1,6 @@
 const TAGS = input.tags || null;
 const ALBUM_IDS = input.ids || null;
+const GENRE = !!input.genre; // genre pages: one tag, taken from the note's name, not editable
 
 const seen = new Set();
 const SORTED_TAGS = TAGS ? TAGS
@@ -48,7 +49,7 @@ editBtn.textContent = "Edit Tags";
 editBtn.style.cssText = "padding:10px 20px; background:#1a1a1a; color:#fff; border-radius:10px; font-size:14px; font-weight:bold; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.4);";
 editBtn.onmouseenter = () => editBtn.style.background = "#222";
 editBtn.onmouseleave = () => editBtn.style.background = "#1a1a1a";
-if (!TAGS) editBtn.style.display = "none";
+if (!TAGS || GENRE) editBtn.style.display = "none";
 
 editBtn.onclick = async () => {
     const file = app.vault.getAbstractFileByPath(dv.current().file.path);
@@ -195,6 +196,24 @@ randomBtn.onclick = () => {
     const pick = pool[Math.floor(Math.random() * pool.length)];
     app.workspace.openLinkText(pick.file.path, "", false);
 };
+// ── Genre page title (spelled the way the albums spell the tag) ──
+if (GENRE && TAGS) {
+    const low = TAGS[0].toLowerCase();
+    let shown = TAGS[0];
+    for (const p of allAlbums) {
+        const hit = (Array.isArray(p.tags) ? p.tags : [p.tags]).map(x => String(x).replace(/^#/, "")).find(x => x.toLowerCase() === low);
+        if (hit) { shown = hit; break; }
+    }
+    const style = document.getElementById("genre-page-style") || document.head.appendChild(Object.assign(document.createElement("style"), { id: "genre-page-style" }));
+    style.textContent = ".view-content:has(.pl-genre-title) .inline-title { display: none !important; }";
+    const h = dv.container.createEl("div", { cls: "pl-genre-title" });
+    h.style.cssText = "font-size:30px; font-weight:800; color:#fff; margin:4px 0 2px 0;";
+    h.textContent = shown;
+    const sub = dv.container.createEl("div");
+    sub.style.cssText = "font-size:12px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.5); margin-bottom:14px;";
+    sub.textContent = `Genre · ${(byTag.get(low) || []).length} albums`;
+}
+
 // ── Controls Bar ──────────────────────────────────────────
 const controls = dv.container.createEl("div");
 controls.style.cssText = "display:flex; flex-wrap:wrap; gap:10px; align-items:center; padding:12px; background:#111; border-radius:10px; margin-bottom:20px;";
@@ -208,7 +227,7 @@ const genreSelect = controls.createEl("select");
 genreSelect.style.cssText = "padding:6px 12px; background:#222; border:1px solid #444; border-radius:6px; color:#fff; font-size:13px;";
 const allOption = genreSelect.createEl("option"); allOption.value = ""; allOption.textContent = "All Genres";
 for (let tag of SORTED_TAGS) { const opt = genreSelect.createEl("option"); opt.value = tag; opt.textContent = tag; }
-if (!TAGS) genreSelect.style.display = "none";
+if (!TAGS || SORTED_TAGS.length < 2) genreSelect.style.display = "none";
 
 const sortSelect = controls.createEl("select");
 sortSelect.style.cssText = "padding:6px 12px; background:#222; border:1px solid #444; border-radius:6px; color:#fff; font-size:13px;";
@@ -301,7 +320,7 @@ function renderAll() {
             let pages = byTag.get(TAG.toLowerCase()) || [];
             if (search) pages = pages.filter(p => matchesSearch(p, search));
             if (pages.length === 0) continue;
-            totalShown += renderSection(TAG, pages, sortBy);
+            totalShown += renderSection(SORTED_TAGS.length > 1 ? TAG : null, pages, sortBy);
         }
     } else if (ALBUM_IDS) {
         let pages = idAlbums;

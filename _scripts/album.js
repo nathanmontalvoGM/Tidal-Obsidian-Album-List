@@ -73,7 +73,8 @@ style.textContent = `
 .av-meta { font-size: 13px; color: rgba(255,255,255,0.55); margin-top: 4px; }
 
 .av-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
-.av-tag { font-size: 11px; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); }
+.av-tag { font-size: 11px; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); cursor: pointer; }
+.av-tag:hover { background: rgba(255,255,255,0.22); color: #fff; }
 
 .av-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 .av-btn { padding: 9px 18px; border-radius: 999px; font-size: 14px; font-weight: 700; color: #fff; background: rgba(255,255,255,0.12); cursor: pointer; transition: background 0.15s; }
@@ -122,7 +123,10 @@ info.createDiv({ cls: "av-meta", text: [`${tracks.length} tracks`, totalSec ? fm
 
 if (tags.length) {
     const tagRow = info.createDiv({ cls: "av-tags" });
-    for (const t of tags) tagRow.createSpan({ cls: "av-tag", text: t });
+    for (const t of tags) {
+        const pill = tagRow.createSpan({ cls: "av-tag", text: t });
+        pill.onclick = () => app.workspace.openLinkText(`00 Dashboard/Genres/${t}`, "", false);
+    }
 }
 
 const actions = info.createDiv({ cls: "av-actions" });
