@@ -8,22 +8,6 @@ tags:
 rating:
 ---
 
-# Starship Syncopation
-**Artist:** Jules Buckley
-**Year:** 2024
-
-![[_covers/Jules Buckley - Starship Syncopation.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/372651157
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-rotn
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Jules%20Buckley%20Starship%20Syncopation
-```
-^button-q155
-
-

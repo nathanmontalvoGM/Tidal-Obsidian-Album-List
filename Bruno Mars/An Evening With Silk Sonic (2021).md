@@ -11,22 +11,6 @@ tags:
 rating:
 ---
 
-# An Evening With Silk Sonic
-**Artist:** Bruno Mars
-**Year:** 2021
-
-![[_covers/Bruno Mars - An Evening With Silk Sonic.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/218163980
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-saeb
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Bruno%20Mars%20An%20Evening%20With%20Silk%20Sonic
-```
-^button-aryx
-
-

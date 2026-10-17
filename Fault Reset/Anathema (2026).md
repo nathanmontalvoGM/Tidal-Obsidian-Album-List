@@ -7,22 +7,6 @@ tags: []
 rating:
 ---
 
-# Anathema
-**Artist:** Fault Reset
-**Year:** 2026
-
-![[_covers/Fault Reset - Anathema.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/521144325
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-ww1g
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Fault%20Reset%20Anathema
-```
-^button-9aie
-
-

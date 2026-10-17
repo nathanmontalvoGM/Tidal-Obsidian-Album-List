@@ -521,82 +521,34 @@ for album in all_albums:
     else:
         print(f"   No tracklist found on MusicBrainz")
 
-    cover_line = f"![[{cover_obsidian_path}]]" if cover_obsidian_path else ""
-    aoty_query = requests.utils.quote(f"{album.artist.name} {album.name}")
-    aoty_url = f"https://www.albumoftheyear.org/search/?q={aoty_query}"
-
+    # Album notes hold only data; _scripts/album.js draws the page (cover, buttons, rating).
     if existing_note_tags:
         tags_yaml = "\n" + "\n".join(f"  - {tag}" for tag in existing_note_tags)
     else:
         tags_yaml = " []"
 
-    tidal_btn_id = rand_id()
-    aoty_btn_id = rand_id()
-
     tracklist_md = ""
     if tracks:
-        lines = []
-        lines.append("## Tracklist")
-        lines.append("")
-
-        # Dataviewjs block to calculate and display overall rating
-        lines.append("```dataviewjs")
-        lines.append("const page = dv.current();")
-        lines.append("const content = await app.vault.read(app.vault.getAbstractFileByPath(page.file.path));")
-        lines.append("const rows = content.match(/^\\|\\s*[\\d-]+\\s*\\|.+\\|\\s*([0-9.]+)\\s*\\|$/gm) || [];")
-        lines.append("const ratings = rows.map(r => {")
-        lines.append("    const cols = r.split('|').map(c => c.trim());")
-        lines.append("    return parseFloat(cols[cols.length - 2]);")
-        lines.append("}).filter(v => !isNaN(v) && v > 0);")
-        lines.append("const el = dv.container.createEl('div');")
-        lines.append("el.style.cssText = 'font-size:18px; font-weight:bold; color:#fff; padding:6px 0 12px 0;';")
-        lines.append("if (ratings.length > 0) {")
-        lines.append("    const avg = (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1);")
-        lines.append("    el.textContent = 'Overall Rating: ' + avg + ' / 10 (' + ratings.length + ' tracks rated)';")
-        lines.append("} else {")
-        lines.append("    el.style.color = '#666';")
-        lines.append("    el.textContent = 'Overall Rating: No tracks rated yet';")
-        lines.append("}")
-        lines.append("```")
-        lines.append("")
-
-        lines.append("| # | Title | Duration | Rating /10 |")
-        lines.append("|---|-------|----------|------------|")
+        lines = ["| # | Title | Duration | Rating /10 |", "|---|-------|----------|------------|"]
         for track in tracks:
             t_title = str(track["title"]).replace("|", "-")
-            rating = track.get("rating", "")
-            lines.append(f"| {track['num']} | {t_title} | {track['duration']} | {rating} |")
-        tracklist_md = "\n".join(lines)
+            lines.append(f"| {track['num']} | {t_title} | {track['duration']} | {track.get('rating', '')} |")
+        tracklist_md = "\n".join(lines) + "\n"
 
     content = f"""---
-title: "{album.name}"
-artist: "{album.artist.name}"
+title: {json.dumps(album.name, ensure_ascii=False)}
+artist: {json.dumps(album.artist.name, ensure_ascii=False)}
 year: {year}
 tidal_id: {tidal_id}
 tags:{tags_yaml}
 rating:
 ---
 
-# {album.name}
-**Artist:** {album.artist.name}
-**Year:** {year}
-
-{cover_line}
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/{tidal_id}
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-{tidal_btn_id}
-```button
-name Search on Album of the Year
-type link
-action {aoty_url}
-```
-^button-{aoty_btn_id}
 
-{tracklist_md}
-"""
+{tracklist_md}"""
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)

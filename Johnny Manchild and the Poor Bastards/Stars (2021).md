@@ -11,22 +11,6 @@ tags:
 rating:
 ---
 
-# Stars
-**Artist:** Johnny Manchild and the Poor Bastards
-**Year:** 2021
-
-![[_covers/Johnny Manchild and the Poor Bastards - Stars.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/198706942
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-x2ve
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Johnny%20Manchild%20and%20the%20Poor%20Bastards%20Stars
-```
-^button-nszi
-
-

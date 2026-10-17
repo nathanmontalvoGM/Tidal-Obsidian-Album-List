@@ -7,22 +7,6 @@ tags: []
 rating:
 ---
 
-# Twin Tyrants
-**Artist:** Vulvodynia
-**Year:** 2026
-
-![[_covers/Vulvodynia - Twin Tyrants.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/545450326
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-y5ok
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Vulvodynia%20Twin%20Tyrants
-```
-^button-sq1v
-
-

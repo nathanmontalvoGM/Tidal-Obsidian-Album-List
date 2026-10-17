@@ -9,22 +9,6 @@ tags:
 rating:
 ---
 
-# Fegefeuer (Deluxe Version)
-**Artist:** Feuerschwanz
-**Year:** 2023
-
-![[_covers/Feuerschwanz - Fegefeuer (Deluxe Version).jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/281152844
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-kjh8
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Feuerschwanz%20Fegefeuer%20%28Deluxe%20Version%29
-```
-^button-c41i
-
-

@@ -7,22 +7,6 @@ tags: []
 rating:
 ---
 
-# Alien Metal
-**Artist:** King Gizzard & The Lizard Wizard
-**Year:** 2026
-
-![[_covers/King Gizzard & The Lizard Wizard - Alien Metal.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/551912681
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-ibof
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=King%20Gizzard%20%26%20The%20Lizard%20Wizard%20Alien%20Metal
-```
-^button-o4cf
-
-

@@ -11,22 +11,6 @@ tags:
 rating:
 ---
 
-# Deloused in the Comatorium
-**Artist:** The Mars Volta
-**Year:** 2003
-
-![[_covers/The Mars Volta - Deloused in the Comatorium.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/585112
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-r94k
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=The%20Mars%20Volta%20Deloused%20in%20the%20Comatorium
-```
-^button-9cjf
-
-

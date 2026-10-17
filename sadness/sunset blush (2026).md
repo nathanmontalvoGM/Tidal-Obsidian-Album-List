@@ -7,22 +7,6 @@ tags: []
 rating:
 ---
 
-# sunset blush
-**Artist:** Sadness
-**Year:** 2026
-
-![[_covers/Sadness - sunset blush.jpg]]
-```button
-name ▶ Play on Tidal
-type link
-action tidal://album/555731499
+```dataviewjs
+await dv.view("_scripts/album");
 ```
-^button-rc32
-```button
-name Search on Album of the Year
-type link
-action https://www.albumoftheyear.org/search/?q=Sadness%20sunset%20blush
-```
-^button-n2nk
-
-
