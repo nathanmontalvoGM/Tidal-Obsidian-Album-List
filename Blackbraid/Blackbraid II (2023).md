@@ -5,11 +5,10 @@ year: 2023
 tidal_id: 516350531
 cover: "[[_covers/Blackbraid - Blackbraid II.jpg]]"
 added: 2026-01-24
-removed_from_tidal: 2026-10-17
 tags:
-  - AtmosphericMetal
   - BlackMetal
   - MelodicBlackMetal
+  - AtmosphericMetal
 rating:
 ---
 

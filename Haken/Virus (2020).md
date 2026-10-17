@@ -5,10 +5,11 @@ year: 2020
 tidal_id: 140040289
 cover: "[[_covers/Haken - Virus.jpg]]"
 added: 2023-03-11
-removed_from_tidal: 2026-10-17
 tags:
   - ProgressiveMetal
-  - Rock
+  - ProgressivePop
+  - ProgressiveRock
+  - ConceptAlbum
 rating:
 ---
 

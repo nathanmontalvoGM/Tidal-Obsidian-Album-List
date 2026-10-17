@@ -5,10 +5,11 @@ year: 2015
 tidal_id: 551835415
 cover: "[[_covers/Pond - Man It Feels Like Space Again.jpg]]"
 added: 2024-06-15
-removed_from_tidal: 2026-10-17
 tags:
   - PsychedelicRock
-  - Rock
+  - Poptron
+  - NeoPsychedelia
+  - PsychedelicPop
 rating:
 ---
 

@@ -5,8 +5,10 @@ year: 2003
 tidal_id: 318528597
 cover: "[[_covers/The Mars Volta - Deloused in the Comatorium.jpg]]"
 added: 2025-05-21
-removed_from_tidal: 2026-10-17
-tags: []
+tags:
+  - ProgressivePop
+  - PostHardcore
+  - Rock
 rating:
 ---
 

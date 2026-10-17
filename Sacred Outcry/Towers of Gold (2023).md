@@ -5,8 +5,10 @@ year: 2023
 tidal_id: 539669065
 cover: "[[_covers/Sacred Outcry - Towers of Gold.jpg]]"
 added: 2025-11-05
-removed_from_tidal: 2026-10-17
-tags: []
+tags:
+  - PowerMetal
+  - HeavyMetal
+  - ConceptAlbum
 rating:
 ---
 

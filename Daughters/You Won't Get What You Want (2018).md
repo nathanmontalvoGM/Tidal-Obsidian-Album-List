@@ -5,12 +5,11 @@ year: 2018
 tidal_id: 513915779
 cover: "[[_covers/Daughters - You Won't Get What You Want.jpg]]"
 added: 2023-04-25
-removed_from_tidal: 2026-10-17
 tags:
   - NoiseRock
   - IndustrialRock
+  - ExperimentalRock
   - PostHardcore
-  - Postindustrial
 rating:
 ---
 

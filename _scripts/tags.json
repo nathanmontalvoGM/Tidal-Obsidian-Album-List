@@ -1,5 +1,5 @@
 {
- "_about": "Tag rules for the music library. aliases: any spelling (lowercased, letters/digits only) -> the tag to use. blocklist: tags that are not genres and get removed. categories: groups shown in Create Playlist > By Tag (a tag can be in several; tags in none show under Other). Edit this file, then run normalize_tags.py.",
+ "_about": "Tag rules for the music library. aliases: any spelling (lowercased, letters/digits only) -> the tag to use. blocklist: tags that are not genres and get removed. categories: groups shown in Create Playlist > By Tag (a tag can be in several; tags in none show under Other). Edit this file, then run: python _code/library.py tags --apply",
  "aliases": {
   "abstracthiphop": "AbstractHipHop",
   "altcountry": "AltCountry",

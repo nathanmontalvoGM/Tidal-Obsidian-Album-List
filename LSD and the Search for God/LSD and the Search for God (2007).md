@@ -5,12 +5,10 @@ year: 2007
 tidal_id: 546863403
 cover: "[[_covers/LSD and the Search for God - LSD and the Search for God.jpg]]"
 added: 2025-05-20
-removed_from_tidal: 2026-10-17
 tags:
-  - Rock
   - Shoegaze
   - DreamPop
-  - NoisePop
+  - PsychedelicPop
 rating:
 ---
 

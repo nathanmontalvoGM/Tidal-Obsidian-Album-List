@@ -5,8 +5,11 @@ year: 2006
 tidal_id: 285848118
 cover: "[[_covers/DragonForce - Inhuman Rampage.jpg]]"
 added: 2026-03-10
-removed_from_tidal: 2026-10-17
-tags: []
+tags:
+  - PowerMetal
+  - SpeedMetal
+  - ExtremeMetal
+  - NuMetal
 rating:
 ---
 

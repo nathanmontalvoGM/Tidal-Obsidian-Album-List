@@ -5,11 +5,11 @@ year: 2024
 tidal_id: 323508154
 cover: "[[_covers/Friko - Where we've been, Where we go from here.jpg]]"
 added: 2024-02-20
-removed_from_tidal: 2026-10-17
 tags:
-  - ChamberPop
   - IndieRock
+  - ChamberPop
   - NoisePop
+  - MidwestEmo
 rating:
 ---
 

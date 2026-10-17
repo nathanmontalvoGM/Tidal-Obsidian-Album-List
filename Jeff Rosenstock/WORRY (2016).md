@@ -5,12 +5,10 @@ year: 2016
 tidal_id: 502811418
 cover: "[[_covers/Jeff Rosenstock - WORRY.jpg]]"
 added: 2023-09-01
-removed_from_tidal: 2026-10-17
 tags:
   - IndieRock
+  - PowerPop
   - PopPunk
-  - Punk
-  - Rock
 rating:
 ---
 

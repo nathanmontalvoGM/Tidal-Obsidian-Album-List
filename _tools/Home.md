@@ -357,7 +357,7 @@ function openAddToFavorites() {
 
 function openRecentlyAdded() {
     const { body } = createModal("🕐 Recently Added");
-    // 'added' = the day you favorited it on Tidal (set by sync_tidal.py); file dates reset whenever git checks files out
+    // 'added' = the day you favorited it on Tidal (set by _code/sync_tidal.py); file dates reset whenever git checks files out
     const addedTime = p => { const v = p.added; if (v && v.toMillis) return v.toMillis(); const t = v ? Date.parse(String(v)) : NaN; return isNaN(t) ? (+p.file.ctime || 0) : t; };
     const pages = allPages.array().sort((a,b) => addedTime(b) - addedTime(a)).slice(0,50);
     const grid = body.createEl("div"); grid.style.cssText = "display:flex; flex-wrap:wrap; gap:12px;";

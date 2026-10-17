@@ -5,11 +5,9 @@ year: 2017
 tidal_id: 513887249
 cover: "[[_covers/Valve Studio Orchestra - Fight Songs- The Music of Team Fortress 2.jpg]]"
 added: 2022-02-13
-removed_from_tidal: 2026-10-17
 tags:
-  - BigBand
-  - Jazz
   - Orchestral
+  - VideoGameMusic
 rating:
 ---
 

@@ -5,9 +5,11 @@ year: 2023
 tidal_id: 544771802
 cover: "[[_covers/The Lemon Twigs - Everything Harmony.jpg]]"
 added: 2023-05-05
-removed_from_tidal: 2026-10-17
 tags:
-  - Rock
+  - PopRock
+  - SoftRock
+  - JanglePop
+  - PowerPop
 rating:
 ---
 
