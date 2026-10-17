@@ -9,6 +9,8 @@ import random
 import string
 from difflib import SequenceMatcher
 
+from tag_rules import normalize_tag, normalize_list, is_known, CANONICAL
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SESSION_FILE = os.path.join(SCRIPT_DIR, "tidal_session.json")
 MUSICBRAINZ_APP = "ObsidianTidalSync/1.0 (nathanmontalvo1222@gmail.com)"
@@ -171,6 +173,7 @@ def is_valid_genre_tag(tag):
     return True
 
 def resolve_tags(mb_tags, existing_tags):
+    """MusicBrainz tags -> up to 4 canonical tags, using _scripts/tags.json."""
     resolved = []
     for raw_tag in mb_tags:
         if len(resolved) >= 4:
@@ -178,16 +181,17 @@ def resolve_tags(mb_tags, existing_tags):
         if not is_valid_genre_tag(raw_tag):
             print(f"   Skipping tag: {raw_tag}")
             continue
-        match = fuzzy_match(raw_tag, existing_tags)
-        if match:
-            clean = slugify_tag(match)
-            if clean and clean not in resolved:
-                resolved.append(clean)
+        if is_known(raw_tag):
+            tag = normalize_tag(raw_tag)  # canonical, or None if blocklisted
         else:
-            new_tag = slugify_tag(raw_tag)
-            if new_tag and new_tag not in resolved:
-                resolved.append(new_tag)
-                existing_tags.append(new_tag)
+            match = fuzzy_match(raw_tag, CANONICAL)
+            tag = match or normalize_tag(slugify_tag(raw_tag))
+            if not match:
+                print(f"   New tag (add to _scripts/tags.json if it's a keeper): {tag}")
+        if tag and tag not in resolved:
+            resolved.append(tag)
+            if tag not in existing_tags:
+                existing_tags.append(tag)
     return resolved[:4]
 
 def create_genre_note(tag):
@@ -405,7 +409,7 @@ def fix_spaced_tags_in_vault(existing_tags):
 
     print(f"Fixed spaced tags in {fixed_count} notes.\n")
 
-fix_spaced_tags_in_vault(existing_tags)
+# Tag cleanup across the vault is done by normalize_tags.py (uses _scripts/tags.json).
 
 def index_notes_by_tidal_id():
     """Map tidal_id -> existing note path, so a renamed artist or a changed
@@ -486,7 +490,7 @@ for album in all_albums:
         if not existing_note_tags:
             yaml_tags = re.findall(r'^\s+-\s+(.+)$', note_content, re.MULTILINE)
             if yaml_tags:
-                existing_note_tags = [slugify_tag(t.strip()) for t in yaml_tags]
+                existing_note_tags = normalize_list(t.strip() for t in yaml_tags)
 
         for row_match in re.finditer(r'^\|\s*[\d-]+\s*\|\s*(.+?)\s*\|\s*[\d:]*\s*\|\s*([0-9.]+)\s*\|', note_content, re.MULTILINE):
             track_title = row_match.group(1).strip()
