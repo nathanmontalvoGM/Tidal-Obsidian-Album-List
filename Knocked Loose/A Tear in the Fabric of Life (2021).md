@@ -2,7 +2,7 @@
 title: "A Tear in the Fabric of Life"
 artist: "Knocked Loose"
 year: 2021
-tidal_id: 198547249
+tidal_id: 423176053 
 cover: "[[_covers/Knocked Loose - A Tear in the Fabric of Life.jpg]]"
 added: 2024-04-23
 tags:
