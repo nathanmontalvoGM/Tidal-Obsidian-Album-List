@@ -1,6 +1,13 @@
 const TAGS = input.tags || null;
 const ALBUM_IDS = input.ids || null;
 const GENRE = !!input.genre; // genre pages: one tag, taken from the note's name, not editable
+const HERE = dv.current().file;
+
+// Remember which playlist an album was opened from, so the album page can show a button back to it.
+function openAlbum(page) {
+    app.saveLocalStorage("music-album-from", { album: page.file.path, path: HERE.path, name: HERE.name });
+    app.workspace.openLinkText(page.file.path, "", false);
+}
 
 const seen = new Set();
 const SORTED_TAGS = TAGS ? TAGS
@@ -201,7 +208,7 @@ randomBtn.onclick = () => {
     const pool = playlistPool();
     if (pool.length === 0) { alert("No albums to pick from."); return; }
     const pick = pool[Math.floor(Math.random() * pool.length)];
-    app.workspace.openLinkText(pick.file.path, "", false);
+    openAlbum(pick);
 };
 // ── Genre page title (spelled the way the albums spell the tag) ──
 if (GENRE && TAGS) {
@@ -289,7 +296,7 @@ function renderCards(container, pages) {
         info.append(title, artist, year);
         card.appendChild(info);
 
-        card.onclick = () => app.workspace.openLinkText(page.file.path, "", false);
+        card.onclick = () => openAlbum(page);
         frag.appendChild(card);
     }
     container.appendChild(frag);

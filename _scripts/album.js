@@ -75,7 +75,8 @@ style.textContent = `
 .av-hero-bg { position: absolute; inset: -60px; background-size: cover; background-position: center; filter: blur(45px) brightness(0.45) saturate(1.4); }
 .av-hero-inner { position: relative; }
 
-.av-back { display: inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; margin-bottom: 20px; }
+.av-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.av-back { display: inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .av-back:hover { background: rgba(255,255,255,0.22); }
 
 .av-main { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-end; }
@@ -155,8 +156,15 @@ const bg = hero.createDiv({ cls: "av-hero-bg" });
 if (coverSrc) bg.style.backgroundImage = `url("${coverSrc}")`;
 const inner = hero.createDiv({ cls: "av-hero-inner" });
 
-const back = inner.createDiv({ cls: "av-back", text: "← Library" });
-back.onclick = () => app.workspace.openLinkText("00 Dashboard/Library", "", false);
+// Back buttons: the playlist (or genre page / Home) you opened this album from, then the Library.
+// Playlists save where you came from when you tap an album; it only counts if it was this album.
+const nav = inner.createDiv({ cls: "av-nav" });
+const from = app.loadLocalStorage("music-album-from");
+if (from && from.album === page.file.path && from.path && app.vault.getAbstractFileByPath(from.path)) {
+    nav.createDiv({ cls: "av-back", text: `← ${from.name}` }).onclick = () => app.workspace.openLinkText(from.path, "", false);
+}
+nav.createDiv({ cls: "av-back", text: from && from.album === page.file.path ? "Library" : "← Library" })
+    .onclick = () => app.workspace.openLinkText("00 Dashboard/Library", "", false);
 
 const main = inner.createDiv({ cls: "av-main" });
 if (coverSrc) main.createEl("img", { cls: "av-cover", attr: { src: coverSrc } });

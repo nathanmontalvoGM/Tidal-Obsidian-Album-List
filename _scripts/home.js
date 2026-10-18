@@ -89,7 +89,10 @@ function albumCard(parent, page, opts = {}) {
     const size = opts.size || 110;
     const card = parent.createEl("div");
     card.style.cssText = `width:${size}px; background:${opts.selected ? "#2d1f4e" : "#111"}; border-radius:10px; overflow:hidden; cursor:pointer; position:relative; border:2px solid ${opts.selected ? "#7c3aed" : "transparent"};`;
-    card.onclick = opts.onclick || (() => openNote(page.file.path));
+    card.onclick = opts.onclick || (() => {
+        app.saveLocalStorage("music-album-from", { album: page.file.path, path: dv.current().file.path, name: "Home" });
+        openNote(page.file.path);
+    });
     if (opts.badge) {
         const b = card.createEl("div", { text: opts.badge.text });
         b.style.cssText = `position:absolute; top:5px; left:5px; background:rgba(0,0,0,0.75); color:${opts.badge.color}; border-radius:50%; width:22px; height:22px; display:flex; align-items:center; justify-content:center; font-size:13px; z-index:1;`;
