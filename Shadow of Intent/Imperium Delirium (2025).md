@@ -28,5 +28,5 @@ await dv.view("_scripts/album");
 | 8 | Vehement Draconian Vengeance | 3:55 | 8 |
 | 9 | Beholding the Sickness of Civilization | 4:30 | 7.5 |
 | 10 | Apocalypse Canvas | 4:49 | 9 |
-| 11 | No Matter the Cost | 4:16 |  |
-| 12 | Imperium Delirium | 7:34 |  |
+| 11 | No Matter the Cost | 4:16 | 7.5 |
+| 12 | Imperium Delirium | 7:34 | 8.5 |

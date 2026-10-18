@@ -5,9 +5,11 @@ year: 2024
 tidal_id: 344172738
 cover: "[[_covers/Freedom Call - Silver Romance.jpg]]"
 added: 2024-05-14
+tags_edited: true
 tags:
-  - NuMetal
-rating:
+  - PowerMetal
+  - HeavyMetal
+rating: 5
 ---
 
 ```dataviewjs
@@ -16,7 +18,7 @@ await dv.view("_scripts/album");
 
 | # | Title | Duration | Rating /10 |
 |---|-------|----------|------------|
-| 1 | Silver Romance | 4:07 |  |
+| 1 | Silver Romance | 4:07 | 7 |
 | 2 | Symphony of Avalon | 4:05 |  |
 | 3 | Supernova | 3:55 |  |
 | 4 | Infinity | 4:22 |  |

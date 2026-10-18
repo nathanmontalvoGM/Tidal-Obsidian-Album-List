@@ -5,8 +5,8 @@ year: 2018
 tidal_id: 105498173
 cover: "[[_covers/Holy Fawn - Death Spells.jpg]]"
 added: 2026-04-12
+tags_edited: true
 tags:
-  - PostRock
   - DoomMetal
   - Doomgaze
   - Noise
