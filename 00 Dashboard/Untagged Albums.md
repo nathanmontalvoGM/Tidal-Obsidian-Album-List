@@ -49,7 +49,7 @@ if (pages.length === 0) {
         card.onmouseleave = () => card.style.transform = "scale(1.0)";
 
         const img = card.createEl("img");
-        img.style.cssText = "width:160px; height:160px; object-fit:cover; display:block;";
+        img.style.cssText = "width:160px; height:160px; object-fit:cover; display:block; pointer-events:none; user-select:none; -webkit-user-drag:none;";
         const coverFile = getCover(page);
         if (coverFile) {
             img.src = app.vault.getResourcePath(coverFile);
@@ -72,7 +72,10 @@ if (pages.length === 0) {
         year.style.cssText = "color:#666; font-size:10px; margin-top:2px;";
         year.textContent = page.year || "";
 
-        card.onclick = () => app.workspace.openLinkText(page.file.path, "", false);
+        card.onclick = () => {
+            app.saveLocalStorage("music-album-from", { album: page.file.path, path: dv.current().file.path, name: "Untagged Albums" });
+            app.workspace.openLinkText(page.file.path, "", false);
+        };
         dv.container.appendChild(card);
     }
 }

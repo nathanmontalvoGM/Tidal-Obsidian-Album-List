@@ -277,7 +277,7 @@ function renderCards(container, pages) {
 
         const img = document.createElement("img");
         img.loading = "lazy";
-        img.style.cssText = "width:160px; height:160px; object-fit:cover; display:block; background:#333;";
+        img.style.cssText = "width:160px; height:160px; object-fit:cover; display:block; background:#333; pointer-events:none; user-select:none; -webkit-user-drag:none;";
         const coverFile = getCover(page);
         if (coverFile) img.src = app.vault.getResourcePath(coverFile);
         card.appendChild(img);

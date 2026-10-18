@@ -102,7 +102,7 @@ function albumCard(parent, page, opts = {}) {
         x.style.cssText = "position:absolute; top:5px; right:5px; background:rgba(0,0,0,0.8); color:#fff; border-radius:50%; width:22px; height:22px; display:flex; align-items:center; justify-content:center; font-size:12px; z-index:1;";
     }
     const img = card.createEl("img");
-    img.style.cssText = `width:${size}px; height:${size}px; object-fit:cover; display:block; background:#333;`;
+    img.style.cssText = `width:${size}px; height:${size}px; object-fit:cover; display:block; background:#333; pointer-events:none; user-select:none; -webkit-user-drag:none;`;
     const cover = findCover(page);
     if (cover) img.src = app.vault.getResourcePath(cover);
     const info = card.createEl("div");
@@ -429,7 +429,7 @@ for (const tool of TOOLS) {
     const media = card.createEl("div");
     media.style.cssText = `width:100%; height:${MEDIA_HEIGHT}px; background:#111; overflow:hidden;`;
     const src = iconSrc(tool.gif);
-    if (src) media.createEl("img", { attr: { src } }).style.cssText = `width:100%; height:100%; object-fit:${MEDIA_FIT}; display:block;`;
+    if (src) media.createEl("img", { attr: { src } }).style.cssText = `width:100%; height:100%; object-fit:${MEDIA_FIT}; display:block; pointer-events:none; user-select:none; -webkit-user-drag:none;`;
     const text = card.createEl("div");
     text.style.cssText = "padding:12px 14px 14px; text-align:center;";
     text.createEl("div", { text: tool.name }).style.cssText = "color:#fff; font-size:15px; font-weight:bold;";

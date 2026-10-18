@@ -73,7 +73,7 @@ function renderCard(playlist, covers, count) {
         if (covers[i]) {
             const img = cell.createEl("img");
             img.src = covers[i];
-            img.style.cssText = "width:100%; height:100%; object-fit:cover; display:block;";
+            img.style.cssText = "width:100%; height:100%; object-fit:cover; display:block; pointer-events:none; user-select:none; -webkit-user-drag:none;";
         }
     }
 
