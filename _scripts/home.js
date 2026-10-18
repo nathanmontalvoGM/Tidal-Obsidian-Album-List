@@ -392,7 +392,7 @@ function openSearch() {
 
 function openUntagged() {
     const { body } = createModal("🏷 Untagged Albums");
-    const untagged = albums().filter(p => !tagsOf(p).length).sort(byArtist);
+    const untagged = albums().filter(p => !tagsOf(p).filter(t => t !== FAVE_TAG).length).sort(byArtist); // Favorite isn't a genre
     const count = body.createEl("div", { text: untagged.length ? `${untagged.length} albums without tags` : "🎉 All albums are tagged!" });
     count.style.cssText = "color:#aaa; font-size:13px; margin-bottom:16px;";
     if (!untagged.length) return;

@@ -110,6 +110,7 @@ style.textContent = `
 .av-btn:hover { background: rgba(255,255,255,0.22); }
 .av-btn.primary { background: var(--av-accent); }
 .av-btn.primary:hover { filter: brightness(1.15); }
+.av-btn.fave-on { background: rgba(245,158,11,0.18); color: #f59e0b; }
 
 .av-score { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 96px; padding: 14px 16px; border-radius: 16px; background: rgba(0,0,0,0.35); margin-left: auto; }
 .av-score-num { font-size: 36px; font-weight: 800; line-height: 1; }
@@ -188,15 +189,20 @@ info.createDiv({ cls: "av-artist", text: artist });
 info.createDiv({ cls: "av-meta", text: [`${tracks.length} tracks`, totalSec ? fmtTime(totalSec) : null].filter(Boolean).join(" · ") });
 if (page.removed_from_tidal) info.createDiv({ cls: "av-removed", text: "Not in your Tidal favorites anymore" });
 
+// "Favorite" is a tag (Home's Favorites tool and the Favorite genre page use it), but it gets its own
+// button instead of showing up among the genre tags.
+const FAVE = "Favorite";
+const isFaveTag = t => String(t).toLowerCase() === FAVE.toLowerCase();
 let currentTags = [...tags];
 const tagRow = info.createDiv({ cls: "av-tags" });
 function paintTags() {
     tagRow.empty();
-    for (const t of currentTags) {
+    const genres = currentTags.filter(t => !isFaveTag(t));
+    for (const t of genres) {
         const pill = tagRow.createSpan({ cls: "av-tag", text: t });
         pill.onclick = () => app.workspace.openLinkText(`00 Dashboard/Genres/${t}`, "", false);
     }
-    tagRow.createSpan({ cls: "av-tag edit", text: currentTags.length ? "✎ Edit tags" : "+ Add tags" }).onclick = () => openTagEditor();
+    tagRow.createSpan({ cls: "av-tag edit", text: genres.length ? "✎ Edit tags" : "+ Add tags" }).onclick = () => openTagEditor();
 }
 paintTags();
 
@@ -206,6 +212,28 @@ function button(label, url, primary) {
     b.onclick = () => window.open(url);
 }
 if (tidalId) button("▶ Play on Tidal", `tidal://album/${tidalId}`, true);
+
+const faveBtn = actions.createDiv({ cls: "av-btn" });
+function paintFave() {
+    const on = currentTags.some(isFaveTag);
+    faveBtn.setText(on ? "★ Favorited" : "☆ Favorite");
+    faveBtn.className = on ? "av-btn fave-on" : "av-btn";
+}
+paintFave();
+let faveBusy = false;
+faveBtn.onclick = async () => {
+    if (faveBusy) return;
+    faveBusy = true;
+    const next = currentTags.some(isFaveTag) ? currentTags.filter(t => !isFaveTag(t)) : [FAVE, ...currentTags];
+    try {
+        await saveTags(next, false); // favoriting isn't editing genres, so retag still fills in missing genres
+        currentTags = next;
+        paintFave();
+    } catch (e) {
+        new Notice("Could not update favorites: " + e.message);
+    }
+    faveBusy = false;
+};
 button("Album of the Year", `https://www.albumoftheyear.org/search/?q=${encodeURIComponent(`${artist} ${title}`)}`, false);
 
 // Score: your album score (the `rating` property) if you've set one, otherwise the track average. Tap to set it.
@@ -381,6 +409,7 @@ async function openTagEditor() {
         }
     }
     for (const c of Object.values(rules.aliases || {})) if (!counts.has(c)) counts.set(c, 0);
+    for (const k of Array.from(counts.keys())) if (isFaveTag(k)) counts.delete(k);
     const known = Array.from(counts.keys()).sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b));
     const knownByKey = new Map(known.map(t => [tagKey(t), t]));
 
@@ -393,7 +422,7 @@ async function openTagEditor() {
         return String(raw).replace(/^#/, "").split(/[^A-Za-z0-9]+/).filter(Boolean).map(w => w[0].toUpperCase() + w.slice(1)).join("");
     }
 
-    let working = [...currentTags];
+    let working = currentTags.filter(t => !isFaveTag(t));
     const bgEl = document.body.createDiv({ cls: "av-sheet-bg" });
     const sheet = bgEl.createDiv({ cls: "av-sheet" });
     const onKey = e => { if (e.key === "Escape") close(); };
@@ -418,6 +447,7 @@ async function openTagEditor() {
     function add(raw) {
         const tag = normalize(raw);
         if (!tag) { msg.setText(`"${raw}" isn't a genre (it's on the tags.json blocklist).`); return; }
+        if (isFaveTag(tag)) { msg.setText("Use the ☆ Favorite button for that."); return; }
         if (!has(tag)) working.push(tag);
         input.value = ""; msg.setText("");
         paint();
@@ -442,9 +472,10 @@ async function openTagEditor() {
 
     async function save() {
         try {
-            await saveTags(working);
+            const final = currentTags.some(isFaveTag) ? [FAVE, ...working] : working;
+            await saveTags(final);
             for (const t of working) await ensureGenrePage(t);
-            currentTags = [...working];
+            currentTags = final;
             paintTags();
             close();
         } catch (e) {
@@ -453,7 +484,7 @@ async function openTagEditor() {
     }
 }
 
-async function saveTags(list) {
+async function saveTags(list, markEdited = true) {
     await app.vault.process(file, raw => {
         const crlf = raw.includes("\r\n");
         const text = raw.replace(/\r\n/g, "\n");
@@ -463,7 +494,7 @@ async function saveTags(list) {
         const block = list.length ? "tags:\n" + list.map(t => `  - ${t}\n`).join("") : "tags: []\n";
         const re = /^tags:[ \t]*(\[[^\]\n]*\])?[ \t]*\n((?:[ \t]+-[^\n]*\n)*)/m;
         body = re.test(body) ? body.replace(re, block) : body + block;
-        if (!/^tags_edited:/m.test(body)) body = body.replace(/^tags:/m, "tags_edited: true\ntags:");
+        if (markEdited && !/^tags_edited:/m.test(body)) body = body.replace(/^tags:/m, "tags_edited: true\ntags:");
         const out = "---\n" + body.replace(/\n$/, "") + "\n---" + text.slice(fm[0].length);
         return crlf ? out.replace(/\n/g, "\r\n") : out;
     });

@@ -22,7 +22,7 @@ function getCover(page) { return findCover(page); }
 
 const pages = dv.pages().where(p =>
     p.tidal_id &&
-    (!p.tags || p.tags.length === 0)
+    !(Array.isArray(p.tags) ? p.tags : p.tags ? [p.tags] : []).some(t => String(t).replace(/^#/, "") !== "Favorite") // Favorite isn't a genre
 ).sort(p => p.artist);
 
 dv.paragraph(`${pages.length} untagged albums`);

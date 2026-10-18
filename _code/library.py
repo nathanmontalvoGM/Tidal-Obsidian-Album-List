@@ -18,9 +18,14 @@ from collections import Counter, defaultdict
 
 from common import (VAULT, COVERS_FOLDER, GENRES_FOLDER, GENRE_STUB, PLAYLISTS_FOLDER, album_notes,
                     create_genre_page, get_field, get_tags, is_known, musicbrainz_lookup, normalize_list,
-                    read_note, resolve_tags, set_tags, unquote, write_note)
+                    read_note, resolve_tags, set_tags, tag_key, unquote, write_note)
 
 TAG_LIMIT = 4
+
+
+def genre_tags(text):
+    """An album's tags minus Favorite (that's a tag too, but not a genre)."""
+    return [t for t in get_tags(text) if tag_key(t) != "favorite"]
 
 
 def rel(path):
@@ -130,14 +135,15 @@ def cmd_tags(apply):
 def cmd_retag(apply, top_up):
     # Albums whose tags you edited on the album page (tags_edited: true) are never touched.
     todo = [(p, t, c) for p, t, c in album_notes()
-            if len(get_tags(t)) < (TAG_LIMIT if top_up else 1) and get_field(t, "tags_edited") != "true"]
+            if len(genre_tags(t)) < (TAG_LIMIT if top_up else 1) and get_field(t, "tags_edited") != "true"]
     print(f"{len(todo)} albums to look up on MusicBrainz (about {len(todo) * 2.5 / 60:.0f} min).\n")
     changed = not_found = 0
     for path, text, crlf in todo:
         artist, title = unquote(get_field(text, "artist")), unquote(get_field(text, "title"))
         keep = normalize_list(get_tags(text))
         raw, _, _ = musicbrainz_lookup(artist, title)
-        added = resolve_tags(raw, TAG_LIMIT, keep=keep) if raw else []
+        limit = TAG_LIMIT + (len(keep) - len(normalize_list(genre_tags(text))))  # Favorite doesn't use up a slot
+        added = resolve_tags(raw, limit, keep=keep) if raw else []
         if not added:
             not_found += 1
             print(f"No tags found: {rel(path)}")
@@ -173,7 +179,7 @@ def cmd_check():
         if not any(l.startswith("| # |") for l in text.split("\n")):
             no_table.append(path)
         tags = get_tags(text)
-        if not tags:
+        if not genre_tags(text):
             untagged.append(path)
         unknown.update(t for t in tags if not is_known(t))
         if get_field(text, "removed_from_tidal"):
