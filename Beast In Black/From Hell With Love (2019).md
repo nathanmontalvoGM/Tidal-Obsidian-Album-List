@@ -5,10 +5,10 @@ year: 2019
 tidal_id: 99855943
 cover: "[[_covers/Beast In Black - From Hell With Love.jpg]]"
 added: 2021-11-18
+tags_edited: true
 tags:
   - PowerMetal
   - HeavyMetal
-  - NuMetal
 rating:
 ---
 
@@ -26,8 +26,8 @@ await dv.view("_scripts/album");
 | 6 | Oceandeep | 5:46 | 8 |
 | 7 | Unlimited Sin | 3:34 | 7 |
 | 8 | True Believer | 3:28 | 6 |
-| 9 | This Is War | 3:39 |  |
-| 10 | Heart of Steel | 4:22 |  |
-| 11 | No Surrender | 4:15 |  |
-| 12 | Killed by Death | 3:52 |  |
-| 13 | No Easy Way Out | 4:05 |  |
+| 9 | This Is War | 3:39 | 7 |
+| 10 | Heart of Steel | 4:22 | 6 |
+| 11 | No Surrender | 4:15 | 7.5 |
+| 12 | Killed by Death | 3:52 | 6.5 |
+| 13 | No Easy Way Out | 4:05 | 6 |
