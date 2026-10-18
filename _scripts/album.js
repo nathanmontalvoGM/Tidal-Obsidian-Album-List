@@ -93,6 +93,17 @@ style.textContent = `
 .av-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .av-tag { font-size: 11px; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); cursor: pointer; }
 .av-tag:hover { background: rgba(255,255,255,0.22); color: #fff; }
+.av-tag.edit { background: transparent; border: 1px dashed rgba(255,255,255,0.35); color: rgba(255,255,255,0.65); }
+
+.av-te-current { display: flex; flex-wrap: wrap; gap: 8px; min-height: 34px; margin-bottom: 14px; }
+.av-te-pill { padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 600; background: #7c3aed; color: #fff; cursor: pointer; }
+.av-te-none { font-size: 13px; color: #666; padding: 8px 0; }
+.av-te-input { width: 100%; box-sizing: border-box; padding: 11px 14px; border-radius: 10px; border: 1px solid #444; background: #222; color: #fff; font-size: 15px; margin-bottom: 10px; }
+.av-te-sugs { display: flex; flex-wrap: wrap; gap: 8px; max-height: 160px; overflow-y: auto; }
+.av-te-sug { padding: 7px 12px; border-radius: 999px; font-size: 13px; background: #262626; color: #ccc; cursor: pointer; border: 1px solid #333; }
+.av-te-sug.new { border-style: dashed; color: #fff; }
+.av-te-msg { font-size: 12px; color: #f87171; min-height: 16px; margin-top: 8px; }
+.av-sheet-btn.primary { background: #7c3aed; color: #fff; }
 
 .av-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 .av-btn { padding: 9px 18px; border-radius: 999px; font-size: 14px; font-weight: 700; color: #fff; background: rgba(255,255,255,0.12); cursor: pointer; transition: background 0.15s; }
@@ -177,13 +188,17 @@ info.createDiv({ cls: "av-artist", text: artist });
 info.createDiv({ cls: "av-meta", text: [`${tracks.length} tracks`, totalSec ? fmtTime(totalSec) : null].filter(Boolean).join(" · ") });
 if (page.removed_from_tidal) info.createDiv({ cls: "av-removed", text: "Not in your Tidal favorites anymore" });
 
-if (tags.length) {
-    const tagRow = info.createDiv({ cls: "av-tags" });
-    for (const t of tags) {
+let currentTags = [...tags];
+const tagRow = info.createDiv({ cls: "av-tags" });
+function paintTags() {
+    tagRow.empty();
+    for (const t of currentTags) {
         const pill = tagRow.createSpan({ cls: "av-tag", text: t });
         pill.onclick = () => app.workspace.openLinkText(`00 Dashboard/Genres/${t}`, "", false);
     }
+    tagRow.createSpan({ cls: "av-tag edit", text: currentTags.length ? "✎ Edit tags" : "+ Add tags" }).onclick = () => openTagEditor();
 }
+paintTags();
 
 const actions = info.createDiv({ cls: "av-actions" });
 function button(label, url, primary) {
@@ -344,4 +359,122 @@ function openSheet(target) {
         }
     }
     render();
+}
+
+
+// ── Tag editor ── same rules as the Python scripts (_scripts/tags.json): spellings are merged into one tag,
+// blocklisted junk is refused. Saving marks the note tags_edited: true so `library.py retag` leaves it alone.
+const GENRES = "00 Dashboard/Genres";
+const GENRE_STUB = '```dataviewjs\nawait dv.view("_scripts/playlist", { tags: [dv.current().file.name], genre: true });\n```\n';
+const tagKey = s => String(s).replace(/^#/, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+
+async function openTagEditor() {
+    let rules = { aliases: {}, blocklist: [] };
+    try { rules = JSON.parse(await app.vault.adapter.read("_scripts/tags.json")); } catch (e) { console.error("Could not read _scripts/tags.json", e); }
+    const blocked = new Set(rules.blocklist || []);
+    // Every tag in your library, most used first, plus the canonical names in tags.json
+    const counts = new Map();
+    for (const p of dv.pages().where(p => p.tidal_id)) {
+        for (const t of (Array.isArray(p.tags) ? p.tags : p.tags ? [p.tags] : [])) {
+            const tag = String(t).replace(/^#/, "");
+            counts.set(tag, (counts.get(tag) || 0) + 1);
+        }
+    }
+    for (const c of Object.values(rules.aliases || {})) if (!counts.has(c)) counts.set(c, 0);
+    const known = Array.from(counts.keys()).sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b));
+    const knownByKey = new Map(known.map(t => [tagKey(t), t]));
+
+    // "post rock" -> PostRock (via aliases), "math pop" -> MathPop (new); null for junk
+    function normalize(raw) {
+        const k = tagKey(raw);
+        if (!k || blocked.has(k) || /^\d+s?$/.test(k)) return null;
+        if (rules.aliases && rules.aliases[k]) return rules.aliases[k];
+        if (knownByKey.has(k)) return knownByKey.get(k);
+        return String(raw).replace(/^#/, "").split(/[^A-Za-z0-9]+/).filter(Boolean).map(w => w[0].toUpperCase() + w.slice(1)).join("");
+    }
+
+    let working = [...currentTags];
+    const bgEl = document.body.createDiv({ cls: "av-sheet-bg" });
+    const sheet = bgEl.createDiv({ cls: "av-sheet" });
+    const onKey = e => { if (e.key === "Escape") close(); };
+    const close = () => { bgEl.remove(); document.removeEventListener("keydown", onKey); };
+    bgEl.onclick = e => { if (e.target === bgEl) close(); };
+    document.addEventListener("keydown", onKey);
+
+    const top = sheet.createDiv({ cls: "av-sheet-top" });
+    const head = top.createDiv({ cls: "av-sheet-head" });
+    head.createDiv({ cls: "av-sheet-kicker", text: "Edit tags · tap a tag to remove it" });
+    head.createDiv({ cls: "av-sheet-title", text: title });
+    top.createDiv({ cls: "av-sheet-x", text: "✕" }).onclick = close;
+    const current = sheet.createDiv({ cls: "av-te-current" });
+    const input = sheet.createEl("input", { cls: "av-te-input", type: "text", placeholder: "Add a tag (search or type a new one)…" });
+    const sugs = sheet.createDiv({ cls: "av-te-sugs" });
+    const msg = sheet.createDiv({ cls: "av-te-msg" });
+    const row = sheet.createDiv({ cls: "av-sheet-row" });
+    row.createDiv({ cls: "av-sheet-btn", text: "Cancel" }).onclick = close;
+    row.createDiv({ cls: "av-sheet-btn primary", text: "Save" }).onclick = save;
+
+    const has = t => working.some(w => w.toLowerCase() === t.toLowerCase());
+    function add(raw) {
+        const tag = normalize(raw);
+        if (!tag) { msg.setText(`"${raw}" isn't a genre (it's on the tags.json blocklist).`); return; }
+        if (!has(tag)) working.push(tag);
+        input.value = ""; msg.setText("");
+        paint();
+    }
+    function paint() {
+        current.empty();
+        if (!working.length) current.createDiv({ cls: "av-te-none", text: "No tags" });
+        for (const t of working) {
+            current.createDiv({ cls: "av-te-pill", text: `${t} ✕` }).onclick = () => { working = working.filter(w => w !== t); paint(); };
+        }
+        sugs.empty();
+        const q = tagKey(input.value);
+        const list = known.filter(t => !has(t) && (!q || tagKey(t).includes(q))).slice(0, q ? 14 : 10);
+        for (const t of list) sugs.createDiv({ cls: "av-te-sug", text: counts.get(t) ? `${t} · ${counts.get(t)}` : t }).onclick = () => add(t);
+        const typed = input.value.trim() && normalize(input.value);
+        if (typed && !has(typed) && !list.includes(typed)) sugs.createDiv({ cls: "av-te-sug new", text: `+ Add "${typed}"` }).onclick = () => add(input.value);
+    }
+    input.addEventListener("input", () => { msg.setText(""); paint(); });
+    input.addEventListener("keydown", e => { if (e.key === "Enter" && input.value.trim()) { e.preventDefault?.(); add(input.value); } });
+    paint();
+    setTimeout(() => input.focus(), 50);
+
+    async function save() {
+        try {
+            await saveTags(working);
+            for (const t of working) await ensureGenrePage(t);
+            currentTags = [...working];
+            paintTags();
+            close();
+        } catch (e) {
+            msg.setText("Could not save: " + e.message);
+        }
+    }
+}
+
+async function saveTags(list) {
+    await app.vault.process(file, raw => {
+        const crlf = raw.includes("\r\n");
+        const text = raw.replace(/\r\n/g, "\n");
+        const fm = text.match(/^---\n([\s\S]*?)\n---/);
+        if (!fm) throw new Error("This note has no properties block");
+        let body = fm[1] + "\n";
+        const block = list.length ? "tags:\n" + list.map(t => `  - ${t}\n`).join("") : "tags: []\n";
+        const re = /^tags:[ \t]*(\[[^\]\n]*\])?[ \t]*\n((?:[ \t]+-[^\n]*\n)*)/m;
+        body = re.test(body) ? body.replace(re, block) : body + block;
+        if (!/^tags_edited:/m.test(body)) body = body.replace(/^tags:/m, "tags_edited: true\ntags:");
+        const out = "---\n" + body.replace(/\n$/, "") + "\n---" + text.slice(fm[0].length);
+        return crlf ? out.replace(/\n/g, "\r\n") : out;
+    });
+}
+
+async function ensureGenrePage(tag) {
+    const folder = app.vault.getAbstractFileByPath(GENRES);
+    const exists = folder && folder.children
+        ? folder.children.some(f => f.name.toLowerCase() === `${tag}.md`.toLowerCase())
+        : !!app.vault.getAbstractFileByPath(`${GENRES}/${tag}.md`);
+    if (exists) return;
+    if (!folder) await app.vault.createFolder(GENRES);
+    await app.vault.create(`${GENRES}/${tag}.md`, GENRE_STUB);
 }

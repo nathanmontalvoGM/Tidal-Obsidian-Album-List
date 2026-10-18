@@ -6,6 +6,7 @@ Maintenance for the album notes. Everything here except `check` is a dry run unl
     python _code/library.py retag [--all] [--apply]
                                                   # fill tags from MusicBrainz for untagged albums
                                                   # (--all: also top up albums with fewer than 4 tags)
+                                                  # skips albums whose tags you edited on the album page
 
 Tidal import lives in sync_tidal.py. Shared code is in common.py.
 """
@@ -127,8 +128,9 @@ def cmd_tags(apply):
 
 # ── retag ─────────────────────────────────────────────────
 def cmd_retag(apply, top_up):
+    # Albums whose tags you edited on the album page (tags_edited: true) are never touched.
     todo = [(p, t, c) for p, t, c in album_notes()
-            if len(get_tags(t)) < (TAG_LIMIT if top_up else 1)]
+            if len(get_tags(t)) < (TAG_LIMIT if top_up else 1) and get_field(t, "tags_edited") != "true"]
     print(f"{len(todo)} albums to look up on MusicBrainz (about {len(todo) * 2.5 / 60:.0f} min).\n")
     changed = not_found = 0
     for path, text, crlf in todo:

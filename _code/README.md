@@ -10,8 +10,10 @@ Run these from a terminal in the vault folder. Commands that change things are d
 | `python _code/sync_tidal.py --fix-years` | Set each album's year to its original release year (slow) |
 | `python _code/library.py check` | Health report: duplicates, missing covers or tracklists, untagged albums, unknown tags, unused covers. Changes nothing |
 | `python _code/library.py tags --apply` | Apply `_scripts/tags.json` to every album and playlist, and add or remove genre pages to match |
-| `python _code/library.py retag --apply` | Look up tags on MusicBrainz for albums with none (`--all` also tops up albums with fewer than 4) |
+| `python _code/library.py retag --apply` | Look up tags on MusicBrainz for albums with none (`--all` also tops up albums with fewer than 4). Albums whose tags you edited on the album page are skipped |
 
 Files: `common.py` holds the shared code (paths, tag rules, note editing, MusicBrainz). Tag rules live in `_scripts/tags.json`.
 
 The first sync opens a Tidal login and saves `tidal_session.json` in the vault. That file is in `.gitignore`. Never commit it.
+
+Tags: the Tidal sync only sets tags when it creates a new album note; it never changes an existing album's tags. To fix one album, use Edit tags on its page. To remove a junk tag everywhere, add it to the blocklist in `_scripts/tags.json` and run `library.py tags --apply`.
