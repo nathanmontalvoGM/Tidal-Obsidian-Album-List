@@ -19,7 +19,7 @@ await dv.view("_scripts/album");
 
 | # | Title | Duration | Rating /10 |
 |---|-------|----------|------------|
-| 1 | Welcome Back, O’ Sleeping Dreamer | 7:21 |  |
+| 1 | Welcome Back, O’ Sleeping Dreamer | 7:21 | 8.5 |
 | 2 | Into the Earth | 5:12 |  |
 | 3 | Sun//Eater | 6:11 |  |
 | 4 | Cursed to Die | 4:40 |  |
