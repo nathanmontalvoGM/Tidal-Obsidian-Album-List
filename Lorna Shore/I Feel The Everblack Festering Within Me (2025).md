@@ -21,23 +21,11 @@ await dv.view("_scripts/album");
 |---|-------|----------|------------|
 | 1 | Prison of Flesh | 7:00 | 8 |
 | 2 | Oblivion | 8:20 | 9 |
-| 3 | In Darkness | 6:43 | 7 |
+| 3 | In Darkness | 6:43 | 7.5 |
 | 4 | Unbreakable | 4:49 | 6 |
-| 5 | Glenwood | 6:44 | 8 |
+| 5 | Glenwood | 6:44 | 8.5 |
 | 6 | Lionheart | 5:44 | 7.5 |
 | 7 | Death Can Take Me | 7:16 | 7 |
 | 8 | War Machine | 4:54 | 8 |
 | 9 | A Nameless Hymn | 5:14 | 6.5 |
 | 10 | Forevermore | 9:47 | 9.5 |
-| #   | Title             | Duration | Rating /10 |
-| --- | ----------------- | -------- | ---------- |
-| 1   | Prison of Flesh   | 7:00     | 8          |
-| 2   | Oblivion          | 8:19     | 9          |
-| 3   | In Darkness       | 6:43     | 7          |
-| 4   | Unbreakable       | 4:49     | 6          |
-| 5   | Glenwood          | 6:43     | 8          |
-| 6   | Lionheart         | 5:44     | 7.5        |
-| 7   | Death Can Take Me | 7:16     | 7          |
-| 8   | War Machine       | 4:53     | 8          |
-| 9   | A Nameless Hymn   | 5:14     | 6.5        |
-| 10  | Forevermore       | 9:47     | 9.5        |
