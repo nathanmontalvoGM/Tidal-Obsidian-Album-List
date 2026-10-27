@@ -86,7 +86,8 @@ style.textContent = `
 .av-info { flex: 1; min-width: 220px; }
 .av-kicker { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.6); }
 .av-title { font-size: 32px; font-weight: 800; color: #fff; line-height: 1.1; margin: 6px 0 6px; }
-.av-artist { font-size: 17px; font-weight: 600; color: rgba(255,255,255,0.88); }
+.av-artist { font-size: 17px; font-weight: 600; color: rgba(255,255,255,0.88); cursor: pointer; display: inline-block; }
+.av-artist:hover { color: #fff; text-decoration: underline; }
 .av-meta { font-size: 13px; color: rgba(255,255,255,0.55); margin-top: 4px; }
 .av-removed { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: rgba(248,113,113,0.15); color: #f87171; }
 
@@ -173,7 +174,9 @@ const inner = hero.createDiv({ cls: "av-hero-inner" });
 const nav = inner.createDiv({ cls: "av-nav" });
 const from = app.loadLocalStorage("music-album-from");
 if (from && from.album === page.file.path && from.path && app.vault.getAbstractFileByPath(from.path)) {
-    nav.createDiv({ cls: "av-back", text: `← ${from.name}` }).onclick = () => app.workspace.openLinkText(from.path, "", false);
+    // Coming back to the Artist page: point it at that artist again (you may have opened another since)
+    nav.createDiv({ cls: "av-back", text: `← ${from.name}` }).onclick = () =>
+        from.artist ? openArtist(from.artist) : app.workspace.openLinkText(from.path, "", false);
 }
 nav.createDiv({ cls: "av-back", text: from && from.album === page.file.path ? "Library" : "← Library" })
     .onclick = () => app.workspace.openLinkText("00 Dashboard/Library", "", false);
@@ -185,7 +188,11 @@ else main.createDiv({ cls: "av-cover av-cover-empty", text: "♪" });
 const info = main.createDiv({ cls: "av-info" });
 info.createDiv({ cls: "av-kicker", text: ["Album", year].filter(Boolean).join(" · ") });
 info.createDiv({ cls: "av-title", text: title });
-info.createDiv({ cls: "av-artist", text: artist });
+// Tap the artist: the Artist page shows every album you have by them
+const ARTIST_PAGE = "00 Dashboard/Artist";
+const openArtist = name => { app.saveLocalStorage("music-artist", name); app.workspace.openLinkText(ARTIST_PAGE, "", false); };
+const artistEl = info.createDiv({ cls: "av-artist", text: artist });
+if (artist) artistEl.onclick = () => openArtist(artist);
 info.createDiv({ cls: "av-meta", text: [`${tracks.length} tracks`, totalSec ? fmtTime(totalSec) : null].filter(Boolean).join(" · ") });
 if (page.removed_from_tidal) info.createDiv({ cls: "av-removed", text: "Not in your Tidal favorites anymore" });
 

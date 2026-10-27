@@ -1,11 +1,12 @@
 const TAGS = input.tags || null;
 const ALBUM_IDS = input.ids || null;
 const GENRE = !!input.genre; // genre pages: one tag, taken from the note's name, not editable
+const ARTIST = input.artist ? String(input.artist) : null; // the Artist page: every album by one artist
 const HERE = dv.current().file;
 
 // Remember which playlist an album was opened from, so the album page can show a button back to it.
 function openAlbum(page) {
-    app.saveLocalStorage("music-album-from", { album: page.file.path, path: HERE.path, name: HERE.name });
+    app.saveLocalStorage("music-album-from", { album: page.file.path, path: HERE.path, name: ARTIST || HERE.name, artist: ARTIST });
     app.workspace.openLinkText(page.file.path, "", false);
 }
 
@@ -27,7 +28,8 @@ for (let p of allAlbums) {
     }
 }
 const idSet = ALBUM_IDS ? new Set(ALBUM_IDS.map(String)) : null;
-const idAlbums = idSet ? allAlbums.filter(p => idSet.has(String(p.tidal_id))) : [];
+const idAlbums = ARTIST ? allAlbums.filter(p => String(p.artist || "").toLowerCase() === ARTIST.toLowerCase())
+    : idSet ? allAlbums.filter(p => idSet.has(String(p.tidal_id))) : [];
 
 
 function findCover(page) {
@@ -228,6 +230,18 @@ if (GENRE && TAGS) {
     sub.textContent = `Genre · ${(byTag.get(low) || []).length} albums`;
 }
 
+// ── Artist page title ──
+if (ARTIST) {
+    const style = document.getElementById("genre-page-style") || document.head.appendChild(Object.assign(document.createElement("style"), { id: "genre-page-style" }));
+    style.textContent = ".view-content:has(.pl-genre-title) .inline-title { display: none !important; }";
+    const h = dv.container.createEl("div", { cls: "pl-genre-title" });
+    h.style.cssText = "font-size:30px; font-weight:800; color:#fff; margin:4px 0 2px 0;";
+    h.textContent = ARTIST;
+    const sub = dv.container.createEl("div");
+    sub.style.cssText = "font-size:12px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.5); margin-bottom:14px;";
+    sub.textContent = `Artist · ${idAlbums.length} album${idAlbums.length === 1 ? "" : "s"}`;
+}
+
 // ── Controls Bar ──────────────────────────────────────────
 const controls = dv.container.createEl("div");
 controls.style.cssText = "display:flex; flex-wrap:wrap; gap:10px; align-items:center; padding:12px; background:#111; border-radius:10px; margin-bottom:20px;";
@@ -336,7 +350,7 @@ function renderAll() {
             if (pages.length === 0) continue;
             totalShown += renderSection(SORTED_TAGS.length > 1 ? TAG : null, pages, sortBy);
         }
-    } else if (ALBUM_IDS) {
+    } else if (ALBUM_IDS || ARTIST) {
         let pages = idAlbums;
         if (search) pages = pages.filter(p => matchesSearch(p, search));
         if (pages.length > 0) totalShown += renderSection(null, pages, sortBy);
@@ -355,4 +369,5 @@ let searchTimer;
 searchInput.addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(renderAll, 150); });
 genreSelect.addEventListener("change", renderAll);
 sortSelect.addEventListener("change", renderAll);
+if (ARTIST && Array.from(sortSelect.options || sortSelect.children || []).some(o => o.value === "year_asc")) sortSelect.value = "year_asc"; // discography order
 renderAll();
