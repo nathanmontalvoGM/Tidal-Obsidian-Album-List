@@ -5,9 +5,9 @@ year: 2024
 tidal_id: 344218372
 cover: "[[_covers/NEWCOMER - Wicked Wiki Witwicky.jpg]]"
 added: 2025-05-20
+tags_edited: true
 tags:
   - Metalcore
-  - Shoegaze
 rating:
 ---
 
