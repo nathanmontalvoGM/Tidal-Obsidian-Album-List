@@ -36,52 +36,61 @@ if DRY_RUN:
 
 
 # ── Load session ──────────────────────────────────────────
+# On your PC the login lives in tidal_session.json (a browser login the first time).
+# GitHub Actions passes the same JSON in the TIDAL_SESSION secret instead, and can't do a browser
+# login, so there it stops with instructions rather than waiting for one.
+HEADLESS = bool(os.environ.get("TIDAL_SESSION"))
 session = tidalapi.Session()
 
-if not os.path.exists(SESSION_FILE):
-    print("No session file found. Attempting to authenticate with Tidal...")
-    print("A browser window or login URL will appear. Complete the login to continue.")
+
+def save_session():
+    if HEADLESS:
+        return
+    with open(SESSION_FILE, "w") as f:
+        json.dump({
+            "token_type": session.token_type,
+            "access_token": session.access_token,
+            "refresh_token": session.refresh_token,
+            "expiry_time": str(session.expiry_time)
+        }, f)
+
+
+def browser_login(reason):
+    if HEADLESS:
+        print(f"::error::Tidal login failed ({reason}). Fix: run  python _code/sync_tidal.py  once on your PC "
+              "to log in again, then paste the new tidal_session.json into the repo's TIDAL_SESSION secret "
+              "(GitHub > Settings > Secrets and variables > Actions).")
+        sys.exit(1)
+    print(f"{reason}. A browser window or login URL will appear. Complete the login to continue.")
     try:
         session.login_oauth_simple()
-        with open(SESSION_FILE, "w") as f:
-            json.dump({
-                "token_type": session.token_type,
-                "access_token": session.access_token,
-                "refresh_token": session.refresh_token,
-                "expiry_time": str(session.expiry_time)
-            }, f)
-        print("Authentication successful! Session saved.\n")
+        save_session()
+        print("Login successful! Session saved.\n")
     except Exception as e:
-        print(f"Authentication failed: {e}")
+        print(f"Login failed: {e}")
         sys.exit(1)
-else:
+
+
+if HEADLESS or os.path.exists(SESSION_FILE):
     try:
-        with open(SESSION_FILE, "r") as f:
-            data = json.load(f)
+        if HEADLESS:
+            data = json.loads(os.environ["TIDAL_SESSION"])
+        else:
+            with open(SESSION_FILE, "r") as f:
+                data = json.load(f)
         loaded = session.load_oauth_session(
             data["token_type"],
             data["access_token"],
             data["refresh_token"],
             data["expiry_time"]
         )
-        if not loaded:
-            raise Exception("Session expired")
+        if not loaded or (HEADLESS and not session.check_login()):  # on GitHub: fail early with the fix-it message
+            raise Exception("session expired")
         print("Session loaded successfully.\n")
     except Exception as e:
-        print(f"Session load failed ({e}). Re-authenticating...")
-        try:
-            session.login_oauth_simple()
-            with open(SESSION_FILE, "w") as f:
-                json.dump({
-                    "token_type": session.token_type,
-                    "access_token": session.access_token,
-                    "refresh_token": session.refresh_token,
-                    "expiry_time": str(session.expiry_time)
-                }, f)
-            print("Re-authentication successful!\n")
-        except Exception as e2:
-            print(f"Re-authentication failed: {e2}")
-            sys.exit(1)
+        browser_login(f"Saved session didn't work ({e})")
+else:
+    browser_login("No session file found")
 
 # ── Fetch all Tidal albums ────────────────────────────────
 print("Fetching your Tidal library...")

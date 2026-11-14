@@ -17,3 +17,12 @@ Files: `common.py` holds the shared code (paths, tag rules, note editing, MusicB
 The first sync opens a Tidal login and saves `tidal_session.json` in the vault. That file is in `.gitignore`. Never commit it.
 
 Tags: the Tidal sync only sets tags when it creates a new album note; it never changes an existing album's tags. To fix one album, use Edit tags on its page. To remove a junk tag everywhere, add it to the blocklist in `_scripts/tags.json` and run `library.py tags --apply`.
+
+## Automatic sync (GitHub Actions)
+
+`.github/workflows/tidal-sync.yml` runs `sync_tidal.py` on GitHub's servers every morning (about 5:23 AM Central), commits any new albums and pushes. Your PC doesn't need to be on. Obsidian on the PC and phone picks the changes up on its next pull.
+
+- **Setup (once):** GitHub repo → Settings → Secrets and variables → Actions → New repository secret. Name it `TIDAL_SESSION` and paste the whole contents of `tidal_session.json` from your PC.
+- **Run it now / preview:** GitHub → Actions → Tidal sync → Run workflow (tick "dry run" to only see what it would do).
+- **If a run fails with "Tidal login failed":** run `python _code/sync_tidal.py` once on your PC (it opens the Tidal login), then replace the `TIDAL_SESSION` secret with the new `tidal_session.json`. GitHub emails you when a run fails.
+- Don't also schedule the sync on your PC: two syncs that haven't seen each other's commits can both create the same new album note and conflict. Running it by hand on the PC now and then is fine; pull first.
