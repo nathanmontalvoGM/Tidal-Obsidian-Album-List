@@ -5,6 +5,7 @@ year: 2016
 tidal_id: 52651192
 cover: "[[_covers/Good Tiger - A Head Full of Moonlight.jpg]]"
 added: 2024-07-26
+removed_from_tidal: 2026-11-19
 tags:
   - ProgressiveMetal
   - ProgressivePop
